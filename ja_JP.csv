@@ -5621,7 +5621,6 @@ Address,住所,module,Magento_Sales
 "Multi-address Description Message",複数住所概要メッセージ,module,Magento_Sales
 "Multi-address Error to Show in Shopping Cart",ショッピングカート内に表示する複数住所エラーメッセージ,module,Magento_Sales
 Dashboard,ダッシュボード,module,Magento_Sales
-"Use Aggregated Data (beta)","合計データを使用する (ベータ版)",module,Magento_Sales
 "Sales Emails",セールスメール,module,Magento_Sales
 "New Order Confirmation Email Sender",新規注文確認メール送信者,module,Magento_Sales
 "New Order Confirmation Template",新しい注文確認テンプレート,module,Magento_Sales
