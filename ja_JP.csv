@@ -1149,8 +1149,6 @@ Groups,グループ,module,Magento_Catalog
 "A name is required.",名前は必須です。,module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.",グループはシステム属性を含んでいます。システム属性を他のグループに移した後にやり直してください。,module,Magento_Catalog
 "Please enter a new group name.",新しいグループ名を入力してください。,module,Magento_Catalog
-"An attribute group named \"/name/\" already exists\".","属性グループの名前 \"/name/\”　は「既に存在しています。",module,Magento_Catalog
-"Sorry, we're unable to complete this request.",申し訳ありません、このリクエストを完了できませんでした。,module,Magento_Catalog
 "You can't remove attributes from this attribute set.",属性をこの属性セットから削除できません。,module,Magento_Catalog
 "Custom Options",カスタムオプション,module,Magento_Catalog
 "This is a required option.",これは必須オプションです。,module,Magento_Catalog
