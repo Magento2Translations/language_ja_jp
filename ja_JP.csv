@@ -851,8 +851,8 @@ Websites,ウェブサイト,module,Magento_Catalog
 "Products Information",商品情報,module,Magento_Catalog
 "Category Name",カテゴリー名,module,Magento_Catalog
 "Parent Category",親カテゴリ,module,Magento_Catalog
-"We saved the price alert subscription.","価格アラート 記述を保存されます。",module,Magento_Catalog
-"We saved the stock notification.",在庫の通知を保存されます。,module,Magento_Catalog
+"We saved the price alert subscription.","価格アラート 記述を保存しました。",module,Magento_Catalog
+"We saved the stock notification.",在庫の通知を保存しました。,module,Magento_Catalog
 "There are no customers for this alert.",このアラートに顧客は登録されていません。,module,Magento_Catalog
 "First Name",名,module,Magento_Catalog
 "Last Name",姓,module,Magento_Catalog
@@ -1093,7 +1093,7 @@ px.,ピクセル,module,Magento_Catalog
 "Some of the selected item options are not currently available.",選択いただいたオプションのうちいくつかは現在ご利用いただけません。,module,Magento_Catalog
 "The text is too long.",テキストが長すぎます。,module,Magento_Catalog
 "This product doesn't have tier price",この商品はtier価格がありません,module,Magento_Catalog
-"Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","商品は他のデータ: customerGroupId = '%1', website = %2, qty = %3　とグループしませんでした。",module,Magento_Catalog
+"Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","商品は他のデータ: customerGroupId = '%1', website = %2, qty = %3　とグループ化しませんでした。",module,Magento_Catalog
 "Please provide valid data",有効なデータを提供してください,module,Magento_Catalog
 "Values of following attributes are invalid: %1","以下の属性の値は無効です: %1",module,Magento_Catalog
 "Could not save group price",グループ価格を保存でいません,module,Magento_Catalog
@@ -1880,7 +1880,7 @@ Global,グローバル,module,Magento_Customer
 "-- Please Select --","-- 選択してください --",module,Magento_Customer
 "Please enter a first name.",名を入力してください,module,Magento_Customer
 "Please enter a last name.",姓を入力してください,module,Magento_Customer
-"Please correct this email address: ""%1"".","Eメールアドレスを修正してください: """"%1""""",module,Magento_Customer
+"Please correct this email address: ""%1"".","Eメールアドレスを修正してください: ""%1""。",module,Magento_Customer
 "Please enter a date of birth.",生年月日を入力して下さい。,module,Magento_Customer
 "Please enter a TAX/VAT number.",TAX/VAT番号を入力してください。,module,Magento_Customer
 "Please enter a gender.",性別を入力してください。,module,Magento_Customer
@@ -2852,15 +2852,19 @@ Discount,割引価格,module,Magento_Payment
 "All Allowed Countries",全ての許可された国,module,Magento_Payment
 "Specific Countries",選択された国のみ,module,Magento_Payment
 "The payment method you requested is not available.",支払いはオブジェクトの保存を許可しません,module,Magento_Payment
+"You can't use the payment type you selected to make payments to the billing country.",請求先の国では選択された支払い方法を利用できません。,module,Magento_Payment
 "The payment review action is unavailable.",支払レビューは利用できません。,module,Magento_Payment
+"The credit card number doesn't match the credit card type.","クレジット カード種類と該当するクレジット カード番号ではありません。",module,Magento_Payment
 "Invalid Credit Card Number",不正なクレジットカード番号,module,Magento_Payment
 "Please enter a valid credit card verification number.",正しいカード確認番号を入力してください,module,Magento_Payment
+"%1 class doesn't implement \Magento\Payment\Model\MethodInterface","%1 クラスは、\Magento\Payment\Model\MethodInterface を実用していません",module,Magento_Payment
 "Expiration Date",有効期限,module,Magento_Payment
 "Card Verification Number",カード確認番号,module,Magento_Payment
 "Switch/Solo/Maestro Only",Switch/Solo/Maestroのみ,module,Magento_Payment
 "Issue Number",取引番号,module,Magento_Payment
 "Start Date",開始日,module,Magento_Payment
 "Please Select",選択してください,module,Magento_Payment
+"We'll ask for your payment details before you place an order.",注文をする前にお支払いの詳細をお聞きします。,module,Magento_Payment
 "--Please Select--",--選択してください--,module,Magento_Payment
 "Card Verification Number Visual Reference",カード確認番号の参考画像,module,Magento_Payment
 "What is this?",これは何ですか？,module,Magento_Payment
@@ -3173,7 +3177,7 @@ Continue,続ける,module,Magento_Paypal
 "Remember Me",ログイン状態を維持する,module,Magento_Persistent
 "What's this?",これは何ですか？,module,Magento_Persistent
 "You saved the alert subscription.",この商品が入荷した場合に通知がされるようにサインアップ,module,Magento_ProductAlert
-"We can't update the alert subscription right now.",今の通知概要を更新できません。,module,Magento_ProductAlert
+"We can't update the alert subscription right now.",ただ今、通知概要を更新できません。,module,Magento_ProductAlert
 "Alert subscription has been saved.",更新通知を購読しました。,module,Magento_ProductAlert
 "We can't find the product.",商品が見つかりません。,module,Magento_ProductAlert
 "You will no longer receive price alerts for this product.",この商品の価格変更通知受信を停止しました。,module,Magento_ProductAlert
@@ -3258,6 +3262,7 @@ To,終了,module,Magento_Reports
 "Empty Rows",空白行,module,Magento_Reports
 "Invalid date specified",無効な日付が指定されました,module,Magento_Reports
 Refresh,更新,module,Magento_Reports
+"We can't find records for this period.",この期間のレコードが見つかりません。,module,Magento_Reports
 "Show Reviews",レビューを表示,module,Magento_Reports
 "Products Report",商品レポート,module,Magento_Reports
 Downloads,ダウンロード,module,Magento_Reports
@@ -3420,6 +3425,7 @@ Previous,前,module,Magento_Review
 Next,次,module,Magento_Review
 "Delete Review",レビュー削除,module,Magento_Review
 "Are you sure you want to do this?",実行してもよろしいですか？,module,Magento_Review
+"<a href=""%1"" onclick=""this.target='blank'"">%2 %3</a> <a href=""mailto:%4"">(%4)</a>","<a href=""%1""onclick=""this.target='blank'"">%2 %3</a><a href=""mailto:%4""> (%4)</a>",module,Magento_Review
 Administrator,管理者,module,Magento_Review
 Guest,ゲスト,module,Magento_Review
 "Summary Rating",評価のタイトル,module,Magento_Review
@@ -3451,15 +3457,18 @@ Websites,ウェブサイト,module,Magento_Review
 Reviews,レビュー,module,Magento_Review
 "Customer Reviews",顧客レビュー,module,Magento_Review
 "Edit Review",レビュー編集,module,Magento_Review
+"We can't retrieve the product ID.","商品 ID を取得できません。",module,Magento_Review
 "Please select review(s).",レビューを選択してください。,module,Magento_Review
 "A total of %1 record(s) have been deleted.","合計 %1 のレコードが削除されました",module,Magento_Review
 "A total of %1 record(s) have been updated.","合計 %1 のレコードがアップデートされました",module,Magento_Review
 "The review was removed by another user or does not exist.",レビューがほかのユーザーによって削除されたか、または存在していません。,module,Magento_Review
 Ratings,評価,module,Magento_Review
 "My Product Reviews",商品レビュー,module,Magento_Review
+"We can't post your review right now.",ただ今お客様のレビューを投稿できません。,module,Magento_Review
 Approved,承認済,module,Magento_Review
 Pending,承認待ち,module,Magento_Review
 "Not Approved",未承認,module,Magento_Review
+"Please specify a rating title for a store, or we'll just use the default value.",ストアの評価タイトルを指定してください、または既定値が使用されます。,module,Magento_Review
 "Assigned Options",割り当て済みのオプション,module,Magento_Review
 "Option Title:",オプションのタイトル:,module,Magento_Review
 "Product Name",商品名,module,Magento_Review
@@ -3476,6 +3485,7 @@ Back,戻る,module,Magento_Review
 "* Required Fields","* 必須項目",module,Magento_Review
 "Your Rating",あなたの評価:,module,Magento_Review
 Summary,サマリ,module,Magento_Review
+"Only registered users can write reviews. Please, <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","登録済みユーザーのみレビューを書くことができます。<a href=""%1""> ログイン</a> または <a href=""%2""> アカウントを作成</a>してください。",module,Magento_Review
 "Add Your Review",レビューを追加,module,Magento_Review
 "Back to Main Product Info",商品メイン情報に戻る,module,Magento_Review
 "Average Customer Rating",平均評価,module,Magento_Review
@@ -3976,12 +3986,15 @@ Store,店舗,module,Magento_Search
 "Number of results (For the last time placed)","結果 (最新の結果)",module,Magento_Search
 "For the last time placed.",最終検索結果件数,module,Magento_Search
 "Synonym For",別名,module,Magento_Search
+"Will make search for the query above return results for this search",検索キーワードで検索して結果を表示します。,module,Magento_Search
 "Redirect URL",リダイレクトURL,module,Magento_Search
 "ex. http://domain.com","例: http://domain.com",module,Magento_Search
 "Display in Suggested Terms",お勧め文内に表示,module,Magento_Search
+"We can't find a search term to delete.",削除する検索用語を見つけません。,module,Magento_Search
 "This search no longer exists.",この検索キーワードは存在していません。,module,Magento_Search
 "Edit Search",検索の編集,module,Magento_Search
 Reports,レポート,module,Magento_Search
+"Your search query can't be longer than %1, so we shortened your query.","検索クエリは%1 より長くできませんので、クエリを短縮しました。",module,Magento_Search
 "Search entire store here...",ストア全体から検索....,module,Magento_Search
 "There are no search terms available.",利用できる検索キーワードがありません,module,Magento_Search
 "Page not found.",ページが見つかりません,module,Magento_SendFriend
