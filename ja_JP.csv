@@ -639,8 +639,8 @@ Websites,ウェブサイト,module,Magento_Catalog
 "Products Information",商品情報,module,Magento_Catalog
 "Category Name",カテゴリー名,module,Magento_Catalog
 "Parent Category",親カテゴリ,module,Magento_Catalog
-"We saved the price alert subscription.","価格アラート 記述を保存されます。",module,Magento_Catalog
-"We saved the stock notification.",在庫の通知を保存されます。,module,Magento_Catalog
+"We saved the price alert subscription.","価格アラート 記述を保存しました。",module,Magento_Catalog
+"We saved the stock notification.",在庫の通知を保存しました。,module,Magento_Catalog
 "There are no customers for this alert.",このアラートに顧客は登録されていません。,module,Magento_Catalog
 "First Name",名,module,Magento_Catalog
 "Last Name",姓,module,Magento_Catalog
@@ -1247,7 +1247,7 @@ Global,グローバル,module,Magento_Customer
 "Billing Address",請求先住所,module,Magento_Customer
 "Shipping Address",配送先,module,Magento_Customer
 "-- Please Select --","-- 選択してください --",module,Magento_Customer
-"Please correct this email address: ""%1"".","Eメールアドレスを修正してください: """"%1""""",module,Magento_Customer
+"Please correct this email address: ""%1"".","Eメールアドレスを修正してください: ""%1""。",module,Magento_Customer
 "The password can not begin or end with a space.",パスワードの始まりと終わりはスペースにはできません,module,Magento_Customer
 Admin,管理者,module,Magento_Customer
 "Attribute object is undefined",属性オブジェクトが未定義です,module,Magento_Customer
