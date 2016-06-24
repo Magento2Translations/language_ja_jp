@@ -1108,7 +1108,6 @@ State/Province,都道府県,module,Magento_Checkout
 "My Cart (1 item)","マイカート (1 アイテム)",module,Magento_Checkout
 "My Cart (%1 items)","マイカート (%1 アイテム)",module,Magento_Checkout
 "My Cart",マイカート,module,Magento_Checkout
-"Minimum order amount is %1","最低注文額は %1",module,Magento_Checkout
 "Customer is already registered",顧客は既に登録済みです,module,Magento_Checkout
 "Your session has expired",セッションが期限切れです,module,Magento_Checkout
 "You added %1 to your shopping cart.","%1 をカートに追加しました",module,Magento_Checkout
@@ -2555,9 +2554,6 @@ Discount,割引価格,module,Magento_Payment
 "Please enter a valid credit card verification number.",正しいカード確認番号を入力してください,module,Magento_Payment
 "Expiration Date",有効期限,module,Magento_Payment
 "Card Verification Number",カード確認番号,module,Magento_Payment
-"Switch/Solo/Maestro Only",Switch/Solo/Maestroのみ,module,Magento_Payment
-"Issue Number",取引番号,module,Magento_Payment
-"Start Date",開始日,module,Magento_Payment
 "Please Select",選択してください,module,Magento_Payment
 "--Please Select--",--選択してください--,module,Magento_Payment
 "Card Verification Number Visual Reference",カード確認番号の参考画像,module,Magento_Payment
