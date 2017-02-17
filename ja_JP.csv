@@ -3966,22 +3966,16 @@ Error:,エラー:,module,Magento_Shipping
 "contact us",お問い合わせ,module,Magento_Shipping
 Info:,情報:,module,Magento_Shipping
 Track:,追跡:,module,Magento_Shipping
-Status:,状態:,module,Magento_Shipping
 "Delivered on:",配達経由:,module,Magento_Shipping
-"Signed by:",サイン:,module,Magento_Shipping
-"Delivered to:",配達先:,module,Magento_Shipping
-"Shipped or billed on:",配送もしくは請求経由:,module,Magento_Shipping
-"Service Type:",サービスタイプ:,module,Magento_Shipping
-Weight:,重量:,module,Magento_Shipping
 N/A,該当無し,module,Magento_Shipping
+"There is no tracking available for this shipment.",この配送では追跡できません,module,Magento_Shipping
+"There is no tracking available.",荷物追跡は利用できません。,module,Magento_Shipping
+"Close Window",ウインドウを閉じる,module,Magento_Shipping
 "Track history",追跡履歴,module,Magento_Shipping
 Location,場所,module,Magento_Shipping
 Date,日付,module,Magento_Shipping
 "Local Time",現地時間,module,Magento_Shipping
 Description,概要,module,Magento_Shipping
-"There is no tracking available for this shipment.",この配送では追跡できません,module,Magento_Shipping
-"There is no tracking available.",荷物追跡は利用できません。,module,Magento_Shipping
-"Close Window",ウインドウを閉じる,module,Magento_Shipping
 "Save & Generate",保存して生成,module,Magento_Sitemap
 "Edit Sitemap",サイトマップ編集,module,Magento_Sitemap
 "New Sitemap",新しいサイトマップ,module,Magento_Sitemap
@@ -4021,7 +4015,6 @@ None,なし,module,Magento_Sitemap
 "Base Only",ベースのみ,module,Magento_Sitemap
 All,全て,module,Magento_Sitemap
 "Current store is not active.",現在のストアはアクティブではありません,module,Magento_Store
-"Only default scope allowed",ディフォルトのスコープのみ許可されます,module,Magento_Store
 "Invalid scope object",無効なスコープオブジェクト,module,Magento_Store
 "Store with the same code",同じコードの店舗です,module,Magento_Store
 "Website with the same code",同じコードのウェブサイトです,module,Magento_Store
@@ -4698,7 +4691,6 @@ items,商品,module,Magento_Checkout
 "Options Details",オプションの概要,module,Magento_Checkout
 Remove,削除,module,Magento_Checkout
 "Cart Subtotal",小計,module,Magento_Checkout
-"No Payment Methods",支払方法なし,module,Magento_Checkout
 "Payment Information",お支払情報,module,Magento_Checkout
 "Place Order",注文を確定する,module,Magento_Checkout
 "Forgot an Item?",上記の注文でよろしいですか？,module,Magento_Checkout
@@ -5526,13 +5518,11 @@ Import,インポート,module,Magento_OfflineShipping
 "Merchant Location",出店者の位置,module,Magento_Paypal
 "Merchant Country",出店者国,module,Magento_Paypal
 "If not specified, Default Country from General Config will be used",指定が無ければ、一般設定の初期設定国が使用されます,module,Magento_Paypal
-"Choose a secure bundled payment solution for your business.",あなたのビジネスのために安全なバンドル済み決済ソリューションを選択してください。,module,Magento_Paypal
-"PayPal Payment Gateways",PayPalペイメント・ゲートウェイ,module,Magento_Paypal
 "PayPal Express Checkout",PayPalエキスプレス・チェックアウト,module,Magento_Paypal
 "Add another payment method to your existing solution or as a stand-alone option.",既存のソリューションにまたは単独のオプションとして他の決済を追加します,module,Magento_Paypal
+"Choose a secure bundled payment solution for your business.",あなたのビジネスのために安全なバンドル済み決済ソリューションを選択してください。,module,Magento_Paypal
 "Express Checkout",エキスプレス・チェックアウト,module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.",チェックアウトページに追加の決済方法としてPayPalを追加します。,module,Magento_Paypal
-"Email Associated with PayPal Merchant Account",PayPal出店者アカウントにひもづいたメールアドレス,module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.",PayPalアカウントを持っていませんか？メールアドレスを入力してください。,module,Magento_Paypal
 "API Authentication Methods",API認証方法,module,Magento_Paypal
 "API Username",APIユーザー名,module,Magento_Paypal
@@ -5589,7 +5579,6 @@ Schedule,スケジュール,module,Magento_Paypal
 "Header Border Color",ヘッダ境界線色,module,Magento_Paypal
 "2-pixel perimeter around the header space.",ヘッダスペース周囲の2ピクセルの境界,module,Magento_Paypal
 "Page Background Color",ページ背景色,module,Magento_Paypal
-"Accept payments with a PCI-compliant checkout that keeps customers on your site.",PCI標準のチェックアウトを受け入れることは、顧客の信頼を向上させる効果があります。,module,Magento_Paypal
 Partner,パートナー,module,Magento_Paypal
 Vendor,ベンダー,module,Magento_Paypal
 User,ユーザー,module,Magento_Paypal
@@ -5598,7 +5587,6 @@ User,ユーザー,module,Magento_Paypal
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.",ストアビュー毎にこの値を「デビットカードまたはクレジットカード」に設定する事を推奨します。,module,Magento_Paypal
 "Require CVV Entry",セキュアコード入力が必要です,module,Magento_Paypal
 "Website Payments Pro Hosted Solution",ウェブサイトペイメントプロホステッドソリューション,module,Magento_Paypal
-"Accept payments with a PCI compliant checkout that keeps customers on your site.",PCI標準のチェックアウトを受け入れることは、顧客の信頼を向上させる効果があります。,module,Magento_Paypal
 "Credit Card Settings",クレジットカードの設定,module,Magento_Paypal
 "Allowed Credit Card Types",使用可能なクレジットカードタイプ,module,Magento_Paypal
 "Persistent Shopping Cart",ショッピングカートの永続化,module,Magento_Persistent
