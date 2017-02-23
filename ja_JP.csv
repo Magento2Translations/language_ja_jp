@@ -313,7 +313,6 @@ Minute,分,module,Magento_Backend
 "JavaScript may be disabled in your browser.",Javascriptがブラウザで無効になっているかもしれません。,module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.",このウェブサイトを見るにはブラウザのJavascriptを有効にしてください。,module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.",これはデモストアです。閲覧、注文は可能ですが、注文は処理されません。,module,Magento_Backend
-"Report Bugs",バグを報告してください。,module,Magento_Backend
 "Store View:",ストアビュー:,module,Magento_Backend
 "Stores Configuration",ストア設定,module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.",スコープの変更を確認してください。保存されなかったデータは全て失われます。,module,Magento_Backend
@@ -417,6 +416,8 @@ Authorize,権限,module,Magento_Braintree
 "Credit Card Number",クレジットカード番号,module,Magento_Braintree
 "Expiration Date",有効期限,module,Magento_Braintree
 "Card Verification Number",カード確認番号,module,Magento_Braintree
+Actions,アクション,module,Magento_Braintree
+Delete,削除,module,Magento_Braintree
 "Percent Discount",割引率,module,Magento_Bundle
 "-- Select --",--選択してください--,module,Magento_Bundle
 Dynamic,可変,module,Magento_Bundle
@@ -517,7 +518,6 @@ Always,常に,module,Magento_Captcha
 "Entity type model '%1' is not found","エンティティタイプモデルは' ' \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType　のインスタンスでなければなりません",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","エンティティのタイプモデルは　\Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType のインスタンスでなければなりません。",module,Magento_CatalogImportExport
 "There are no product types available for export.",エクスポートのための有効な商品タイプがありません。,module,Magento_CatalogImportExport
-"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","エンティティタイプモデルは Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType　のインスタンスでなければなりません",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","ファイルディレクトリー '%1' 書き込み可能ではありません。",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","ファイルディレクトリー '%1' 書き込み可能ではありません。",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'store' attribute contains incorrect value",'store'の属性の'price'副属性の値は誤った値を含んでいます。,module,Magento_CatalogImportExport
@@ -823,7 +823,6 @@ Categories,カテゴリ,module,Magento_Catalog
 "Category is not available for requested store.",要求されたストアにてカテゴリーは有効ではありません。,module,Magento_Catalog
 "There was a category move error. %1","カテゴリ移動エラーが発生しました。 %1",module,Magento_Catalog
 "There was a category move error.",カテゴリ移動エラーが発生しました。,module,Magento_Catalog
-"You moved the category",カテゴリを移動しました。,module,Magento_Catalog
 "Attribute ""%1"" is required.","属性 ""%1"" は必須です。",module,Magento_Catalog
 "You saved the category.",カテゴリを保存しました。,module,Magento_Catalog
 "Something went wrong while saving the category.",カテゴリーの保存中に問題が発生しました。,module,Magento_Catalog
@@ -960,7 +959,6 @@ Disabled,無効,module,Magento_Catalog
 "The image does not exist.",画像は存在しません。,module,Magento_Catalog
 "Please correct the image file type.",画像ファイルタイプを修正してください。,module,Magento_Catalog
 "We couldn't move this file: %1.","このファイルを移動できません: %1.",module,Magento_Catalog
-"We can't find the image file.",画像ファイルがみつかりません。,module,Magento_Catalog
 "The option type to get group instance is incorrect.",グループインスタンスを入手するオプションタイプが間違っています。,module,Magento_Catalog
 "Select type options required values rows.",価格の列を要求されたタイプオプションを選択,module,Magento_Catalog
 "Could not remove custom option",カスタムオプションを削除できませんでした,module,Magento_Catalog
@@ -1235,7 +1233,6 @@ Checkout,レジに進む,module,Magento_Checkout
 "Load customer quote error",顧客の見積もり読み込みエラー,module,Magento_Checkout
 "Error message!",エラーメッセージ!,module,Magento_Checkout
 Error!,エラー!,module,Magento_Checkout
-"Wrong minimum amount.",誤った最小数,module,Magento_Checkout
 Message,メッセージ,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">領収書を印刷</a>",module,Magento_Checkout
 "Apply Discount Code",ディスカウントコード適用,module,Magento_Checkout
@@ -1346,9 +1343,6 @@ Exception,例外,module,Magento_Cms
 "All Store Views",全てのストアビュー,module,Magento_Cms
 Edit,編集,module,Magento_Cms
 Delete,削除,module,Magento_Cms
-"Delete ${ $.$data.title }","削除 ${ $.$data.title }",module,Magento_Cms
-"Are you sure you wan't to delete a ${ $.$data.title } record?","本当に ${ $.$data.title } レコードを削除しますか？",module,Magento_Cms
-"Delete ""${ $.$data.title }""","削除 ""${ $.$data.title }""",module,Magento_Cms
 View,表示,module,Magento_Cms
 px.,ピクセル,module,Magento_Cms
 "No files found",ファイルが見つかりません,module,Magento_Cms
@@ -1469,7 +1463,6 @@ Actions,アクション,module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.",この属性はコンフィグ商品で使用されているため、属性セットから削除できません。,module,Magento_ConfigurableProduct
 "Associated Products",紐付け済み商品,module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","ステップ 2: 属性値",module,Magento_ConfigurableProduct
-"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.",この商品に含まれる各属性の値を選択してください。各ユニークな組み合わせの値はユニークな製品SKUを作成します。,module,Magento_ConfigurableProduct
 "Sort Variations",並べ替えバリエーション,module,Magento_ConfigurableProduct
 Options,オプション,module,Magento_ConfigurableProduct
 "Select All",全て選択,module,Magento_ConfigurableProduct
@@ -1723,13 +1716,6 @@ Customers,顧客,module,Magento_Customer
 "Reset password token mismatch.",リセットパスワードトークンが合致しません,module,Magento_Customer
 "Reset password token expired.",リセットパスワードトークンが期限切れです,module,Magento_Customer
 "Please correct the transactional account email type.",トランザクションアカウントのEメールタイプを修正してください。,module,Magento_Customer
-"Please enter the first name.",名を入力してください。,module,Magento_Customer
-"Please enter the last name.",姓を入力してください。,module,Magento_Customer
-"Please enter the street.",住所を入力してください。,module,Magento_Customer
-"Please enter the city.",市区町村を入力してください。,module,Magento_Customer
-"Please enter the phone number.",電話番号を入力してください。,module,Magento_Customer
-"Please enter the zip/postal code.",郵便番号を入力してください。,module,Magento_Customer
-"Please enter the country.",国を入力してください。,module,Magento_Customer
 "Please enter the state/province.",都道府県を入力してください。,module,Magento_Customer
 """%1"" is a required value.","%1""""は必要な値です。",module,Magento_Customer
 Global,グローバル,module,Magento_Customer
@@ -3086,7 +3072,6 @@ Tax,税,module,Magento_Quote
 "Cannot set shipping method. %1","発送の方法を設定できません %1",module,Magento_Quote
 "Shipping method is not applicable for empty cart",空のカートに送付方法は適用できません,module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping method is not applicable.",カートには仮想商品しかありません。発送方法は適用できません。,module,Magento_Quote
-error123,エラー123,module,Magento_Quote
 error345,エラー345,module,Magento_Quote
 "New Accounts",新しいアカウント,module,Magento_Reports
 "Customers by number of orders",顧客ごとの注文件数,module,Magento_Reports
@@ -4380,10 +4365,7 @@ Store,店舗,module,Magento_UrlRewrite
 "URL Rewrite Management",URL書換管理,module,Magento_UrlRewrite
 "Add URL Rewrite",URL書換追加,module,Magento_UrlRewrite
 Custom,カスタム,module,Magento_UrlRewrite
-"For category",カテゴリ用,module,Magento_UrlRewrite
-"For product",商品用,module,Magento_UrlRewrite
 "For CMS page",CMSページ用,module,Magento_UrlRewrite
-"Create URL Rewrite:",URL書換作成:,module,Magento_UrlRewrite
 "We can't delete URL Rewrite right now.",URLリライトを現在削除できません。,module,Magento_UrlRewrite
 "URL Rewrites",URLリライト,module,Magento_UrlRewrite
 "The URL Rewrite has been saved.",URL書換を保存しました。,module,Magento_UrlRewrite
@@ -4506,7 +4488,6 @@ Letter,手紙,module,Magento_Usps
 Flat,定額,module,Magento_Usps
 Parcel,小包,module,Magento_Usps
 Variable,変数,module,Magento_Usps
-"Flat-Rate Box",定額小包,module,Magento_Usps
 "Flat-Rate Envelope",定額封筒,module,Magento_Usps
 Rectangular,長方形,module,Magento_Usps
 Non-rectangular,非長方形の,module,Magento_Usps
@@ -4687,7 +4668,6 @@ Cancel,キャンセル,module,Magento_Checkout
 Login,ログイン,module,Magento_Checkout
 item,商品,module,Magento_Checkout
 items,商品,module,Magento_Checkout
-"Recently added item(s)",最近追加した商品,module,Magento_Checkout
 "Options Details",オプションの概要,module,Magento_Checkout
 Remove,削除,module,Magento_Checkout
 "Cart Subtotal",小計,module,Magento_Checkout
@@ -4699,7 +4679,6 @@ Remove,削除,module,Magento_Checkout
 "New Address",新規住所,module,Magento_Checkout
 "Shipping Methods",配送方法,module,Magento_Checkout
 Next,次,module,Magento_Checkout
-"Items in Cart",カートの中の商品,module,Magento_Checkout
 "View Details",詳細を表示,module,Magento_Checkout
 Email:,Eメール:,module,Magento_Customer
 "Check the status of orders",注文のステータスを確認出来ます。,module,Magento_Customer
@@ -5163,7 +5142,6 @@ Details,詳細,module,Magento_Catalog
 "Display Cart Summary",カートの概要を表示,module,Magento_Checkout
 "Shopping Cart Sidebar",サイドバーショッピングカート,module,Magento_Checkout
 "Display Shopping Cart Sidebar",ショッピングカートサイドバーを表示する,module,Magento_Checkout
-"Maximum Display Recently Added Item(s)",最近カートに入れた商品の表示件数,module,Magento_Checkout
 "Payment Failed Emails",支払失敗時のメール,module,Magento_Checkout
 "Payment Failed Email Sender",支払失敗時のメール送信元,module,Magento_Checkout
 "Payment Failed Email Receiver",支払失敗時のメール受信先,module,Magento_Checkout
@@ -5821,7 +5799,6 @@ Layouts,レイアウト,module,Magento_Store
 "This sets whether shipping amounts entered from Magento Admin or obtained from gateways include tax.",これは送料がMagento管理画面から入力されたあるいはゲートウェイから入手されたかで税を含みます,module,Magento_Tax
 "Apply Customer Tax",小計に対する課税方法,module,Magento_Tax
 "Apply Discount On Prices",価格に値引きを適用する,module,Magento_Tax
-"Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.",もし””ディスカウント後に税を適用””が選択されるとストア税に基づいて計算された税が価格にディスカウントが適用されます,module,Magento_Tax
 "Apply Tax On",税を適用する価格,module,Magento_Tax
 "Enable Cross Border Trade",越境取引課税計算を有効にする,module,Magento_Tax
 "When catalog price includes tax, enable this setting to fix the price no matter what the customer's tax rate.",カタログ価格が税を含む時には顧客の税率設定がなんであれ、この設定を有効にして価格を確定してください。,module,Magento_Tax
@@ -5848,11 +5825,9 @@ Rate,レート,module,Magento_Tax
 "Your credit card will be charged for",クレジットカードでお支払いいただく金額,module,Magento_Tax
 Empty,空,module,Magento_Theme
 "1 column",1カラム,module,Magento_Theme
-"Search Engine Robots",検索エンジンロボット,module,Magento_Theme
 "Default Robots",標準のrobots.txt,module,Magento_Theme
 "This will be included before head closing tag in page HTML.",ページのHTMLのheadタグ終了前に追記されます。,module,Magento_Theme
 "Edit custom instruction of robots.txt File",robots.txtファイルのカスタムインストラクション編集,module,Magento_Theme
-"Reset to Defaults",ディフォルトにリセット,module,Magento_Theme
 "This action will delete your custom instructions and reset robots.txt file to system's default settings.",このアクションはカスタムインストラクションを削除しrobot.txtファイルをシステムのデフォルト設定にリセットします,module,Magento_Theme
 "Default Description",標準の説明,module,Magento_Theme
 "Default welcome msg!",標準のウェルカムメッセージ!,module,Magento_Theme
@@ -5867,8 +5842,6 @@ Empty,空,module,Magento_Theme
 "Display Demo Store Notice",デモストア通知の表示,module,Magento_Theme
 Header,ヘッダー,module,Magento_Theme
 "Logo Image",ロゴ画像,module,Magento_Theme
-"Logo Image Width",ロゴ画像幅,module,Magento_Theme
-"Logo Image Height",ロゴ画像高さ,module,Magento_Theme
 "Welcome Text",ウェルカムメッセージ,module,Magento_Theme
 "Logo Image Alt",ロゴイメージAlt,module,Magento_Theme
 Footer,フッター,module,Magento_Theme
