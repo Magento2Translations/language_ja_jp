@@ -25,7 +25,7 @@ major,メジャー,module,Magento_AdminNotification
 minor,マイナー,module,Magento_AdminNotification
 notice,お知らせ,module,Magento_AdminNotification
 "Wrong message type",不正なメッセージ種別,module,Magento_AdminNotification
-"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","<a href=""""%1"""">Cache Management</a>にてcacheタイプを更新してください",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","<a href=""""%1"""">キャッシュ管理</a>にてキャッシュを更新してください",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.",メディア保管場所の同期が終了しました。,module,Magento_AdminNotification
 "Close popup",ポップアップを閉じる,module,Magento_AdminNotification
 Close,閉じる,module,Magento_AdminNotification
@@ -362,8 +362,8 @@ Country,国,module,Magento_Braintree
 "Payment Information",お支払情報,module,Magento_Braintree
 "Add new card",新規カード追加,module,Magento_Braintree
 "Please Select",選択してください,module,Magento_Braintree
-"Expiration Date",有効期限,module,Magento_Braintree
-"Card Verification Number",カード確認番号,module,Magento_Braintree
+"Expiration Date",有効期限日,module,Magento_Braintree
+"Card Verification Number",セキュリティコード,module,Magento_Braintree
 "Save this card for future use",このカードを今後の使用のために保存,module,Magento_Braintree
 "Please confirm that you want to delete this credit card",このクレジットカードをカードを本当に削除しますか,module,Magento_Braintree
 "Cardholder Name",コード所持者名,module,Magento_Braintree
@@ -381,7 +381,7 @@ State/Province,都道府県,module,Magento_Braintree
 "Please select region, state or province",都道府県を選択してください,module,Magento_Braintree
 Submit,送信,module,Magento_Braintree
 "Add Credit Card",クレジットカード追加,module,Magento_Braintree
-Type,タイプ,module,Magento_Braintree
+Type,種別,module,Magento_Braintree
 "Is Default",デフォルト,module,Magento_Braintree
 Actions,アクション,module,Magento_Braintree
 Edit,編集,module,Magento_Braintree
@@ -833,6 +833,7 @@ Groups,グループ,module,Magento_Catalog
 "A name is required.",名前は必須です。,module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.",グループはシステム属性を含んでいます。システム属性を他のグループに移した後にやり直してください。,module,Magento_Catalog
 "Please enter a new group name.",新しいグループ名を入力してください。,module,Magento_Catalog
+"An attribute group named ""/name/"" already exists"".","属性グループ名 ""/name/"" は既に存在します""。",module,Magento_Catalog
 "Custom Options",カスタムオプション,module,Magento_Catalog
 "This is a required option.",これは必須オプションです。,module,Magento_Catalog
 "Maximum image width",画像の最大幅,module,Magento_Catalog
@@ -1547,7 +1548,7 @@ label,ラベル,module,Magento_Eav
 "Wrong attribute set ID",不正な属性セットID,module,Magento_Eav
 "Wrong attribute group ID",不正な属性グループID,module,Magento_Eav
 "Add New Template",新しいテンプレートの追加,module,Magento_Email
-"Transactional Emails",取り引きメール,module,Magento_Email
+"Transactional Emails",取引メール,module,Magento_Email
 Back,戻る,module,Magento_Email
 Reset,リセット,module,Magento_Email
 "Delete Template",テンプレートの削除,module,Magento_Email
@@ -1591,55 +1592,101 @@ Country,国,module,Magento_Email
 Region/State,地域,module,Magento_Email
 "Zip/Postal Code",郵便番号,module,Magento_Email
 City,市区町村,module,Magento_Email
+"Street Address 1",住所1,module,Magento_Email
 "Street Address 2",番地2,module,Magento_Email
 "Store Contact Information",店舗コンテンツ情報,module,Magento_Email
 "Template Variables",テンプレート変数,module,Magento_Email
 "Duplicate Of Template Name",テンプレート名の複製,module,Magento_Email
 "Invalid transactional email code: %1","不正なトランザクション用Emailコード: %1",module,Magento_Email
-"Requested invalid store ""%1""","不正なストア ""%1""が注文されました　",module,Magento_Email
+"Requested invalid store ""%1""","不正なストア ""%1""が注文されました",module,Magento_Email
 "Invalid sender data",不正な送信者データ,module,Magento_Email
 "Load default template",標準のテンプレートを読み込む,module,Magento_Email
 Template,テンプレート,module,Magento_Email
 "Change Encryption Key",暗号化キーを変更,module,Magento_EncryptionKey
 "Encryption Key",暗号化キー,module,Magento_EncryptionKey
-"New Encryption Key",新規暗号化キー,module,Magento_EncryptionKey
+"New Encryption Key",新しい暗号化キー,module,Magento_EncryptionKey
 "The encryption key is used to protect passwords and other sensitive data.",暗号化キーはパスワードや他の重要なデータの保護に使われます。,module,Magento_EncryptionKey
 "Auto-generate a Key",キーを自動生成,module,Magento_EncryptionKey
+"The generated key will be displayed after changing.",自動生成したキーは変更後に表示されます。,module,Magento_EncryptionKey
 "New Key",新しいキー,module,Magento_EncryptionKey
 "Please enter an encryption key.",暗号化キーを入力してください。,module,Magento_EncryptionKey
 "The encryption key has been changed.",暗号化キーが変更されています。,module,Magento_EncryptionKey
-"Europe First Priority",スマートポストメソッドが選ばれればフィールドは適用可能です,module,Magento_Fedex
+"Europe First Priority",ヨーロッパ速達,module,Magento_Fedex
+"1 Day Freight",翌日配達,module,Magento_Fedex
+"2 Day Freight",2営業日配達,module,Magento_Fedex
+"2 Day","2 営業日",module,Magento_Fedex
+"2 Day AM","2 営業日午前",module,Magento_Fedex
+"3 Day Freight",3営業日配達,module,Magento_Fedex
 "Express Saver",エコノミーエクスプレス便,module,Magento_Fedex
+Ground,陸送,module,Magento_Fedex
 "First Overnight",翌日早朝配達,module,Magento_Fedex
 "Home Delivery",自宅配達,module,Magento_Fedex
+"International Economy",国際船便,module,Magento_Fedex
+"Intl Economy Freight",船便,module,Magento_Fedex
+"International First",国際速達,module,Magento_Fedex
+"International Ground",国際陸送,module,Magento_Fedex
+"International Priority",国際優先便,module,Magento_Fedex
+"Intl Priority Freight",国際速達航空便,module,Magento_Fedex
 "Priority Overnight",翌日午前配達,module,Magento_Fedex
+"Smart Post",スマートポスト,module,Magento_Fedex
 "Standard Overnight",標準の翌日配達,module,Magento_Fedex
-"Not Required",最大積載重量(配送業者にお問い合わせください),module,Magento_Fedex
+Freight,配送,module,Magento_Fedex
+"National Freight",国際配送,module,Magento_Fedex
+"Regular Pickup",標準収集サービス,module,Magento_Fedex
+"Request Courier",希望配送業者,module,Magento_Fedex
+"Drop Box",収荷ボックス,module,Magento_Fedex
+"Business Service Center",ビジネスサービスセンター,module,Magento_Fedex
+Station,ステーション,module,Magento_Fedex
+"FedEx Envelope","FedEx エンベロップ",module,Magento_Fedex
+"FedEx Pak","FedEx パック",module,Magento_Fedex
+"FedEx Box","FedEx ボックス",module,Magento_Fedex
+"FedEx Tube","FedEx チューブ",module,Magento_Fedex
+"FedEx 10kg Box","FedEx 10kgボックス",module,Magento_Fedex
+"FedEx 25kg Box","FedEx 25kgボックス",module,Magento_Fedex
+"Your Packaging",包装,module,Magento_Fedex
+"Not Required",必須ではない,module,Magento_Fedex
+Adult,成人,module,Magento_Fedex
+Direct,ダイレクト,module,Magento_Fedex
+Indirect,非ダイレクト,module,Magento_Fedex
 status,ステータス,module,Magento_Fedex
 "Empty response",空の返信,module,Magento_Fedex
 None,なし,module,Magento_Fedex
 "Unknown entity type",不明なエンティティタイプ,module,Magento_GiftMessage
+From,開始,module,Magento_GiftMessage
+To,終了,module,Magento_GiftMessage
+Message,メッセージ,module,Magento_GiftMessage
 Cancel,キャンセル,module,Magento_GiftMessage
 "Gift Options",ギフトオプション,module,Magento_GiftMessage
 "Gift Message",ギフトメッセージ,module,Magento_GiftMessage
 "Do you have any gift items in your order?",ギフトにする商品がありますか？,module,Magento_GiftMessage
 "Add gift options",ギフトオプションの追加,module,Magento_GiftMessage
+"Gift Options for the Entire Order",全体の注文に対するギフトオプション,module,Magento_GiftMessage
 "Gift Options for Individual Items",個別商品に対するギフトオプション,module,Magento_GiftMessage
 "Add gift options for Individual Items",個別の商品にギフトオプションを追加する,module,Magento_GiftMessage
-Dynamic,可変,module,Magento_GoogleAdwords
-Constant,コンバージョン値,module,Magento_GoogleAdwords
-"Product View Optimization",コンテント試験有効化,module,Magento_GoogleOptimizer
-"Grouped Products",グループ商品の画像,module,Magento_GroupedProduct
+Dynamic,動的,module,Magento_GoogleAdwords
+Constant,不変,module,Magento_GoogleAdwords
+"Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","コンバージョンカラー値""%1""は無効です。 6桁の16進法値で設定してください",module,Magento_GoogleAdwords
+"Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","コンバージョンID値""%1""が有効ではありません。コンバージョンID値は整数でなければなりません",module,Magento_GoogleAdwords
+"Product View Optimization",商品表示最適化,module,Magento_GoogleOptimizer
+"Page View Optimization",ページ表示最適化,module,Magento_GoogleOptimizer
+"Google Analytics Content Experiments Code","Google Analyticsコンテント試験用コード",module,Magento_GoogleOptimizer
+"Experiment Code",試験用コード,module,Magento_GoogleOptimizer
+"Category View Optimization",カテゴリ表示最適化,module,Magento_GoogleOptimizer
+"Grouped Products",グループ商品,module,Magento_GroupedProduct
 "Please specify the quantity of product(s).",商品の個数を指定してください。,module,Magento_GroupedProduct
 "Associated Products",紐付け済み商品,module,Magento_GroupedProduct
 Availability:,在庫状況:,module,Magento_GroupedProduct
 "Out of stock",在庫切れ,module,Magento_GroupedProduct
 "Product Name",商品名,module,Magento_GroupedProduct
 Price,価格,module,Magento_GroupedProduct
+Qty,個数,module,Magento_GroupedProduct
 "No options of this product are available.",利用可能なオプションがありません。,module,Magento_GroupedProduct
+"There are no grouped products.",グループ商品はありません,module,Magento_GroupedProduct
+Name,名前,module,Magento_GroupedProduct
 "Default Qty",標準個数,module,Magento_GroupedProduct
-Availability,可能,module,Magento_GroupedProduct
+Availability,在庫あり,module,Magento_GroupedProduct
 "In stock",在庫あり,module,Magento_GroupedProduct
+"Grouped product items",グループ製品アイテム,module,Magento_GroupedProduct
 Export,エクスポート,module,Magento_ImportExport
 "Export Settings",エクスポート設定,module,Magento_ImportExport
 "Entity Type",エンティティタイプ,module,Magento_ImportExport
@@ -1654,7 +1701,7 @@ Filter,フィルタ,module,Magento_ImportExport
 "Check Data",データチェック,module,Magento_ImportExport
 Import,インポート,module,Magento_ImportExport
 "Import Settings",インポート設定,module,Magento_ImportExport
-"Import Behavior",インポートの振る舞い,module,Magento_ImportExport
+"Import Behavior",インポートの動作,module,Magento_ImportExport
 "Field separator",フィールド仕分け,module,Magento_ImportExport
 "Multiple value separator",複数値仕分け,module,Magento_ImportExport
 "File to Import",インポートするファイル,module,Magento_ImportExport
@@ -1678,7 +1725,7 @@ Status,状態,module,Magento_ImportExport
 "Begin import of ""%1"" with ""%2"" behavior","""%1""のインポートを""%2""挙動で開始",module,Magento_ImportExport
 "Begin data validation",データ検証開始,module,Magento_ImportExport
 "Please enter a correct entity model",正しいエンティティモデルを入力してください,module,Magento_ImportExport
-"Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource","アダプターは \Magento\ImportExport\Model\Import\AbstractSource　のインスタンスでなければなりません",module,Magento_ImportExport
+"Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource","アダプターは \Magento\ImportExport\Model\Import\AbstractSource のインスタンスでなければなりません",module,Magento_ImportExport
 "Please specify a source.",ソースを指定してください,module,Magento_ImportExport
 "Cannot get autoincrement value",オートインクリメント値を取得できません,module,Magento_ImportExport
 "Error in data structure: %1 values are mixed","データストラクチャーにエラー: %1 値が混在",module,Magento_ImportExport
@@ -1691,11 +1738,18 @@ Add/Update,追加/アップデート,module,Magento_ImportExport
 "Entity Attributes",エンティティ属性,module,Magento_ImportExport
 Continue,続ける,module,Magento_ImportExport
 "Validation Results",検証結果,module,Magento_ImportExport
-"Indexer Management",インデクサー,module,Magento_Indexer
+"Indexer Management",インデックス処理管理,module,Magento_Indexer
+"Update by Schedule",スケジュールアップデート,module,Magento_Indexer
 "Update on Save",逐次更新,module,Magento_Indexer
+"Reindex required",要再インデックス,module,Magento_Indexer
+Ready,準備完了,module,Magento_Indexer
 Processing,処理中,module,Magento_Indexer
 Never,まだ,module,Magento_Indexer
 "Index Management",インデックス管理,module,Magento_Indexer
+"Please select indexers.",インデックス処理を選択してください,module,Magento_Indexer
+"We couldn't change indexer(s)' mode because of an error.",エラーのためインデックス処理のモードを変更できませんでした,module,Magento_Indexer
+"State for the same indexer",同じインデックス処理のための状態,module,Magento_Indexer
+"State for the same view",同じビューのための状態,module,Magento_Indexer
 Integrations,インテグレーション,module,Magento_Integration
 "Add New Integration",新しいインテグレーションを追加,module,Magento_Integration
 Save,保存,module,Magento_Integration
@@ -1707,7 +1761,7 @@ General,全般,module,Magento_Integration
 Name,名前,module,Magento_Integration
 Email,Eメール,module,Magento_Integration
 "Callback URL",コールバックURL,module,Magento_Integration
-"Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","トークン交換のためにOauthを使う時、Oauthクレデンシャルが送れるURLを入力してください。 https://　を使用することを強くおすすめします",module,Magento_Integration
+"Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","トークン交換のためにOauthを使う時、Oauthクレデンシャルが送れるURLを入力してください。 https:// を使用することを強くおすすめします",module,Magento_Integration
 "Identity link URL",アイデンティティリンクURL,module,Magento_Integration
 "URL to redirect user to link their 3rd party account with this Magento integration credentials.",ユーザーをこのMagentoインテグレーションクレデンシャルをもつサードパーティアカウントとリンクするようにリダイレクトするURL,module,Magento_Integration
 "Integration Details",インテグレーション詳細,module,Magento_Integration
@@ -1736,7 +1790,7 @@ Reauthorize,再認証,module,Magento_Integration
 "The integration '%1' has been activated.","インテグレーション '%1' はアクティベートされました",module,Magento_Integration
 "Integration '%1' has been sent for re-authorization.","インテグレーション '%1' 再認証に送られました",module,Magento_Integration
 "Integration '%1' has been sent for activation.","インテグレーション '%1' アクティベーションに送られました",module,Magento_Integration
-Inactive,非アクティブ,module,Magento_Integration
+Inactive,未アクティブ,module,Magento_Integration
 Active,アクティブ,module,Magento_Integration
 "Invalid Callback URL",不正なコールバックURL,module,Magento_Integration
 "Invalid Rejected Callback URL",不正な除外されたコールバックURL,module,Magento_Integration
@@ -1747,13 +1801,13 @@ Active,アクティブ,module,Magento_Integration
 "Please setup or sign in into your 3rd party account to complete setup of this integration.",このインテグレーションのセットアップを完了するためにサードパーティのアカウントを設定するかサインインしてください,module,Magento_Integration
 "Filterable (with results)","フィルタ可能 (結果あり)",module,Magento_LayeredNavigation
 "Filterable (no results)","フィルタ可能 (結果なし)",module,Magento_LayeredNavigation
-"Use in Layered Navigation",階層ナビゲーションで使用する,module,Magento_LayeredNavigation
+"Use in Layered Navigation",絞込検索で使用する,module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price",ドロップダウンリストは複数選択または価格でのみ利用可能です,module,Magento_LayeredNavigation
-Position,おすすめ,module,Magento_LayeredNavigation
-"Position in Layered Navigation",階層ナビゲーション内の位置,module,Magento_LayeredNavigation
+Position,位置,module,Magento_LayeredNavigation
+"Position in Layered Navigation",絞込検索内の位置,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block",レイアウトナビゲーションブロックの位置属性,module,Magento_LayeredNavigation
 Previous,前,module,Magento_LayeredNavigation
-"Remove This Item",このアイテムを削除,module,Magento_LayeredNavigation
+"Remove This Item",この商品を削除する,module,Magento_LayeredNavigation
 "Shop By",閲覧中,module,Magento_LayeredNavigation
 "Clear All",すべてクリア,module,Magento_LayeredNavigation
 "Shopping Options",絞り込み条件,module,Magento_LayeredNavigation
@@ -1768,47 +1822,71 @@ Previous,前,module,Magento_LayeredNavigation
 "Read More",もっと読む,module,Magento_Marketplace
 "Partner Page",パートナーページ,module,Magento_Marketplace
 "No partners were found",パートナーが見つかりません,module,Magento_Marketplace
+"File %1 does not exist",ファイル%1は存在しません,module,Magento_MediaStorage
+"File %1 is not readable",ファイル%1は読み込めません,module,Magento_MediaStorage
+"Parent directory does not exist: %1","親ディレクトリが存在しません: %1",module,Magento_MediaStorage
 "File system",ファイルシステム,module,Magento_MediaStorage
+"Unable to save file ""%1"" at ""%2""","ファイル""%1""を""%2""にて保存できませんでした",module,Magento_MediaStorage
 "Wrong file info format",不正なファイル情報フォーマット,module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.",チェックの前に利用可能か保護されているパスをセットしてください。,module,Magento_MediaStorage
-"Change Billing Address",請求先住所変更,module,Magento_Multishipping
+"Unable to create directory: %1","ディレクトリを作れませんでした: %1",module,Magento_MediaStorage
+"Unable to save file: %1","ファイルが保存できませんでした: %1",module,Magento_MediaStorage
+"Change Billing Address",ご連絡先住所変更,module,Magento_Multishipping
 "Ship to Multiple Addresses",複数の住所へ送る,module,Magento_Multishipping
+"Billing Information - %1","請求先情報 - %1",module,Magento_Multishipping
+"Review Order - %1","注文確認 - %1",module,Magento_Multishipping
+Total,合計,module,Magento_Multishipping
 "Total for this address",このアドレスへの合計,module,Magento_Multishipping
 "Shipping Methods",配送方法,module,Magento_Multishipping
+"Edit Address",住所を編集,module,Magento_Multishipping
 "Edit Billing Address",請求先住所を編集,module,Magento_Multishipping
 "Edit Shipping Address",配送先を編集,module,Magento_Multishipping
 "Create Billing Address",請求先住所を作成,module,Magento_Multishipping
 "Create Shipping Address",発送先住所を作成,module,Magento_Multishipping
 "Data saving problem",データ保存問題,module,Magento_Multishipping
+"We cannot open the overview page.",概要ページを開けません,module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.",ご注文前にご一読ください。,module,Magento_Multishipping
+"Order place error",注文エラー,module,Magento_Multishipping
+"Maximum qty allowed for Shipping to multiple addresses is %1","複数住所に送付することができることが可能な最大数量は %1",module,Magento_Multishipping
 "Please check shipping address information.",お届先住所を確認してください。,module,Magento_Multishipping
 "Please check billing address information.",ご請求先住所を確認してください。,module,Magento_Multishipping
+"Please select shipping methods for all addresses.",すべての住所のための配送方法を選択してください,module,Magento_Multishipping
 "Item not found or already ordered",商品が見つからないか、ご注文済みです,module,Magento_Multishipping
-"Please specify a payment method.",支払い方法を指定してください,module,Magento_Multishipping
+"Please specify a payment method.",支払方法を指定してください,module,Magento_Multishipping
 "Please check shipping addresses information.",お届先住所を確認してください。,module,Magento_Multishipping
 "Please specify shipping methods for all addresses.",すべての配送先に配送方法を指定してください。,module,Magento_Multishipping
 "Select Addresses",住所選択,module,Magento_Multishipping
 "Shipping Information",配送情報,module,Magento_Multishipping
 "Billing Information",請求先情報,module,Magento_Multishipping
+"Place Order",注文を確定する,module,Magento_Multishipping
 "Order Success",注文成功,module,Magento_Multishipping
 "Default Billing",標準の請求先,module,Magento_Multishipping
 "Default Shipping",標準の配送方法,module,Magento_Multishipping
 "Select Address",住所選択,module,Magento_Multishipping
+"Add New Address",アカウント追加,module,Magento_Multishipping
 "Back to Billing Information",請求先情報に戻る,module,Magento_Multishipping
+"Please select a shipping address for applicable items.",商品のための送付先住所を選択してください,module,Magento_Multishipping
+Product,商品,module,Magento_Multishipping
+Qty,個数,module,Magento_Multishipping
 "Send To",配送先,module,Magento_Multishipping
 "Remove Item",商品を削除,module,Magento_Multishipping
 "Remove item",商品を削除,module,Magento_Multishipping
-"Update Qty &amp; Addresses",数量&amp;住所の更新,module,Magento_Multishipping
+"Update Qty &amp; Addresses",数量&amp,module,Magento_Multishipping
 "Enter a New Address",新しい住所を入力,module,Magento_Multishipping
 "Back to Shopping Cart",ショッピングカートに戻る,module,Magento_Multishipping
 "Billing Address",請求先住所,module,Magento_Multishipping
 Change,変更,module,Magento_Multishipping
-"Back to Shipping Information",発送情報に戻る,module,Magento_Multishipping
+"Payment Method",お支払方法,module,Magento_Multishipping
+"Back to Shipping Information",配送方法の選択に戻る,module,Magento_Multishipping
+"Other items in your order",あなたの注文に他のアイテム,module,Magento_Multishipping
 "Edit Items",アイテムを編集,module,Magento_Multishipping
 "Product Name",商品名,module,Magento_Multishipping
 "Shipping To",配送先,module,Magento_Multishipping
-"Shipping Method",発送方法,module,Magento_Multishipping
+"Shipping Method",お届け方法,module,Magento_Multishipping
+"Incl. Tax",税込,module,Magento_Multishipping
 Price,価格,module,Magento_Multishipping
+Subtotal,小計,module,Magento_Multishipping
+Items,アイテム,module,Magento_Multishipping
 "Grand Total:",合計：,module,Magento_Multishipping
 "Submitting order information...",注文情報を送信しています。。。,module,Magento_Multishipping
 "Continue to Billing Information",ご請求先情報へ,module,Magento_Multishipping
@@ -1829,7 +1907,8 @@ Reset,リセット,module,Magento_Newsletter
 "Subscribers From",購読者,module,Magento_Newsletter
 Subject,件名,module,Magento_Newsletter
 "Sender Name",送信者名,module,Magento_Newsletter
-"Sender Email",送信者アドレス,module,Magento_Newsletter
+"Sender Email",送信者メールアドレス,module,Magento_Newsletter
+Message,メッセージ,module,Magento_Newsletter
 "Newsletter Styles",ニュースレター形式,module,Magento_Newsletter
 Start,開始,module,Magento_Newsletter
 Pause,ポーズ,module,Magento_Newsletter
@@ -1853,31 +1932,50 @@ Preview,プレビュー,module,Magento_Newsletter
 "Template Styles",テンプレートスタイル,module,Magento_Newsletter
 "No Templates Found",テンプレートが見つかりませんでした,module,Magento_Newsletter
 Template,テンプレート,module,Magento_Newsletter
-Added,追加済,module,Magento_Newsletter
-Updated,アップデート,module,Magento_Newsletter
-Sender,送信者,module,Magento_Newsletter
+Added,追加済み,module,Magento_Newsletter
+Updated,更新,module,Magento_Newsletter
+Sender,送り主,module,Magento_Newsletter
 "Template Type",テンプレートタイプ,module,Magento_Newsletter
 Action,アクション,module,Magento_Newsletter
+"We unsubscribed the people you identified.",指定された顧客を未購読にしました,module,Magento_Newsletter
+"The problems you identified have been deleted.",あなたが見つけた問題は削除されました,module,Magento_Newsletter
+"Newsletter Problems Report",ニュースレター問題報告,module,Magento_Newsletter
 "Newsletter Problem Reports",ニュースレター問題報告,module,Magento_Newsletter
 "Newsletter Queue",ニュースレターキュー,module,Magento_Newsletter
 "Edit Queue",キューを編集,module,Magento_Newsletter
+"Please correct the newsletter template and try again.",ニュースレターテンプレートを修正して再度試してください,module,Magento_Newsletter
 "Newsletter Subscribers",ニュースレター購読者,module,Magento_Newsletter
 Newsletter,ニュースレター,module,Magento_Newsletter
 Subscribers,購読者,module,Magento_Newsletter
-"A total of %1 record(s) were updated.","合計 %1 レコードがアップデートされました",module,Magento_Newsletter
+"Please select one or more subscribers.",一人以上の購読者を選択してください,module,Magento_Newsletter
+"A total of %1 record(s) were updated.","合計 %1 のレコードがアップデートされました。",module,Magento_Newsletter
+"The newsletter template has been deleted.",ニュースレターテンプレートが削除されました,module,Magento_Newsletter
 "Edit Template",テンプレートの編集,module,Magento_Newsletter
 "New Template",新規テンプレート,module,Magento_Newsletter
 "Create Newsletter Template",新しいメールテンプレートを作成,module,Magento_Newsletter
+"The newsletter template has been saved.",ニュースレターテンプレートは保存されました,module,Magento_Newsletter
 "Newsletter Subscription",ニュースレター購読,module,Magento_Newsletter
+"Something went wrong while saving your subscription.",あなたの購読をセーブ中に問題が発生しました,module,Magento_Newsletter
+"We saved the subscription.",購読をセーブしました,module,Magento_Newsletter
+"We removed the subscription.",購読を削除しました,module,Magento_Newsletter
 "Your subscription has been confirmed.",ニュースレター購読登録を完了しました。,module,Magento_Newsletter
+"This is an invalid subscription confirmation code.",これは無効な購読確認コードです,module,Magento_Newsletter
+"This is an invalid subscription ID.",これは無効な購読確認IDです,module,Magento_Newsletter
 "This email address is already assigned to another user.",このメールアドレスは既に使用されています。,module,Magento_Newsletter
 "Please enter a valid email address.",正しいメールアドレスを入力してください。,module,Magento_Newsletter
+"The confirmation request has been sent.",確認リクエストが送られました,module,Magento_Newsletter
 "Thank you for your subscription.",ご購読ありがとうございます。,module,Magento_Newsletter
+"There was a problem with the subscription: %1","購読に問題がありました: %1",module,Magento_Newsletter
+"Something went wrong with the subscription.",購読に問題が発生しました,module,Magento_Newsletter
 Sent,送信済,module,Magento_Newsletter
 Cancelled,キャンセル済,module,Magento_Newsletter
 "Not Sent",未送信,module,Magento_Newsletter
 Sending,送信中,module,Magento_Newsletter
 Paused,ポーズ,module,Magento_Newsletter
+"There are no subscribers selected.",購読者を選択していません,module,Magento_Newsletter
+"You selected an invalid queue.",不正なキューを選択しました,module,Magento_Newsletter
+"We cannot mark as received subscriber.",受け取った購読者としてマークできませんでした,module,Magento_Newsletter
+"Duplicate template code",テンプレートコードを複製,module,Magento_Newsletter
 "Choose Store View:",ストアビューを選択:,module,Magento_Newsletter
 "Newsletter Message Preview",ニュースレタープレビュー,module,Magento_Newsletter
 "Add to Queue",キューに追加,module,Magento_Newsletter
@@ -1901,29 +1999,50 @@ Region/State,地域,module,Magento_OfflineShipping
 "Weight (and above)",重量,module,Magento_OfflineShipping
 "Order Subtotal (and above)",注文小計,module,Magento_OfflineShipping
 "# of Items (and above)","件の商品 (とそれ以上)",module,Magento_OfflineShipping
+"Please correct Table Rate code type: %1.","テーブルレートコードタイプを修正してください: %1.",module,Magento_OfflineShipping
+"Please correct Table Rate code for type %1: %2.","タイプ %1: %2のテーブルレートコードを修正してください",module,Magento_OfflineShipping
 None,なし,module,Magento_OfflineShipping
 "Per Order",注文ごと,module,Magento_OfflineShipping
 "Per Item",商品ごと,module,Magento_OfflineShipping
+"Please correct Table Rates File Format.",テーブルレートファイルフォーマットを修正してください,module,Magento_OfflineShipping
+"Something went wrong while importing table rates.",テーブルレートをインポート中に問題が発生しました,module,Magento_OfflineShipping
+"Please correct Table Rates format in the Row #%1.","行 #%1のテーブルレートフォーマットを修正してください",module,Magento_OfflineShipping
+"Please correct Country ""%1"" in the Row #%2.","#%2行目の国 ""%1""を修正してください",module,Magento_OfflineShipping
+"Please correct Region/State ""%1"" in the Row #%2.","#%2行目の市町村 ""%1""を修正してください",module,Magento_OfflineShipping
+"Please correct %1 ""%2"" in the Row #%3.","#%3行目の%1 ""%2""を修正してください",module,Magento_OfflineShipping
+"Please correct Shipping Price ""%1"" in the Row #%2.","#%2行目の送料""%1""を修正してください",module,Magento_OfflineShipping
+"Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","重複した行 #%1 (国 ""%2"", 都道府県 ""%3"", 郵便番号 ""%4"" ,値 ""%5"")",module,Magento_OfflineShipping
 "Free Shipping",送料無料,module,Magento_OfflineShipping
 "For matching items only",一致する商品のみ,module,Magento_OfflineShipping
 "For shipment with matching items",一致する商品の配送,module,Magento_OfflineShipping
-"We cannot retrieve the payment method model object.",クレジットカード番号,module,Magento_Payment
+"Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","Ttl値 ""%1""は有効ではありません。ゼロと同じかそれ以上の数字のみ使って下さい",module,Magento_PageCache
+"Built-in Application (Not Recommended for Production Use)",内蔵アプリケーション(本番利用は推奨されません),module,Magento_PageCache
+"Varnish Caching",Varnishキャッシュ,module,Magento_PageCache
+"We cannot retrieve the payment method model object.",支払方法モデルオブジェクトを引き出すことができません,module,Magento_Payment
 Month,月,module,Magento_Payment
 Year,年,module,Magento_Payment
-N/A,該当無し,module,Magento_Payment
+"We cannot retrieve the payment info model object.",支払情報モデルオブジェクトを引き出すことができません,module,Magento_Payment
 "Credit Card Type",クレジットカード会社,module,Magento_Payment
 "Credit Card Number",クレジットカード番号,module,Magento_Payment
 "Switch/Solo/Maestro Issue Number",Switch/Solo/Maestro発行番号,module,Magento_Payment
 "Switch/Solo/Maestro Start Date",Switch/Solo/Maestro開始日,module,Magento_Payment
-Discount,割引価格,module,Magento_Payment
+Discount,値引き,module,Magento_Payment
+Shipping,配送,module,Magento_Payment
 "All Allowed Countries",全ての許可された国,module,Magento_Payment
 "Specific Countries",選択された国のみ,module,Magento_Payment
-"The payment method you requested is not available.",支払いはオブジェクトの保存を許可しません,module,Magento_Payment
+"The payment method you requested is not available.",リクエストされた支払方法は有効ではありません,module,Magento_Payment
+"The payment disallows storing objects.",支払は保存オブジェクトを許可しません,module,Magento_Payment
+"We cannot retrieve the payment method code.",支払方法コードを引き出すことことができませんでした,module,Magento_Payment
+"We cannot retrieve the payment information object instance.",支払情報オブジェクトインスタンスは引き出せません,module,Magento_Payment
+"The order action is not available.",注文アクションは無効です,module,Magento_Payment
+"The authorize action is not available.",権限アクションは無効です,module,Magento_Payment
+"The capture action is not available.",キャプチャアクションは無効です,module,Magento_Payment
+"The refund action is not available.",返金アクションは無効です,module,Magento_Payment
 "The payment review action is unavailable.",支払レビューは利用できません。,module,Magento_Payment
 "Invalid Credit Card Number",不正なクレジットカード番号,module,Magento_Payment
 "Please enter a valid credit card verification number.",正しいカード確認番号を入力してください,module,Magento_Payment
-"Expiration Date",有効期限,module,Magento_Payment
-"Card Verification Number",カード確認番号,module,Magento_Payment
+"Expiration Date",有効期限日,module,Magento_Payment
+"Card Verification Number",セキュリティコード,module,Magento_Payment
 "Switch/Solo/Maestro Only",Switch/Solo/Maestroのみ,module,Magento_Payment
 "Issue Number",取引番号,module,Magento_Payment
 "Start Date",開始日,module,Magento_Payment
@@ -2209,26 +2328,32 @@ Continue,続ける,module,Magento_Paypal
 "Acceptance Mark",承認マーク,module,Magento_Paypal
 "What is PayPal?",PayPalとは？,module,Magento_Paypal
 "Remember Me",ログイン状態を維持する,module,Magento_Persistent
-"You saved the alert subscription.",この商品が入荷した場合に通知がされるようにサインアップ,module,Magento_ProductAlert
+"You saved the alert subscription.",アラート購読を保存しました,module,Magento_ProductAlert
+"There are not enough parameters.",充分なパラメーターありません,module,Magento_ProductAlert
 "Alert subscription has been saved.",更新通知を購読しました。,module,Magento_ProductAlert
+"You deleted the alert subscription.",アラート購読を削除しました,module,Magento_ProductAlert
 "You will no longer receive price alerts for this product.",この商品の価格変更通知受信を停止しました。,module,Magento_ProductAlert
 "Unable to update the alert subscription.",購読状況を更新できません。,module,Magento_ProductAlert
 "You will no longer receive stock alerts for this product.",この商品の在庫更新通知を停止しました。,module,Magento_ProductAlert
 "The product was not found.",商品が見つかりません。,module,Magento_ProductAlert
 "You will no longer receive stock alerts.",在庫更新通知を受信しなくなります。,module,Magento_ProductAlert
+"Invalid block type: %1","無効なブロックタイプ: %1",module,Magento_ProductAlert
 Price:,価格:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts",すべての価格通知を購読解除する,module,Magento_ProductAlert
 "Unsubscribe from all stock alerts",在庫通知を購読解除する,module,Magento_ProductAlert
+"Preview Image",プレビュー画像,module,Magento_ProductVideo
+"Get Video Information",ビデオ情報取得,module,Magento_ProductVideo
+"New Video",新規ビデオ,module,Magento_ProductVideo
 "Add video",動画を追加,module,Magento_ProductVideo
 "The requested Payment Method is not available.",指定された決済方法は利用できません。,module,Magento_Quote
 "We found an invalid request for adding product to quote.",クオートに商品を追加する不正なリクエストを発見しました,module,Magento_Quote
 "This is the wrong quote item id to update configuration.",これは設定をアップデートするには誤ったクオート商品idです,module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.",この発送方法は無効です。この発送方法を使うには我々に連絡をください。,module,Magento_Quote
 "The address model is not defined.",この住所モデルは定義されていません,module,Magento_Quote
-"Grand Total",合計,module,Magento_Quote
+"Grand Total",総合計,module,Magento_Quote
 "Shipping & Handling (%1)","配送料と手数料 (%1)",module,Magento_Quote
 "Shipping & Handling",配送料と手数料,module,Magento_Quote
-Shipping,配送料,module,Magento_Quote
+Shipping,配送,module,Magento_Quote
 Subtotal,小計,module,Magento_Quote
 "We found an invalid item option format.",無効な商品オプションフォーマットを見つけました,module,Magento_Quote
 "An item option with code %1 already exists.","商品オプションのコード %1 はすでに存在します。",module,Magento_Quote
@@ -2241,15 +2366,16 @@ Subtotal,小計,module,Magento_Quote
 "Some item options or their combination are not currently available.",商品のオプションおよびオプションの組み合わせに利用できないものがあります。,module,Magento_Quote
 "Please check the shipping address information. %1","発送住所情報を確認してください %1",module,Magento_Quote
 "Please specify a shipping method.",配送方法を指定してください。,module,Magento_Quote
-"Please check the billing address information. %1","支払い住所情報を確認してください %1",module,Magento_Quote
-"Please select a valid payment method.",正しい支払い方法を選択してください。,module,Magento_Quote
-"Store Credit",店舗クレジット,module,Magento_Quote
-Discount,割引価格,module,Magento_Quote
+"Please check the billing address information. %1","支払住所情報を確認してください %1",module,Magento_Quote
+"Please select a valid payment method.",正しい支払方法を選択してください。,module,Magento_Quote
+"Store Credit",ストアクレジット,module,Magento_Quote
+Discount,値引き,module,Magento_Quote
 Tax,税,module,Magento_Quote
 "New Accounts",新しいアカウント,module,Magento_Reports
 "Customers by number of orders",顧客ごとの注文件数,module,Magento_Reports
 "Customers by Orders Total",顧客ごとの購入合計,module,Magento_Reports
 Filter,フィルタ,module,Magento_Reports
+"Date Used",期間の指定,module,Magento_Reports
 Day,日,module,Magento_Reports
 Month,月,module,Magento_Reports
 Year,年,module,Magento_Reports
@@ -2283,7 +2409,7 @@ Views,ビュー,module,Magento_Reports
 Customer,顧客,module,Magento_Reports
 Title,タイトル,module,Magento_Reports
 Detail,詳細,module,Magento_Reports
-Created,作成日,module,Magento_Reports
+Created,作成済,module,Magento_Reports
 "Products Reviews",商品レビュー,module,Magento_Reports
 "Products Bestsellers Report",商品ベストセラーレポート,module,Magento_Reports
 "Order Quantity",注文数量,module,Magento_Reports
@@ -2295,7 +2421,7 @@ Uses,使用,module,Magento_Reports
 "Sales Subtotal",売上サブトータル,module,Magento_Reports
 "Sales Discount",値引,module,Magento_Reports
 "Sales Total",合計,module,Magento_Reports
-Discount,割引価格,module,Magento_Reports
+Discount,値引き,module,Magento_Reports
 "Total Invoiced vs. Paid Report",請求額と支払額のレポート,module,Magento_Reports
 Orders,注文,module,Magento_Reports
 "Invoiced Orders",インボイス注文,module,Magento_Reports
@@ -2309,7 +2435,7 @@ Orders,注文,module,Magento_Reports
 "Offline Refunds",オフライン返金,module,Magento_Reports
 "Total Ordered Report",注文合計レポート,module,Magento_Reports
 "Sales Items",販売商品,module,Magento_Reports
-Items,商品,module,Magento_Reports
+Items,アイテム,module,Magento_Reports
 Revenue,収入,module,Magento_Reports
 Profit,利益,module,Magento_Reports
 Invoiced,請求済,module,Magento_Reports
@@ -2318,7 +2444,7 @@ Refunded,返金,module,Magento_Reports
 "Sales Tax",消費税,module,Magento_Reports
 Tax,税,module,Magento_Reports
 "Sales Shipping",送料,module,Magento_Reports
-Shipping,配送料,module,Magento_Reports
+Shipping,配送,module,Magento_Reports
 Canceled,キャンセル済,module,Magento_Reports
 "Total Shipped Report",合計配送レポート,module,Magento_Reports
 Carrier/Method,配送業者・配送方法,module,Magento_Reports
@@ -2330,19 +2456,19 @@ Rate,レート,module,Magento_Reports
 "Abandoned carts",無効になったショッピングカート,module,Magento_Reports
 Email,Eメール,module,Magento_Reports
 Products,商品,module,Magento_Reports
-Quantity,数量,module,Magento_Reports
+Quantity,個数,module,Magento_Reports
 "Applied Coupon",適用されたクーポン,module,Magento_Reports
-Updated,アップデート,module,Magento_Reports
+Updated,更新,module,Magento_Reports
 "IP Address",IPアドレス,module,Magento_Reports
 Customers,顧客,module,Magento_Reports
 "First Name",名,module,Magento_Reports
 "Last Name",姓,module,Magento_Reports
-"Items in Cart",カートの中の商品,module,Magento_Reports
+"Items in Cart",点の商品,module,Magento_Reports
 "Products in carts",カート内の商品,module,Magento_Reports
 Carts,カート,module,Magento_Reports
 Name,名前,module,Magento_Reports
-"Wish Lists",ウィッシュリスト,module,Magento_Reports
-"Wish List vs. Regular Order","ウィッシュリスト vs. 通常注文",module,Magento_Reports
+"Wish Lists",ほしい物リスト,module,Magento_Reports
+"Wish List vs. Regular Order","ほしい物リスト vs. 通常注文",module,Magento_Reports
 "Times Deleted",削除された時間,module,Magento_Reports
 "Index type is not valid",インデックスタイプが有効ではありません,module,Magento_Reports
 Reports,レポート,module,Magento_Reports
@@ -2351,7 +2477,7 @@ Reports,レポート,module,Magento_Reports
 "Order Count Report",注文カウントレポート,module,Magento_Reports
 "Order Total Report",注文トータルレポート,module,Magento_Reports
 "Downloads Report",ダウンロードレポート,module,Magento_Reports
-"Low Stock",在庫わずか,module,Magento_Reports
+"Low Stock",在庫薄,module,Magento_Reports
 "Low Stock Report",在庫が少ないレポート,module,Magento_Reports
 "Ordered Products Report",注文された商品レポート,module,Magento_Reports
 "Products Most Viewed Report",最も閲覧されている商品レポート,module,Magento_Reports
@@ -2372,7 +2498,7 @@ Coupons,クーポン,module,Magento_Reports
 "Sales Report",セールスレポート,module,Magento_Reports
 "Shipping Report",発送レポート,module,Magento_Reports
 "Tax Report",税レポート,module,Magento_Reports
-"Shopping Cart",ショッピングカート,module,Magento_Reports
+"Shopping Cart",カート,module,Magento_Reports
 "Abandoned Carts",無効になったショッピングカート,module,Magento_Reports
 "Customer Shopping Carts",ショッピングカート,module,Magento_Reports
 "Products in Carts",カートに入っている商品,module,Magento_Reports
@@ -2388,16 +2514,17 @@ Bestsellers,ベストセラー,module,Magento_Reports
 "Show By",表示先,module,Magento_Reports
 "Select Date",日付を選択,module,Magento_Reports
 "Show Report For:",レポートを表示:,module,Magento_Reports
-"All Websites",全てのウェブサイト,module,Magento_Reports
+"All Websites",すべてのウェブサイト,module,Magento_Reports
 "Recently Viewed",最近閲覧した商品,module,Magento_Reports
 "Add to Cart",カートに入れる,module,Magento_Reports
 "In stock",在庫あり,module,Magento_Reports
 "Out of stock",在庫切れ,module,Magento_Reports
-"Add to Compare",比較リストに追加,module,Magento_Reports
+"Add to Compare",比較リストに入れる,module,Magento_Reports
 "Recently Compared",最近比較した商品,module,Magento_Reports
 "Save Review",レビューの保存,module,Magento_Review
 "New Review",新しいレビュー,module,Magento_Review
 "Review Details",レビュー詳細,module,Magento_Review
+Product,商品,module,Magento_Review
 "Product Rating",商品評価,module,Magento_Review
 Status,ステータス,module,Magento_Review
 Visibility,表示,module,Magento_Review
@@ -2405,52 +2532,73 @@ Nickname,ニックネーム,module,Magento_Review
 "Summary of Review",レビューのタイトル,module,Magento_Review
 Review,レビュー,module,Magento_Review
 Previous,前,module,Magento_Review
+"Save and Previous",保存して戻る,module,Magento_Review
+"Save and Next",保存して次に,module,Magento_Review
 Next,次,module,Magento_Review
 "Delete Review",レビュー削除,module,Magento_Review
 "Are you sure you want to do this?",実行してもよろしいですか？,module,Magento_Review
+"Edit Review '%1'",編集レビュー'%1',module,Magento_Review
 Administrator,管理者,module,Magento_Review
-Guest,ゲスト,module,Magento_Review
+Guest,ゲスト様,module,Magento_Review
 "Summary Rating",評価のタイトル,module,Magento_Review
 "Detailed Rating",評価の詳細,module,Magento_Review
-Created,i作成日,module,Magento_Review
+Created,作成済,module,Magento_Review
 Title,タイトル,module,Magento_Review
+Type,種別,module,Magento_Review
 Action,アクション,module,Magento_Review
+Edit,編集,module,Magento_Review
 Delete,削除,module,Magento_Review
 "Are you sure?",よろしいですか？,module,Magento_Review
 "Update Status",ステータスを更新,module,Magento_Review
+Customer,顧客,module,Magento_Review
+"Pending Reviews of Customer `%1`","レビューが保留の顧客 `%1`",module,Magento_Review
 "Pending Reviews",承認待ちのレビュー,module,Magento_Review
+"All Reviews of Customer `%1`","顧客のすべてのレビュー `%1`",module,Magento_Review
+"All Reviews of Product `%1`","商品のすべてのレビュー `%1`",module,Magento_Review
 "All Reviews",全てのレビュー,module,Magento_Review
+Name,名前,module,Magento_Review
+"Product Store Name",商品ストア名,module,Magento_Review
 Price,価格,module,Magento_Review
+Quantity,個数,module,Magento_Review
 Websites,ウェブサイト,module,Magento_Review
 "Manage Ratings",評価管理,module,Magento_Review
 "Add New Rating",新規評価の追加,module,Magento_Review
 "Save Rating",評価の保存,module,Magento_Review
 "Delete Rating",評価の削除,module,Magento_Review
+"Edit Rating #%1","評価の編集 #%1",module,Magento_Review
 "New Rating",新しい評価,module,Magento_Review
 "Rating Title",評価タイトル,module,Magento_Review
 "Default Value",標準の値,module,Magento_Review
 "Rating Visibility",評価の表示,module,Magento_Review
+"Is Active",有効,module,Magento_Review
 "Sort Order",表示順,module,Magento_Review
 "Rating Information",評価情報,module,Magento_Review
 "Product Reviews",商品レビュー,module,Magento_Review
 "Pending Reviews RSS",承認待ちレビューRSS,module,Magento_Review
 Reviews,レビュー,module,Magento_Review
+"The review has been deleted.",レビューは削除されました,module,Magento_Review
+"Something went wrong  deleting this review.",このリビューを削除中に問題が発生しました。,module,Magento_Review
 "Customer Reviews",顧客レビュー,module,Magento_Review
 "Edit Review",レビュー編集,module,Magento_Review
 "Please select review(s).",レビューを選択してください。,module,Magento_Review
-"A total of %1 record(s) have been deleted.","合計 %1 のレコードが削除されました",module,Magento_Review
-"A total of %1 record(s) have been updated.","合計 %1 のレコードがアップデートされました",module,Magento_Review
+"A total of %1 record(s) have been deleted.","合計 %1 レコードが削除されました。",module,Magento_Review
+"A total of %1 record(s) have been updated.","合計 %1 レコードがアップデートされました。",module,Magento_Review
+"You saved the review.",レビューは保存されました,module,Magento_Review
+"Something went wrong while saving this review.",このレビューを保存中に問題が発生しました,module,Magento_Review
 "The review was removed by another user or does not exist.",レビューがほかのユーザーによって削除されたか、または存在していません。,module,Magento_Review
-Ratings,評価,module,Magento_Review
+"You deleted the rating.",レーティングが削除されました,module,Magento_Review
+Ratings,レーティング,module,Magento_Review
+"You saved the rating.",レーティングは保存されました,module,Magento_Review
 "My Product Reviews",商品レビュー,module,Magento_Review
-Approved,承認済,module,Magento_Review
-Pending,承認待ち,module,Magento_Review
+"Storage key was not set",保管キーはセットされていません,module,Magento_Review
+Approved,受付済,module,Magento_Review
+Pending,処理待ち,module,Magento_Review
 "Not Approved",未承認,module,Magento_Review
 "Rating isn't Available",評価することはできません,module,Magento_Review
 "Assigned Options",割り当て済みのオプション,module,Magento_Review
 "Option Title:",オプションのタイトル:,module,Magento_Review
 "Product Name",商品名,module,Magento_Review
-Rating,評価,module,Magento_Review
+Rating,レーティング,module,Magento_Review
 "You have submitted no reviews.",まだレビューを書いていません。,module,Magento_Review
 Back,戻る,module,Magento_Review
 "My Recent Reviews",最近のレビュー,module,Magento_Review
@@ -2460,16 +2608,24 @@ Back,戻る,module,Magento_Review
 "Write Your Own Review",あなたのレビューを投稿する,module,Magento_Review
 "* Required Fields","* 必須項目",module,Magento_Review
 "You're reviewing:",レビュー中の商品:,module,Magento_Review
-Summary,サマリ,module,Magento_Review
+Summary,レビュータイトル,module,Magento_Review
+"Submit Review",レビューを送信,module,Magento_Review
 "Add Your Review",レビューを追加,module,Magento_Review
+"%1 Review(s)","%1 レビュー",module,Magento_Review
+"Review by",レビューした人,module,Magento_Review
+"Posted on",投稿日,module,Magento_Review
 "Back to Main Product Info",商品メイン情報に戻る,module,Magento_Review
 "Average Customer Rating",平均評価,module,Magento_Review
 "Product Rating:",商品評価:,module,Magento_Review
+"Product Review (submitted on %1):","商品レビュー (投稿日 %1):",module,Magento_Review
 "Back to Product Reviews",商品レビューに戻る,module,Magento_Review
 "Miscellaneous Feeds",利用可能なフィード,module,Magento_Rss
 "Get Feed",フィードを取得,module,Magento_Rss
+Apply,適用,module,Magento_Rule
+"End Date must follow Start Date.",エンドの日はスタートの日より後でなければなりません,module,Magento_Rule
 to,終了,module,Magento_Rule
 by,より,module,Magento_Rule
+"Please choose an action to add.",追加するアクションを選択してください,module,Magento_Rule
 "Perform following actions",次のアクションを評価する,module,Magento_Rule
 is,と等しい,module,Magento_Rule
 "is not",と等しくない,module,Magento_Rule
@@ -2481,19 +2637,25 @@ contains,含む,module,Magento_Rule
 "does not contain",含まない,module,Magento_Rule
 "is one of",のひとつ,module,Magento_Rule
 "is not one of",のひとつではない,module,Magento_Rule
-"Please choose a condition to add.",追加する条件を選択してください,module,Magento_Rule
+"Please choose a condition to add.",追加する条件を選択してください。,module,Magento_Rule
+Add,追加,module,Magento_Rule
+Remove,削除,module,Magento_Rule
 ALL,全て,module,Magento_Rule
 ANY,いずれか,module,Magento_Rule
+"If %1 of these conditions are %2:","もし以下の %1 の条件が %2 であるなら:",module,Magento_Rule
 "Conditions Combination",条件の組み合わせ,module,Magento_Rule
 "Attribute Set",属性セット,module,Magento_Rule
+Category,カテゴリ,module,Magento_Rule
 "Open Chooser",選択を開く,module,Magento_Rule
-"Cart Price Rules",カートプライスルールズ,module,Magento_SalesRule
-"Add New Rule",新規クーポンの追加,module,Magento_SalesRule
+"There is no information about associated entity type ""%1"".","関連するエンティティタイプ ""%1""に関する情報はありません",module,Magento_Rule
+"Cart Price Rules",クーポン,module,Magento_SalesRule
+"Add New Rule",新規ルールの追加,module,Magento_SalesRule
 "Save and Continue Edit",保存して編集を続ける,module,Magento_SalesRule
 "Edit Rule '%1'","ルール編集 '%1'",module,Magento_SalesRule
-"New Rule",新規クーポン,module,Magento_SalesRule
-"Rule Information",クーポン情報,module,Magento_SalesRule
+"New Rule",新しいルール,module,Magento_SalesRule
+"Rule Information",ルール情報,module,Magento_SalesRule
 Actions,アクション,module,Magento_SalesRule
+Apply,適用,module,Magento_SalesRule
 "Percent of product price discount",商品価格値引率,module,Magento_SalesRule
 "Fixed amount discount",定額割引,module,Magento_SalesRule
 "Fixed amount discount for whole cart",カート全体に対する固定値引き量,module,Magento_SalesRule
@@ -2502,21 +2664,22 @@ Actions,アクション,module,Magento_SalesRule
 "Maximum Qty Discount is Applied To",値引を適用する最大個数,module,Magento_SalesRule
 "Discount Qty Step (Buy X)","ディスカウント対象個数の段階 (X を買った場合)",module,Magento_SalesRule
 "Apply to Shipping Amount",配送料に適用する,module,Magento_SalesRule
-"Apply To",適用終了日,module,Magento_SalesRule
+"Apply To",適用先,module,Magento_SalesRule
 Conditions,条件,module,Magento_SalesRule
+"Apply the rule only if the following conditions are met (leave blank for all products).","以下条件を満たす場合にのみ規定が適用されます。 (全ての商品欄は空白のままにしておいてください).",module,Magento_SalesRule
 "Manage Coupon Codes",クーポンコード管理,module,Magento_SalesRule
 "Coupons Information",クーポン情報,module,Magento_SalesRule
 "Coupon Qty",クーポン数量,module,Magento_SalesRule
-"Code Length",コード長,module,Magento_SalesRule
-"Excluding prefix, suffix and separators.",プレフィックスとサフィックス、区切り文字を除外。,module,Magento_SalesRule
-"Code Format",コード形式,module,Magento_SalesRule
+"Code Length",コード長さ,module,Magento_SalesRule
+"Excluding prefix, suffix and separators.",プレフィックスとサフィックス、区切り文字を入力してください。,module,Magento_SalesRule
+"Code Format",コードフォーマット,module,Magento_SalesRule
 "Code Prefix",コードプレフィックス,module,Magento_SalesRule
 "Code Suffix",コードサフィックス,module,Magento_SalesRule
 "Dash Every X Characters",X文字ごとにハイフンを入れる,module,Magento_SalesRule
 "If empty no separation.",空白の場合は分割しない,module,Magento_SalesRule
 Generate,生成,module,Magento_SalesRule
 "Coupon Code",クーポンコード,module,Magento_SalesRule
-Created,i作成日,module,Magento_SalesRule
+Created,作成済,module,Magento_SalesRule
 Uses,使用,module,Magento_SalesRule
 "Times Used",使用回数,module,Magento_SalesRule
 Delete,削除,module,Magento_SalesRule
@@ -2526,11 +2689,11 @@ Labels,ラベル,module,Magento_SalesRule
 "Default Rule Label for All Store Views",全てのストアビューに対する標準クーポン名,module,Magento_SalesRule
 "Store View Specific Labels",ストアビュー固有のラベル,module,Magento_SalesRule
 "General Information",総合情報,module,Magento_SalesRule
-"Rule Name",クーポン名,module,Magento_SalesRule
+"Rule Name",ルール名,module,Magento_SalesRule
 Description,概要,module,Magento_SalesRule
 Status,ステータス,module,Magento_SalesRule
-Active,有効,module,Magento_SalesRule
-Inactive,非アクティブ,module,Magento_SalesRule
+Active,アクティブ,module,Magento_SalesRule
+Inactive,未アクティブ,module,Magento_SalesRule
 Websites,ウェブサイト,module,Magento_SalesRule
 "Customer Groups",顧客グループ,module,Magento_SalesRule
 Coupon,クーポン,module,Magento_SalesRule
@@ -2542,14 +2705,25 @@ Priority,優先度,module,Magento_SalesRule
 "Public In RSS Feed",RSSフィードに公開,module,Magento_SalesRule
 Rule,ルール,module,Magento_SalesRule
 Promotions,プロモーション,module,Magento_SalesRule
-"This rule no longer exists.",このクーポンは存在していません。,module,Magento_SalesRule
-"Edit Rule",クーポンの編集,module,Magento_SalesRule
+"This rule no longer exists.",このルールは存在していません。,module,Magento_SalesRule
+"Edit Rule",ルールの編集,module,Magento_SalesRule
+"New Cart Price Rule",新しいクーポン,module,Magento_SalesRule
 "Rule is not defined",クーポンが未定義です,module,Magento_SalesRule
+"Invalid data provided",無効なデータが提供されました,module,Magento_SalesRule
+"%1 coupon(s) have been generated.","%1 クーポンが作成されました",module,Magento_SalesRule
+"Something went wrong while generating coupons. Please review the log and try again.",クーポン作製中に問題が発生しました。ログを見なおして再度試して下さい,module,Magento_SalesRule
 Catalog,カタログ,module,Magento_SalesRule
+"The wrong rule is specified.",誤ったルールが指定されました,module,Magento_SalesRule
 Alphanumeric,半角英数字,module,Magento_SalesRule
 Alphabetical,半角英字,module,Magento_SalesRule
+Numeric,数字,module,Magento_SalesRule
+"We cannot create the requested Coupon Qty. Please check your settings and try again.",求められた数量のクーポンを作成出来ませんでした。設定を確認して再度試して下さい,module,Magento_SalesRule
+"Specified rule does not allow coupons",指定のルールはクーポンを許可しません,module,Magento_SalesRule
+"Specified rule only allows auto generated coupons",指定のルールは自動生成クーポンのみ許可します,module,Magento_SalesRule
+"Specified rule does not allow auto generated coupons",指定のルールは自動生成のクーポンを許可しません,module,Magento_SalesRule
+"Error occurred when saving coupon: %1","クーポン保存中に問題が発生しました: %1",module,Magento_SalesRule
 "Discount (%1)","ディスカウント (%1)",module,Magento_SalesRule
-Discount,割引価格,module,Magento_SalesRule
+Discount,値引き,module,Magento_SalesRule
 "Coupon with the same code",同じコードのクーポンがあります,module,Magento_SalesRule
 "No Coupon",自動適用クーポン,module,Magento_SalesRule
 "Specific Coupon",特定のクーポン,module,Magento_SalesRule
@@ -2560,10 +2734,12 @@ Auto,自動,module,Magento_SalesRule
 "To Percentage",割合,module,Magento_SalesRule
 "By Fixed value",固定値,module,Magento_SalesRule
 "By Percentage",固定率,module,Magento_SalesRule
-"Update product's %1 %2: %3","商品の %1 %2: %3　更新",module,Magento_SalesRule
+"Update product's %1 %2: %3","商品の %1 %2: %3 更新",module,Magento_SalesRule
+Subtotal,小計,module,Magento_SalesRule
 "Total Items Quantity",合計商品点数,module,Magento_SalesRule
 "Total Weight",総重量,module,Magento_SalesRule
-"Shipping Method",発送方法,module,Magento_SalesRule
+"Payment Method",お支払方法,module,Magento_SalesRule
+"Shipping Method",お届け方法,module,Magento_SalesRule
 "Shipping Postcode",配送先郵便番号,module,Magento_SalesRule
 "Shipping Region",配送エリア,module,Magento_SalesRule
 "Shipping State/Province",配送先の県/地方,module,Magento_SalesRule
@@ -2578,8 +2754,9 @@ Auto,自動,module,Magento_SalesRule
 "Conditions Combination",条件の組み合わせ,module,Magento_SalesRule
 "Cart Item Attribute",カートアイテム属性,module,Magento_SalesRule
 "Product Attribute",商品属性,module,Magento_SalesRule
-FOUND,見つかりました。,module,Magento_SalesRule
-"NOT FOUND",見つかりませんでした,module,Magento_SalesRule
+FOUND,存在する,module,Magento_SalesRule
+"NOT FOUND",存在しない,module,Magento_SalesRule
+"If an item is %1 in the cart with %2 of these conditions true:","もしカートの中に以下の商品が %2 %1 という条件が成立する時:",module,Magento_SalesRule
 "total quantity",合計数量,module,Magento_SalesRule
 "total amount",合計額,module,Magento_SalesRule
 is,と等しい,module,Magento_SalesRule
@@ -2590,33 +2767,58 @@ is,と等しい,module,Magento_SalesRule
 "less than",より小さい,module,Magento_SalesRule
 "is one of",のひとつ,module,Magento_SalesRule
 "is not one of",のひとつではない,module,Magento_SalesRule
+"If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:","%1 %2 %3 のサブセレクションのカート内商品でこれらの条件の%4にマッチする時:",module,Magento_SalesRule
+"Specified rule does not allow automatic coupon generation",指定のルールは自動のクーポンの生成を許可しません。,module,Magento_SalesRule
+"Error occurred when generating coupons: %1","クーポン生成時に問題が発生しました: %1",module,Magento_SalesRule
+"Some coupons are invalid.",幾つかのクーポンは無効です。,module,Magento_SalesRule
+"Item totals are not set for the rule.",商品合計はルールのために設定されていない,module,Magento_SalesRule
 "Credit Memos",クレジットメモ,module,Magento_Sales
+Orders,注文,module,Magento_Sales
 Invoices,請求書,module,Magento_Sales
 "Create New Order",注文新規作成,module,Magento_Sales
 "Save Order Address",注文住所を保存,module,Magento_Sales
+Billing,請求,module,Magento_Sales
+"Edit Order %1 %2 Address","注文 %1 %2 住所編集",module,Magento_Sales
 "Order Address Information",注文住所情報,module,Magento_Sales
+"Please correct the parent block for this block.",このブロックの親ブロックを修正してください,module,Magento_Sales
 "Submit Comment",コメント送信,module,Magento_Sales
 "Submit Order",注文送信,module,Magento_Sales
 "Are you sure you want to cancel this order?",ご注文をキャンセルしてもよろしいですか？,module,Magento_Sales
 Cancel,キャンセル,module,Magento_Sales
 "Billing Address",請求先住所,module,Magento_Sales
+"Payment Method",お支払方法,module,Magento_Sales
 "Order Comment",注文コメント,module,Magento_Sales
 Coupons,クーポン,module,Magento_Sales
+"Please select a customer",顧客を選択してください,module,Magento_Sales
 "Create New Customer",新規顧客作成,module,Magento_Sales
+"Account Information",アカウント情報,module,Magento_Sales
+From,開始,module,Magento_Sales
+To,終了,module,Magento_Sales
+Message,メッセージ,module,Magento_Sales
+"Edit Order #%1","注文編集 #%1",module,Magento_Sales
+"Create New Order for %1 in %2",%2の%1のために新規注文作成,module,Magento_Sales
+"Create New Order for %1","%1 のために新規注文作成",module,Magento_Sales
 "Create New Order for New Customer",新規顧客の注文を新規作成する,module,Magento_Sales
 "Items Ordered",注文済商品,module,Magento_Sales
+"This product is disabled.",この商品は無効です,module,Magento_Sales
+"Buy %1 for price %2","%2 の値段で %1が購入できます",module,Magento_Sales
 "Item ordered qty",オーダーされた商品数量,module,Magento_Sales
+"%1 with %2 discount each","%1 と %2 で各ディスカウント",module,Magento_Sales
+"%1 for %2","%2 のための %1",module,Magento_Sales
 "* - Enter custom price including tax","* - 税込みのカスタム価格を入力",module,Magento_Sales
 "* - Enter custom price excluding tax","* - 税別のカスタム価格を入力",module,Magento_Sales
 Configure,構成,module,Magento_Sales
 "This product does not have any configurable options",この商品は変更できるオプションを持っていません。,module,Magento_Sales
 "Newsletter Subscription",ニュースレター購読,module,Magento_Sales
 "Add Selected Product(s) to Order",選択した商品をご注文に追加する,module,Magento_Sales
+Product,商品,module,Magento_Sales
 Price,価格,module,Magento_Sales
 Select,選択,module,Magento_Sales
-"Shipping Address",発送先住所,module,Magento_Sales
-"Shipping Method",発送方法,module,Magento_Sales
+Quantity,個数,module,Magento_Sales
+"Shipping Address",お届け先住所,module,Magento_Sales
+"Shipping Method",お届け方法,module,Magento_Sales
 "Update Changes",変更内容を保存,module,Magento_Sales
+"Shopping Cart",カート,module,Magento_Sales
 "Are you sure you want to delete all items from shopping cart?",ショッピングカートからすべての商品を削除してもいいですか？,module,Magento_Sales
 "Clear Shopping Cart",ショッピングカートをクリア,module,Magento_Sales
 "Products in Comparison List",比較リストの商品,module,Magento_Sales
@@ -2624,10 +2826,12 @@ Select,選択,module,Magento_Sales
 "Recently Viewed Products",最近閲覧した商品,module,Magento_Sales
 "Last Ordered Items",最終注文商品,module,Magento_Sales
 "Recently Viewed",最近閲覧した商品,module,Magento_Sales
-"Wish List",お気に入りリスト,module,Magento_Sales
+"Wish List",ほしい物リスト,module,Magento_Sales
 "Order Totals",注文合計,module,Magento_Sales
-"Shipping Incl. Tax (%1)","小計 (税込)",module,Magento_Sales
+"Shipping Incl. Tax (%1)","税込み送料 (%1)",module,Magento_Sales
 "Shipping Excl. Tax (%1)","税抜き送料 (%1)",module,Magento_Sales
+"New Credit Memo for Invoice #%1","インボイスのための新しいクレジットメモ #%1",module,Magento_Sales
+"New Credit Memo for Order #%1","注文のための新しいクレジットメモ #%1",module,Magento_Sales
 "Refund Shipping (Incl. Tax)","返金配送料 (税込)",module,Magento_Sales
 "Refund Shipping (Excl. Tax)","返金配送料 (税抜)",module,Magento_Sales
 "Refund Shipping",払戻配送,module,Magento_Sales
@@ -2643,11 +2847,15 @@ Refund,払戻,module,Magento_Sales
 "Send Email",メール送信,module,Magento_Sales
 Void,無効,module,Magento_Sales
 Print,印刷,module,Magento_Sales
+"Credit Memo #%1 | %3 | %2 (%4)","クレジットメモ #%1 | %3 | %2 (%4)",module,Magento_Sales
 "Total Refund",返金額合計,module,Magento_Sales
+"New Invoice and Shipment for Order #%1","注文のための新しい請求書と送料 #%1",module,Magento_Sales
+"New Invoice for Order #%1","注文 #%1 のための新しい請求書",module,Magento_Sales
 "Submit Invoice and Shipment",請求書と配送伝票を作成,module,Magento_Sales
 "Submit Invoice",請求書作成,module,Magento_Sales
 "Credit Memo",クレジットメモ,module,Magento_Sales
 Capture,計上,module,Magento_Sales
+"Invoice #%1 | %2 | %4 (%3)","請求書 #%1 | %2 | %4 (%3)",module,Magento_Sales
 "Invalid parent block for this block",不正な親ブロックです。,module,Magento_Sales
 "Order Statuses",注文ステータス,module,Magento_Sales
 "Create New Status",新しいステータスを作成,module,Magento_Sales
@@ -2658,6 +2866,7 @@ Capture,計上,module,Magento_Sales
 "Order Status",注文ステータス,module,Magento_Sales
 "Order State",注文ステート,module,Magento_Sales
 "Use Order Status As Default",注文ステータスを標準とする,module,Magento_Sales
+"Visible On Storefront",店舗にて表示されています,module,Magento_Sales
 "Edit Order Status",注文ステータスの編集,module,Magento_Sales
 "Save Status",ステータスを保存,module,Magento_Sales
 "New Order Status",新規注文ステータス,module,Magento_Sales
@@ -2668,23 +2877,36 @@ Capture,計上,module,Magento_Sales
 "Total Paid",支払済合計,module,Magento_Sales
 "Total Refunded",返金合計,module,Magento_Sales
 "Total Due",合計,module,Magento_Sales
+Edit,編集,module,Magento_Sales
+"Are you sure you want to send an order email to customer?",本当に注文メールを顧客に送信しますか？,module,Magento_Sales
 "Are you sure you want to void the payment?",決済データを取り消してもかまいませんか？,module,Magento_Sales
 Hold,保留,module,Magento_Sales
+hold,保留,module,Magento_Sales
 Unhold,保留解除,module,Magento_Sales
-"Are you sure you want to accept this payment?",この支払い方法でよろしいですか？,module,Magento_Sales
+unhold,保留解除,module,Magento_Sales
+"Are you sure you want to accept this payment?",この支払方法でよろしいですか？,module,Magento_Sales
 "Accept Payment",支払受付,module,Magento_Sales
-"Are you sure you want to deny this payment?",この支払いを拒否してよろしいですか？,module,Magento_Sales
+"Are you sure you want to deny this payment?",この支払を拒否してよろしいですか？,module,Magento_Sales
 "Deny Payment",決済拒否,module,Magento_Sales
 "Get Payment Update",決済情報の更新を取得する,module,Magento_Sales
 "Invoice and Ship",請求と配送,module,Magento_Sales
-Invoice,請求書,module,Magento_Sales
+Invoice,請求,module,Magento_Sales
 Ship,配送,module,Magento_Sales
 Reorder,再注文,module,Magento_Sales
+"Order # %1 %2 | %3","注文 # %1 %2 | %3",module,Magento_Sales
+"Are you sure? This order will be canceled and a new one will be created instead.",本当によろしいですか？この注文はキャンセルされて新しい注文が代わりに作成されます,module,Magento_Sales
 "Save Gift Message",ギフトメッセージ,module,Magento_Sales
 "Order Credit Memos",注文クレジットメモ,module,Magento_Sales
+"Credit memo #%1 created","クレジットメモ #%1 作製されました",module,Magento_Sales
+"Credit memo #%1 comment added","クレジットメモ #%1 コメント追加されました",module,Magento_Sales
+"Shipment #%1 created","送料 #%1 作製されました",module,Magento_Sales
+"Shipment #%1 comment added","送料 #%1 コメント追加されました",module,Magento_Sales
+"Invoice #%1 created","領収書 #%1 作成されました",module,Magento_Sales
+"Invoice #%1 comment added","領収書 #%1 コメント追加されました",module,Magento_Sales
+"Tracking number %1 for %2 assigned","%2 のためのトラッキングナンバー %1 がアサインされました",module,Magento_Sales
 "Comments History",コメント履歴,module,Magento_Sales
 "Order History",注文履歴,module,Magento_Sales
-Information,情報,module,Magento_Sales
+Information,インフォメーション,module,Magento_Sales
 "Order Information",注文情報,module,Magento_Sales
 "Order Invoices",注文請求書,module,Magento_Sales
 Shipments,配送,module,Magento_Sales
@@ -2692,57 +2914,104 @@ Shipments,配送,module,Magento_Sales
 Transactions,トランザクション,module,Magento_Sales
 "Order View",注文ビュー,module,Magento_Sales
 Any,すべて,module,Magento_Sales
-Specified,指定の,module,Magento_Sales
+Specified,特定の,module,Magento_Sales
 "Show Actual Values",実際の値を表示,module,Magento_Sales
 "New Order RSS","新規注文 RSS",module,Magento_Sales
 Back,戻る,module,Magento_Sales
 Fetch,フェッチ,module,Magento_Sales
-N/A,該当無し,module,Magento_Sales
+"Transaction # %1 | %2","トランザクション # %1 | %2",module,Magento_Sales
 Key,キー,module,Magento_Sales
 Value,値,module,Magento_Sales
+"We found an invalid entity model.",無効なエンティティモデルが見つかりました,module,Magento_Sales
+"Order # %1","注文 # %1",module,Magento_Sales
 "Back to My Orders",ご注文画面に戻る,module,Magento_Sales
 "View Another Order",他の注文を表示,module,Magento_Sales
 "About Your Refund",あなたのご返金について,module,Magento_Sales
+"My Orders",ご注文,module,Magento_Sales
 "Subscribe to Order Status",注文状態を購読,module,Magento_Sales
-"About Your Invoice",あなたのお支払いについて,module,Magento_Sales
+"About Your Invoice",あなたのお支払について,module,Magento_Sales
+"Print Order # %1","注文印刷 # %1",module,Magento_Sales
 "Grand Total to be Charged",お支払合計,module,Magento_Sales
-Unassign,割当解除,module,Magento_Sales
-Sales,売上高,module,Magento_Sales
+Unassign,未割り当て,module,Magento_Sales
+Sales,セールス,module,Magento_Sales
 "This order no longer exists.",この注文は存在しません。,module,Magento_Sales
+"We cannot add order history.",注文履歴を追加できません,module,Magento_Sales
+"You updated the order address.",注文住所のアップデートが行われました,module,Magento_Sales
+"You have not canceled the item.",商品をキャンセルしていません,module,Magento_Sales
+"You canceled the order.",注文をキャンセルしました,module,Magento_Sales
+"""%1"" coupon code is not valid.","""%1""クーポンコードは有効ではありません",module,Magento_Sales
 "The coupon code has been accepted.",クーポンコードを適用しました。,module,Magento_Sales
-"Quote item id is not received.",商品データが見つかりません。,module,Magento_Sales
-"Quote item is not loaded.",商品データを読み込めませんでした。,module,Magento_Sales
+"Quote item id is not received.",見積商品IDを受け取れません。,module,Magento_Sales
+"Quote item is not loaded.",見積商品は読み込まれていません,module,Magento_Sales
 "New Order",新しい注文,module,Magento_Sales
 "You created the order.",注文を作成しました,module,Magento_Sales
 "Order saving error: %1","注文保存エラー: %1",module,Magento_Sales
 "Cannot add new comment.",コメントを追加できません。,module,Magento_Sales
 "The credit memo has been canceled.",返金伝票をキャンセルしました。,module,Magento_Sales
+"New Memo for #%1","#%1 の新しいメモ",module,Magento_Sales
 "New Memo",新規メモ,module,Magento_Sales
+"Cannot create online refund for Refund to Store Credit.",ストアクレジットに返金のためのオンライン返金は作成はできません,module,Magento_Sales
+"You created the credit memo.",クレジットメモが作成されました,module,Magento_Sales
+"View Memo for #%1","#%1 のメモを見る",module,Magento_Sales
 "View Memo",メモを見る,module,Magento_Sales
+"You voided the credit memo.",クレジットメモを無効にしました。,module,Magento_Sales
 "The order no longer exists.",この注文データは存在しません。,module,Magento_Sales
 "Edit Order",注文編集,module,Magento_Sales
+"You sent the order email.",注文メールを送信しました,module,Magento_Sales
+"You have not put the order on hold.",注文を一時停止にしませんでした,module,Magento_Sales
+"You put the order on hold.",注文を一時停止にしました,module,Magento_Sales
+"You canceled the invoice.",領収書をキャンセルにしました,module,Magento_Sales
+"Invoice canceling error",領収書キャンセルエラー,module,Magento_Sales
 "The invoice has been captured.",請求書を売り上げ計上しました。,module,Magento_Sales
+"Invoice capturing error",領収書キャプチャリングエラー,module,Magento_Sales
+"The order does not allow an invoice to be created.",注文は領収書を作成することを許可しません,module,Magento_Sales
 "New Invoice",新しい請求書,module,Magento_Sales
+"You created the invoice and shipment.",領収書と発送を作成しました,module,Magento_Sales
 "The invoice has been created.",請求書を作成しました。,module,Magento_Sales
 "Cannot update item quantity.",商品点数を更新できません。,module,Magento_Sales
 "The invoice has been voided.",請求書を無効にしました。,module,Magento_Sales
+"Invoice voiding error",請求書無効化エラー,module,Magento_Sales
+"%1 order(s) cannot be canceled.","%1 注文がキャンセルできません",module,Magento_Sales
+"You cannot cancel the order(s).",注文をキャンセルできません,module,Magento_Sales
+"We canceled %1 order(s).","%1 注文をキャンセルしました",module,Magento_Sales
+"%1 order(s) were not put on hold.","%1 注文が保留になりました",module,Magento_Sales
 "No order(s) were put on hold.",保留中の注文はありません。.,module,Magento_Sales
+"You have put %1 order(s) on hold.","%1 注文が保留になりました",module,Magento_Sales
+"%1 order(s) were not released from on hold status.","%1 注文は保留状態からリリースされていません",module,Magento_Sales
+"No order(s) were released from on hold status.",保留状態からリリースされた注文はありません,module,Magento_Sales
+"%1 order(s) have been released from on hold status.","%1 注文が保留状態からリリースされました",module,Magento_Sales
 "There are no printable documents related to selected orders.",印刷可能な文書は選択した注文に関連付けられていません。,module,Magento_Sales
-"The payment has been accepted.",支払いを受け付けました。,module,Magento_Sales
-"The payment has been denied.",支払いが拒否されました。,module,Magento_Sales
+"The payment has been accepted.",支払を受け付けました。,module,Magento_Sales
+"The payment has been denied.",支払が拒否されました。,module,Magento_Sales
 "Create New Order Status",新しい注文ステータスを作成,module,Magento_Sales
-"The payment has been voided.",支払いを取消しました。,module,Magento_Sales
+"We found another order status with the same order status code.",同じ注文ステータスコードの別の注文ステータスが見つかりました,module,Magento_Sales
+"You have unassigned the order status.",注文ステータスをアサインから外しました,module,Magento_Sales
+"You released the order from holding status.",注文を保留状態からリリースしました,module,Magento_Sales
+"The order was not on hold.",注文は保留ではありませんでした,module,Magento_Sales
+"Exception occurred during order load",注文読込中にエクセプションが発生しました,module,Magento_Sales
+"Something went wrong while saving the gift message.",ギフトメッセージ保存中に問題が発生しました,module,Magento_Sales
+"The payment has been voided.",支払を取消しました。,module,Magento_Sales
+"Please correct the transaction ID and try again.",トランザクションIDを修正して再度試して下さい,module,Magento_Sales
 "The transaction details have been updated.",トランザクション詳細を更新しました。,module,Magento_Sales
 "Orders and Returns",注文と返品,module,Magento_Sales
+"You entered incorrect data. Please try again.",無効なデータが入力されました。再度お試しください,module,Magento_Sales
 Home,ホーム,module,Magento_Sales
 "Go to Home Page",ホームページへ,module,Magento_Sales
+"We could not add a product to cart by the ID ""%1"".","ID ""%1"" の商品をカートに追加することができませんでした",module,Magento_Sales
 "There is an error in one of the option rows.",オプション行にエラーがあります。,module,Magento_Sales
-Guest,ゲスト,module,Magento_Sales
-Pending,承認待ち,module,Magento_Sales
+"This payment method is not available.",この支払方法は有効ではありません,module,Magento_Sales
+"A hold action is not available.",保留は有効ではありません,module,Magento_Sales
+"You cannot remove the hold.",保留を削除できません,module,Magento_Sales
+"We cannot cancel this order.",この注文をキャンセルできません,module,Magento_Sales
+Guest,ゲスト様,module,Magento_Sales
+Pending,処理待ち,module,Magento_Sales
 Refunded,返金済,module,Magento_Sales
 Canceled,キャンセル済,module,Magento_Sales
 "Unknown State",不明な国,module,Magento_Sales
+"We found an invalid quantity to refund item ""%1"".","商品""%1""を返金するには無効な数量を発見しました",module,Magento_Sales
+"Maximum shipping amount allowed to refund is: %1","返金が許された最大の発送額は: %1",module,Magento_Sales
 Paid,支払済,module,Magento_Sales
+"We cannot register an existing invoice",既に存在する領収書は登録できません,module,Magento_Sales
 "Unknown Status",不明なステータス,module,Magento_Sales
 Ordered,注文済,module,Magento_Sales
 Shipped,配送済,module,Magento_Sales
@@ -2752,27 +3021,61 @@ Returned,返品済,module,Magento_Sales
 Partial,一部,module,Magento_Sales
 Mixed,混じった,module,Magento_Sales
 "Registered a Void notification.",取り消し通知を登録しました。,module,Magento_Sales
+"If the invoice was created offline, try creating an offline credit memo.",もし請求書がオフラインで作成されたのであれば、クレジットメモをオフラインで作成してみてください,module,Magento_Sales
+"We refunded %1 online.","%1 をオンラインで返金しました",module,Magento_Sales
+"We refunded %1 offline.",%1をオフラインで返金しました,module,Magento_Sales
+"The credit memo has been created automatically.",クレジットメモは自動的に作成されました,module,Magento_Sales
+"Registered notification about refunded amount of %1.",返金額%1の登録済み告知,module,Magento_Sales
+"Canceled order online",オンラインで注文をキャンセル,module,Magento_Sales
+"Canceled order offline",オフラインで注文をキャンセル,module,Magento_Sales
 "Approved the payment online.",オンラインで受け付けられました。,module,Magento_Sales
 "There is no need to approve this payment.",この決済方法はオーソリの必要がありません。,module,Magento_Sales
+"Denied the payment online",オンライン支払を拒否,module,Magento_Sales
 "Registered update about approved payment.",承認済みの支払情報に対する更新登録,module,Magento_Sales
 "Registered update about denied payment.",拒否済みの支払情報に対する更新登録,module,Magento_Sales
 "There is no update for the payment.",この決済方法の更新情報はありません。,module,Magento_Sales
 "Voided authorization.",オーソリ情報を無効にしました,module,Magento_Sales
+"Amount: %1.","額: %1.",module,Magento_Sales
+"Transaction ID: ""%1""","トランザクション ID: ""%1""",module,Magento_Sales
+"The transaction ""%1"" cannot be captured yet.","トランザクション ""%1"" はまだキャプチャーできません",module,Magento_Sales
+"We will authorize %1 after the payment is approved at the payment gateway.",決済ゲートウェイでの認証後に%1の与信処理を行います。,module,Magento_Sales
+"Authorized amount of %1","オーソリ済金額 %1",module,Magento_Sales
+"An amount of %1 will be captured after being approved at the payment gateway.",決済ゲートウェイにて認証された後に%1の数量がキャプチャーされます,module,Magento_Sales
+"The order amount of %1 is pending approval on the payment gateway.",注文額%1は決済ゲートウェイ上で承認保留中です,module,Magento_Sales
 "Ordered amount of %1","注文額 %1",module,Magento_Sales
+"Registered notification about captured amount of %1.",登録済みお知らせでキャプチャーの数量%1,module,Magento_Sales
+"Order is suspended as its capture amount %1 is suspected to be fraudulent.",キャプチャー量%1は詐欺行為と疑われたため注文は一時停止になります,module,Magento_Sales
+"The parent transaction ID must have a transaction ID.",親トランザクションIDはトランザクションIDを持っていなければなりません,module,Magento_Sales
 "Payment transactions disallow storing objects.",支払トランザクションは許可されていません。,module,Magento_Sales
+"The transaction ""%1"" (%2) is already closed.","トランザクション ""%1"" (%2) はすでのクローズしています",module,Magento_Sales
 "Set order for existing transactions not allowed",既に存在するトランザクションを使用して注文することは許可されていません。,module,Magento_Sales
-Authorization,認証,module,Magento_Sales
+"At minimum, you need to set a payment ID.",最低限として支払IDを設定する必要があります,module,Magento_Sales
+Order,注文,module,Magento_Sales
+Authorization,オーソリ,module,Magento_Sales
+"We found an unsupported transaction type ""%1"".","サポート外のトランザクションタイプ ""%1""を見つけました",module,Magento_Sales
 "Sold to:",販売先:,module,Magento_Sales
 "Ship to:",配送先:,module,Magento_Sales
 "Payment Method:",支払方法:,module,Magento_Sales
 "Shipping Method:",配送方法:,module,Magento_Sales
 "Total Shipping Charges",配送料合計,module,Magento_Sales
 Title,タイトル,module,Magento_Sales
-Number,数,module,Magento_Sales
+Number,番号,module,Magento_Sales
+"We found an invalid renderer model.",無効なレンダラーモデルを見つけました,module,Magento_Sales
+"Please define the PDF object before using.",PDFオブジェクトを使用前に定義してください,module,Magento_Sales
+Products,商品,module,Magento_Sales
 "Total (ex)",合計（税抜）,module,Magento_Sales
+Qty,個数,module,Magento_Sales
 "Total (inc)",合計（税込）,module,Magento_Sales
-"Excl. Tax",税別,module,Magento_Sales
+"The order object is not specified.",注文オブジェクトが指定されていません,module,Magento_Sales
+"The source object is not specified.",ソースオブジェクトが指定されていません,module,Magento_Sales
+"An item object is not specified.",商品オブジェクトが指定されていません,module,Magento_Sales
+"A PDF object is not specified.",PDFオブジェクトが指定されていません,module,Magento_Sales
+"A PDF page object is not specified.",PDFページオブジェクトが指定されていません,module,Magento_Sales
+"Excl. Tax",税抜,module,Magento_Sales
+"Incl. Tax",税込,module,Magento_Sales
 title,タイトル,module,Magento_Sales
+"We cannot register an existing shipment",既存の送付は登録できません,module,Magento_Sales
+"The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","トータルモデルは \Magento\Sales\Model\Order\Total\AbstractTotal から展開すべきです",module,Magento_Sales
 "We cannot determine the field name.",フィールドネームを決めることはできません,module,Magento_Sales
 City,市区町村,module,Magento_Sales
 Company,会社名,module,Magento_Sales
@@ -2781,8 +3084,13 @@ Email,メール,module,Magento_Sales
 "First Name",名,module,Magento_Sales
 "Last Name",姓,module,Magento_Sales
 State/Province,都道府県,module,Magento_Sales
-"Street Address",住所,module,Magento_Sales
+"Street Address",番地,module,Magento_Sales
 "Zip/Postal Code",郵便番号,module,Magento_Sales
+"We cannot create an empty shipment.",空の発送を作成することはできません,module,Magento_Sales
+"We cannot register an existing credit memo.",存在するクレジットメモは登録できません,module,Magento_Sales
+"The most money available to refund is %1.","最も返金可能な金額は %1.",module,Magento_Sales
+"We found an invalid quantity to invoice item ""%1"".","領収書商品 ""%1""に無効な数量を見つけました",module,Magento_Sales
+"The Order State ""%1"" must not be set manually.","注文状態 ""%1"" 手動でセットしてはなりません",module,Magento_Sales
 "VAT Request Identifier",VATリクエスト識別番号,module,Magento_Sales
 "VAT Request Date",VATリクエスト日,module,Magento_Sales
 "Pending Payment",未支払,module,Magento_Sales
@@ -2796,30 +3104,37 @@ New,新規,module,Magento_Sales
 View,表示,module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.",住所情報を変更しても、配送料金や税金、その他の情報は変更されません。,module,Magento_Sales
 "Comment Text",コメントテキスト,module,Magento_Sales
-"Notify Customer by Email",メールで通知,module,Magento_Sales
+"Notify Customer by Email",メールで顧客に通知する,module,Magento_Sales
+Customer,顧客,module,Magento_Sales
 Notified,通知済,module,Magento_Sales
-"Not Notified",通知無し,module,Magento_Sales
+"Not Notified",未通知,module,Magento_Sales
 "No Payment Methods",支払方法なし,module,Magento_Sales
 "Order Comments",注文コメント,module,Magento_Sales
-"Apply Coupon Code",クーポンコードを適用する,module,Magento_Sales
-"Remove Coupon Code",クーポンコードの削除,module,Magento_Sales
+"Apply Coupon Code",クーポンを適用,module,Magento_Sales
+Apply,適用,module,Magento_Sales
+"Remove Coupon Code",クーポンの使用をやめる,module,Magento_Sales
+Remove,削除,module,Magento_Sales
 "Order Total",注文合計,module,Magento_Sales
 "Order Currency:",注文通貨:,module,Magento_Sales
 "Same As Billing Address",請求先と同じ,module,Magento_Sales
 "Select from existing customer addresses:",登録済の顧客と住所から選択:,module,Magento_Sales
-"Save in address book",住所録に保存,module,Magento_Sales
+"Add New Address",アカウント追加,module,Magento_Sales
+"Save in address book",アドレス帳に保存,module,Magento_Sales
 "Gift Message for the Entire Order",この注文のギフトメッセージ,module,Magento_Sales
-"Row Subtotal",列小計,module,Magento_Sales
+"Row Subtotal",行合計,module,Magento_Sales
 Action,アクション,module,Magento_Sales
-"No ordered items",オーダーされていない商品,module,Magento_Sales
+"No ordered items",注文された商品はありません,module,Magento_Sales
 "Total %1 product(s)","合計 %1 商品",module,Magento_Sales
+Subtotal:,小計:,module,Magento_Sales
 "Tier Pricing",価格層,module,Magento_Sales
 "Custom Price",カスタム価格,module,Magento_Sales
 "Move to Shopping Cart",ショッピングカートへ移動,module,Magento_Sales
 "Subscribe to Newsletter",ニュースレター購読,module,Magento_Sales
 "Click to change shipping method",クリックして配送方法を変更,module,Magento_Sales
+"Sorry, no quotes are available for this order.",申し訳ありません。この注文に対するクオーツはありません,module,Magento_Sales
 "Get shipping methods and rates",配送方法と料金を取得する,module,Magento_Sales
 Refresh,更新,module,Magento_Sales
+Item,商品,module,Magento_Sales
 "Add To Order",ご注文にくわえる,module,Magento_Sales
 "Configure and Add to Order",オプションを選択して追加する,module,Magento_Sales
 "No items",商品なし,module,Magento_Sales
@@ -2829,35 +3144,41 @@ Refresh,更新,module,Magento_Sales
 "Grand Total Incl. Tax",税込合計,module,Magento_Sales
 "Subtotal (Excl. Tax)","小計 (税抜)",module,Magento_Sales
 "Subtotal (Incl. Tax)","小計 (税込)",module,Magento_Sales
-"The order was placed using %1.","注文は"" %1　を使用しておこなわれた""",module,Magento_Sales
+"Payment Information",お支払情報,module,Magento_Sales
+"The order was placed using %1.","注文は %1 を使用しておこなわれた",module,Magento_Sales
 "Shipping Information",配送情報,module,Magento_Sales
 "Items to Refund",払戻商品,module,Magento_Sales
 "Return to Stock",在庫へ戻す,module,Magento_Sales
 "Qty to Refund",払戻数量,module,Magento_Sales
 "Tax Amount",税,module,Magento_Sales
 "Discount Amount",割引価格,module,Magento_Sales
-"Row Total",行合計,module,Magento_Sales
+"Row Total",小計,module,Magento_Sales
 "No Items To Refund",払戻商品無し,module,Magento_Sales
 "Credit Memo Comments",クレジットメモコメント,module,Magento_Sales
 "Refund Totals",返金合計,module,Magento_Sales
 "Email Copy of Credit Memo",返金完了済メールを送信する,module,Magento_Sales
+"Please enter a positive number in this field.",このフィールドには正の数字を入力してください,module,Magento_Sales
 "Items Refunded",払戻された商品,module,Magento_Sales
 "No Items",商品なし,module,Magento_Sales
 "Credit Memo History",クレジットメモ履歴,module,Magento_Sales
 "Credit Memo Totals",クレジットメモの合計,module,Magento_Sales
 "Gift Message",ギフトメッセージ,module,Magento_Sales
 From:,開始:,module,Magento_Sales
+To:,終了:,module,Magento_Sales
 Message:,メッセージ:,module,Magento_Sales
 "Shipping &amp; Handling",配送料と手数料,module,Magento_Sales
 "Gift Options",ギフトオプション,module,Magento_Sales
 "Create Shipment",配送伝票作成,module,Magento_Sales
+"Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.",請求書と送付タイプの幾つかがこの注文ではマッチしません。送付は請求書を作成後のみに作成することができます,module,Magento_Sales
 "Qty to Invoice",請求個数,module,Magento_Sales
 "Invoice History",請求書履歴,module,Magento_Sales
 "Invoice Comments",請求書コメント,module,Magento_Sales
 "Invoice Totals",請求書合計,module,Magento_Sales
+Amount,金額,module,Magento_Sales
 "Capture Online",オンライン計上,module,Magento_Sales
 "Capture Offline",オフライン計上,module,Magento_Sales
 "Not Capture",取込無し,module,Magento_Sales
+"The invoice will be created offline without the payment gateway.",請求書は決済ゲートウェイなしでオフラインで作成されます,module,Magento_Sales
 "Email Copy of Invoice",領収済メールを送信する,module,Magento_Sales
 "Items Invoiced",請求済個数,module,Magento_Sales
 "Total Tax",合計税,module,Magento_Sales
@@ -2867,10 +3188,13 @@ Status,ステータス,module,Magento_Sales
 Comment,コメント,module,Magento_Sales
 "Notification Not Applicable",通知対象はありません,module,Magento_Sales
 "Order Date",注文日,module,Magento_Sales
+"Order Date (%1)","注文日 (%1)",module,Magento_Sales
 "Purchased From",購入店舗,module,Magento_Sales
 "Link to the New Order",新しい注文へのリンク,module,Magento_Sales
 "Link to the Previous Order",前の注文へのリンク,module,Magento_Sales
 "Placed from IP",IPアドレス,module,Magento_Sales
+"%1 / %2 rate:","%1 / %2 レート:",module,Magento_Sales
+"Customer Name",顧客名,module,Magento_Sales
 "Customer Group",顧客グループ,module,Magento_Sales
 "Item Status",商品状況,module,Magento_Sales
 "Original Price",原価,module,Magento_Sales
@@ -2878,6 +3202,7 @@ Comment,コメント,module,Magento_Sales
 "Transaction Data",トランザクションデータ,module,Magento_Sales
 "Transaction ID",トランザクションID,module,Magento_Sales
 "Parent Transaction ID",親トランザクションID,module,Magento_Sales
+"Order ID","注文 ID",module,Magento_Sales
 "Transaction Type",トランザクション種別,module,Magento_Sales
 "Is Closed",クローズ済,module,Magento_Sales
 "Created At",作成日,module,Magento_Sales
@@ -2889,29 +3214,40 @@ Comment,コメント,module,Magento_Sales
 "Billing Last Name",請求先姓,module,Magento_Sales
 "ZIP Code",郵便番号,module,Magento_Sales
 "Billing ZIP Code",請求先郵便番号,module,Magento_Sales
+Continue,続ける,module,Magento_Sales
 "Print All Refunds",すべての返金を印刷,module,Magento_Sales
 "Refund #",払戻番号,module,Magento_Sales
 "Print Refund",返金済を印刷,module,Magento_Sales
 "Product Name",商品名,module,Magento_Sales
-"Order #",ご注文番号,module,Magento_Sales
+"Order #","注文 #",module,Magento_Sales
 Date,日付,module,Magento_Sales
 "Ship To",配送先,module,Magento_Sales
 "View Order",注文の詳細を表示,module,Magento_Sales
+"You have placed no orders.",注文はありません,module,Magento_Sales
 "No shipping information available",有効な配送方法がありません。,module,Magento_Sales
 "Print Order",注文印刷,module,Magento_Sales
 "Print All Invoices",全ての請求書を印刷する,module,Magento_Sales
 "Invoice #",請求書番号,module,Magento_Sales
 "Print Invoice",請求書を印刷する,module,Magento_Sales
 "Qty Invoiced",請求済個数,module,Magento_Sales
+Close,閉じる,module,Magento_Sales
 "About Your Order",ご注文について,module,Magento_Sales
-"Qty Shipped",配送数,module,Magento_Sales
+"<span class=""label"">Order Date:</span> %1","<span class=""label"">注文日:</span> %1",module,Magento_Sales
+"Refund #%1","返金 #%1",module,Magento_Sales
+"Shipment #%1","送料 #%1",module,Magento_Sales
+"Qty Shipped",配送済数,module,Magento_Sales
 "Recent Orders",最近のご注文,module,Magento_Sales
 "View All",全て表示,module,Magento_Sales
 "Gift Message for This Order",この注文のギフトメッセージ,module,Magento_Sales
-"Add to Cart",カートに追加,module,Magento_Sales
+"Add to Cart",カートに入れる,module,Magento_Sales
 "The link to a friend was sent.",リンクを友達に送信しました。,module,Magento_SendFriend
+"We found some problems with the data.",データに問題をみつけました,module,Magento_SendFriend
 "Some emails were not sent.",何件かのメールが送信できませんでした。,module,Magento_SendFriend
+"Invalid Sender Email",無効な送信者メールです,module,Magento_SendFriend
+"Please enter a correct recipient email address.",正しい受取人のメールアドレスを入力してください,module,Magento_SendFriend
+"No more than %1 emails can be sent at a time.","%1 以上のメールは一度に送れません",module,Magento_SendFriend
 "Invalid Sender Information",不正な送信者情報です。,module,Magento_SendFriend
+Name,名前,module,Magento_SendFriend
 "* Required Fields","* 必須項目",module,Magento_SendFriend
 "Maximum %1 email addresses allowed.","最大 %1 メールアドレスが可能",module,Magento_SendFriend
 "Send Email",メール送信,module,Magento_SendFriend
@@ -3089,6 +3425,7 @@ Admin,管理者,module,Magento_Store
 "Your Language",あなたの言語,module,Magento_Store
 Language,言語,module,Magento_Store
 "Select Store",ストア選択,module,Magento_Store
+Swatch,スワッチ,module,Magento_Swatches
 "Tax Rate Information",税率情報,module,Magento_Tax
 "Tax Identifier",税識別子,module,Magento_Tax
 "Zip/Post is Range",郵便番号の範囲,module,Magento_Tax
@@ -3331,7 +3668,7 @@ None,なし,module,Magento_Ups
 label,ラベル,module,Magento_Ups
 "United Parcel Service",共通郵便サービス,module,Magento_Ups
 "United Parcel Service XML",共通郵便サービスXML,module,Magento_Ups
-"Edit URL Rewrite for a Category",カテゴリー用のURLリライト編集,module,Magento_UrlRewrite
+"Edit URL Rewrite for a Category",カテゴリ用のURLリライト編集,module,Magento_UrlRewrite
 "Add URL Rewrite for a Category",カテゴリのURL書換を追加,module,Magento_UrlRewrite
 Category:,カテゴリ:,module,Magento_UrlRewrite
 "Edit URL Rewrite for a Product",商品用のURLリライト編集,module,Magento_UrlRewrite
@@ -3368,7 +3705,7 @@ Custom,カスタム,module,Magento_UrlRewrite
 "For product",商品用,module,Magento_UrlRewrite
 "For CMS page",CMSページ用,module,Magento_UrlRewrite
 "Create URL Rewrite:",URL書換作成:,module,Magento_UrlRewrite
-"URL Rewrites",URLリライト,module,Magento_UrlRewrite
+"URL Rewrites","URL 書き換え",module,Magento_UrlRewrite
 "The URL Rewrite has been saved.",URL書換を保存しました。,module,Magento_UrlRewrite
 "Temporary (302)",一時的(302),module,Magento_UrlRewrite
 "Permanent (301)",永久(301),module,Magento_UrlRewrite
@@ -3384,13 +3721,13 @@ Roles,権限,module,Magento_User
 "Role Information",権限情報,module,Magento_User
 "Role Users",権限ユーザー,module,Magento_User
 "User ID",ユーザーID,module,Magento_User
-"User Name",ユーザー名,module,Magento_User
+"User Name",ユーザ名,module,Magento_User
 "First Name",名,module,Magento_User
 "Last Name",姓,module,Magento_User
 Email,Eメール,module,Magento_User
 Status,状態,module,Magento_User
 Active,アクティブ,module,Magento_User
-Inactive,非アクティブ,module,Magento_User
+Inactive,未アクティブ,module,Magento_User
 "Role Resources",権限リソース,module,Magento_User
 "Role Info",権限情報,module,Magento_User
 "Role Name",権限名,module,Magento_User
@@ -3398,12 +3735,12 @@ Inactive,非アクティブ,module,Magento_User
 Users,ユーザー,module,Magento_User
 "Save User",ユーザーの保存,module,Magento_User
 "Delete User",ユーザーの削除,module,Magento_User
-"Edit User '%1'","ユーザー '%1'　編集",module,Magento_User
+"Edit User '%1'","ユーザー '%1' 編集",module,Magento_User
 "New User",新規ユーザー,module,Magento_User
 "Account Information",アカウント情報,module,Magento_User
 "User Email",ユーザーメールアドレス,module,Magento_User
 Password,パスワード,module,Magento_User
-"New Password",新規パスワード,module,Magento_User
+"New Password",新パスワード,module,Magento_User
 "Password Confirmation",確認用パスワード,module,Magento_User
 "Interface Locale",インターフェイスロケール,module,Magento_User
 "This account is",このアカウントは,module,Magento_User
@@ -3411,7 +3748,7 @@ Password,パスワード,module,Magento_User
 "Your Password",あなたのパスワード,module,Magento_User
 "User Roles Information",ユーザー権限情報,module,Magento_User
 Assigned,アサイン済,module,Magento_User
-Role,ロール,module,Magento_User
+Role,権限,module,Magento_User
 "User Information",ユーザー情報,module,Magento_User
 "User Info",ユーザー情報,module,Magento_User
 "User Role",ユーザー権限,module,Magento_User
@@ -3419,6 +3756,7 @@ Role,ロール,module,Magento_User
 "Please specify the correct account and try again.",正しいアカウントを指定して再度お試し下さい。,module,Magento_User
 "Your password reset link has expired.",パスワード再発行リンクが有効期限切れです。,module,Magento_User
 "Please correct this email address:",このEメールアドレスを修正してください:,module,Magento_User
+"Locked Users",ロック中のユーザー,module,Magento_User
 "Unlocked %1 user(s).","%1 ユーザーを解除。",module,Magento_User
 System,システム,module,Magento_User
 Permissions,権限,module,Magento_User
@@ -3428,14 +3766,16 @@ Permissions,権限,module,Magento_User
 "Edit User",ユーザーの編集,module,Magento_User
 "You cannot delete self-assigned roles.",自身でアサインした権限は削除できません。,module,Magento_User
 "You deleted the role.",権限を削除しました。,module,Magento_User
-"An error occurred while deleting this role.",権限を削除中にエラーが発生しました。,module,Magento_User
+"An error occurred while deleting this role.",このロールを削除中にエラーが発生しました。,module,Magento_User
 "Edit Role",権限の編集,module,Magento_User
 "New Role",新しい権限,module,Magento_User
 "This role no longer exists.",この権現は既に存在しません。,module,Magento_User
 "You saved the role.",権限が保存されました。,module,Magento_User
-"An error occurred while saving this role.",権限を保存中にエラーが発生しました。,module,Magento_User
+"An error occurred while saving this role.",このロールを保存中にエラーが発生しました。,module,Magento_User
 "You saved the user.",ユーザーを保存しました。,module,Magento_User
 "A user with the same user name or email already exists.",同じユーザーネームかEメールアドレスをお持ちのユーザーが既に存在します。,module,Magento_User
+Recommended,推奨,module,Magento_User
+Forced,強制,module,Magento_User
 "You did not sign in correctly or your account is temporarily disabled.",正しくサインインしなかったかあなたのアカウントは一時的に無効です,module,Magento_User
 "User Name is a required field.",ユーザーネームは必須項目です。,module,Magento_User
 "First Name is a required field.",名前は必須項目です。,module,Magento_User
@@ -3445,10 +3785,11 @@ Permissions,権限,module,Magento_User
 "Your password must be at least %1 characters.",パスワードは少なくとも%1キャラクターでなくてはなりません。,module,Magento_User
 "Your password must include both numeric and alphabetic characters.",パスワードは数字とアルファベットのキャラクターを含んでなければなりません。,module,Magento_User
 "Your password confirmation must match your password.",パスワード確認は合致しなければなりません。,module,Magento_User
+"Your password has expired; please contact your administrator.","パスワードが期限切れ; 管理者に連絡してください。",module,Magento_User
 "Retrieve Password",パスワード再発行,module,Magento_User
 "Forgot your password?",パスワードをお忘れですか？,module,Magento_User
 "Reset a Password",パスワードリセット,module,Magento_User
-"Confirm New Password",新しいパスワードの確認,module,Magento_User
+"Confirm New Password",新パスワード確認,module,Magento_User
 "Reset Password",パスワード再発行,module,Magento_User
 "Roles Resources",権限リソース,module,Magento_User
 "Resource Access",リソースアクセス,module,Magento_User
@@ -3457,14 +3798,81 @@ All,全て,module,Magento_User
 Resources,リソース,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","警告!\r\nユーザーが割り当てられているアクションを削除しようとしています。\r\nよろしいですか？",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","警告!\r\n以下のユーザーが割り当てられているアクションを削除しようとしています。\r\nよろしいですか？",module,Magento_User
-"First-Class Mail Large Envelope",ファーストクラス郵便　封筒大,module,Magento_Usps
-"First-Class Mail Letter",ファーストクラス郵便　はがき,module,Magento_Usps
-"First-Class Mail Parcel",ファーストクラス郵便　小包,module,Magento_Usps
-"First-Class Mail Postcards",ファーストクラス郵便　ポストカード,module,Magento_Usps
+"First-Class Mail Large Envelope","ファーストクラス郵便 封筒大",module,Magento_Usps
+"First-Class Mail Letter","ファーストクラス郵便 はがき",module,Magento_Usps
+"First-Class Mail Parcel","ファーストクラス郵便 小包",module,Magento_Usps
+"First-Class Mail Postcards","ファーストクラス郵便 ポストカード",module,Magento_Usps
 "Priority Mail",優先メール,module,Magento_Usps
+"Priority Mail Express Hold For Pickup",ピックアップ用にホールドの優先メールエクスプレス,module,Magento_Usps
 "Priority Mail Express",優先メールエクスプレス,module,Magento_Usps
+"Retail Ground",小売地,module,Magento_Usps
 "Media Mail",メディアメール,module,Magento_Usps
 "Library Mail",図書メール,module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope",優先メールエクスプレス定額封筒,module,Magento_Usps
+"First-Class Mail Large Postcards",ファーストクラスメール大型ポストカード,module,Magento_Usps
+"Priority Mail Flat Rate Envelope",優先メール定額封筒,module,Magento_Usps
+"Priority Mail Medium Flat Rate Box",優先メール中型定額ボックス,module,Magento_Usps
+"Priority Mail Large Flat Rate Box",優先メール大型定額ボックス,module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery",優先メールエクスプレス日曜日/祝日配送,module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Flat Rate Envelope",優先メールエクスプレス日曜日/祝日配送定額封筒,module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope Hold For Pickup",ピックアップ用にホールドの優先メールエクスプレスフラットレート封筒,module,Magento_Usps
+"Priority Mail Small Flat Rate Box","優先メール小型定額ボックス
+Priority Mail Small Flat Rate Box Hold For Pickup""",module,Magento_Usps
+"Priority Mail Padded Flat Rate Envelope",優先メールパッド付き定額封筒,module,Magento_Usps
+"Priority Mail Express Legal Flat Rate Envelope",優先メールエクスプレス法定定額封筒,module,Magento_Usps
+"Priority Mail Express Legal Flat Rate Envelope Hold For Pickup",ピックアップ用にホールドの優先メールエクスプレス法定定額封筒,module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Legal Flat Rate Envelope",優先メールエクスプレス日曜日/休日デリバリー法定定額封筒,module,Magento_Usps
+"Priority Mail Hold For Pickup",ピックアップ用にホールドの優先メール,module,Magento_Usps
+"Priority Mail Large Flat Rate Box Hold For Pickup",ピックアップ用にホールドの優先メール大型定額ボックス,module,Magento_Usps
+"Priority Mail Medium Flat Rate Box Hold For Pickup",ピックアップ用にホールドの優先メール中型定額ボックス,module,Magento_Usps
+"Priority Mail Small Flat Rate Box Hold For Pickup",ピックアップ用にホールドの優先メール小型定額ボックス,module,Magento_Usps
+"Priority Mail Flat Rate Envelope Hold For Pickup",ピックアップ用にホールドの優先メール定額封筒,module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope",優先メールギフトカード定額封筒,module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope Hold For Pickup",ピックアップ用にホールドの優先メールギフトカード定額封筒,module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope",優先メール窓定額封筒,module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope Hold For Pickup",ピックアップ用にホールドの優先メール窓定額封筒,module,Magento_Usps
+"Priority Mail Small Flat Rate Envelope",優先メール小型定額封筒,module,Magento_Usps
+"Priority Mail Small Flat Rate Envelope Hold For Pickup",ピックアップ用にホールドの優先メール小型定額封筒,module,Magento_Usps
+"Priority Mail Legal Flat Rate Envelope",優先メール法定定額封筒,module,Magento_Usps
+"Priority Mail Legal Flat Rate Envelope Hold For Pickup",ピックアップ用にホールドの優先メール法定定額封筒,module,Magento_Usps
+"Priority Mail Padded Flat Rate Envelope Hold For Pickup",ピックアップ用にホールドの優先メールパッド付き定額封筒,module,Magento_Usps
+"Priority Mail Regional Rate Box A",優先メール地域レートボックスA,module,Magento_Usps
+"Priority Mail Regional Rate Box A Hold For Pickup",ピックアップ用にホールドの優先メール地域レートボックスA,module,Magento_Usps
+"Priority Mail Regional Rate Box B",優先メール地域レートボックスB,module,Magento_Usps
+"Priority Mail Regional Rate Box B Hold For Pickup",ピックアップ用にホールドの優先メール地域レートボックスB,module,Magento_Usps
+"First-Class Package Service Hold For Pickup",ピックアップのためのファーストクラスパッケージサービス,module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Flat Rate Boxes",優先メールエクスプレス日曜日/休日配送定額ボックス,module,Magento_Usps
+"Priority Mail Regional Rate Box C",優先メール地域レートボックスC,module,Magento_Usps
+"Priority Mail Regional Rate Box C Hold For Pickup",ピックアップ用にホールドの優先メール地域レートボックスC,module,Magento_Usps
+"First-Class Package Service",ファーストクラスパッケージサービス,module,Magento_Usps
+"Priority Mail Express Padded Flat Rate Envelope",優先メールエクスプレスパッド付き定額封筒,module,Magento_Usps
+"Priority Mail Express Padded Flat Rate Envelope Hold For Pickup",ピックアップ用にホールドの優先メールエクスプレスパッド付き定額封筒,module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Padded Flat Rate Envelope",優先メールエクスプレス日曜日/休日配達パッド付き定額封筒,module,Magento_Usps
+"Priority Mail Express International",優先メールエキスプレス・インターナショナル,module,Magento_Usps
+"Priority Mail International",国際優先メール,module,Magento_Usps
+"Global Express Guaranteed (GXG)","グローバルエクスプレス保証 (GXG)",module,Magento_Usps
+"Global Express Guaranteed Document",グローバル・エクスプレス保証文書,module,Magento_Usps
+"Global Express Guaranteed Non-Document Rectangular",グローバルエクスプレス保証非ドキュメント長方形,module,Magento_Usps
+"Global Express Guaranteed Non-Document Non-Rectangular",グローバルエクスプレス保証非ドキュメント非長方形,module,Magento_Usps
+"Priority Mail International Flat Rate Envelope",優先メール国際定額封筒,module,Magento_Usps
+"Priority Mail International Medium Flat Rate Box",優先メール国際法定定額ボックス,module,Magento_Usps
+"Priority Mail Express International Flat Rate Envelope",優先メールエクスプレス国際定定額封筒,module,Magento_Usps
+"Priority Mail International Large Flat Rate Box",優先メール国際大型定額ボックス,module,Magento_Usps
+"USPS GXG Envelopes","USPS GXG 封筒",module,Magento_Usps
+"First-Class Mail International Letter",ファーストクラスメール国際レター,module,Magento_Usps
+"First-Class Mail International Large Envelope",ファーストクラスメール国際大型封筒,module,Magento_Usps
+"First-Class Package International Service",ファーストクラスパッケージ国際サービス,module,Magento_Usps
+"Priority Mail International Small Flat Rate Box",優先メール国際小型定額ボックス,module,Magento_Usps
+"Priority Mail Express International Legal Flat Rate Envelope",優先メールエクスプレス国際法定定額封筒,module,Magento_Usps
+"Priority Mail International Gift Card Flat Rate Envelope",優先メール国際ギフトカード定額封筒,module,Magento_Usps
+"Priority Mail International Window Flat Rate Envelope",優先メール国際窓定額封筒,module,Magento_Usps
+"Priority Mail International Small Flat Rate Envelope",優先メール国際小型定額封筒,module,Magento_Usps
+"First-Class Mail International Postcard",ファーストクラスメール国際郵便はがき,module,Magento_Usps
+"Priority Mail International Legal Flat Rate Envelope",優先メール国際法定定額封筒,module,Magento_Usps
+"Priority Mail International Padded Flat Rate Envelope",優先メール国際パッド付き定額封筒,module,Magento_Usps
+"Priority Mail International DVD Flat Rate priced box",優先メール国際DVD定額料金のボックス,module,Magento_Usps
+"Priority Mail International Large Video Flat Rate priced box",優先メール国際大型ビデオ定額料金のボックス,module,Magento_Usps
+"Priority Mail Express International Padded Flat Rate Envelope",優先メールエクスプレス国際パッド付き定額封筒,module,Magento_Usps
 Letter,手紙,module,Magento_Usps
 Flat,定額,module,Magento_Usps
 Parcel,小包,module,Magento_Usps
@@ -3484,15 +3892,28 @@ Merchandise,物品,module,Magento_Usps
 Sample,サンプル,module,Magento_Usps
 Gift,ギフト,module,Magento_Usps
 Documents,ドキュメント,module,Magento_Usps
-Return,リターン,module,Magento_Usps
+Return,返品,module,Magento_Usps
 Other,その他,module,Magento_Usps
 None,なし,module,Magento_Usps
 "Custom Variables",カスタム変数,module,Magento_Variable
 "Variable Code must be unique.",変数のコードはユニークである必要があります。,module,Magento_Variable
 "Validation has failed.",認証失敗,module,Magento_Variable
 "Insert Variable...",変数の挿入...,module,Magento_Variable
+"Operation allowed only in HTTPS",オペレーションはHTTPSでのみ許可されています,module,Magento_Webapi
+"Request does not match any route.",リクエストはどのルートにもマッチしません。,module,Magento_Webapi
+"Not allowed parameters: %1. Please use only %2 and %3.","許可されてないパラメーター: %1。 %2 と %3のみ使用してください。",module,Magento_Webapi
+"Requested service is not available: ""%1""","要求されたサービスは使えません: ""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","オペレーション ""%1"" は見つかりません。",module,Magento_Webapi
+"Invalid XML",無効なXML,module,Magento_Webapi
+"Invalid XML: Detected use of illegal DOCTYPE","無効なXML: 違法なDOCTYPEの使用を検知",module,Magento_Webapi
 "Add Tax",税を追加,module,Magento_Weee
-"All Websites",全てのウェブサイト,module,Magento_Weee
+"Delete Tax",税削除,module,Magento_Weee
+"All Websites",すべてのウェブサイト,module,Magento_Weee
+"Including FPT only",FPT込価格のみ,module,Magento_Weee
+"Including FPT and FPT description",FPT込とFPT概要,module,Magento_Weee
+"Excluding FPT. Including FPT description and final price","FPT除外。 FPT詳細と最終価格含む",module,Magento_Weee
+"Excluding FPT",商品定額税を除外する,module,Magento_Weee
+"Fixed Product Tax",商品固定税,module,Magento_Weee
 Website,ウェブサイト,module,Magento_Weee
 Country/State,都道府県,module,Magento_Weee
 Tax,税,module,Magento_Weee
@@ -3532,28 +3953,29 @@ Template,テンプレート,module,Magento_Widget
 All,全て,module,Magento_Widget
 "Open Chooser",選択を開く,module,Magento_Widget
 Page,ページ,module,Magento_Widget
-"Wish List",ウィッシュリスト,module,Magento_Wishlist
+"Wish List",ほしい物リスト,module,Magento_Wishlist
 "Wish List Sharing",ほしい物リストの共有,module,Magento_Wishlist
 "My Wish List",ほしい物リスト,module,Magento_Wishlist
-"%1's Wish List","%1 のウィッシュリスト",module,Magento_Wishlist
+"%1's Wish List","%1 のほしい物リスト",module,Magento_Wishlist
 "You added %1 to your shopping cart.","%1 をカートに追加しました",module,Magento_Wishlist
 "This product(s) is out of stock.",この商品は在庫切れです。,module,Magento_Wishlist
+"%1 has been moved to your wish list.","%1 はあなたのお気に入りリストに移動されました。",module,Magento_Wishlist
 "Message length must not exceed %1 symbols","メッセージの長さは %1 文字以上でなければなりません。",module,Magento_Wishlist
-"Your wish list has been shared.",あなたのウィッシュリストは共有されました。,module,Magento_Wishlist
+"Your wish list has been shared.",あなたのほしい物リストは共有されました。,module,Magento_Wishlist
 "%1 items","%1 商品",module,Magento_Wishlist
 "1 item","1 商品",module,Magento_Wishlist
 Comment,コメント,module,Magento_Wishlist
-"Display number of items in wish list",ウィッシュリストのアイテム数を表示,module,Magento_Wishlist
+"Display number of items in wish list",ほしい物リストのアイテム数を表示,module,Magento_Wishlist
 "Display item quantities",商品の見積もりを表示,module,Magento_Wishlist
-"An item option with code %1 already exists.","商品オプションのコード %1 はすでに存在します。",module,Magento_Wishlist
+"An item option with code %1 already exists.",コード%1の商品オプションは既に存在します,module,Magento_Wishlist
 "Cannot specify product.",商品を特定できません。,module,Magento_Wishlist
-"Invalid item option format.",不正なオプションの形式です。,module,Magento_Wishlist
+"Invalid item option format.",不正な商品オプションフォーマットです。,module,Magento_Wishlist
 "%1 for ""%2"".","""%2"" のための %1",module,Magento_Wishlist
 "%1 product(s) have been added to shopping cart: %2.","%1 個のアイテムがショッピングカートに追加されました: %2.",module,Magento_Wishlist
 "The product does not exist.",商品が見つかりません。,module,Magento_Wishlist
 Message,メッセージ,module,Magento_Wishlist
-"Share Wish List",ほしい物リストを共有,module,Magento_Wishlist
-"Add All to Cart",全てカートに入れる,module,Magento_Wishlist
+"Share Wish List",欲しい物リストを共有,module,Magento_Wishlist
+"Add All to Cart",すべてをカートに入れる,module,Magento_Wishlist
 "Update Wish List",ほしい物リストを更新,module,Magento_Wishlist
 "View Product",商品を表示,module,Magento_Wishlist
 "Add to Cart",カートに入れる,module,Magento_Wishlist
@@ -3563,19 +3985,19 @@ Availability,在庫あり,module,Magento_Wishlist
 Edit,編集,module,Magento_Wishlist
 "Remove Item",商品を削除,module,Magento_Wishlist
 "Remove item",商品を削除,module,Magento_Wishlist
-"Add to Compare",比較リストに追加,module,Magento_Wishlist
-"This Wish List has no Items",このウィッシュリストにはアイテムはありません。,module,Magento_Wishlist
+"Add to Compare",比較リストに入れる,module,Magento_Wishlist
+"This Wish List has no Items",このほしい物リストにはアイテムはありません。,module,Magento_Wishlist
 "Options Details",オプションの概要,module,Magento_Wishlist
-"RSS link to %1's wishlist","%1 のウィッシュリストへのRSSリンク",module,Magento_Wishlist
-"RSS Feed","RSS フィード",module,Magento_Wishlist
+"RSS link to %1's wishlist","%1 のほしい物リストへのRSSリンク",module,Magento_Wishlist
+"RSS Feed",RSSフィード,module,Magento_Wishlist
 Back,戻る,module,Magento_Wishlist
-"Wish List is empty now.",ウィッシュリストは現在空です。,module,Magento_Wishlist
+"Wish List is empty now.",ほしい物リストは現在空です。,module,Magento_Wishlist
 "* Required Fields","* 必須項目",module,Magento_Wishlist
-"Sharing Information",共有先の情報,module,Magento_Wishlist
+"Sharing Information",共有している情報,module,Magento_Wishlist
 "Email addresses, separated by commas","メールアドレスは「,」で区切る必要があります",module,Magento_Wishlist
 "Last Added Items",最後に追加した商品,module,Magento_Wishlist
 "Remove This Item",この商品を削除する,module,Magento_Wishlist
-"Go to Wish List",ウィッシュリストに行く,module,Magento_Wishlist
+"Go to Wish List",ほしい物リストに行く,module,Magento_Wishlist
 "You have no items in your wish list.",ほしい物リストは空です。,module,Magento_Wishlist
 "Shop By",閲覧中,theme,frontend/Magento/luma
 "Add Products to New Option",新しいオプションに商品追加,module,Magento_Bundle
@@ -3593,6 +4015,7 @@ Cancel,キャンセル,module,Magento_Catalog
 "unselect all",全て未選択にする,module,Magento_Catalog
 "Incl. Tax",税込,module,Magento_ConfigurableProduct
 "Are you sure you want to delete this address?",この住所を削除してもよろしいですか？,module,Magento_Customer
+"Add Products to Group",商品をグループに追加,module,Magento_GroupedProduct
 "Add Selected Products",選択した商品を追加,module,Magento_GroupedProduct
 "Sorry, something went wrong. Please try again later.",申し訳ありません、問題が発生しました。後で再度お試しください。,module,Magento_Integration
 Allow,許可,module,Magento_Integration
@@ -3601,7 +4024,7 @@ Done,完了,module,Magento_Integration
 "Sorry, something went wrong. Please try again later.",申し訳ありません、問題が発生しました。後で再度お試しください。,module,Magento_Paypal
 "Add Products",商品を追加,module,Magento_Sales
 "We don't recognize this file extension.",拡張子を認識できませんでした,module,Magento_Theme
-"Use HTTPS to Get Feed",フィードの取得にHTTPSを使用する,module,Magento_AdminNotification
+"Use HTTPS to Get Feed",HTTPSを使ってフィードを得る,module,Magento_AdminNotification
 "Update Frequency",更新間隔,module,Magento_AdminNotification
 "Last Update",最終更新,module,Magento_AdminNotification
 Severity,重要度,module,Magento_AdminNotification
@@ -3776,17 +4199,28 @@ Type,タイプ,module,Magento_Backup
 Download,ダウンロード,module,Magento_Backup
 Action,アクション,module,Magento_Backup
 Rollback,ロールバック,module,Magento_Backup
+"Enable this Solution",この決済方法を有効にする,module,Magento_Braintree
+"Enable PayPal through Braintree",Braintreeを通してPayPalを有効化,module,Magento_Braintree
 Title,タイトル,module,Magento_Braintree
-"Merchant ID","マーチャント ID",module,Magento_Braintree
+Environment,環境,module,Magento_Braintree
+"Merchant Account ID",マーチャントアカウントID,module,Magento_Braintree
+"Merchant ID",マーチャントID,module,Magento_Braintree
+"Public Key",パブリックキー,module,Magento_Braintree
+"Private Key",プライベートキー,module,Magento_Braintree
 Debug,デバッグ,module,Magento_Braintree
 "Capture action",キャプチャ操作,module,Magento_Braintree
 "Use Vault","Vault を使用します。",module,Magento_Braintree
 "Allow Duplicate Cards",重複したカードを許可します。,module,Magento_Braintree
-"Credit Card Types",クレジットカード会社,module,Magento_Braintree
+"CVV Verification",CVV認証,module,Magento_Braintree
+"Credit Card Types",クレジットカード種別,module,Magento_Braintree
+"Advanced Fraud Protection",高度詐欺行為防止,module,Magento_Braintree
 "Your Kount ID","Kount ID",module,Magento_Braintree
 "Use Cache",キャッシュを使用します。,module,Magento_Braintree
-"Payment from Applicable Countries",許可された国からの支払,module,Magento_Braintree
-"Payment from Specific Countries",特定の国からの支払,module,Magento_Braintree
+"Payment from Applicable Countries",支払方法を適用できる国,module,Magento_Braintree
+"Payment from Specific Countries",特定の国からの支払い,module,Magento_Braintree
+"Country Specific Credit Card Types",国別特定クレジットカードタイプ,module,Magento_Braintree
+"3D Secure Verification Settings",3Dセキュア認証設定,module,Magento_Braintree
+"3D Secure Verification",3Dセキュア認証,module,Magento_Braintree
 "Enable CAPTCHA in Admin",管理画面でCAPTCHAを有効にする,module,Magento_Captcha
 Font,フォント,module,Magento_Captcha
 Forms,対象フォーム,module,Magento_Captcha
@@ -4093,23 +4527,32 @@ Service,サービス,module,Magento_Directory
 "EAV types and attributes",EAV定義,module,Magento_Eav
 "Entity types declaration cache.",エンティティ種類の宣言キャッシュ。,module,Magento_Eav
 "No Templates Found",テンプレートが見つかりませんでした,module,Magento_Email
-Added,追加日,module,Magento_Email
-Updated,アップデート,module,Magento_Email
+Added,追加済み,module,Magento_Email
+Updated,更新,module,Magento_Email
 Subject,件名,module,Magento_Email
 "Template Type",テンプレートタイプ,module,Magento_Email
 Action,アクション,module,Magento_Email
 FedEx,FeedEx,module,Magento_Fedex
-"Enabled for Checkout",送料無料限度,module,Magento_Fedex
+"Enabled for Checkout",有効,module,Magento_Fedex
 Title,タイトル,module,Magento_Fedex
+"Account ID",アカウントID,module,Magento_Fedex
+"Please make sure to use only digits here. No dashes are allowed.",数字のみで入力してください。ハイフンは使用できません。,module,Magento_Fedex
+"Meter Number",メートル番号,module,Magento_Fedex
 Key,キー,module,Magento_Fedex
 Password,パスワード,module,Magento_Fedex
 "Sandbox Mode",保護モード,module,Magento_Fedex
+"Web-Services URL (Production)","ウェブサービス URL (開発)",module,Magento_Fedex
+"Web-Services URL (Sandbox)","ウェブサービス URL (サンドボックス)",module,Magento_Fedex
 "Packages Request Type",パッケージリクエストタイプ,module,Magento_Fedex
+Packaging,包装,module,Magento_Fedex
+Dropoff,収荷場所,module,Magento_Fedex
 "Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)",最大積載重量(配送業者にお問い合わせください),module,Magento_Fedex
 "Calculate Handling Fee",手数料を計算,module,Magento_Fedex
 "Handling Applied",手数料適用済み,module,Magento_Fedex
 "Handling Fee",手数料,module,Magento_Fedex
+"Residential Delivery",宅配,module,Magento_Fedex
 "Allowed Methods",許可する配送方法,module,Magento_Fedex
+"The field is applicable if the Smart Post method is selected.",スマートポストメソッドが選ばれればフィールドは適用可能です,module,Magento_Fedex
 "Free Method",フリーメソッド,module,Magento_Fedex
 "Free Shipping Amount Threshold",送料無料額限界値,module,Magento_Fedex
 "Displayed Error Message",エラーメッセージ表示,module,Magento_Fedex
@@ -4120,22 +4563,38 @@ Debug,デバッグ,module,Magento_Fedex
 "Sort Order",表示順,module,Magento_Fedex
 "Allow Gift Messages on Order Level",注文ごとにギフトメッセージを許可する,module,Magento_GiftMessage
 "Allow Gift Messages for Order Items",注文商品ごとにギフトメッセージを許可する,module,Magento_GiftMessage
+Enable,有効,module,Magento_GoogleAdwords
+"Conversion ID","コンバージョン ID",module,Magento_GoogleAdwords
+"Conversion Language",コンバージョン言語,module,Magento_GoogleAdwords
+"Conversion Format",コンバージョンフォーマット,module,Magento_GoogleAdwords
+"Conversion Color",コンバージョンカラー,module,Magento_GoogleAdwords
+"Conversion Label",コンバージョンラベル,module,Magento_GoogleAdwords
+"Conversion Value Type",コンバージョン値タイプ,module,Magento_GoogleAdwords
+"Conversion Value",コンバージョン値,module,Magento_GoogleAdwords
 "Google Analytics",Googleアナリティクス,module,Magento_GoogleAnalytics
 "Account Number",アカウント番号,module,Magento_GoogleAnalytics
+"Enable Content Experiments",コンテント試験有効化,module,Magento_GoogleOptimizer
 "Grouped Product Image",グループ商品の画像,module,Magento_GroupedProduct
+"Start Date&Time",開始日付,module,Magento_ImportExport
+"Imported File",インポートされたファイル,module,Magento_ImportExport
+"Error File",エラーファイル,module,Magento_ImportExport
+"Execution Time",実行時間,module,Magento_ImportExport
+Indexer,インデックス処理,module,Magento_Indexer
 Description,概要,module,Magento_Indexer
 Mode,モード,module,Magento_Indexer
 Status,ステータス,module,Magento_Indexer
-Updated,アップデート,module,Magento_Indexer
+Updated,更新,module,Magento_Indexer
 "Cleanup Settings",クリーンアップ設定,module,Magento_Integration
 "Cleanup Probability",クリーンアップ頻度,module,Magento_Integration
 "Expiration Period",有効期限,module,Magento_Integration
 "Consumer Settings",顧客設定,module,Magento_Integration
 "OAuth consumer credentials HTTP Post maxredirects","OAuth顧客証明HTTP Post最大リダイレクト",module,Magento_Integration
 "OAuth consumer credentials HTTP Post timeout","OAuth顧客証明HTTP Postタイムアウト",module,Magento_Integration
-"Integrations Configuration",インテグレーションコンフィグレーション,module,Magento_Integration
+"Integrations Configuration",外部連携設定,module,Magento_Integration
+"Integration configuration file.",連携設定ファイル。,module,Magento_Integration
+"No Integrations Found",連携サービスなし,module,Magento_Integration
 Status,状態,module,Magento_Integration
-"Layered Navigation",階層ナビゲーション,module,Magento_LayeredNavigation
+"Layered Navigation",絞込検索,module,Magento_LayeredNavigation
 "Display Product Count",商品点数を表示,module,Magento_LayeredNavigation
 "Price Navigation Step Calculation",価格ナビゲーション計算区切り,module,Magento_LayeredNavigation
 "Default Price Navigation Step",標準の価格ナビゲーション区切り,module,Magento_LayeredNavigation
@@ -4145,6 +4604,8 @@ Status,状態,module,Magento_Integration
 "This setting will be applied when all prices in the specific price interval are equal.",この設定はすべての商品が特定の価格帯にある場合に適用されます。,module,Magento_LayeredNavigation
 "Interval Division Limit",ステップ分割制限数,module,Magento_LayeredNavigation
 "Please specify the number of products, that will not be divided into subintervals.",下階層の価格帯の中で価格帯を区切らないための商品数を指定してください。,module,Magento_LayeredNavigation
+"Multishipping Settings",マルチシッピング設定,module,Magento_Multishipping
+Options,オプション,module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses",複数配送を許可,module,Magento_Multishipping
 "Maximum Qty Allowed for Shipping to Multiple Addresses",複数配送で許可する最大個数,module,Magento_Multishipping
 "Review Order",注文の確認,module,Magento_Multishipping
@@ -4158,18 +4619,23 @@ Status,状態,module,Magento_Integration
 "Success Email Template",成功メールテンプレート,module,Magento_Newsletter
 "Unsubscription Email Sender",購読解除メール送信者,module,Magento_Newsletter
 "Unsubscription Email Template",購読解除メールテンプレート,module,Magento_Newsletter
+"We found no problems.",問題は見つかりませんでした,module,Magento_Newsletter
 Subscriber,購読者,module,Magento_Newsletter
+"Queue Start Date",キュー開始日,module,Magento_Newsletter
 "Queue Subject",キュータイトル,module,Magento_Newsletter
 "Error Code",エラーコード,module,Magento_Newsletter
 "Error Text",エラーテキスト,module,Magento_Newsletter
 "Queue Start",キュー開始,module,Magento_Newsletter
+"Queue End",キュー終了,module,Magento_Newsletter
 Status,ステータス,module,Magento_Newsletter
 Processed,処理完了,module,Magento_Newsletter
 Recipients,受取人,module,Magento_Newsletter
 Unsubscribe,購読解除,module,Magento_Newsletter
 Delete,削除,module,Magento_Newsletter
 Email,メール,module,Magento_Newsletter
-Guest,ゲスト,module,Magento_Newsletter
+Type,種別,module,Magento_Newsletter
+Guest,ゲスト様,module,Magento_Newsletter
+Customer,顧客,module,Magento_Newsletter
 "Customer First Name",顧客名,module,Magento_Newsletter
 "Customer Last Name",顧客姓,module,Magento_Newsletter
 "Not Activated",未アクティブ,module,Magento_Newsletter
@@ -4195,12 +4661,14 @@ Instructions,説明,module,Magento_OfflinePayments
 "Zero Subtotal Checkout",ゼロ合計チェックアウト,module,Magento_OfflinePayments
 "Automatically Invoice All Items",自動ですべての商品を請求する。,module,Magento_OfflinePayments
 "Flat Rate",定額,module,Magento_OfflineShipping
+Enabled,有効,module,Magento_OfflineShipping
 "Method Name",配送方法名,module,Magento_OfflineShipping
 Price,価格,module,Magento_OfflineShipping
 "Calculate Handling Fee",手数料を計算,module,Magento_OfflineShipping
 "Handling Fee",手数料,module,Magento_OfflineShipping
 "Sort Order",表示順,module,Magento_OfflineShipping
 Title,タイトル,module,Magento_OfflineShipping
+Type,種別,module,Magento_OfflineShipping
 "Ship to Applicable Countries",利用可能な国にのみ配送する,module,Magento_OfflineShipping
 "Ship to Specific Countries",特定の国にのみ配送する,module,Magento_OfflineShipping
 "Show Method if Not Applicable",配送方法が利用できない場合でも表示する,module,Magento_OfflineShipping
@@ -4211,6 +4679,18 @@ Condition,条件,module,Magento_OfflineShipping
 Export,エクスポート,module,Magento_OfflineShipping
 Import,インポート,module,Magento_OfflineShipping
 "Minimum Order Amount",最小注文金額,module,Magento_OfflineShipping
+"Full Page Cache",フルページキャッシュ,module,Magento_PageCache
+"Caching Application",キャッシングアプリケーション,module,Magento_PageCache
+"Varnish Configuration",Varnish設定,module,Magento_PageCache
+"Access list",リストにアクセス,module,Magento_PageCache
+"Backend host",バックエンドホスト,module,Magento_PageCache
+"Specify backend host for config file generation. If field is empty default value localhost will be saved.",コンフィグファイルの世代のためのバックエンドホストを指定してください。もしフィールドが空白ならデフォルト値のローカルホストが保存されます。,module,Magento_PageCache
+"Backend port",バックエンドポート,module,Magento_PageCache
+"Specify backend port for config file generation. If field is empty default value 8080 will be saved.","コンフィグファイルの
+世代のためのバックエンドポートを指定してください。もしフィールドが空白ならデフォルト値の8080が保存されます。",module,Magento_PageCache
+"TTL for public content",パブリックコンテントのためのTTL,module,Magento_PageCache
+"Page Cache",ページキャッシュ,module,Magento_PageCache
+"Full page caching.",フルページキャッシュ。,module,Magento_PageCache
 "Payment Methods",支払方法,module,Magento_Payment
 "Merchant Location",出店者の位置,module,Magento_Paypal
 "Merchant Country",出店者国,module,Magento_Paypal
@@ -4302,15 +4782,16 @@ User,ユーザー,module,Magento_Paypal
 "Allow Alert When Product Comes Back in Stock",商品入荷時の通知を許可する,module,Magento_ProductAlert
 "Price Alert Email Template",価格変更通知メールテンプレート,module,Magento_ProductAlert
 "Stock Alert Email Template",在庫更新通知メールテンプレート,module,Magento_ProductAlert
-"Alert Email Sender",通知Email送信者,module,Magento_ProductAlert
+"Alert Email Sender",通知メール送信者,module,Magento_ProductAlert
 "Product Alerts Run Settings",商品通知実行設定,module,Magento_ProductAlert
 Frequency,頻度,module,Magento_ProductAlert
-"Start Time",開始時間,module,Magento_ProductAlert
+"Start Time",開始時刻,module,Magento_ProductAlert
 "Error Email Recipient",エラーメール受信者,module,Magento_ProductAlert
 "Error Email Sender",エラーメール送信者,module,Magento_ProductAlert
 "Error Email Template",エラーメールテンプレート,module,Magento_ProductAlert
 "Sign up for price alert",価格通知を購読する,module,Magento_ProductAlert
 "Sign up to be notified when this product is back in stock.",ログインしたら、この製品が在庫に戻るときに通知されます。,module,Magento_ProductAlert
+"Product Video",商品ビデオ,module,Magento_ProductVideo
 "Recently Viewed/Compared Products",最近見られた/比較された商品,module,Magento_Reports
 "Show for Current",最新を表示,module,Magento_Reports
 "Default Recently Viewed Products Count",標準の最近閲覧した商品点数,module,Magento_Reports
@@ -4337,6 +4818,7 @@ Dashboard,ダッシュボード,module,Magento_Reports
 Average,平均,module,Magento_Reports
 "Stock Quantity",在庫数,module,Magento_Reports
 "Ordered Quantity",注文数,module,Magento_Reports
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.",正確なレポートには、いつでもタイムゾーンを変更するときに保存期間統計を更新することを必ず行うようにしてください。,module,Magento_Reports
 Guest,ゲスト様,module,Magento_Reports
 Action,アクション,module,Magento_Reports
 "Average (Approved)","平均 (承認済み)",module,Magento_Reports
@@ -4350,8 +4832,8 @@ Report,レポート,module,Magento_Reports
 Description,概要,module,Magento_Reports
 undefined,未定義,module,Magento_Reports
 "Allow Guests to Write Reviews",ゲストのレビュー投稿を許可する,module,Magento_Review
-Active,有効,module,Magento_Review
-Inactive,非アクティブ,module,Magento_Review
+Active,アクティブ,module,Magento_Review
+Inactive,未アクティブ,module,Magento_Review
 "RSS Feeds",RSSフィード,module,Magento_Rss
 "Rss Config",RSS設定,module,Magento_Rss
 "Enable RSS",RSSを有効にする,module,Magento_Rss
@@ -4359,6 +4841,8 @@ Inactive,非アクティブ,module,Magento_Review
 "Web Site",ウェブサイト,module,Magento_SalesRule
 General,全般,module,Magento_Sales
 "Hide Customer IP",顧客のIPを隠す,module,Magento_Sales
+"Choose whether a customer IP is shown in orders, invoices, shipments, and credit memos.","顧客IPが注文、請求書、送料、クレジットメモに記されているか選んで下さい
+Choose...;選択してください...",module,Magento_Sales
 "Checkout Totals Sort Order",合計表示順,module,Magento_Sales
 "Allow Reorder",再注文を許可,module,Magento_Sales
 "Invoice and Packing Slip Design",請求書と納品書のデザイン,module,Magento_Sales
@@ -4366,18 +4850,30 @@ General,全般,module,Magento_Sales
 "Logo for HTML Print View",HTML印刷画面のロゴ,module,Magento_Sales
 Address,住所,module,Magento_Sales
 "Minimum Order Amount",最小注文金額,module,Magento_Sales
+Enable,有効,module,Magento_Sales
 "Minimum Amount",最小個数,module,Magento_Sales
+"Subtotal after discount",ディスカウント後の小計,module,Magento_Sales
+"Include Tax to Amount",額に税を含む,module,Magento_Sales
 "Description Message",概要メッセージ,module,Magento_Sales
+"This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.",このメッセージは（ディスカウント後の）小計が最小限度額より低い時にショッピングカートに表示されます,module,Magento_Sales
 "Error to Show in Shopping Cart",ショッピングカートに表示するエラーメッセージ,module,Magento_Sales
 "Validate Each Address Separately in Multi-address Checkout",複数配送先チェックアウトで個別に配送先を検証する,module,Magento_Sales
 "Multi-address Description Message",複数住所概要メッセージ,module,Magento_Sales
+"We'll use the default description above if you leave this empty.",これを空にすると上部のデフォルト詳細が使われます,module,Magento_Sales
 "Multi-address Error to Show in Shopping Cart",ショッピングカート内に表示する複数住所エラーメッセージ,module,Magento_Sales
+"We'll use the default error above if you leave this empty.",これを空にすると上部のデフォルトエラーが使われます,module,Magento_Sales
 Dashboard,ダッシュボード,module,Magento_Sales
+"Use Aggregated Data",集計データの使用,module,Magento_Sales
+"Orders Cron Settings",注文Cron設定,module,Magento_Sales
+"Pending Payment Order Lifetime (minutes)","支払注文保留期間 (分)",module,Magento_Sales
 "Sales Emails",セールスメール,module,Magento_Sales
+"Asynchronous sending",非同期送付,module,Magento_Sales
+Enabled,有効,module,Magento_Sales
 "New Order Confirmation Email Sender",新規注文確認メール送信者,module,Magento_Sales
 "New Order Confirmation Template",新しい注文確認テンプレート,module,Magento_Sales
 "New Order Confirmation Template for Guest",ゲスト用の新しい注文確認テンプレート,module,Magento_Sales
 "Send Order Email Copy To",注文メールのコピー送信先,module,Magento_Sales
+Comma-separated,カンマ区切り,module,Magento_Sales
 "Send Order Email Copy Method",オーダーメールコピー送信方法,module,Magento_Sales
 "Order Comment Email Sender",注文コメントメール送信者,module,Magento_Sales
 "Order Comment Email Template",注文コメントメールテンプレート,module,Magento_Sales
@@ -4418,27 +4914,37 @@ Shipment,配送,module,Magento_Sales
 "Send Credit Memo Comments Email Copy Method",クレジットメモコメントコピーメール送信方法,module,Magento_Sales
 "PDF Print-outs",PDF印刷物,module,Magento_Sales
 "Display Order ID in Header",ヘッダにオーダーIDを表示,module,Magento_Sales
-"Asynchronous indexing",非同期インデックス,module,Magento_Sales
+"Asynchronous indexing",非同期インデックシング,module,Magento_Sales
 "Orders and Returns Search Form",注文と返品検索フォーム,module,Magento_Sales
 "Anchor Custom Title",アンカーカスタムタイトル,module,Magento_Sales
-"Default Template",標準のテンプレート,module,Magento_Sales
+"Default Template",標準テンプレート,module,Magento_Sales
+Name,名前,module,Magento_Sales
 Phone,電話,module,Magento_Sales
 "ZIP/Post Code",郵便番号,module,Magento_Sales
-"Bill-to Name",送り先名,module,Magento_Sales
-Created,i作成日,module,Magento_Sales
+"Signed-up Point",登録元,module,Magento_Sales
+"Bill-to Name",請求先名,module,Magento_Sales
+Created,作成済,module,Magento_Sales
 "Invoice Date",請求日,module,Magento_Sales
 "Ship-to Name",送り先名,module,Magento_Sales
+"Ship Date",発送日,module,Magento_Sales
+"Total Quantity",総数量,module,Magento_Sales
 "Default Status",標準ステータス,module,Magento_Sales
+"State Code and Title",ステータスコードとタイトル,module,Magento_Sales
 "PDF Credit Memos",PDFクレジットメモ,module,Magento_Sales
-"Purchase Point",購入ポイント,module,Magento_Sales
+"Purchase Point",購入店舗,module,Magento_Sales
 "Print Invoices",請求書印刷,module,Magento_Sales
+"Print Packing Slips",配送伝票を印刷,module,Magento_Sales
 "Print Credit Memos",クレジットメモ印刷,module,Magento_Sales
 "Print All",すべて印刷,module,Magento_Sales
 "Print Shipping Labels",配送ラベルを印刷,module,Magento_Sales
-"Grand Total (Base)",顧客名,module,Magento_Sales
+"Purchase Date",購入日,module,Magento_Sales
+"Grand Total (Base)","合計 (ベース)",module,Magento_Sales
+"Grand Total (Purchased)","合計 (購入)",module,Magento_Sales
 "PDF Invoices",PDF請求書,module,Magento_Sales
+"Search Engine",検索エンジン,module,Magento_Search
 "Email to a Friend",友達にメールを送る,module,Magento_SendFriend
 "Email Templates",メールテンプレート,module,Magento_SendFriend
+Enabled,有効,module,Magento_SendFriend
 "Select Email Template",メールテンプレートを選択,module,Magento_SendFriend
 "Allow for Guests",ゲストに許可する,module,Magento_SendFriend
 "Max Recipients",最大受信者数,module,Magento_SendFriend
@@ -4476,8 +4982,12 @@ Enabled,有効,module,Magento_Sitemap
 "Last Generated",最終作成日,module,Magento_Sitemap
 Action,アクション,module,Magento_Sitemap
 Layouts,レイアウト,module,Magento_Store
+"Layout building instructions.",レイアウト構築ガイド,module,Magento_Store
 "Blocks HTML output",ブロックHTML出力,module,Magento_Store
+"Page blocks HTML.",ページブロックHTML,module,Magento_Store
 "Collections Data",コレクションデータ,module,Magento_Store
+"Collection data files.",コレクションデータファイル,module,Magento_Store
+"Swatches per Product",製品ごとの見本,module,Magento_Swatches
 "Tax Classes",税区分,module,Magento_Tax
 "Tax Class for Shipping",配送の税区分,module,Magento_Tax
 "Default Tax Class for Product",ディフォルトの製品のための税クラス,module,Magento_Tax
@@ -4540,6 +5050,7 @@ Copyright,コピーライト,module,Magento_Theme
 "3 columns",3カラム,module,Magento_Theme
 "Translation Strategy",翻訳ストラテジ,module,Magento_Translation
 Translations,翻訳,module,Magento_Translation
+"Translation files.",翻訳ファイル。,module,Magento_Translation
 "Log JS Errors to Session Storage",JSエラーをセッションストレージに記録する,module,Magento_Ui
 "Log JS Errors to Session Storage Key",JSエラーをセッションストレージキーに記録する,module,Magento_Ui
 "Access License Number",アクセスライセンス番号,module,Magento_Ups
@@ -4564,6 +5075,7 @@ Password,パスワード,module,Magento_Ups
 Title,タイトル,module,Magento_Ups
 "Tracking XML URL","トラッキングXML URL",module,Magento_Ups
 "UPS Type","UPS タイプ",module,Magento_Ups
+"Live account",有効なアカウント,module,Magento_Ups
 "Weight Unit",単位(重量),module,Magento_Ups
 "User ID",ユーザーID,module,Magento_Ups
 "Enable Negotiated Rates",ネゴシエイトレートを有効にする,module,Magento_Ups
@@ -4579,7 +5091,16 @@ Debug,デバッグ,module,Magento_Ups
 Action,アクション,module,Magento_UrlRewrite
 Edit,編集,module,Magento_UrlRewrite
 "Reset Password Template",リセットパスワードテンプレート,module,Magento_User
+"Maximum Login Failures to Lockout Account",アカウントロックをするログイン失敗回数,module,Magento_User
+"We will disable this feature if the value is empty.",もし値が空ならばこの機能を無効にします。,module,Magento_User
+"Lockout Time (minutes)","ロックアウト時間 (分)",module,Magento_User
+"Password Lifetime (days)","パスワード有効期間 (日)",module,Magento_User
+"Password Change",パスワード変更,module,Magento_User
+Unlock,ロック解除,module,Magento_User
 Username,ユーザー名,module,Magento_User
+"Last login",最終ログイン,module,Magento_User
+Failures,失敗,module,Magento_User
+Unlocked,ロック解除済み,module,Magento_User
 "Enabled for Checkout",有効,module,Magento_Usps
 "Gateway URL",ゲートウェイURL,module,Magento_Usps
 "Secure Gateway URL","安全なGateway URL",module,Magento_Usps
@@ -4588,7 +5109,7 @@ Title,タイトル,module,Magento_Usps
 Password,パスワード,module,Magento_Usps
 Mode,モード,module,Magento_Usps
 "Packages Request Type",パッケージリクエストタイプ,module,Magento_Usps
-Container,梱包,module,Magento_Usps
+Container,コンテナ,module,Magento_Usps
 Size,サイズ,module,Magento_Usps
 Width,幅,module,Magento_Usps
 Length,長さ,module,Magento_Usps
@@ -4608,24 +5129,35 @@ Machinable,マシンナブル,module,Magento_Usps
 Debug,デバッグ,module,Magento_Usps
 "Show Method if Not Applicable",配送方法が利用できない場合でも表示する,module,Magento_Usps
 "Sort Order",並び順,module,Magento_Usps
+"Magento Web API",MagentoウェブAPI,module,Magento_Webapi
+"SOAP Settings",SOAP設定,module,Magento_Webapi
 "Default Response Charset",標準レスポンス文字コード,module,Magento_Webapi
+"Web Services Configuration",Webサービス設定,module,Magento_Webapi
+"Fixed Product Taxes",商品固定税,module,Magento_Weee
+"Enable FPT",FPTを有効にする,module,Magento_Weee
+"Display Prices In Product Lists",商品一覧にFPT額を表示する,module,Magento_Weee
+"Display Prices On Product View Page",商品画面でFPT額を表示する,module,Magento_Weee
+"Display Prices In Sales Modules",SalesモジュールでFPT額を表示する,module,Magento_Weee
+"Display Prices In Emails",メールに額を記載する,module,Magento_Weee
+"Apply Tax To FPT",FPTに税を適用,module,Magento_Weee
+"Include FPT In Subtotal",小計にFPTを含める,module,Magento_Weee
 "Widget ID",ウィジェットID,module,Magento_Widget
 "Share Options",共有オプション,module,Magento_Wishlist
 "Email Sender",メール送信者,module,Magento_Wishlist
 "Email Template",メールテンプレート,module,Magento_Wishlist
 "Max Emails Allowed to be Sent",許可された送信された最大のメール数,module,Magento_Wishlist
 "Email Text Length Limit",Wメールのテキストの長さの最大数,module,Magento_Wishlist
-"General Options",全体のオプション,module,Magento_Wishlist
+"General Options",全般オプション,module,Magento_Wishlist
 Enabled,有効,module,Magento_Wishlist
-"My Wish List Link",自分のウィッシュリストのリンク,module,Magento_Wishlist
-"Display Wish List Summary",ウィッシュリストのサマリーの表示,module,Magento_Wishlist
+"My Wish List Link",自分のほしい物リストのリンク,module,Magento_Wishlist
+"Display Wish List Summary",ほしい物リストのサマリーの表示,module,Magento_Wishlist
 "No Items Found",商品が見つかりませんでした,module,Magento_Wishlist
 "Product Name",商品名,module,Magento_Wishlist
 "User Description",ユーザー概要,module,Magento_Wishlist
-Quantity,数量,module,Magento_Wishlist
+Quantity,個数,module,Magento_Wishlist
 "Add Locale",ロケール追加,module,Magento_Wishlist
 "Add Date",日付追加,module,Magento_Wishlist
-"Days in Wish List",ウィッシュリスト内日付,module,Magento_Wishlist
+"Days in Wish List",ほしい物リスト内日付,module,Magento_Wishlist
 Action,アクション,module,Magento_Wishlist
 Configure,構成,module,Magento_Wishlist
 Delete,削除,module,Magento_Wishlist
