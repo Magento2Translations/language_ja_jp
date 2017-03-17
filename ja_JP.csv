@@ -547,13 +547,13 @@ Reset,リセット,module,Magento_Catalog
 "New Subcategory",新しいサブカテゴリ,module,Magento_Catalog
 "New Root Category",新しいルートカテゴリ,module,Magento_Catalog
 "Set Root Category for Store",店舗のルートカテゴリをセットしてください。,module,Magento_Catalog
-"Use Config Settings",設定値を使用する,module,Magento_Catalog
+"Use Config Settings",設定を使用,module,Magento_Catalog
 "Use All Available Attributes",全ての利用可能な属性で使用する,module,Magento_Catalog
 "Custom Design",カスタムデザイン,module,Magento_Catalog
 Name,名前,module,Magento_Catalog
 SKU,商品番号,module,Magento_Catalog
 Price,価格,module,Magento_Catalog
-Position,おすすめ,module,Magento_Catalog
+Position,位置,module,Magento_Catalog
 "Category Data",カテゴリデータ,module,Magento_Catalog
 "Category Products",カテゴリの商品,module,Magento_Catalog
 "Add Subcategory",サブカテゴリを追加,module,Magento_Catalog
@@ -561,22 +561,24 @@ Position,おすすめ,module,Magento_Catalog
 Day,日,module,Magento_Catalog
 Month,月,module,Magento_Catalog
 Year,年,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""><span>から</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""><span>まで</span></label>",module,Magento_Catalog
 [GLOBAL],[グローバル],module,Magento_Catalog
 [WEBSITE],[ウェブサイト],module,Magento_Catalog
 "[STORE VIEW]",[ストアビュー],module,Magento_Catalog
 "WYSIWYG Editor",WYSIWYGエディタ,module,Magento_Catalog
 "Add Product",新規商品の追加,module,Magento_Catalog
 label,ラベル,module,Magento_Catalog
-"Product Attributes",商品の属性,module,Magento_Catalog
-"Add New Attribute",新規属性の追加,module,Magento_Catalog
+"Product Attributes",商品属性,module,Magento_Catalog
+"Add New Attribute",新しい属性を追加,module,Magento_Catalog
 "Save in New Attribute Set",新しい属性セットに保存,module,Magento_Catalog
 "Enter Name for New Attribute Set",新しい属性セットのために名前入力,module,Magento_Catalog
 "Save and Continue Edit",保存して編集を続ける,module,Magento_Catalog
-"Save Attribute",保存,module,Magento_Catalog
-"Delete Attribute",属性の削除,module,Magento_Catalog
-"Edit Product Attribute ""%1""","製品属性 ""%1""　を編集",module,Magento_Catalog
+"Save Attribute",属性保存,module,Magento_Catalog
+"Delete Attribute",属性を削除,module,Magento_Catalog
+"Edit Product Attribute ""%1""","製品属性 ""%1"" を編集",module,Magento_Catalog
 "New Product Attribute",新規商品属性,module,Magento_Catalog
-"Advanced Attribute Properties",アドバンス属性プロパティ,module,Magento_Catalog
+"Advanced Attribute Properties",拡張属性プロパティ,module,Magento_Catalog
 "Attribute Code",属性コード,module,Magento_Catalog
 "Default Value",標準の値,module,Magento_Catalog
 "Unique Value",一意な値,module,Magento_Catalog
@@ -599,7 +601,7 @@ Gallery,ギャラリー,module,Magento_Catalog
 "Data Type for Saving in Database",データベースに保存するデータタイプ,module,Magento_Catalog
 Text,テキスト,module,Magento_Catalog
 Varchar,varchar,module,Magento_Catalog
-Static,静的,module,Magento_Catalog
+Static,固定,module,Magento_Catalog
 Datetime,日時,module,Magento_Catalog
 Decimal,10進数,module,Magento_Catalog
 Integer,整数,module,Magento_Catalog
@@ -612,7 +614,7 @@ Visible,表示,module,Magento_Catalog
 Searchable,検索可能,module,Magento_Catalog
 Comparable,比較可能,module,Magento_Catalog
 "Delete Selected Group",選択したグループの削除,module,Magento_Catalog
-"Add New",新規作成,module,Magento_Catalog
+"Add New",追加,module,Magento_Catalog
 Back,戻る,module,Magento_Catalog
 Delete,削除,module,Magento_Catalog
 Save,保存,module,Magento_Catalog
@@ -623,7 +625,7 @@ Empty,空,module,Magento_Catalog
 "Add New Group",新規グループの追加,module,Magento_Catalog
 "Add Group",グループの追加,module,Magento_Catalog
 "For internal use",内部用,module,Magento_Catalog
-"Based On",元,module,Magento_Catalog
+"Based On",基準にするフォーム,module,Magento_Catalog
 "Add New Attribute Set",新規属性の追加,module,Magento_Catalog
 "Attribute Sets",属性セット,module,Magento_Catalog
 "Close Window",ウインドウを閉じる,module,Magento_Catalog
@@ -634,10 +636,10 @@ Empty,空,module,Magento_Catalog
 "Save & Close","保存 & 終了",module,Magento_Catalog
 Attributes,属性,module,Magento_Catalog
 Change,変更,module,Magento_Catalog
-"Advanced Inventory","Advanced インベントリ",module,Magento_Catalog
+"Advanced Inventory",拡張在庫設定,module,Magento_Catalog
 Websites,ウェブサイト,module,Magento_Catalog
 "Products Information",商品情報,module,Magento_Catalog
-"Category Name",カテゴリー名,module,Magento_Catalog
+"Category Name",カテゴリ名,module,Magento_Catalog
 "Parent Category",親カテゴリ,module,Magento_Catalog
 "We saved the price alert subscription.","価格アラート 記述を保存しました。",module,Magento_Catalog
 "We saved the stock notification.",在庫の通知を保存しました。,module,Magento_Catalog
@@ -648,12 +650,12 @@ Email,Eメール,module,Magento_Catalog
 "Subscribe Date",登録日,module,Magento_Catalog
 "Last Notified",最終通知日,module,Magento_Catalog
 "Send Count",カウント送信,module,Magento_Catalog
-"New Attribute",新しい属性,module,Magento_Catalog
-Type,タイプ,module,Magento_Catalog
+"New Attribute",新規属性,module,Magento_Catalog
+Type,種別,module,Magento_Catalog
 "Attribute Set",属性セット,module,Magento_Catalog
 Status,状態,module,Magento_Catalog
 Visibility,表示,module,Magento_Catalog
-"Add New Option",新規オプションの追加,module,Magento_Catalog
+"Add New Option",オプションの追加,module,Magento_Catalog
 "Import Options",オプションのインポート,module,Magento_Catalog
 "Use Default",標準の値を使用,module,Magento_Catalog
 Import,インポート,module,Magento_Catalog
@@ -661,18 +663,18 @@ Import,インポート,module,Magento_Catalog
 "Delete Row",行の削除,module,Magento_Catalog
 "Tier Pricing",価格層,module,Magento_Catalog
 "Default Price",標準の価格,module,Magento_Catalog
-"All Websites",全てのウェブサイト,module,Magento_Catalog
+"All Websites",すべてのウェブサイト,module,Magento_Catalog
 "ALL GROUPS",全てのグループ,module,Magento_Catalog
 "Add Price",価格追加,module,Magento_Catalog
 "Default Values",標準の値,module,Magento_Catalog
-"Related Products",関連する商品,module,Magento_Catalog
+"Related Products",関連商品,module,Magento_Catalog
 Up-sells,アップセル商品,module,Magento_Catalog
-Cross-sells,クロスセル商品,module,Magento_Catalog
+Cross-sells,クロスセル,module,Magento_Catalog
 "Size for %1","%1 のサイズ",module,Magento_Catalog
 "Watermark File for %1","%1 の透かしファイル",module,Magento_Catalog
 "Position of Watermark for %1","%1 の透かしファイルの位置",module,Magento_Catalog
 "Name in %1",%1内での名前,module,Magento_Catalog
-Quantity,数量,module,Magento_Catalog
+Quantity,個数,module,Magento_Catalog
 Edit,編集,module,Magento_Catalog
 "Are you sure?",よろしいですか？,module,Magento_Catalog
 "Update Attributes",属性を更新,module,Magento_Catalog
@@ -691,7 +693,6 @@ Product,商品,module,Magento_Catalog
 Home,ホーム,module,Magento_Catalog
 "Go to Home Page",ホームページへ,module,Magento_Catalog
 "Products Comparison List",比較リスト,module,Magento_Catalog
-N/A,該当無し,module,Magento_Catalog
 "-- Please Select --","-- 選択してください --",module,Magento_Catalog
 None,なし,module,Magento_Catalog
 "New Products",新しい商品,module,Magento_Catalog
@@ -775,8 +776,8 @@ Bottom/Left,下部/左,module,Magento_Catalog
 Bottom/Right,下部/右,module,Magento_Catalog
 Center,中央,module,Magento_Catalog
 "Bad value was supplied.",不正な値です。,module,Magento_Catalog
-"Unsupported product type ""%1"".","サポートされていない商品タイプ ""%1"".",module,Magento_Catalog
-"Please correct the category.",カテゴリーを修正してください。,module,Magento_Catalog
+"Unsupported product type ""%1"".","サポートされていない商品タイプ ""%1""。",module,Magento_Catalog
+"Please correct the category.",カテゴリを修正してください。,module,Magento_Catalog
 "The attribute model is not defined.",属性モデルが定義されていません。,module,Magento_Catalog
 Category,カテゴリ,module,Magento_Catalog
 "Clear Price",クリア価格,module,Magento_Catalog
@@ -789,7 +790,7 @@ Category,カテゴリ,module,Magento_Catalog
 "The value of attribute ""%1"" must be set","属性 ""%1"" の値はセットされなければなりません。",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","SKUの値の長さは最大 %1 キャラクターでなければなりません。",module,Magento_Catalog
 "Please enter a valid number in this field.",正しい数字で入力してください。,module,Magento_Catalog
-"We found a duplicate website, tier price, customer group and quantity.","複製ウェブサイト、Tierプライス,カスタムグループと量が見つかりました。",module,Magento_Catalog
+"We found a duplicate website, tier price, customer group and quantity.",複製ウェブサイト、Tierプライス;カスタムグループと量が見つかりました。,module,Magento_Catalog
 "Use config",設定を使用する,module,Magento_Catalog
 Enabled,有効,module,Magento_Catalog
 Disabled,無効,module,Magento_Catalog
@@ -804,9 +805,10 @@ Disabled,無効,module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.",オプショングループのBuyRequestインスタンスは正しくありません。,module,Magento_Catalog
 "The file options format is not valid.",ファイルオプションフォーマットは有効ではありません。,module,Magento_Catalog
 px.,ピクセル,module,Magento_Catalog
-"The file '%1' for '%2' has an invalid extension.","'%2' の'%1'　ファイルが無効なエクステンションをもっています。",module,Magento_Catalog
+"The file '%1' for '%2' has an invalid extension.","'%2' の'%1' ファイルが無効なエクステンションをもっています。",module,Magento_Catalog
 "The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","アップロードされたファイル '%1'は我々のサーバーで許可された %2 メガバイトより大きいです。",module,Magento_Catalog
 "The file you uploaded is larger than %1 Megabytes allowed by server",アップロードされたファイルはサーバーで許可された%1メガバイトより大きいです,module,Magento_Catalog
+"The file is empty. Please choose another one","ファイルは空です。 別のものをお選びください",module,Magento_Catalog
 "Some of the selected item options are not currently available.",選択いただいたオプションのうちいくつかは現在ご利用いただけません。,module,Magento_Catalog
 "The text is too long.",テキストが長すぎます。,module,Magento_Catalog
 "The file upload failed.",ファイルアップロードが失敗しました。,module,Magento_Catalog
@@ -823,9 +825,9 @@ Dropdown,ドロップダウン,module,Magento_Catalog
 "Collapse All",すべて折りたたむ,module,Magento_Catalog
 "Expand All",すべて展開する,module,Magento_Catalog
 "Use Default Value",標準の値を使用,module,Magento_Catalog
-"Manage Titles (Size, Color, etc.)","タイトル管理(サイズ,色, etc.)",module,Magento_Catalog
+"Manage Titles (Size, Color, etc.)","タイトル管理(サイズ;色, etc.)",module,Magento_Catalog
 "Manage Options (values of your attribute)","オプション管理 (属性の値)",module,Magento_Catalog
-"Is Default",デフォルト,module,Magento_Catalog
+"Is Default",標準,module,Magento_Catalog
 "Add Option",オプションを追加,module,Magento_Catalog
 "Sort Option",並べ替えオプション,module,Magento_Catalog
 Groups,グループ,module,Magento_Catalog
@@ -858,6 +860,7 @@ Backorders,バックオーダー,module,Magento_Catalog
 "Add Product To Websites",商品をウェブサイトに追加,module,Magento_Catalog
 "Remove Product From Websites",ウェブサイトから商品を削除,module,Magento_Catalog
 "Delete Custom Option",カスタムオプション削除,module,Magento_Catalog
+"Sort Custom Options",カスタムオプションの並べ替え,module,Magento_Catalog
 "Option Title",オプションのタイトル,module,Magento_Catalog
 "Input Type",入力形式,module,Magento_Catalog
 Required,必須,module,Magento_Catalog
@@ -875,7 +878,7 @@ Action,アクション,module,Magento_Catalog
 "Product In Websites",ウェブサイト内の商品,module,Magento_Catalog
 "(Copy data from: %1)","(データのコピー元: %1)",module,Magento_Catalog
 "Alt Text","Alt テキスト",module,Magento_Catalog
-Role,ロール,module,Magento_Catalog
+Role,権限,module,Magento_Catalog
 "Hide from Product Page",商品ページから隠す,module,Magento_Catalog
 "Close panel",閉じるパネル,module,Magento_Catalog
 "Product Alerts",商品通知,module,Magento_Catalog
@@ -900,15 +903,15 @@ Compare,比較する,module,Magento_Catalog
 "Clear All",すべてクリア,module,Magento_Catalog
 Prev,前へ,module,Magento_Catalog
 Next,次,module,Magento_Catalog
-"Add to Compare",比較リストに追加,module,Magento_Catalog
+"Add to Compare",比較リストに入れる,module,Magento_Catalog
 "Learn More",もっと詳しく,module,Magento_Catalog
-"More Choices:",更なる選択:,module,Magento_Catalog
-"Check items to add to the cart or",アイテムをクリックしてカートに追加または,module,Magento_Catalog
+"More Choices:",おすすめ商品:,module,Magento_Catalog
+"Check items to add to the cart or",チェックした商品をカートに入れるか,module,Magento_Catalog
 "select all",全て選択,module,Magento_Catalog
 "Items %1-%2 of %3",%3の商品%1-%2,module,Magento_Catalog
 "%1 Item","%1 注文",module,Magento_Catalog
 Show,表示,module,Magento_Catalog
-"per page",件表示,module,Magento_Catalog
+"per page",件,module,Magento_Catalog
 "Sort By",並び順,module,Magento_Catalog
 "Set Ascending Direction",昇順,module,Magento_Catalog
 "Set Descending Direction",降順,module,Magento_Catalog
@@ -943,7 +946,7 @@ Sales,セールス,module,Magento_CheckoutAgreements
 "Edit Condition",条件を編集,module,Magento_CheckoutAgreements
 "New Condition",新しい条件,module,Magento_CheckoutAgreements
 "Something went wrong while saving this condition.",この条件を保存中に問題が発生しました。,module,Magento_CheckoutAgreements
-"Shopping Cart",ショッピングカート,module,Magento_Checkout
+"Shopping Cart",カート,module,Magento_Checkout
 "Invalid method: %1","無効なメソッド: %1",module,Magento_Checkout
 City,市区町村,module,Magento_Checkout
 Country,国,module,Magento_Checkout
@@ -964,7 +967,7 @@ Checkout,レジに進む,module,Magento_Checkout
 "The product does not exist.",商品が見つかりません。,module,Magento_Checkout
 "We don't have some of the products you want.",注文された幾つかの商品は見つかりません。,module,Magento_Checkout
 "We don't have as many of some products as you want.",注文された量の商品がありません。,module,Magento_Checkout
-"Quantity was recalculated from %1 to %2",",数量は%1から%2に再計算されました",module,Magento_Checkout
+"Quantity was recalculated from %1 to %2",数量は%1から%2に再計算されました,module,Magento_Checkout
 "This quote item does not exist.",この見積もり商品は存在しません。,module,Magento_Checkout
 "Display number of items in cart",カート内の商品数を表示,module,Magento_Checkout
 "Display item quantities",商品の見積もりを表示,module,Magento_Checkout
@@ -973,7 +976,7 @@ Checkout,レジに進む,module,Magento_Checkout
 "Invalid shipping method",不正な送付方法です,module,Magento_Checkout
 "Load customer quote error",顧客の見積もり読み込みエラー,module,Magento_Checkout
 "Cancel Coupon",クーポンをキャンセルする,module,Magento_Checkout
-"Shopping Cart Items",ショッピングカートの商品,module,Magento_Checkout
+"Shopping Cart Items",ショッピングカート商品,module,Magento_Checkout
 Item,商品,module,Magento_Checkout
 Price,価格,module,Magento_Checkout
 Qty,個数,module,Magento_Checkout
@@ -990,9 +993,9 @@ Edit,編集,module,Magento_Checkout
 "You have no items in your shopping cart.",カートの中には何もありません。,module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","<a href=""%1"">ここ</a>をクリックしてお買い物を続けて下さい",module,Magento_Checkout
 "Estimate Shipping and Tax",送料と税金の計算,module,Magento_Checkout
-"Excl. Tax",税別,module,Magento_Checkout
+"Excl. Tax",税抜,module,Magento_Checkout
 Loading...,読み込み中,module,Magento_Checkout
-"Order #",ご注文番号,module,Magento_Checkout
+"Order #","注文 #",module,Magento_Checkout
 "Proceed to Checkout",レジに進む,module,Magento_Checkout
 "Product Name",商品名,module,Magento_Checkout
 "Incl. Tax",税込,module,Magento_Checkout
@@ -1004,7 +1007,7 @@ Loading...,読み込み中,module,Magento_Checkout
 "Edit Block '%1'",'%1'ブロックを編集,module,Magento_Cms
 "New Block",新規ブロック,module,Magento_Cms
 "Block Information",ブロック情報,module,Magento_Cms
-"General Information",総合情報,module,Magento_Cms
+"General Information",全般情報,module,Magento_Cms
 "Block Title",ブロックタイトル,module,Magento_Cms
 Identifier,識別子,module,Magento_Cms
 "Store View",ストアビュー,module,Magento_Cms
@@ -1018,7 +1021,7 @@ Title,タイトル,module,Magento_Cms
 "Save Page",保存,module,Magento_Cms
 "Delete Page",ページの削除,module,Magento_Cms
 "Edit Page '%1'",ページ'%1'を編集,module,Magento_Cms
-"New Page",新規ページ,module,Magento_Cms
+"New Page",新しいページ,module,Magento_Cms
 "Content Heading",コンテンツヘッダ,module,Magento_Cms
 "Page Layout",ページレイアウト,module,Magento_Cms
 Layout,レイアウト,module,Magento_Cms
@@ -1041,7 +1044,7 @@ Keywords,キーワード,module,Magento_Cms
 "Meta Keywords",メタキーワード,module,Magento_Cms
 Description,概要,module,Magento_Cms
 "Meta Description",メタ概要,module,Magento_Cms
-Created,作成日,module,Magento_Cms
+Created,作成済,module,Magento_Cms
 Modified,更新日,module,Magento_Cms
 Action,アクション,module,Magento_Cms
 Preview,プレビュー,module,Magento_Cms
@@ -1067,15 +1070,15 @@ Pages,ページ,module,Magento_Cms
 "Something went wrong while saving the page.",保存中に問題が発生しました。,module,Magento_Cms
 "The directory %1 is not writable by server.","ディクショナリー %1 はサーバーから書き込み可能ではありません。",module,Magento_Cms
 "Make sure that static block content does not reference the block itself.",静的ブロックコンテンツがブロック自身を参照しないように気をつけてください。,module,Magento_Cms
-"Enabled by Default",デフォルトで有効,module,Magento_Cms
-"Disabled by Default",デフォルトで無効,module,Magento_Cms
+"Enabled by Default",標準で有効,module,Magento_Cms
+"Disabled by Default",標準で無効,module,Magento_Cms
 "Disabled Completely",完全に無効にする,module,Magento_Cms
 "A block identifier with the same properties already exists in the selected store.",選択した店舗には同じブロック識別子のブロックが存在しています。,module,Magento_Cms
 "The page URL key contains capital letters or disallowed symbols.",URLキーに使用できない文字が含まれています。,module,Magento_Cms
 "The page URL key cannot be made of only numbers.",ページURLキーは数字でのみ作成はできません。,module,Magento_Cms
 "We found a directory with the same name. Please try another folder name.",同じ名前のディクショナリーを見つけました。別のフォルダ名をお試しください。,module,Magento_Cms
 "We cannot create a new directory.",新しいディクショナリーを作成できません。,module,Magento_Cms
-"We cannot delete directory %1.","ディクショナリー %1　を削除できません。",module,Magento_Cms
+"We cannot delete directory %1.","ディクショナリー %1 を削除できません。",module,Magento_Cms
 "Directory %1 is not under storage root path.","ディレクトリー %1 はストレージルートパスの下にありません。",module,Magento_Cms
 px.,ピクセル,module,Magento_Cms
 "No files found",ファイルが見つかりません,module,Magento_Cms
@@ -1093,7 +1096,7 @@ Configuration,設定,module,Magento_Config
 "Sort Variations",並べ替えバリエーション,module,Magento_ConfigurableProduct
 Select,選択,module,Magento_ConfigurableProduct
 Price,価格,module,Magento_ConfigurableProduct
-Quantity,数量,module,Magento_ConfigurableProduct
+Quantity,個数,module,Magento_ConfigurableProduct
 "Add Products Manually",商品を手動で追加,module,Magento_ConfigurableProduct
 "Current Variations",現在のバリエーション,module,Magento_ConfigurableProduct
 Image,画像,module,Magento_ConfigurableProduct
@@ -1110,25 +1113,31 @@ Name,名前,module,Magento_Contact
 Email,Eメール,module,Magento_Contact
 Submit,送信,module,Magento_Contact
 Daily,毎日,module,Magento_Cron
-Weekly,週ごと,module,Magento_Cron
-Monthly,月ごと,module,Magento_Cron
+Weekly,週次,module,Magento_Cron
+Monthly,月次,module,Magento_Cron
 "Save Currency Rates",通貨レートの保存,module,Magento_CurrencySymbol
 Reset,リセット,module,Magento_CurrencySymbol
 Import,インポート,module,Magento_CurrencySymbol
-"Manage Currency Rates",通貨レート管理,module,Magento_CurrencySymbol
+"Manage Currency Rates",為替レート管理,module,Magento_CurrencySymbol
 "Import Service",サービスのインポート,module,Magento_CurrencySymbol
 "Save Currency Symbols",通貨記号を保存,module,Magento_CurrencySymbol
+"Currency Symbols",現在の通貨記号,module,Magento_CurrencySymbol
 "Use Standard",標準を使用する,module,Magento_CurrencySymbol
+"Please specify a correct Import Service.",正しいインポートサービスを指定してください。,module,Magento_CurrencySymbol
+"Currency Rates",通貨レート,module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","%1=>%2 レートの入力データを修正してください。",module,Magento_CurrencySymbol
 "All valid rates have been saved.",正しいレートが保存されました。,module,Magento_CurrencySymbol
 System,システム,module,Magento_CurrencySymbol
 "Old rate:",旧レート:,module,Magento_CurrencySymbol
+"Customer address id column is not specified",顧客住所のid列が指定されていません。,module,Magento_CustomerImportExport
+"Orphan rows that will be skipped due default row errors",孤立した行はデフォルトの行エラーのためスキップされます。,module,Magento_CustomerImportExport
+"Invalid value in Store column (store does not exists?)",ストア列に不正な値（ストアが存在しない？）,module,Magento_CustomerImportExport
 "You subscribe to our newsletter.",ニュースレターを購読中です,module,Magento_Customer
 "You have not set a default shipping address.",標準の配送先を指定してください。,module,Magento_Customer
 "You have not set a default billing address.",標準のご請求先が指定されていません。,module,Magento_Customer
 "Address Book",アドレス帳,module,Magento_Customer
-"Edit Address",住所の編集,module,Magento_Customer
-"Add New Address",住所を追加,module,Magento_Customer
+"Edit Address",住所を編集,module,Magento_Customer
+"Add New Address",アカウント追加,module,Magento_Customer
 region,地域,module,Magento_Customer
 "Create Order",注文作成,module,Magento_Customer
 "Save Customer",保存,module,Magento_Customer
@@ -1140,7 +1149,7 @@ Back,戻る,module,Magento_Customer
 "Please select",選んで下さい,module,Magento_Customer
 Product,商品,module,Magento_Customer
 SKU,商品番号,module,Magento_Customer
-Quantity,数量,module,Magento_Customer
+Quantity,個数,module,Magento_Customer
 Price,価格,module,Magento_Customer
 Total,合計,module,Magento_Customer
 Action,アクション,module,Magento_Customer
@@ -1154,7 +1163,7 @@ Newsletter,ニュースレター,module,Magento_Customer
 "Last Date Unsubscribed",最終購読解除日,module,Magento_Customer
 "No Newsletter Found",ニュースレターが見つかりませんでした,module,Magento_Customer
 "Start date",開始日,module,Magento_Customer
-"End Date",最終日,module,Magento_Customer
+"End Date",終了日,module,Magento_Customer
 "Receive Date",受け取り日,module,Magento_Customer
 Subject,件名,module,Magento_Customer
 Status,状態,module,Magento_Customer
@@ -1169,8 +1178,8 @@ Order,注文,module,Magento_Customer
 "Bill-to Name",請求先名,module,Magento_Customer
 "Ship-to Name",送り先名,module,Magento_Customer
 "Order Total",注文合計,module,Magento_Customer
-"Purchase Point",購入ポイント,module,Magento_Customer
-"Customer View",顧客照会,module,Magento_Customer
+"Purchase Point",購入店舗,module,Magento_Customer
+"Customer View",フロントエンドを表示,module,Magento_Customer
 Qty,個数,module,Magento_Customer
 Confirmed,確認,module,Magento_Customer
 "Confirmation Required",確認が必須です,module,Magento_Customer
@@ -1182,7 +1191,7 @@ Never,まだ,module,Magento_Customer
 "Deleted Stores",ストアを削除,module,Magento_Customer
 "Add Locale",ロケール追加,module,Magento_Customer
 "Add Date",日付追加,module,Magento_Customer
-"Days in Wish List",ウィッシュリスト内日付,module,Magento_Customer
+"Days in Wish List",ほしい物リスト内日付,module,Magento_Customer
 "Delete File",ファイルを削除,module,Magento_Customer
 Download,ダウンロード,module,Magento_Customer
 "Delete Image",画像を削除,module,Magento_Customer
@@ -1193,7 +1202,7 @@ Download,ダウンロード,module,Magento_Customer
 "Save Customer Group",保存,module,Magento_Customer
 "Delete Customer Group",顧客グループの削除,module,Magento_Customer
 "New Customer Group",新規顧客グループ,module,Magento_Customer
-"Edit Customer Group ""%1""","カスタマーグループ """"%1""""""編集",module,Magento_Customer
+"Edit Customer Group ""%1""","顧客グループ ""%1""編集",module,Magento_Customer
 "Group Information",グループ情報,module,Magento_Customer
 "Group Name",グループ名,module,Magento_Customer
 "Maximum length must be less then %1 symbols","長さは %1 文字以下でなければなりません",module,Magento_Customer
@@ -1203,11 +1212,11 @@ Download,ダウンロード,module,Magento_Customer
 "Validate VAT Number",VAT番号検証,module,Magento_Customer
 "Customer Login",ログイン,module,Magento_Customer
 "Create New Customer Account",新規顧客アカウントを作成,module,Magento_Customer
-"Date of Birth",生年月日,module,Magento_Customer
+"Date of Birth",誕生日,module,Magento_Customer
 "Bad request.",不正なリクエスト。,module,Magento_Customer
 "This confirmation key is invalid or has expired.",確認キーが無効か期限切れです。,module,Magento_Customer
 "There was an error confirming the account",アカウントを確認エラーが発生しました。,module,Magento_Customer
-"Thank you for registering with %1.",%1　を登録していただきありがとうございます,module,Magento_Customer
+"Thank you for registering with %1.","%1 を登録していただきありがとうございます",module,Magento_Customer
 "This email does not require confirmation.",このメールアドレスは確認を必要としません。,module,Magento_Customer
 "Wrong email.",間違ったメールアドレス,module,Magento_Customer
 "Your password reset link has expired.",パスワード再発行リンクが有効期限切れです。,module,Magento_Customer
@@ -1220,9 +1229,9 @@ Download,ダウンロード,module,Magento_Customer
 "My Account",マイアカウント,module,Magento_Customer
 "Invalid login or password.",ログイン名かパスワードが違います。,module,Magento_Customer
 "New Password and Confirm New Password values didn't match.",新しいパスワードと確認パスワードが合致しませんでした,module,Magento_Customer
-"No customer ID defined.",カスタマーIDが定義されていません,module,Magento_Customer
+"No customer ID defined.",顧客IDが定義されていません,module,Magento_Customer
 "Please correct the quote items and try again.",クオート商品を修正して再度試して下さい。,module,Magento_Customer
-"The customer group no longer exists.",このカスタマーグループは存在しません,module,Magento_Customer
+"The customer group no longer exists.",この顧客グループは存在しません,module,Magento_Customer
 Customers,顧客,module,Magento_Customer
 "New Group",新規グループ,module,Magento_Customer
 "New Customer Groups",新規顧客グループ,module,Magento_Customer
@@ -1233,7 +1242,7 @@ Customers,顧客,module,Magento_Customer
 "Manage Customers",顧客管理,module,Magento_Customer
 "A total of %1 record(s) were updated.","合計 %1 のレコードがアップデートされました。",module,Magento_Customer
 "A total of %1 record(s) were deleted.","合計 %1のレコードが削除されました",module,Magento_Customer
-"You saved the customer.",カスタマーを保存しました,module,Magento_Customer
+"You saved the customer.",顧客を保存しました,module,Magento_Customer
 "This account is not confirmed.",このアカウントは認証されていません。,module,Magento_Customer
 "Please enter the first name.",名を入力してください。,module,Magento_Customer
 "Please enter the last name.",姓を入力してください。,module,Magento_Customer
@@ -1242,40 +1251,40 @@ Customers,顧客,module,Magento_Customer
 "Please enter the zip/postal code.",郵便番号を入力してください。,module,Magento_Customer
 "Please enter the country.",国を入力してください。,module,Magento_Customer
 "Please enter the state/province.",都道府県を入力してください。,module,Magento_Customer
-"""%1"" is a required value.","%1""""は必要な値です。",module,Magento_Customer
+"""%1"" is a required value.","""%1""は必要な値です。",module,Magento_Customer
 Global,グローバル,module,Magento_Customer
 "Per Website",ウェブサイトごと,module,Magento_Customer
 "Billing Address",請求先住所,module,Magento_Customer
-"Shipping Address",配送先,module,Magento_Customer
+"Shipping Address",お届け先住所,module,Magento_Customer
 "-- Please Select --","-- 選択してください --",module,Magento_Customer
 "Please correct this email address: ""%1"".","Eメールアドレスを修正してください: ""%1""。",module,Magento_Customer
 "The password can not begin or end with a space.",パスワードの始まりと終わりはスペースにはできません,module,Magento_Customer
 Admin,管理者,module,Magento_Customer
 "Attribute object is undefined",属性オブジェクトが未定義です,module,Magento_Customer
-"""%1"" invalid type entered.","%1""""不正なタイプが入力された",module,Magento_Customer
-"""%1"" contains non-alphabetic or non-numeric characters.","%1""""はアルファベットでも数字でもない字を含んでいる",module,Magento_Customer
-"""%1"" is an empty string.","%1""""は空の文字列",module,Magento_Customer
-"""%1"" contains non-numeric characters.","%1""""は数字でないキャラクターを含んでいる",module,Magento_Customer
-"""%1"" contains non-alphabetic characters.","%1""""はアルファベットでないキャラクターを含んでいる",module,Magento_Customer
-"""%1"" is not a valid email address.","%1""""は正しいメールアドレスではない",module,Magento_Customer
-"""%1"" is not a valid hostname.","%1"""" は有効なホストネームではない",module,Magento_Customer
-"""%1"" is not a valid URL.","%1""""は有効なURLではありません",module,Magento_Customer
-"""%1"" is not a valid date.","%1""は有効な日付ではありません",module,Magento_Customer
-"""%1"" does not fit the entered date format.","%1""""は入力された日付のフォーマットに合致しません",module,Magento_Customer
+"""%1"" invalid type entered.","""%1""不正なタイプが入力された",module,Magento_Customer
+"""%1"" contains non-alphabetic or non-numeric characters.","""%1""はアルファベットでも数字でもない字を含んでいます",module,Magento_Customer
+"""%1"" is an empty string.","""%1""は空の文字列",module,Magento_Customer
+"""%1"" contains non-numeric characters.","""%1""は数字でないキャラクターを含んでいます",module,Magento_Customer
+"""%1"" contains non-alphabetic characters.","""%1""はアルファベットでないキャラクターを含んでいます",module,Magento_Customer
+"""%1"" is not a valid email address.","%1""""は正しいメールアドレスではありません",module,Magento_Customer
+"""%1"" is not a valid hostname.","""%1"" は有効なホストネームではない",module,Magento_Customer
+"""%1"" is not a valid URL.","""%1""は有効なURLではありません",module,Magento_Customer
+"""%1"" is not a valid date.","""%1""は有効な日付ではありません",module,Magento_Customer
+"""%1"" does not fit the entered date format.","""%1""は入力された日付のフォーマットに合致しません",module,Magento_Customer
 "Please enter a valid date between %1 and %2 at %3.",有効な日付を%3に%1から%2の間で入力してください,module,Magento_Customer
 "Please enter a valid date equal to or greater than %1 at %2.",%2に有効な日付を%1と同じか以降で入力してください,module,Magento_Customer
 "Please enter a valid date less than or equal to %1 at %2.",%2に有効な日付を%1と同じか以前で入力してください,module,Magento_Customer
-"""%1"" is not a valid file extension.","%1""は有効なファイル拡張子ではありません",module,Magento_Customer
-"""%1"" is not a valid file.","%1""""は有効なファイルではありません",module,Magento_Customer
-"""%1"" exceeds the allowed file size.","%1""""は与えられたファイルのサイズを超えています",module,Magento_Customer
-"""%1"" is not a valid image format.","%1""""は有効なイメージのフォーマットではありません",module,Magento_Customer
-"""%1"" width exceeds allowed value of %2 px.","%1""""幅は与えられた値を%2 px超えています",module,Magento_Customer
-"""%1"" height exceeds allowed value of %2 px.","%1""""高さは与えられた値を%2 px超えています",module,Magento_Customer
-"""%1"" length must be equal or greater than %2 characters.","%1""""の長さは%2 文字数と同じかそれ以上でなければなりません",module,Magento_Customer
-"""%1"" length must be equal or less than %2 characters.","%1""""の長さは%2文字数と同じかそれ以下でなければなりません",module,Magento_Customer
+"""%1"" is not a valid file extension.","""%1""は有効なファイル拡張子ではありません",module,Magento_Customer
+"""%1"" is not a valid file.","""%1""は有効なファイルではありません",module,Magento_Customer
+"""%1"" exceeds the allowed file size.","""%1""は与えられたファイルのサイズを超えています",module,Magento_Customer
+"""%1"" is not a valid image format.","""%1""は有効なイメージのフォーマットではありません",module,Magento_Customer
+"""%1"" width exceeds allowed value of %2 px.","""%1""幅は与えられた値を%2 px超えています",module,Magento_Customer
+"""%1"" height exceeds allowed value of %2 px.","""%1""高さは与えられた値を%2 px超えています",module,Magento_Customer
+"""%1"" length must be equal or greater than %2 characters.","""%1""の長さは%2 文字数と同じかそれ以上でなければなりません",module,Magento_Customer
+"""%1"" length must be equal or less than %2 characters.","""%1""の長さは%2文字数と同じかそれ以下でなければなりません",module,Magento_Customer
 label,ラベル,module,Magento_Customer
 "Customer Group",顧客グループ,module,Magento_Customer
-"Customer Group already exists.",カスタマーグループは既に存在します,module,Magento_Customer
+"Customer Group already exists.",顧客グループは既に存在します,module,Magento_Customer
 "PHP SOAP extension is required.","PHP SOAPエクステンションが必要です。",module,Magento_Customer
 Edit,編集,module,Magento_Customer
 Visitor,訪問者,module,Magento_Customer
@@ -1283,10 +1292,12 @@ Customer,顧客,module,Magento_Customer
 "No item specified.",アイテムが指定されていません。,module,Magento_Customer
 "Personal Information",個人情報,module,Magento_Customer
 "Last Logged In:",最終ログイン日:,module,Magento_Customer
+"Last Logged In (%1):",前回ログイン(%1):,module,Magento_Customer
 "Confirmed email:",確認メール:,module,Magento_Customer
+"Account Created on (%1):",作成されたアカウント（%1）：,module,Magento_Customer
 "Account Created in:",作成されたアカウント:,module,Magento_Customer
 "Customer Group:",顧客グループ:,module,Magento_Customer
-"Default Billing Address",標準の請求先住所,module,Magento_Customer
+"Default Billing Address",標準ご連絡先住所,module,Magento_Customer
 "Sales Statistics",売上情報,module,Magento_Customer
 "Web Site",ウェブサイト,module,Magento_Customer
 Store,店舗,module,Magento_Customer
@@ -1295,21 +1306,20 @@ Store,店舗,module,Magento_Customer
 "Average Sale",平均売上,module,Magento_Customer
 "All Store Views",全てのストアビュー,module,Magento_Customer
 Change,変更,module,Magento_Customer
-"Manage Addresses",住所の管理,module,Magento_Customer
-"Default Shipping Address",標準の配送先,module,Magento_Customer
-"Contact Information",ご連絡先,module,Magento_Customer
+"Manage Addresses",住所管理,module,Magento_Customer
+"Default Shipping Address",標準配送先住所,module,Magento_Customer
+"Contact Information",連絡先情報,module,Magento_Customer
 "Change Password",パスワード変更,module,Magento_Customer
 Newsletters,ニュースレター,module,Magento_Customer
-"Default Addresses",標準の住所,module,Magento_Customer
-"Change Billing Address",請求先住所変更,module,Magento_Customer
-"You have no default billing address in your address book.",標準の請求先が住所録にありません。,module,Magento_Customer
-"Change Shipping Address",配送先変更,module,Magento_Customer
-"You have no default shipping address in your address book.",標準の配送先が住所録にありません。,module,Magento_Customer
-"Additional Address Entries",追加住所登録,module,Magento_Customer
-"Delete Address",住所の削除,module,Magento_Customer
+"Default Addresses",標準住所,module,Magento_Customer
+"Change Billing Address",ご連絡先住所変更,module,Magento_Customer
+"You have no default billing address in your address book.",標準のご連絡先住所がアドレス帳にありません。,module,Magento_Customer
+"Change Shipping Address",配送先住所変更,module,Magento_Customer
+"You have no default shipping address in your address book.",標準の配送先住所がアドレス帳にありません。,module,Magento_Customer
+"Additional Address Entries",追加住所情報,module,Magento_Customer
+"Delete Address",住所を削除,module,Magento_Customer
 "* Required Fields","* 必須項目",module,Magento_Customer
 Company,会社名,module,Magento_Customer
-Fax,FAX番号,module,Magento_Customer
 Address,住所,module,Magento_Customer
 "Street Address",番地,module,Magento_Customer
 "Street Address %1","番地 %1",module,Magento_Customer
@@ -1318,14 +1328,15 @@ City,市区町村,module,Magento_Customer
 State/Province,都道府県,module,Magento_Customer
 "Zip/Postal Code",郵便番号,module,Magento_Customer
 Country,国,module,Magento_Customer
-"Use as my default billing address",標準の請求先住所にする,module,Magento_Customer
-"Use as my default shipping address",標準の配送先住所にする,module,Magento_Customer
-"Save Address",保存,module,Magento_Customer
+"Use as my default billing address",標準ご連絡先住所として使用する,module,Magento_Customer
+"Use as my default shipping address",標準配送先住所として使用する,module,Magento_Customer
+"Save Address",住所を保存,module,Magento_Customer
+"Go back",戻る,module,Magento_Customer
 Email,Eメール,module,Magento_Customer
-"Send confirmation link",認証リンクを送信,module,Magento_Customer
+"Send confirmation link",確認リンクを送信する,module,Magento_Customer
 "Current Password",現在のパスワード,module,Magento_Customer
-"New Password",新規パスワード,module,Magento_Customer
-"Confirm New Password",新しいパスワードの確認,module,Magento_Customer
+"New Password",新パスワード,module,Magento_Customer
+"Confirm New Password",新パスワード確認,module,Magento_Customer
 Save,保存,module,Magento_Customer
 Submit,送信,module,Magento_Customer
 "Registered Customers",既にご登録いただいているお客様,module,Magento_Customer
@@ -1333,16 +1344,16 @@ Password,パスワード,module,Magento_Customer
 Login,ログイン,module,Magento_Customer
 "Forgot Your Password?",パスワードをお忘れですか？,module,Magento_Customer
 "Subscription option",購読オプション,module,Magento_Customer
-"General Subscription",ニュースレターを購読する,module,Magento_Customer
-"Sign Up for Newsletter",ニュースレターを購読する,module,Magento_Customer
+"General Subscription",総合情報,module,Magento_Customer
+"Sign Up for Newsletter",ニュースレターを購読,module,Magento_Customer
 "Address Information",住所情報,module,Magento_Customer
 "Confirm Password",パスワード再確認,module,Magento_Customer
 "New Customers",まだご登録いただいていないお客様,module,Magento_Customer
 Gender,性別,module,Magento_Customer
 Name,名前,module,Magento_Customer
-"Tax/VAT number",税/付加価値税番号,module,Magento_Customer
-"Client side less compilation",クライアントサイドLESSコンピレーション,module,Magento_Developer
-"Server side less compilation",サーバサイドLESSコンピレーション,module,Magento_Developer
+"Tax/VAT number",納税者番号,module,Magento_Customer
+"Client side less compilation",クライアントサイドlessコンパイル,module,Magento_Developer
+"Server side less compilation",サーバーサイドlessコンパイル,module,Magento_Developer
 "Wrong Content Type",不正なコンテントタイプ,module,Magento_Dhl
 Pounds,ポンド,module,Magento_Dhl
 Kilograms,キログラム,module,Magento_Dhl
@@ -1395,12 +1406,18 @@ Documents,ドキュメント,module,Magento_Dhl
 None,なし,module,Magento_Dhl
 State/Province,都道府県,module,Magento_Directory
 "--Please Select--",--選択してください--,module,Magento_Directory
-"Please correct the target currency.",もし国のオプションであるなら州を選択可能にしてください,module,Magento_Directory
+"Please correct the target currency.",ターゲットの通貨を修正してください,module,Magento_Directory
+"Undefined rate from ""%1-%2"".","""%1-%2""の未定義のレート",module,Magento_Directory
 label,ラベル,module,Magento_Directory
 "FATAL ERROR:",致命的なエラー:,module,Magento_Directory
+"Please specify the correct Import Service.",正しいインポートサービスを指定してください,module,Magento_Directory
 WARNING:,警告:,module,Magento_Directory
+"Please correct the country code: %1.","国別コードを修正してください: %1.",module,Magento_Directory
 "Country and Format Type combination should be unique",国とフォーマットタイプの組み合わせはユニークである必要があります,module,Magento_Directory
+"Please correct the rates received",受理したレートを修正してください,module,Magento_Directory
 Currency,通貨,module,Magento_Directory
+"Your current currency is: %1.","現在の通貨: %1.",module,Magento_Directory
+Continue,続ける,module,Magento_Directory
 "Downloadable Information",ダウンロード情報,module,Magento_Downloadable
 "Upload Files",ファイルアップロード,module,Magento_Downloadable
 "All Files",全てのファイル,module,Magento_Downloadable
@@ -1986,6 +2003,7 @@ Subscribe,購読,module,Magento_Newsletter
 "Make Check payable to:",小切手支払を可能にする:,module,Magento_OfflinePayments
 "Send Check to:",小切手の宛先を指定:,module,Magento_OfflinePayments
 "Purchase Order Number",配送番号,module,Magento_OfflinePayments
+"Make Check payable to: %1","小切手の振出先を指定: %1",module,Magento_OfflinePayments
 "Send Check to",小切手の宛先,module,Magento_OfflinePayments
 Country,国,module,Magento_OfflineShipping
 Region/State,地域,module,Magento_OfflineShipping
@@ -2055,26 +2073,26 @@ Email,Eメール,module,Magento_Paypal
 "Last Name",姓,module,Magento_Paypal
 "Reference ID",リファレンスID,module,Magento_Paypal
 Status,状態,module,Magento_Paypal
-Created,作成日,module,Magento_Paypal
-N/A,該当無し,module,Magento_Paypal
-Updated,アップデート,module,Magento_Paypal
+Created,作成済,module,Magento_Paypal
+Updated,更新,module,Magento_Paypal
 Back,戻る,module,Magento_Paypal
 "Are you sure you want to do this?",実行してもよろしいですか？,module,Magento_Paypal
 Cancel,キャンセル,module,Magento_Paypal
-"General Information",総合情報,module,Magento_Paypal
+"General Information",全般情報,module,Magento_Paypal
 "Related Orders",関連する注文,module,Magento_Paypal
 Order,注文,module,Magento_Paypal
 "Order Total",注文合計,module,Magento_Paypal
-"Billing Agreement View",支払い同意一覧,module,Magento_Paypal
+"Billing Agreement View",支払契約一覧,module,Magento_Paypal
 "View Transaction Details",トランザクション詳細見る。,module,Magento_Paypal
 "Reference Information",リファレンス情報,module,Magento_Paypal
 "Transaction Information",トランザクション情報,module,Magento_Paypal
 "PayPal Fee Information",PayPal料金情報,module,Magento_Paypal
 "PayPal Settlement Reports",PayPal決済レポート,module,Magento_Paypal
 "We are connecting to the PayPal SFTP server to retrieve new reports. Are you sure you want to continue?","新しいレポートを取り出すためにPayPal SFTPサーバーに接続しています。本当に続けますか？",module,Magento_Paypal
-"Fetch Updates",Fetchアップデート,module,Magento_Paypal
+"Fetch Updates",アップデート取得,module,Magento_Paypal
 Help,ヘルプ,module,Magento_Paypal
 Configure,構成,module,Magento_Paypal
+Close,閉じる,module,Magento_Paypal
 "Learn More",もっと詳しく,module,Magento_Paypal
 "View Demo",デモ視聴,module,Magento_Paypal
 "See terms",規約を見る,module,Magento_Paypal
@@ -2083,250 +2101,302 @@ Configure,構成,module,Magento_Paypal
 "Incl. Tax",税込,module,Magento_Paypal
 "Billing Information",請求先情報,module,Magento_Paypal
 "Shipping Information",配送情報,module,Magento_Paypal
-"Please specify the correct billing agreement ID and try again.",正しい支払い同意IDを指定して再度お試しください。,module,Magento_Paypal
-"You canceled the billing agreement.",支払い同意をキャンセルしました。,module,Magento_Paypal
-"You deleted the billing agreement.",支払い同意は削除しました。,module,Magento_Paypal
+"Please specify the correct billing agreement ID and try again.",正しい支払契約IDを指定して再度お試しください。,module,Magento_Paypal
+"You canceled the billing agreement.",支払契約をキャンセルしました。,module,Magento_Paypal
+"You deleted the billing agreement.",支払契約は削除しました。,module,Magento_Paypal
 Reports,レポート,module,Magento_Paypal
 Sales,セールス,module,Magento_Paypal
 "View Transaction",トランザクション一覧,module,Magento_Paypal
 "We found nothing to fetch because of an empty configuration.",空の設定のためフェッチするものが見つかりませんでした。,module,Magento_Paypal
-"The billing agreement ""%1"" has been canceled.",",支払い同意 """"%1"""" はキャンセルされました。""",module,Magento_Paypal
-"The billing agreement ""%1"" has been created.","支払い同意 ""%1"" が作成されました。",module,Magento_Paypal
+"The billing agreement ""%1"" has been canceled.",";支払契約 ""%1"" はキャンセルされました。",module,Magento_Paypal
+"The billing agreement ""%1"" has been created.","支払契約 ""%1"" が作成されました。",module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.",PayPalエクスプレスチェックアウトトークンは存在しません。,module,Magento_Paypal
 "A wrong PayPal Express Checkout Token is specified.",誤ったPayPalエクスプレスチェックアウトトークンが指摘されました。,module,Magento_Paypal
 "Express Checkout and Order have been canceled.",エクスプレスチェックアウトとオーダーはキャンセルされました。,module,Magento_Paypal
 "Express Checkout has been canceled.",エクスプレスチェックアウトはキャンセルされました。,module,Magento_Paypal
 "Unable to cancel Express Checkout",エクスプレスチェックアウトはキャンセルできません。,module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.",ご注文前にすべての契約条件にご同意ください。,module,Magento_Paypal
-"Your payment has been declined. Please try again.",支払いが拒否されました。再度お試しください。,module,Magento_Paypal
+"Your payment has been declined. Please try again.",支払が拒否されました。再度お試しください。,module,Magento_Paypal
+"Requested payment method does not match with order.",リクエストされたお支払い方法が注文と一致しません。,module,Magento_Paypal
 "Something went wrong while processing your order.",注文を処理中に問題が発生しました。,module,Magento_Paypal
 "PayPal gateway has rejected request. %1","PayPalゲートウェイが要求を拒否しました %1",module,Magento_Paypal
-"Unable to save Billing Agreement:",支払契約を保存できません:,module,Magento_Paypal
+"The payment method code is not set.",支払方法コードが設定されていません。,module,Magento_Paypal
+"The reference ID is not set.",リファレンスIDがセットされていません。,module,Magento_Paypal
+"Unable to save Billing Agreement:",支払合意が保存できませんでした:,module,Magento_Paypal
 Active,アクティブ,module,Magento_Paypal
 Canceled,キャンセル済,module,Magento_Paypal
-"We prefer PayPal (150 X 60)",PayPalでお支払い,module,Magento_Paypal
-"We prefer PayPal (150 X 40)",PayPalでお支払い,module,Magento_Paypal
-"Now accepting PayPal (150 X 60)",PayPalで承認されました,module,Magento_Paypal
-"Now accepting PayPal (150 X 40)",PayPalで承認されました,module,Magento_Paypal
-"Payments by PayPal (150 X 60)",PayPalで支払（150x60）,module,Magento_Paypal
-"Payments by PayPal (150 X 40)",PayPalで支払（150x40）,module,Magento_Paypal
-"Shop now using (150 X 60)",使用中（150x60）,module,Magento_Paypal
-"Shop now using (150 X 40)",使用中（150x40）,module,Magento_Paypal
-Dynamic,可変,module,Magento_Paypal
-Static,静的,module,Magento_Paypal
+"The customer ID is not set.",顧客IDが設定されていません。,module,Magento_Paypal
+"The Billing Agreement status is not set.",支払合意が設定されていません。,module,Magento_Paypal
+"The PayPal certificate does not exist.",PayPal認証が存在しません。,module,Magento_Paypal
+"We prefer PayPal (150 X 60)","PayPal希望 (150 X 60)",module,Magento_Paypal
+"We prefer PayPal (150 X 40)","PayPal希望 (150 X 40)",module,Magento_Paypal
+"Now accepting PayPal (150 X 60)","PayPal使えます (150 X 60)",module,Magento_Paypal
+"Now accepting PayPal (150 X 40)","PayPal使えます (150 X 40)",module,Magento_Paypal
+"Payments by PayPal (150 X 60)","PayPalでの支払 (150 X 60)",module,Magento_Paypal
+"Payments by PayPal (150 X 40)","PayPalでの支払 (150 X 40)",module,Magento_Paypal
+"Shop now using (150 X 60)","この店で使用可能 (150 X 60)",module,Magento_Paypal
+"Shop now using (150 X 40)","この店で使用可能 (150 X 40)",module,Magento_Paypal
+Dynamic,動的,module,Magento_Paypal
+Static,固定,module,Magento_Paypal
 Shortcut,ショートカット,module,Magento_Paypal
-"Acceptance Mark Image",承認マーク画像,module,Magento_Paypal
-Authorization,認証,module,Magento_Paypal
+"Acceptance Mark Image",受領マーク画像,module,Magento_Paypal
+Authorization,オーソリ,module,Magento_Paypal
 Sale,セール,module,Magento_Paypal
+"For Virtual Quotes Only",仮想見積もりのみ,module,Magento_Paypal
 Auto,自動,module,Magento_Paypal
-"Ask Customer",顧客問合せ,module,Magento_Paypal
+"Ask Customer",顧客に相談,module,Magento_Paypal
 Never,まだ,module,Magento_Paypal
-"IPN (Instant Payment Notification) Only","IPN のみ",module,Magento_Paypal
-"API Signature",APIシグネチャ,module,Magento_Paypal
+"IPN (Instant Payment Notification) Only","IPN (Instant Payment Notification) のみ",module,Magento_Paypal
+"API Signature",API署名,module,Magento_Paypal
 "API Certificate",API証明書,module,Magento_Paypal
+"The ordering amount of %1 is pending approval on the payment gateway.",注文額の1%は決済ゲートウェイで認証待ちです。,module,Magento_Paypal
 "Ordered amount of %1","注文額 %1",module,Magento_Paypal
-"The maximum number of child authorizations is reached.",子オーソリ回数の上限に達しました。,module,Magento_Paypal
-"Last Transaction ID","最新トランザクションID,",module,Magento_Paypal
-"The payment is authorized but not settled.",支払は承認されましたが、決済されていません,module,Magento_Paypal
-"The payment is pending while it is being reviewed by PayPal for risk.",PayPalが確認中のため支払が保留されています,module,Magento_Paypal
-"The payment is pending because it was made to an email address that is not yet registered or confirmed.",メールアドレスが確認されていないため支払が保留されています,module,Magento_Paypal
-"The merchant account is not yet verified.",出店者アカウントが確認されていません,module,Magento_Paypal
-"The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.",支払はクレジットカードで行われました。受け取るにはビジネスかプレミアムアカウントにアップグレードしてください。,module,Magento_Paypal
-"Reversal of an adjustment.",調整の取り消し,module,Magento_Paypal
-"Reimbursement for a chargeback.",支払拒否の補償,module,Magento_Paypal
-"Settlement of a chargeback.",支払拒否の清算,module,Magento_Paypal
-"A case that has been resolved and close requires a reimbursement.",解決済。近日中に返金処理予定,module,Magento_Paypal
-"Unknown reason. Please contact PayPal customer service.",原因不明です、PayPalカストマーサービスにご連絡ください,module,Magento_Paypal
-"Payer ID",支払者ID,module,Magento_Paypal
-"Payer Email",支払者メール,module,Magento_Paypal
-"Payer Status",支払者ステータス,module,Magento_Paypal
-"Payer Address ID",支払者住所ID,module,Magento_Paypal
-"Payer Address Status",支払者住所ステータス,module,Magento_Paypal
-"Merchant Protection Eligibility",出店者保護資格,module,Magento_Paypal
-"Triggered Fraud Filters",不正防止フィルター,module,Magento_Paypal
-"Last Correlation ID",最新相関ID,module,Magento_Paypal
-"Address Verification System Response",住所確認システムのレスポンス,module,Magento_Paypal
-"CVV2 Check Result by PayPal",PayPalからのCVV2クレジットカード・セキュリティコード確認結果,module,Magento_Paypal
-Chargeback,チャージバック,module,Magento_Paypal
-"Matched Address only (no ZIP)",住所合致（郵便番号無し）,module,Magento_Paypal
-"No Details matched",詳細情報の不一致,module,Magento_Paypal
-"No Details matched. International",詳細情報の不一致,module,Magento_Paypal
-"Exact Match. Address and Postal Code. International",郵便番号と住所の完全一致,module,Magento_Paypal
-"Exact Match. Address and Postal Code. UK-specific",郵便番号と住所の完全一致,module,Magento_Paypal
-"N/A. Not allowed for MOTO (Internet/Phone) transactions",該当無し：クレジットカード番号と有効年月だけの取扱いはしておりません,module,Magento_Paypal
-"N/A. Global Unavailable",該当無し：グローバル停止中,module,Magento_Paypal
-"N/A. International Unavailable",該当無し：国際停止中,module,Magento_Paypal
-"Matched five-digit ZIP only (no Address)",５桁郵便番号合致（住所無し）,module,Magento_Paypal
-"Matched Postal Code only (no Address)",郵便番号合致（住所無し）,module,Magento_Paypal
-"N/A. Retry",該当無し：再実行,module,Magento_Paypal
-"N/A. Service not Supported",該当無し：このサービスはサポートされていません,module,Magento_Paypal
-"N/A. Unavailable",該当無し：停止中,module,Magento_Paypal
-"Matched whole nine-didgit ZIP (no Address)",９桁郵便番号合致（住所無し）,module,Magento_Paypal
-"Yes. Matched Address and five-didgit ZIP",はい、５桁の郵便番号と住所が合致,module,Magento_Paypal
-"All the address information matched",全ての住所情報の一致,module,Magento_Paypal
-"None of the address information matched",住所が合致しません,module,Magento_Paypal
-"Part of the address information matched",住所の部分一致,module,Magento_Paypal
-"N/A. The merchant did not provide AVS information",該当無し：出店者はAVS（住所確認）情報を提供していません,module,Magento_Paypal
-"N/A. Address not checked, or acquirer had no response. Service not available",該当無し：住所が確認出来ません、またはカード会社からレスポンスがありません、サービス停止中です,module,Magento_Paypal
-"Matched (CVV2CSC)",CVV2CSCクレジットカード・セキュリティコード合致,module,Magento_Paypal
-"No match",一致しません,module,Magento_Paypal
-"N/A. Not processed",該当無し：処理されません,module,Magento_Paypal
-"N/A. Service not supported",該当無し：このサービスはサポートされていません,module,Magento_Paypal
-"N/A. Service not available",該当無し：サービス停止中,module,Magento_Paypal
-"N/A. No response",該当無し：レスポンスがありません,module,Magento_Paypal
-"Matched (CVV2)",CVV2クレジットカード・セキュリティコード合致,module,Magento_Paypal
-"N/A. The merchant has not implemented CVV2 code handling",該当無し：出店者はCVV2クレジットカード・セキュリティコードを処理出来ません,module,Magento_Paypal
-"N/A. Merchant has indicated that CVV2 is not present on card",該当無し：クレジットカード・セキュリティコードがありません,module,Magento_Paypal
-"Report Date",レポート年月日,module,Magento_Paypal
-"Merchant Account",出店者アカウント,module,Magento_Paypal
+"The authorized amount is %1.",認証された額は%1です。,module,Magento_Paypal
+"The maximum number of child authorizations is reached.",子の権限最大数に達しました。,module,Magento_Paypal
+"Last Transaction ID","前回のトランザクション ID",module,Magento_Paypal
+"The payment is authorized but not settled.",支払は認証されましたが決済しておりません。,module,Magento_Paypal
+"The payment is pending while it is being reviewed by PayPal for risk.",PayPalに危険がないかリビューされている間支払は保留されています。,module,Magento_Paypal
+"The payment is pending because it was made to an email address that is not yet registered or confirmed.",まだ登録されてないか確認されてないEメールアドレス宛てになっているので支払は保留されています。,module,Magento_Paypal
+"The merchant account is not yet verified.",マーチャントアカウントは確認されておりません。,module,Magento_Paypal
+"The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.",支払はクレジットカードでおこなわれました。,module,Magento_Paypal
+"Sorry, but something went wrong. Please contact PayPal customer service.",申し訳ありません、しかし問題が発生しました。PayPal顧客サービスにご連絡してください。,module,Magento_Paypal
+"A reversal has occurred on this transaction due to a chargeback by your customer.",顧客による入金取り消しのためこのトランザクションで破棄が発生しました。,module,Magento_Paypal
+"A reversal has occurred on this transaction due to your customer triggering a money-back guarantee.",顧客がマネーバック保証を実行したのでこのトランザクションで破棄が発生しました。,module,Magento_Paypal
+"A reversal has occurred on this transaction due to a complaint about the transaction from your customer.",顧客からのトランザクションに対する不満のためこのトランザクションで破棄が発生しました。,module,Magento_Paypal
+"A reversal has occurred on this transaction because you have given the customer a refund.",顧客に返金を行なったためにこのトランザクションで破棄が発生しました。,module,Magento_Paypal
+"Reversal of an adjustment.",調整費の破棄,module,Magento_Paypal
+"Transaction reversal due to fraud detected by PayPal administrators.",PayPal管理者によって詐欺行為が検知されたためトランザクション破棄,module,Magento_Paypal
+"Transaction reversal by PayPal administrators.",PayPal管理者によってトランザクション破棄,module,Magento_Paypal
+"Reimbursement for a chargeback.",入金取り消しのための返金,module,Magento_Paypal
+"Settlement of a chargeback.",入金取り消しの決済,module,Magento_Paypal
+"A reversal has occurred on this transaction because of a customer dispute suspecting unauthorized spoof.",顧客の不正な偽装の疑惑の異議のためにこのトランザクションの破棄が発生しました。,module,Magento_Paypal
+"Buyer claims that he did not receive goods or service.",購入者は商品あるいはサービスを受け取っていないと主張しています。,module,Magento_Paypal
+"Buyer claims that the goods or service received differ from merchant’s description of the goods or service.",購入者は受け取った商品あるいはサービスはマーチャントの商品あるいはサーピスの詳細と異なると主張しています。,module,Magento_Paypal
+"Buyer claims that he/she did not authorize transaction.",購入者はトランザクションを承諾していないと主張しています。,module,Magento_Paypal
+"A case that has been resolved and close requires a reimbursement.",事案は解決され終了するには返金が必要です。,module,Magento_Paypal
+"Buyer claims that a possible duplicate payment was made to the merchant.",購入者はマーチャントに数度被った支払をおこなったと主張しています。,module,Magento_Paypal
+"Buyer claims that the received merchandise is unsatisfactory, defective, or damaged.",購入者は受け取った商品は不満足か、不完全か、傷ついていると主張しています。,module,Magento_Paypal
+"Unknown reason. Please contact PayPal customer service.",理由が不明。PayPalの顧客サービスに連絡してください。,module,Magento_Paypal
+"Payer ID",支払人ID,module,Magento_Paypal
+"Payer Email",支払人Eメール,module,Magento_Paypal
+"Payer Status",支払人ステータス,module,Magento_Paypal
+"Payer Address ID",支払人住所ID,module,Magento_Paypal
+"Payer Address Status",支払人住所ステータス,module,Magento_Paypal
+"Merchant Protection Eligibility",マーチャント保護適正,module,Magento_Paypal
+"Triggered Fraud Filters",不正フィルタを発動,module,Magento_Paypal
+"Last Correlation ID",前回の相関ID,module,Magento_Paypal
+"Address Verification System Response",住所確認システムレスポンス,module,Magento_Paypal
+"CVV2 Check Result by PayPal",PayPalによるCVV2チェック結果,module,Magento_Paypal
+Chargeback,取り消し,module,Magento_Paypal
+Complaint,異論,module,Magento_Paypal
+Dispute,意義申し立て,module,Magento_Paypal
+"Matched Address only (no ZIP)","住所のみ合致 (ZIPなし)",module,Magento_Paypal
+"Matched Address only (no ZIP) International","住所のみ合致 (ZIPなし) 海外配送",module,Magento_Paypal
+"No Details matched",合致する詳細なし。,module,Magento_Paypal
+"No Details matched. International","合致する詳細なし。 海外郵送",module,Magento_Paypal
+"Exact Match. Address and Postal Code. International",完全合致。住所と郵便番号。海外郵送,module,Magento_Paypal
+"Exact Match. Address and Postal Code. UK-specific","完全合致。住所と郵便番号。 UKのみ",module,Magento_Paypal
+"N/A. Not allowed for MOTO (Internet/Phone) transactions","N/A. MOTO (Internet/Phone) トランザクションは許可されていません",module,Magento_Paypal
+"N/A. Global Unavailable","N/A. 海外配送なし",module,Magento_Paypal
+"N/A. International Unavailable","N/A. 海外配送なし",module,Magento_Paypal
+"Matched five-digit ZIP only (no Address)","5桁ZIPのみ (住所なし)",module,Magento_Paypal
+"Matched Postal Code only (no Address)",郵便番号のみ合致(住所なし),module,Magento_Paypal
+"N/A. Retry","N/A. 再試行",module,Magento_Paypal
+"N/A. Service not Supported","N/A. サービスはサポートされていません",module,Magento_Paypal
+"N/A. Unavailable","N/A. 無効",module,Magento_Paypal
+"Matched whole nine-didgit ZIP (no Address)","全ての９桁ZIP合致 (住所なし)",module,Magento_Paypal
+"Yes. Matched Address and five-didgit ZIP",住所と５桁の郵便番号,module,Magento_Paypal
+"All the address information matched",全ての住所情報が合致しました,module,Magento_Paypal
+"None of the address information matched",合致する住所はありませんでした,module,Magento_Paypal
+"Part of the address information matched",一部の住所は合致しました,module,Magento_Paypal
+"N/A. The merchant did not provide AVS information","N/A. マーチャントはAVS情報を提供しませんでした",module,Magento_Paypal
+"N/A. Address not checked, or acquirer had no response. Service not available",N/A.住所未確認か取得者から反応がありません。サーピスが有効ではありません,module,Magento_Paypal
+"Matched (CVV2CSC)","合致 (CVV2CSC)",module,Magento_Paypal
+"No match",合致するものなし,module,Magento_Paypal
+"N/A. Not processed","N/A. 未処理",module,Magento_Paypal
+"N/A. Service not supported","N/A. サービス未サポート",module,Magento_Paypal
+"N/A. Service not available","N/A. サービス無効",module,Magento_Paypal
+"N/A. No response","N/A. 反応なし",module,Magento_Paypal
+"Matched (CVV2)","合致 (CVV2)",module,Magento_Paypal
+"N/A. The merchant has not implemented CVV2 code handling","N/A. マーチャントはCVV2コード処理を実装していません",module,Magento_Paypal
+"N/A. Merchant has indicated that CVV2 is not present on card","N/A. マーチャントはCVV2がカードのプレゼントか指定してません",module,Magento_Paypal
+"Note: %1","注意: %1",module,Magento_Paypal
+"IPN ""%1"". Case type ""%2"". Case ID ""%3"" %4","IPN ""%1"". ケースタイプ ""%2"". ケースID ""%3"" %4",module,Magento_Paypal
+"IPN ""%1"". A dispute has been resolved and closed. %2 Transaction amount %3.","IPN ""%1"".異議申し立ては解決してクローズになりました。 %2 トランザクション額 %3.",module,Magento_Paypal
+"You notified customer about invoice #%1.","請求書について顧客に連絡しました #%1.",module,Magento_Paypal
+"IPN ""%1"". %2 Transaction amount %3. Transaction ID: ""%4""","IPN ""%1"". %2 トランザクション額 %3. トランザクションID: ""%4""",module,Magento_Paypal
+"You notified customer about creditmemo #%1.","クレジットメモについて顧客に連絡しました #%1.",module,Magento_Paypal
+"Payflow PNREF: #%1.","ペイフロー PNREF: #%1.",module,Magento_Paypal
+"We cannot send the new order email.",新しい注文Eメールを送れません。,module,Magento_Paypal
+"You cannot void a verification transaction.",確認トランザクションを破棄することはできません。,module,Magento_Paypal
+"You need an authorization transaction to void.",破棄するには認証トランザクションが必要です。,module,Magento_Paypal
+"We cannot create a target file for reading reports.",レポート確認のためのターゲットファイルが作成できません。,module,Magento_Paypal
+"Report Date",報告日,module,Magento_Paypal
+"Merchant Account",マーチャントアカウント,module,Magento_Paypal
 "Transaction ID",トランザクションID,module,Magento_Paypal
-"Invoice ID",請求書番号,module,Magento_Paypal
-"PayPal Reference ID","PayPal  照会ID",module,Magento_Paypal
-"PayPal Reference ID Type","PayPal  照会IDタイプ",module,Magento_Paypal
+"Invoice ID",請求書ID,module,Magento_Paypal
+"PayPal Reference ID",PayPalリファレンスID,module,Magento_Paypal
+"PayPal Reference ID Type",PayPalリファレンスIDタイプ,module,Magento_Paypal
 "Event Code",イベントコード,module,Magento_Paypal
 Event,イベント,module,Magento_Paypal
 "Start Date",開始日,module,Magento_Paypal
-"Debit or Credit",デビットカード、またはクレジットカード,module,Magento_Paypal
-"Gross Amount",合計金額,module,Magento_Paypal
-"Fee Debit or Credit",手数料引き落し、または控除,module,Magento_Paypal
-"Fee Amount",手数料合計,module,Magento_Paypal
+"Finish Date",最終日,module,Magento_Paypal
+"Debit or Credit",デビットかクレジット,module,Magento_Paypal
+"Gross Amount",総額,module,Magento_Paypal
+"Fee Debit or Credit",デビットかクレジット料金,module,Magento_Paypal
+"Fee Amount",料金額,module,Magento_Paypal
 Custom,カスタム,module,Magento_Paypal
-"Order ID",注文番号,module,Magento_Paypal
-"Preapproved Payment ID",事前承認済支払ID,module,Magento_Paypal
-"Subscription ID",購読者ID,module,Magento_Paypal
+"Order ID","注文 ID",module,Magento_Paypal
+"Preapproved Payment ID",事前承認払いID,module,Magento_Paypal
+"Subscription ID",購読ID,module,Magento_Paypal
 Credit,クレジット,module,Magento_Paypal
 Debit,デビット,module,Magento_Paypal
-"ACH Deposit (Hold for Dispute or Other Investigation)",ACH（電子小切手決済）入金(係争または調査による保留）,module,Magento_Paypal
-"ACH Deposit (Reversal)",ACH（電子小切手決済）送金(払い戻し）,module,Magento_Paypal
-"ACH Funding for Funds Recovery from Account Balance",アカウント残高からのACH（電子小切手決済）回収,module,Magento_Paypal
-"ACH Withdrawal",ACH（電子小切手決済）引き落し,module,Magento_Paypal
-"Account-to-Account Payment, initiated by PayPal",PayPalによる顧客間での支払い,module,Magento_Paypal
-"Auction Payment other than through eBay",Ebay以外からのオークションの支払い,module,Magento_Paypal
-AutoSweep,自動スイープ,module,Magento_Paypal
-"Available Balance",現在残高,module,Magento_Paypal
-"Balance Manager Account Bonus",残高管理アカウントボーナス,module,Magento_Paypal
-"Bonus for first ACH Use",最初のACH（電子小切手決済）使用割引,module,Magento_Paypal
-"Buyer Credit Payment",請求先クレジット支払,module,Magento_Paypal
-Charge-off,貸倒償却,module,Magento_Paypal
-"Coupon Redemption",クーポンの償還,module,Magento_Paypal
-"Currency Conversion required to cover negative balance",マイナス収支の埋め合わせのための為替レートが必要です,module,Magento_Paypal
+"ACH Deposit (Hold for Dispute or Other Investigation)",ACH振り込み(異議申し立てのため保留か他の調査),module,Magento_Paypal
+"ACH Deposit (Reversal)",ACH振り込み(破棄),module,Magento_Paypal
+"ACH Funding for Funds Recovery from Account Balance",ACHアカウント残高からのファンド回復のためのACHファンディング,module,Magento_Paypal
+"ACH Withdrawal",ACH引き落とし,module,Magento_Paypal
+"Account-to-Account Payment, initiated by PayPal","アカウント間の支払, PayPal主導",module,Magento_Paypal
+"Auction Payment other than through eBay",eBay以外のオークション支払,module,Magento_Paypal
+AutoSweep,オートスイープ,module,Magento_Paypal
+"Available Balance",残高,module,Magento_Paypal
+"Balance Manager Account Bonus",残高マネージャーアカウントボーナス,module,Magento_Paypal
+"Bonus for first ACH Use",ACHを初めて使用したボーナス,module,Magento_Paypal
+"Buyer Credit Payment",購入者クレジット支払,module,Magento_Paypal
+Charge-off,処理費用,module,Magento_Paypal
+"Coupon Redemption",クーポン償還,module,Magento_Paypal
+"Currency Conversion required to cover negative balance",通貨変換は残高マイナスをカバーすることが必須です,module,Magento_Paypal
 "Debit Card Cash Back",デビットカードキャッシュバック,module,Magento_Paypal
 "Debit Card Transaction",デビットカードトランザクション,module,Magento_Paypal
-"Direct Payment API",ダイレクトペイメントAPI,module,Magento_Paypal
-"EFT Funding (German banking)",EFT入金（ドイツの銀行）,module,Magento_Paypal
-"Express Checkout APIs","エキスプレス・チェックアウト APIs",module,Magento_Paypal
-"Fee Reversal",手数料払い戻し,module,Magento_Paypal
-"Fee: Foreign ACH Withdrawal",手数料：海外送金(ACH)引き落し,module,Magento_Paypal
-"Fee: Mass Pay Request",手数料：一括払い,module,Magento_Paypal
-"Fee: Web Site Payments Pro Account Monthly","手数料：Web Site Payments Proアカウント月額",module,Magento_Paypal
-"Fee: WorldLink Check Withdrawal","手数料：WorldLink Check引き落し",module,Magento_Paypal
-Funding,入金,module,Magento_Paypal
-"General (Authorization)",一般（オーソリゼーション）,module,Magento_Paypal
-"General (Dividend)",一般（配当）,module,Magento_Paypal
-"General (Funds Transfer from PayPal Account to Another)",一般（PayPalアカウントから他への送金）,module,Magento_Paypal
-"General (Purchase with a credit card)",一般（クレジットカードでの購入）,module,Magento_Paypal
-"General Adjustment without businessrelated event",業務都合ではない一般調整,module,Magento_Paypal
-"General Currency Conversion",一般通貨換算,module,Magento_Paypal
-"General Redemption",一般引き換え,module,Magento_Paypal
-"General Withdrawal from PayPal Account",PayPalアカウントからの引き落し,module,Magento_Paypal
-"General. Product no longer supported",一般：サポート停止プロダクト,module,Magento_Paypal
-"General: Use of PayPal account for purchasing as well as receiving payments",一般：支払いの受取と購入に使用するPayPalアカウント,module,Magento_Paypal
-"General: Withdrawal from PayPal Account",一般：PayPalからの退会,module,Magento_Paypal
-"General: Withdrawal to Non-Bank Entity",一般：銀行以外からの引き落し,module,Magento_Paypal
-"General: adjustment of a type not belonging to the other T12xx categories",一般：他のT12xxカテゴリに属さないタイプの調整,module,Magento_Paypal
-"General: bonus of a type not belonging to the other T08xx categories",一般：他のT08xxカテゴリに属さないタイプの割引,module,Magento_Paypal
-"General: event not yet categorized",一般：分類されていないイベント,module,Magento_Paypal
-"General: non-payment fee of a type not belonging to the other T01xx categories",一般：他のT01xxカテゴリに属さないタイプの支払いが無い手数料,module,Magento_Paypal
-"General: received payment of a type not belonging to the other T00xx categories",一般：他のT00xxカテゴリに属さないタイプの受け取った支払,module,Magento_Paypal
-"General: reversal of a type not belonging to the other T11xx categories",一般：他のT11xxカテゴリに属さないタイプの払い戻し,module,Magento_Paypal
-"General: temporary hold of a type not belonging to the other T15xx categories",一般：他のT15xxカテゴリに属さないタイプの一時保留,module,Magento_Paypal
-"Gift Certificate Payment: purchase of Gift Certificate",ギフトカード支払：ギフトカード証書の購入,module,Magento_Paypal
-"Gift Certificate Redemption",ギフトカード証書の引き換え,module,Magento_Paypal
-"Hidden Virtual PayPal Debit Card Transaction",隠しPayPalデビットカード取引、トランザクション,module,Magento_Paypal
-"Hold for Dispute Investigation",係争調査による保留,module,Magento_Paypal
+"Direct Payment API",直払いAPI,module,Magento_Paypal
+"EFT Funding (German banking)","EFTファンディング (ドイツ)",module,Magento_Paypal
+"Express Checkout APIs",エクスプレスチェックアウトAPIs,module,Magento_Paypal
+"Fee Reversal",費用破棄,module,Magento_Paypal
+"Fee: Foreign ACH Withdrawal","料金: 海外ACH引き落とし",module,Magento_Paypal
+"Fee: Mass Pay Request","料金: 総合支払リクエスト",module,Magento_Paypal
+"Fee: Web Site Payments Pro Account Monthly","料金: ウェブサイト支払月額プロアカウント",module,Magento_Paypal
+"Fee: WorldLink Check Withdrawal","料金: ワールドリンクチェック引き落とし",module,Magento_Paypal
+Funding,ファンディング,module,Magento_Paypal
+"General (Authorization)","全般 (権限)",module,Magento_Paypal
+"General (Dividend)","全般 (配当)",module,Magento_Paypal
+"General (Funds Transfer from PayPal Account to Another)","全般 (Paypalのアカウントから別へのファンドトランスファー)",module,Magento_Paypal
+"General (Purchase with a credit card)","全般 (クレジットカードで購入)",module,Magento_Paypal
+"General Adjustment without businessrelated event",ビジネス関連イベントなしの全般調整,module,Magento_Paypal
+"General Currency Conversion",全般通貨変換,module,Magento_Paypal
+"General Redemption",全般償還,module,Magento_Paypal
+"General Withdrawal from PayPal Account",PayPalアカウントから全般引き落とし,module,Magento_Paypal
+"General. Product no longer supported","全般。 製品はもはやサポートされていません。",module,Magento_Paypal
+"General: Use of PayPal account for purchasing as well as receiving payments","全般: PayPalのアカウントを使用による購入だけでなく支払の受け取り",module,Magento_Paypal
+"General: Withdrawal from PayPal Account","全般: PayPalアカウントから引き落とし",module,Magento_Paypal
+"General: Withdrawal to Non-Bank Entity","全般: 銀行以外に引き落とし",module,Magento_Paypal
+"General: adjustment of a type not belonging to the other T12xx categories","全般: T12xxカテゴリ以外の属さないタイプの調整",module,Magento_Paypal
+"General: bonus of a type not belonging to the other T08xx categories","全般: T08xxカテゴリ以外の属さないタイプのボーナス",module,Magento_Paypal
+"General: event not yet categorized","全般: カテゴリされていないイベント",module,Magento_Paypal
+"General: non-payment fee of a type not belonging to the other T01xx categories","全般: T01xxカテゴリ以外の属さないタイプの支払のない料金",module,Magento_Paypal
+"General: received payment of a type not belonging to the other T00xx categories","全般: T00xxカテゴリ以外の属さないタイプの支払の受け取った支払",module,Magento_Paypal
+"General: reversal of a type not belonging to the other T11xx categories","全般: T11xxカテゴリ以外の属さないタイプの破棄",module,Magento_Paypal
+"General: temporary hold of a type not belonging to the other T15xx categories","全般: 他のT15xxカテゴリに属さないタイプの一時保留",module,Magento_Paypal
+"Gift Certificate Payment: purchase of Gift Certificate","ギフト券支払: ギフト券の購入",module,Magento_Paypal
+"Gift Certificate Redemption",ギフト券償還,module,Magento_Paypal
+"Hidden Virtual PayPal Debit Card Transaction",隠し仮想PayPalデビットカードトランザクション,module,Magento_Paypal
+"Hold for Dispute Investigation",異議申し立て調査のために保留,module,Magento_Paypal
 Incentive,インセンティブ,module,Magento_Paypal
-"Mass Pay Payment",一括支払い,module,Magento_Paypal
-"Merchant Referral Bonus",出店者紹介値引,module,Magento_Paypal
-"Mobile Payment (made via a mobile phone)",携帯電話支払（携帯電話から作成）,module,Magento_Paypal
-"Negative Balance",マイナス収支,module,Magento_Paypal
-"Open Authorization",与信が設定されました,module,Magento_Paypal
-"PayPal Balance Manager function of PayPal account","PayPalアカウントのPayPal Balance Manager 機能",module,Magento_Paypal
-"PayPal Buyer Warranty Bonus",PayPal支払者保証割引,module,Magento_Paypal
-"PayPal Debit Card Cash Advance",PayPalデビットカード現金前払い,module,Magento_Paypal
-"PayPal Debit Card Withdrawal from ATM",PayPalデビットカードATM引き落し,module,Magento_Paypal
-"PayPal Protection Bonus","PayPal 保護割引",module,Magento_Paypal
-"Payment Refund initiated by merchant",出店者による払い戻し,module,Magento_Paypal
-"Points Incentive Redemption",買い物ポイントの償還,module,Magento_Paypal
-"Postage Payment to either USPS or UPS",USPSまたはUPSの送料支払,module,Magento_Paypal
-Reauthorization,再与信,module,Magento_Paypal
-"Reimbursement of Chargeback",支払拒否の補償,module,Magento_Paypal
-Reversal,取り消し,module,Magento_Paypal
-"Reversal of General Account Hold",講座の取り消し,module,Magento_Paypal
-"Reversal of Points Usage",買い物ポイント使用の取り消し,module,Magento_Paypal
-"Reversal of hold for Dispute Investigation",係争調査の保留取り消し,module,Magento_Paypal
-"Reward Voucher Redemption",割引券の引き換え,module,Magento_Paypal
-"Settlement Consolidation",決済の統合,module,Magento_Paypal
-"Subscription Payment, either payment sent or payment received",購読料金、会費の支払、受領,module,Magento_Paypal
-"User-initiated Currency Conversion",ユーザーによる通貨換算,module,Magento_Paypal
-"Virtual PayPal Debit Card Transaction",仮想PayPalデビットカード取引,module,Magento_Paypal
-"Virtual Terminal Payment",仮想端末からの支払,module,Magento_Paypal
+"Mass Pay Payment",総合Pay支払,module,Magento_Paypal
+"Merchant Referral Bonus",マーチャント関連付けボーナス,module,Magento_Paypal
+"Mobile Payment (made via a mobile phone)","携帯支払 (携帯からの支払)",module,Magento_Paypal
+"Negative Balance",マイナス残高,module,Magento_Paypal
+"Open Authorization",オープン権限,module,Magento_Paypal
+"PayPal Balance Manager function of PayPal account",PayPalアカウントのPayPal残高管理機能,module,Magento_Paypal
+"PayPal Buyer Warranty Bonus",PayPal購入者保証ボーナス,module,Magento_Paypal
+"PayPal Debit Card Cash Advance",PayPalデビットカードキャッシュアドバンス,module,Magento_Paypal
+"PayPal Debit Card Withdrawal from ATM",PayPalのATMからのデビットカード引き落とし,module,Magento_Paypal
+"PayPal Protection Bonus",PayPal保護ボーナス,module,Magento_Paypal
+"Payment Refund initiated by merchant",マーチャントによる支払返金実行,module,Magento_Paypal
+"Points Incentive Redemption",ポイントインセンティブ償還,module,Magento_Paypal
+"Postage Payment to either USPS or UPS",USPSまたはUPSへの郵便料金支払い,module,Magento_Paypal
+Reauthorization,再権限設定,module,Magento_Paypal
+"Reimbursement of Chargeback",入金取り消しの返済,module,Magento_Paypal
+Reversal,破棄,module,Magento_Paypal
+"Reversal of General Account Hold",一般アカウント保留の破棄,module,Magento_Paypal
+"Reversal of Points Usage",ポイント使用の破棄,module,Magento_Paypal
+"Reversal of hold for Dispute Investigation",異議申し立ての調査のための保留の破棄,module,Magento_Paypal
+"Reward Voucher Redemption",報酬バウチャー破棄,module,Magento_Paypal
+"Settlement Consolidation",一括決済,module,Magento_Paypal
+"Subscription Payment, either payment sent or payment received",購読支払、支払が送れれたか受け取られたか,module,Magento_Paypal
+"User-initiated Currency Conversion",ユーザー主導の通貨変換,module,Magento_Paypal
+"Virtual PayPal Debit Card Transaction",仮想PayPalデビットカードトランザクション,module,Magento_Paypal
+"Virtual Terminal Payment",仮想ターミナル支払,module,Magento_Paypal
 Void,無効,module,Magento_Paypal
-"WorldLink Withdrawal",WorldLink引き落し,module,Magento_Paypal
+"WorldLink Withdrawal",ワールドリンク引き落とし,module,Magento_Paypal
 "eBay Auction Payment",eBayオークション支払,module,Magento_Paypal
+"The PayPal certificate file is empty.","The PayPal認証ファイルは空です。",module,Magento_Paypal
+"Header (center)","ヘッダー (真ん中)",module,Magento_Paypal
+"Sidebar (right)","サイドバー (右)",module,Magento_Paypal
+"Near PayPal Credit checkout button",PayPalクレジットチェックアウトボタンのそば,module,Magento_Paypal
 "--Please Select--",--選択してください--,module,Magento_Paypal
 Daily,毎日,module,Magento_Paypal
-"Every 3 days",３日毎,module,Magento_Paypal
-"Every 7 days",毎週,module,Magento_Paypal
-"Every 10 days",１０日毎,module,Magento_Paypal
-"Every 14 days",２週間毎,module,Magento_Paypal
-"Every 30 days",３０日毎,module,Magento_Paypal
-"Every 40 days",４０日毎,module,Magento_Paypal
-"No Logo",ロゴ無し,module,Magento_Paypal
-"Pending PayPal",PayPal保留中,module,Magento_Paypal
-"Billing Agreement",支払契約,module,Magento_Paypal
+"Every 3 days",毎3日,module,Magento_Paypal
+"Every 7 days",毎7日,module,Magento_Paypal
+"Every 10 days",毎10日,module,Magento_Paypal
+"Every 14 days",毎14日,module,Magento_Paypal
+"Every 30 days",毎30日,module,Magento_Paypal
+"Every 40 days",毎40日,module,Magento_Paypal
+"No Logo",ロゴなし,module,Magento_Paypal
+"Created billing agreement #%1.","支払契約を作成 #%1.",module,Magento_Paypal
+"Pending PayPal",PayPal保留,module,Magento_Paypal
+"Billing Agreement",支払合意,module,Magento_Paypal
 "Please Select",選択してください,module,Magento_Paypal
 Customer,顧客,module,Magento_Paypal
 "Created At",作成日,module,Magento_Paypal
 "Updated At",更新日,module,Magento_Paypal
-"Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","PayPalアドバンスアカウントにログインしたら、サービス設定 - Hosted Checkout Pages - セットアップ メニューに移動して、提示されたオプションを設定してください。",module,Magento_Paypal
-"Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","PayPal PayFlowアカウントにログインしたら、サービス設定 - Hosted Checkout Pages - セットアップ メニューに移動して、提示されたオプションを設定してください。",module,Magento_Paypal
-"Agreement Information",契約情報,module,Magento_Paypal
-"Reference ID:",参照ID:,module,Magento_Paypal
+here,ここ,module,Magento_Paypal
+"To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","PayPal Payments Advanced, PayPal Payments AdvancedのアカウントをPayPalウェブサイト上で設定しなければなりません。",module,Magento_Paypal
+"Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","PayPal Advanced アカウントにログインすると, サービス設定に移動 - 所持するチェックアウトページ - メニューの設定と下で説明されたオプションの設定",module,Magento_Paypal
+"To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","PayPal Payflowリンクを使うには、PayPal PayflowリンクアカウントをPayPalウェブサイトにて設定しなければなりません。",module,Magento_Paypal
+"Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","PayPal Payflowリンクアカウントにログインすると, サービス設定に移動 - 所持するチェックアウトページ - メニューの設定と下で説明されたオプションの設定",module,Magento_Paypal
+"Agreement Information",合意情報,module,Magento_Paypal
+"Reference ID:",リファレンスID:,module,Magento_Paypal
 Status:,状態:,module,Magento_Paypal
-Created:,作成:,module,Magento_Paypal
-Updated:,更新:,module,Magento_Paypal
+Created:,作成日:,module,Magento_Paypal
+Updated:,アップデート日:,module,Magento_Paypal
 "Payment Method:",支払方法:,module,Magento_Paypal
-"Order #",ご注文番号,module,Magento_Paypal
+"Order #","注文 #",module,Magento_Paypal
 Date,日付,module,Magento_Paypal
 "Ship To",配送先,module,Magento_Paypal
 "Order Status",注文ステータス,module,Magento_Paypal
 "View Order",注文の詳細を表示,module,Magento_Paypal
-"Back to Billing Agreements",支払契約に戻る,module,Magento_Paypal
+"Back to Billing Agreements",支払合意に戻る,module,Magento_Paypal
 "Payment Method",お支払方法,module,Magento_Paypal
 View,表示,module,Magento_Paypal
-"There are no billing agreements yet.",支払契約がありません。,module,Magento_Paypal
-"New Billing Agreement",新規支払契約,module,Magento_Paypal
-"You will be redirected to the payment system website.",決済サービス会社のウェブサイトに移動します。,module,Magento_Paypal
+"There are no billing agreements yet.",まだ支払合意がありません。,module,Magento_Paypal
+"New Billing Agreement",新しい支払合意,module,Magento_Paypal
+"You will be redirected to the payment system website.",支払システムのウェブサイトに転送されます。,module,Magento_Paypal
 "-- Please Select --","-- 選択してください --",module,Magento_Paypal
 Create...,作成...,module,Magento_Paypal
-"Shipping Method",発送方法,module,Magento_Paypal
-"Please select a shipping method...",配送方法を選択してください...,module,Magento_Paypal
-"Shipping Address",配送先,module,Magento_Paypal
+"Shipping Method",お届け方法,module,Magento_Paypal
+"Please select a shipping method...",送付方法を選んで下さい...,module,Magento_Paypal
+"Update Shipping Method",配送方法をアップデート,module,Magento_Paypal
+"Shipping Address",お届け先住所,module,Magento_Paypal
 Edit,編集,module,Magento_Paypal
-"Items in Your Shopping Cart",カートの中身,module,Magento_Paypal
-"Edit Shopping Cart",カートの内容を編集,module,Magento_Paypal
+"Edit Payment Information",支払情報編集,module,Magento_Paypal
+"Items in Your Shopping Cart",ショッピングカートにある商品,module,Magento_Paypal
+"Edit Shopping Cart",";ショッピングカート編集""",module,Magento_Paypal
 "Place Order",注文を確定する,module,Magento_Paypal
 "Submitting order information...",注文情報を送信しています。。。,module,Magento_Paypal
 Price,価格,module,Magento_Paypal
 Qty,個数,module,Magento_Paypal
 Subtotal,小計,module,Magento_Paypal
-"Checkout with PayPal",PayPalチェックアウト,module,Magento_Paypal
-"You will be required to enter your payment details after you place an order.",ご注文の確定後にお支払情報の詳細をご入力していただく必要があります。,module,Magento_Paypal
+"Please update order data to get shipping methods and rates",配送方法とレートを得るには注文データをアップデートしてください,module,Magento_Paypal
+"Checkout with PayPal",PayPalでチェックアウト,module,Magento_Paypal
+"Please do not refresh the page until you complete payment.",支払を完了するまでページをリフレッシュしないでください。,module,Magento_Paypal
+"You will be required to enter your payment details after you place an order.",注文を行なった後で支払詳細を入力することが求められます。,module,Magento_Paypal
 Continue,続ける,module,Magento_Paypal
 "Additional Options",追加オプション,module,Magento_Paypal
-"-- Please Select Billing Agreement--","-- 支払条件を選択してください--",module,Magento_Paypal
-"Acceptance Mark",承認マーク,module,Magento_Paypal
+"-- Please Select Billing Agreement--","-- 支払合意を選択してください--",module,Magento_Paypal
+"Acceptance Mark",許可マーク,module,Magento_Paypal
 "What is PayPal?",PayPalとは？,module,Magento_Paypal
+"Your shopping cart has been updated with new prices.",ショッピングカートを新しい価格に更新しました。,module,Magento_Persistent
+"Welcome, %1!",ようこそ、%1様!,module,Magento_Persistent
+"We cannot load the configuration from file %1.","%1 から設定を読み込むことができません。",module,Magento_Persistent
 "Remember Me",ログイン状態を維持する,module,Magento_Persistent
 "You saved the alert subscription.",アラート購読を保存しました,module,Magento_ProductAlert
 "There are not enough parameters.",充分なパラメーターありません,module,Magento_ProductAlert
@@ -4000,18 +4070,19 @@ Back,戻る,module,Magento_Wishlist
 "Go to Wish List",ほしい物リストに行く,module,Magento_Wishlist
 "You have no items in your wish list.",ほしい物リストは空です。,module,Magento_Wishlist
 "Shop By",閲覧中,theme,frontend/Magento/luma
+Total:,合計:,module,Magento_Checkout
 "Add Products to New Option",新しいオプションに商品追加,module,Magento_Bundle
 "Add Products to Option ""%1""","オプション ""%1""に商品追加",module,Magento_Bundle
 "Add Selected Products",選択した商品を追加,module,Magento_Bundle
 Cancel,キャンセル,module,Magento_Catalog
 "Configure Product",商品を構成する,module,Magento_Catalog
 "Select type of option.",オプションのタイプを選択してください。,module,Magento_Catalog
-"Please add rows to option.",オプションに行を加えてください。,module,Magento_Catalog
+"Please add rows to option.",オプションに行を追加してください。,module,Magento_Catalog
 "New Option",新オプション,module,Magento_Catalog
 "Select Product",商品選択,module,Magento_Catalog
-"Please select items.",アイテムを選択してください。,module,Magento_Catalog
-"Choose existing category.",既存のカテゴリーを選択してください。,module,Magento_Catalog
-"Create Category",カテゴリー作成,module,Magento_Catalog
+"Please select items.",商品を選択してください。,module,Magento_Catalog
+"Choose existing category.",既存のカテゴリを選択してください。,module,Magento_Catalog
+"Create Category",カテゴリ作成,module,Magento_Catalog
 "unselect all",全て未選択にする,module,Magento_Catalog
 "Incl. Tax",税込,module,Magento_ConfigurableProduct
 "Are you sure you want to delete this address?",この住所を削除してもよろしいですか？,module,Magento_Customer
@@ -4265,6 +4336,7 @@ Rule,ルール,module,Magento_CatalogRule
 "Use {{name}} as Product Name or {{sku}} as Product SKU placeholders","{{name}} を商品名として使うあるいは {{sku}}を商品SKUプレースホルダーとして使う",module,Magento_Catalog
 "Mask for Meta Description",メタ詳細のマスク,module,Magento_Catalog
 "Use {{name}} and {{description}} as Product Name and Product Description placeholders",{{name}}と{{description}}を商品名と商品詳細プレースホルダーとして使う,module,Magento_Catalog
+Storefront,ストア,module,Magento_Catalog
 "List Mode",リストモード,module,Magento_Catalog
 "Products per Page on Grid Allowed Values",商品グリッド表示で使用できる候補,module,Magento_Catalog
 Comma-separated.,コンマ区切り,module,Magento_Catalog
@@ -4280,34 +4352,34 @@ Comma-separated.,コンマ区切り,module,Magento_Catalog
 "Allow Dynamic Media URLs in Products and Categories",動的なメディアURLを商品とカテゴリに許可する,module,Magento_Catalog
 "E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","例 {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}。 ダイナミックディレクティブはカタログのパフォーマンスに影響を及ぼします。",module,Magento_Catalog
 "Product Image Placeholders",商品画像プレースホルダ,module,Magento_Catalog
-"Search Engine Optimization",検索エンジンオプティマイゼーション,module,Magento_Catalog
+"Search Engine Optimization",検索エンジン最適化,module,Magento_Catalog
 "Page Title Separator",ページタイトル区切文字,module,Magento_Catalog
 "Use Canonical Link Meta Tag For Categories",カテゴリにCanonicalタグを使用する,module,Magento_Catalog
 "Use Canonical Link Meta Tag For Products",商品に正確なCanonicalタグを使用する,module,Magento_Catalog
 "Catalog Price Scope",カタログ価格スコープ,module,Magento_Catalog
-"This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","これが基本通貨スコープを定義します (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").",module,Magento_Catalog
+"This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","これが基本通貨スコープを定義します (""通貨設定"" > ""通貨オプション"" > ""基本通貨"").",module,Magento_Catalog
 "Category Top Navigation",カテゴリTOPナビゲーション,module,Magento_Catalog
-"Maximal Depth",最大階層,module,Magento_Catalog
+"Maximal Depth",最小深度,module,Magento_Catalog
 "Date & Time Custom Options",日付と時間のオプション,module,Magento_Catalog
 "Use JavaScript Calendar",JavaScriptカレンダーを使用する,module,Magento_Catalog
 "Date Fields Order",日付入力欄の形式,module,Magento_Catalog
 "Time Format",時間のフォーマット,module,Magento_Catalog
 "Year Range",年範囲,module,Magento_Catalog
 "Please use a four-digit year format.",4桁の年フォーマットを使用してください。,module,Magento_Catalog
-"Product Image Watermarks",商品画像ウオーターマーク,module,Magento_Catalog
+"Product Image Watermarks",商品画像ウォーターマーク,module,Magento_Catalog
 "Watermark Default Size",透かしディフォルトサイズ,module,Magento_Catalog
 "Watermark Opacity, Percent",ウオーターマーク不透明度,module,Magento_Catalog
 Watermark,透かし,module,Magento_Catalog
 "Watermark Position",透かし位置,module,Magento_Catalog
 "Use Static URLs for Media Content in WYSIWYG for Catalog",WYSIWYGエディタカタログのメディアコンテンツで静的URLを使用する,module,Magento_Catalog
-"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","これはカタログ商品とカテゴリーにのみ適用されます。 メディアコンテンツは静的コンテンツとしてエディタに挿入されます。 もしシステムコンフィギュレーションベースURLが変わるとメディアコンテンツはアップデートされません。",module,Magento_Catalog
+"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","これはカタログ商品とカテゴリにのみ適用されます。 メディアコンテンツは静的コンテンツとしてエディタに挿入されます。 もしシステムコンフィギュレーションベースURLが変わるとメディアコンテンツはアップデートされません。",module,Magento_Catalog
 "Product Flat Data",商品フラットデータ,module,Magento_Catalog
 "Reorganize EAV product structure to flat structure",EAV商品ストラクチャをフラットストラクチャに変換したインデックス,module,Magento_Catalog
 "Category Flat Data",カテゴリフラットデータ,module,Magento_Catalog
 "Reorganize EAV category structure to flat structure",EAVカテゴリストラクチャをフラットストラクチャに変換したインデックス,module,Magento_Catalog
 "Indexed category/products association",カテゴリ/商品の関連インデックス,module,Magento_Catalog
 "Product Categories",商品カテゴリ,module,Magento_Catalog
-"Indexed product/categories association",インデックスされた商品/カテゴリー提携,module,Magento_Catalog
+"Indexed product/categories association",インデックスされた商品/カテゴリ提携,module,Magento_Catalog
 "Product Price",商品価格,module,Magento_Catalog
 "Index product prices",商品価格インデックス,module,Magento_Catalog
 "Catalog New Products List",新着商品リスト,module,Magento_Catalog
@@ -4326,7 +4398,7 @@ Template,テンプレート,module,Magento_Catalog
 "New Products Names Only Template",新着商品名のみテンプレート,module,Magento_Catalog
 "New Products Images Only Template",新着商品画像のみテンプレート,module,Magento_Catalog
 "Cache Lifetime (Seconds)","キャッシュ有効期間 (秒)",module,Magento_Catalog
-"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.",設定されて居ない場合86400がディフォルトです。今すぐ更新するには、ブロックHTMLアウトプットキャッシュをクリアしてください。,module,Magento_Catalog
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.",設定されていない場合86400がデフォルトです。今すぐ更新するには、ブロックHTMLアウトプットキャッシュをクリアしてください。,module,Magento_Catalog
 "Catalog Product Link",商品リンク,module,Magento_Catalog
 "Link to a Specified Product",指定商品にリンク,module,Magento_Catalog
 "Anchor Custom Text",アンカーカスタムテキスト,module,Magento_Catalog
@@ -4361,18 +4433,19 @@ Details,詳細,module,Magento_Catalog
 "Send Payment Failed Email Copy To",支払失敗コピーメール送信先,module,Magento_Checkout
 "Separate by "","".",""",""で区切られた",module,Magento_Checkout
 "Send Payment Failed Email Copy Method",支払失敗コピーメール送信方法,module,Magento_Checkout
-"Shipping Address",配送先,module,Magento_Checkout
+"Shipping Address",お届け先住所,module,Magento_Checkout
+"For delivery questions.",配送についての質問,module,Magento_Checkout
 "Cart Subtotal",小計,module,Magento_Checkout
 "Not yet calculated",未確定,module,Magento_Checkout
 "Thank you for your purchase!",ご購入ありがとうございました！,module,Magento_Checkout
-"CMS Home Page",CMSのホームページ,module,Magento_Cms
+"CMS Home Page",CMSホームページ,module,Magento_Cms
 "CMS No Route Page",CMSエラーページ,module,Magento_Cms
 "CMS No Cookies Page",Cookie無効時ページ,module,Magento_Cms
 "Show Breadcrumbs for CMS Pages",CMSページにパンくずを表示する,module,Magento_Cms
 "Browser Capabilities Detection",ブラウザ互換性検出,module,Magento_Cms
 "Redirect to CMS-page if Cookies are Disabled",Cookieが無効の場合はCMSページにリダイレクトさせる。,module,Magento_Cms
 "Show Notice if JavaScript is Disabled",JavaScriptが無効の場合に警告を表示する。,module,Magento_Cms
-"Show Notice if Local Storage is Disabled",ローカルストーレジが無効の場合に警告を表示する。,module,Magento_Cms
+"Show Notice if Local Storage is Disabled",ローカルストレージが無効の場合に警告を表示する。,module,Magento_Cms
 "Content Management",コンテンツ管理,module,Magento_Cms
 "WYSIWYG Options",WYSIWYGオプション,module,Magento_Cms
 "Enable WYSIWYG Editor",WYSIWYGエディタを有効にする,module,Magento_Cms
@@ -4384,7 +4457,7 @@ Details,詳細,module,Magento_Catalog
 "Anchor Custom Title",アンカーカスタムタイトル,module,Magento_Cms
 Template,テンプレート,module,Magento_Cms
 "CMS Page Link Block Template",CMSページリンクブロックテンプレート,module,Magento_Cms
-"CMS Page Link Inline Template",CMSページインラインリンクテンプレート,module,Magento_Cms
+"CMS Page Link Inline Template",CMSページリンクインラインテンプレート,module,Magento_Cms
 "CMS Static Block",静的ブロック,module,Magento_Cms
 "Contents of a Static Block",静的ブロックのコンテンツ,module,Magento_Cms
 Block,ブロック,module,Magento_Cms
@@ -4419,8 +4492,11 @@ Contacts,コンタクト,module,Magento_Contact
 "Validation Error Group",エラーグループ検証,module,Magento_Customer
 "Validate on Each Transaction",各トランザクションごとに検証する,module,Magento_Customer
 "Default Value for Disable Automatic Group Changes Based on VAT ID","VAT IDに基づくグループ自動割り当てを無効にする",module,Magento_Customer
+"Show VAT Number on Storefront",VAT番号をストアで表示,module,Magento_Customer
+"To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","ストアでVAT番号表示するには、 Show VAT Number on Storefront オプションをYesに設定。",module,Magento_Customer
 "Default Email Domain",標準のメールアドレスドメイン,module,Magento_Customer
 "Default Welcome Email",標準のウェルカムメール,module,Magento_Customer
+"Default Welcome Email Without Password",デフォルトのパスワード無しようこそEメール,module,Magento_Customer
 "Email Sender",メール送信者,module,Magento_Customer
 "Require Emails Confirmation",メールによる確認を行う,module,Magento_Customer
 "Confirmation Link Email",確認リンクEメール,module,Magento_Customer
@@ -4439,7 +4515,7 @@ Contacts,コンタクト,module,Magento_Contact
 "Show Prefix",称号を表示,module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","名前の前につけるタイトル (Mr., Mrs., など)",module,Magento_Customer
 "Prefix Dropdown Options",称号の候補,module,Magento_Customer
-"Show Middle Name (initial)","ミドルネームを表示 (イニシャル)",module,Magento_Customer
+"Show Middle Name (initial)",ミドルネームを表示する（イニシャル）,module,Magento_Customer
 "Always optional.",常に任意,module,Magento_Customer
 "Show Suffix",敬称を表示,module,Magento_Customer
 "The suffix that goes after name (Jr., Sr., etc.)","名前に続くサフィックスが必要 (Jr., Sr., など)",module,Magento_Customer
@@ -4449,7 +4525,7 @@ Contacts,コンタクト,module,Magento_Contact
 "Show Gender",性別を表示する,module,Magento_Customer
 "Login Options",ログインオプション,module,Magento_Customer
 "Redirect Customer to Account Dashboard after Logging in",ログイン後にマイページにリダイレクトする,module,Magento_Customer
-"Customer will stay on the current page if ""No"" is selected.",もし、「いいえ」が選択された場合、顧客は現在のページから移動しません。,module,Magento_Customer
+"Customer will stay on the current page if ""No"" is selected.","もし、""いいえ""が選択された場合、顧客は現在のページから移動しません。",module,Magento_Customer
 "Address Templates",住所表記テンプレート,module,Magento_Customer
 "Online Customers Options",オンライン顧客オプション,module,Magento_Customer
 "Online Minutes Interval",オンライン分間隔,module,Magento_Customer
@@ -4461,19 +4537,23 @@ Group,グループ,module,Magento_Customer
 "Assign a Customer Group",顧客グループに割り当てる,module,Magento_Customer
 Phone,電話,module,Magento_Customer
 ZIP,郵便番号,module,Magento_Customer
-"Customer Since",顧客登録日時,module,Magento_Customer
+"Customer Since",顧客作成日,module,Magento_Customer
+"Confirmed email",Eメール確認,module,Magento_Customer
+"Account Created in",アカウント作成日,module,Magento_Customer
+"Tax VAT Number",税VAT番号,module,Magento_Customer
 "First Name",名,module,Magento_Customer
 "Last Name",姓,module,Magento_Customer
 "Last Activity",最近の行動,module,Magento_Customer
-Type,タイプ,module,Magento_Customer
+Type,種別,module,Magento_Customer
 "Customer Information",顧客情報,module,Magento_Customer
+"Send Welcome Email From",ウェルカムメールの送信元,module,Magento_Customer
 Addresses,住所,module,Magento_Customer
-"Edit Account Information",アカウント情報の編集,module,Magento_Customer
+"Edit Account Information",アカウント情報編集,module,Magento_Customer
 "Password forgotten",パスワードを忘れた場合,module,Magento_Customer
-"My Dashboard",アカウントダッシュボード,module,Magento_Customer
+"My Dashboard",マイダッシュボード,module,Magento_Customer
 "Front-end development workflow",フロントエンド開発者ワークフロー,module,Magento_Developer
 "Workflow type",ワークフロータイプ,module,Magento_Developer
-"Not available in production mode",実環境では利用できません,module,Magento_Developer
+"Not available in production mode",プロダクションモードでは無効,module,Magento_Developer
 "Developer Client Restrictions",開発者クライアント制限,module,Magento_Developer
 "Allowed IPs (comma separated)",許可されたIP(コンマ区切り),module,Magento_Developer
 "Leave empty for access from any location.",どこからでもアクセス可能にする場合は空白にしてください。,module,Magento_Developer
@@ -4508,13 +4588,18 @@ Debug,デバッグ,module,Magento_Dhl
 Webservicex,WebserviceX,module,Magento_Directory
 "Connection Timeout in Seconds",タイムアウトとみなす時間,module,Magento_Directory
 "Scheduled Import Settings",インポートスケジュール設定,module,Magento_Directory
+Enabled,有効,module,Magento_Directory
 "Error Email Recipient",エラーメール受信者,module,Magento_Directory
 "Error Email Sender",エラーメール送信者,module,Magento_Directory
 "Error Email Template",エラーメールテンプレート,module,Magento_Directory
 Frequency,頻度,module,Magento_Directory
 Service,サービス,module,Magento_Directory
-"Start Time",開始時間,module,Magento_Directory
+"Start Time",開始時刻,module,Magento_Directory
 "Installed Currencies",インストール済み通貨,module,Magento_Directory
+"Zip/Postal Code is Optional for",郵便番号が任意の国,module,Magento_Directory
+"State Options",ステートオプション,module,Magento_Directory
+"State is Required for",都道府県必須,module,Magento_Directory
+"Allow to Choose State if It is Optional for Country",都道府県・州が国により任意の場合はオプションとする,module,Magento_Directory
 "Downloadable Product Options",ダウンロード商品オプション,module,Magento_Downloadable
 "Order Item Status to Enable Downloads",ダウンロード可能になる注文ステータス,module,Magento_Downloadable
 "Default Maximum Number of Downloads",ダウンロードの初期最大数,module,Magento_Downloadable
@@ -4692,84 +4777,132 @@ Import,インポート,module,Magento_OfflineShipping
 "Page Cache",ページキャッシュ,module,Magento_PageCache
 "Full page caching.",フルページキャッシュ。,module,Magento_PageCache
 "Payment Methods",支払方法,module,Magento_Payment
-"Merchant Location",出店者の位置,module,Magento_Paypal
-"Merchant Country",出店者国,module,Magento_Paypal
-"If not specified, Default Country from General Config will be used",指定が無ければ、一般設定の初期設定国が使用されます,module,Magento_Paypal
-"Choose a secure bundled payment solution for your business.",あなたのビジネスのために安全なバンドル済み決済ソリューションを選択してください。,module,Magento_Paypal
+"Merchant Location",マーチャントの場所,module,Magento_Paypal
+"Merchant Country",マーチャントの国,module,Magento_Paypal
+"If not specified, Default Country from General Config will be used",指定されてなければ、一般設定のデフォルトの国が使われます,module,Magento_Paypal
+"Choose a secure bundled payment solution for your business.",あなたのビジネス用の安全なバンドル支払方法を選択してください。,module,Magento_Paypal
+"Payments Pro and Express Checkout",支払プロとエクスプレスチェックアウト,module,Magento_Paypal
+"Basic Settings - PayPal Payments Pro","基本設定 - PayPalペイメントプロ",module,Magento_Paypal
 "PayPal Payment Gateways",PayPalペイメント・ゲートウェイ,module,Magento_Paypal
-"PayPal Express Checkout",PayPalエキスプレス・チェックアウト,module,Magento_Paypal
-"Add another payment method to your existing solution or as a stand-alone option.",既存のソリューションにまたは単独のオプションとして他の決済を追加します,module,Magento_Paypal
-"Express Checkout",エキスプレス・チェックアウト,module,Magento_Paypal
-"Add PayPal as an additional payment method to your checkout page.",チェックアウトページに追加の決済方法としてPayPalを追加します。,module,Magento_Paypal
+"Process payments using your own internet merchant account.",自身のインターネットマーチャントアカウントを使って支払を処理する。,module,Magento_Paypal
+"PayPal Express Checkout",PayPalエクスプレスチェックアウト,module,Magento_Paypal
+"Add another payment method to your existing solution or as a stand-alone option.",既に存在する処理法に別の支払方法を追加するかスタンドアローンオプションとしてください。,module,Magento_Paypal
+"Accept payments with a completely customizable checkout page.",完全にカスタマイズできるチェックアウトページの支払を受付,module,Magento_Paypal
+"Express Checkout",エクスプレスチェックアウト,module,Magento_Paypal
+"Add PayPal as an additional payment method to your checkout page.",PayPalを追加支払手段をチェックアウトページに追加,module,Magento_Paypal
+"Required PayPal Settings",必須PayPal設定,module,Magento_Paypal
 "Email Associated with PayPal Merchant Account",PayPal出店者アカウントにひもづいたメールアドレス,module,Magento_Paypal
-"Don't have a PayPal account? Simply enter your email address.",PayPalアカウントを持っていませんか？メールアドレスを入力してください。,module,Magento_Paypal
-"API Authentication Methods",API認証方法,module,Magento_Paypal
-"API Username",APIユーザー名,module,Magento_Paypal
-"API Password",APIパスワード,module,Magento_Paypal
-"Get Credentials from PayPal",PayPalからの認証情報取得,module,Magento_Paypal
+"Don't have a PayPal account? Simply enter your email address.","PayPalアカウントをお持ちではないですか？ Eメールアドレスを入力してください",module,Magento_Paypal
+"API Authentication Methods","API 権限メソッド",module,Magento_Paypal
+"API Username","API ユーザー名",module,Magento_Paypal
+"API Password","API パスワード",module,Magento_Paypal
+"Get Credentials from PayPal",PayPalから証明書を受け取る,module,Magento_Paypal
 "Sandbox Mode",保護モード,module,Magento_Paypal
-"API Uses Proxy",プロキシを使うAPI,module,Magento_Paypal
-"Proxy Host",プロキシホスト,module,Magento_Paypal
-"Proxy Port",プロキシポート,module,Magento_Paypal
+"API Uses Proxy",APIはプロキシーを使用します,module,Magento_Paypal
+"Proxy Host",プロキシーホスト,module,Magento_Paypal
+"Proxy Port",プロキシーポート,module,Magento_Paypal
+"Enable this Solution",この決済方法を有効にする,module,Magento_Paypal
+"Enable PayPal Credit",PayPalクレジットを有効化,module,Magento_Paypal
+"Advertise PayPal Credit",PayPalクレジットを広告化,module,Magento_Paypal
+"Publisher ID",パブリッシャーID,module,Magento_Paypal
+"Required to display a banner",バナー表示必須,module,Magento_Paypal
+"Get Publisher ID from PayPal",PayPalよりパブリッシャーIDを入手,module,Magento_Paypal
+"Home Page",ホームページ,module,Magento_Paypal
 Display,表示,module,Magento_Paypal
-Position,おすすめ,module,Magento_Paypal
+Position,位置,module,Magento_Paypal
 Size,サイズ,module,Magento_Paypal
+"Catalog Category Page",カタログカテゴリページ,module,Magento_Paypal
+"Catalog Product Page",カタログプロダクトページ,module,Magento_Paypal
+"Checkout Cart Page",チェックアウトカートページ,module,Magento_Paypal
+"Basic Settings - PayPal Express Checkout","基本設定 - PayPalエクスプレスチェックアウト",module,Magento_Paypal
 Title,タイトル,module,Magento_Paypal
 "Sort Order",並び順,module,Magento_Paypal
-"Payment Action",支払アクション,module,Magento_Paypal
-"The default number of child authorizations in your PayPal account is 1. To do multiple authorizations please contact PayPal to request an increase.",お使いのPayPalアカウントの標準子オーソリ数は1です。複数のオーソリを行うには、PayPalに追加をリクエストしてください。,module,Magento_Paypal
+"Payment Action",決済アクション,module,Magento_Paypal
+"Display on Product Details Page",商品詳細ページに表示,module,Magento_Paypal
+"Authorization Honor Period (days)","認証オナー期間 (日)",module,Magento_Paypal
+"Specifies what the Authorization Honor Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.",マーチャントのPayPalアカウントにて認証オナー期間が何かを指定。PayPalの設定を反映させてなければなりません。,module,Magento_Paypal
+"Order Valid Period (days)","注文有効期間 (日)",module,Magento_Paypal
+"Specifies what the Order Valid Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.",マーチャントのPayPalアカウントでの注文有効期間がなんであるか指定します。PayPalでの設定と同じでなければなりません。,module,Magento_Paypal
+"Number of Child Authorizations",子の認証の数,module,Magento_Paypal
+"The default number of child authorizations in your PayPal account is 1. To do multiple authorizations please contact PayPal to request an increase.",あなたのPayPalアカウントの子の認証のデフォルト値は1です。複数認証をおこなうにはPayPalに増やすように要求する連絡をしてください。,module,Magento_Paypal
 "Advanced Settings",拡張設定,module,Magento_Paypal
-"Also affects mini-shopping cart.",ミニショッピングカートにも影響を与えます,module,Magento_Paypal
-"Payment Applicable From",支払申込書,module,Magento_Paypal
-"Countries Payment Applicable From",支払い可能な国,module,Magento_Paypal
-"Debug Mode",デバッグモード,module,Magento_Paypal
-"Transfer Cart Line Items",カートの１行を送信,module,Magento_Paypal
-"Transfer Shipping Options",発送オプションを送信,module,Magento_Paypal
-"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.",このオプションを有効化すると、顧客はPayPalウェブサイト上のhttpsプロトコルのみでサポートされるライブモードで発送方法や発送先住所を変更出来ます。,module,Magento_Paypal
-"Shortcut Buttons Flavor",ショートカットボタンの色,module,Magento_Paypal
-"Enable PayPal Guest Checkout",PayPalゲストチェックアウトを有効にする,module,Magento_Paypal
-"Ability for buyer to purchase without PayPal account.",PayPalアカウントが不要な購入機能,module,Magento_Paypal
+"Also affects mini-shopping cart.",ミニショッピングカートにも影響します。,module,Magento_Paypal
+"Payment Applicable From",支払申し込みフォーム,module,Magento_Paypal
+"Countries Payment Applicable From",国支払申し込みフォーム,module,Magento_Paypal
+"Debug Mode",ディバクモード,module,Magento_Paypal
+"Enable SSL verification",SSL証明書有効化,module,Magento_Paypal
+"Transfer Cart Line Items",トランスファーカートラインアイテム,module,Magento_Paypal
+"Transfer Shipping Options",トランスファー配送オプション,module,Magento_Paypal
+"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.",このオプションが有効化されると、顧客はPayPalのウェブサイトにて配送住所と配送方法を変更できます。実環境ではHTTPSプロトコルを通してのみ可能です。,module,Magento_Paypal
+"Notice that PayPal can handle up to 10 shipping options. That is why Magento will transfer only first 10 cheapest shipping options if there are more than 10 available.",PayPalは10までの配送オプションを取り扱うことができます。そのためMagentoはもし10以上の配送オプションがある場合に最初の最も安い10個のオプションをトランスファーします。,module,Magento_Paypal
+"Shortcut Buttons Flavor",ショートカットボタン風,module,Magento_Paypal
+"Enable PayPal Guest Checkout",PayPalゲスト購入を有効化,module,Magento_Paypal
+"Ability for buyer to purchase without PayPal account.",PayPalアカウントなしで購入者に購入を行わせる,module,Magento_Paypal
+"Require Customer's Billing Address",顧客の支払住所必須,module,Magento_Paypal
+"This feature needs be enabled first for the merchant account through PayPal technical support.",この機能はPayPalのテクニカルサポートを通してマーチャントのアカウントのために有効化されなければなりません。,module,Magento_Paypal
 "Billing Agreement Signup",支払契約サインアップ,module,Magento_Paypal
-"Whether to create a billing agreement, if there are no active billing agreements available.",支払承諾アカウントが無い場合、新たに作成するかどうか,module,Magento_Paypal
-"PayPal Billing Agreement Settings",PayPal支払承諾設定,module,Magento_Paypal
+"Whether to create a billing agreement, if there are no active billing agreements available.",利用できる支払契約がない場合は、支払契約を作成する,module,Magento_Paypal
+"Skip Order Review Step",注文リビューステップをとばす,module,Magento_Paypal
+"PayPal Billing Agreement Settings",PayPal支払契約設定,module,Magento_Paypal
 Enabled,有効,module,Magento_Paypal
-"Allow in Billing Agreement Wizard",支払承諾ウィザードでの許可,module,Magento_Paypal
+"Allow in Billing Agreement Wizard",支払契約ウィザード内で許可,module,Magento_Paypal
 "Settlement Report Settings",決済レポート設定,module,Magento_Paypal
 "SFTP Credentials",SFTP証明書,module,Magento_Paypal
 Login,ログイン,module,Magento_Paypal
 Password,パスワード,module,Magento_Paypal
-"Custom Endpoint Hostname or IP-Address",カスタムエンドポイントのホスト名またはIPアドレス,module,Magento_Paypal
-"By default it is ""reports.paypal.com"".","初期値は ""reports.paypal.com"".",module,Magento_Paypal
-"Use colon to specify port. For example: ""test.example.com:5224"".","ポートを指定するにはコロン「：」を使用してください、""test.example.com:5224""",module,Magento_Paypal
+"Custom Endpoint Hostname or IP-Address",カスタムエンドポイントホスト名かIPアドレス,module,Magento_Paypal
+"By default it is ""reports.paypal.com"".","デフォルトは ""reports.paypal.com"".",module,Magento_Paypal
+"Use colon to specify port. For example: ""test.example.com:5224"".","コロンを使用してポートを指定してください。例: ""test.example.com:5224"".",module,Magento_Paypal
 "Custom Path",カスタムパス,module,Magento_Paypal
-"Scheduled Fetching",定期的取得,module,Magento_Paypal
-"Enable Automatic Fetching",自動取得を有効する,module,Magento_Paypal
+"Scheduled Fetching",スケジュールされた入手,module,Magento_Paypal
+"Enable Automatic Fetching",自動取得を有効化,module,Magento_Paypal
 Schedule,スケジュール,module,Magento_Paypal
-"PayPal retains reports for 45 days.",PayPalは４５日間レポートを保存しています,module,Magento_Paypal
-"Time of Day",時間帯,module,Magento_Paypal
-"Frontend Experience Settings","Frontend Experience 設定",module,Magento_Paypal
-"PayPal Product Logo",PayPalプロダクトロゴ,module,Magento_Paypal
-"Displays on catalog pages and homepage.",ホームページとカタログページへの表示,module,Magento_Paypal
-"PayPal Merchant Pages Style",PayPal出店者ページスタイル,module,Magento_Paypal
-"Page Style",ページの様式,module,Magento_Paypal
-"Header Image URL",ヘッダイメージURL,module,Magento_Paypal
-"Header Background Color",ヘッダ背景色,module,Magento_Paypal
-"Header Border Color",ヘッダ境界線色,module,Magento_Paypal
-"2-pixel perimeter around the header space.",ヘッダスペース周囲の2ピクセルの境界,module,Magento_Paypal
-"Page Background Color",ページ背景色,module,Magento_Paypal
+"PayPal retains reports for 45 days.",PayPalは45日レポートを保持します。,module,Magento_Paypal
+"Time of Day",日の時間,module,Magento_Paypal
+"Frontend Experience Settings",フロントエンド体験設定,module,Magento_Paypal
+"PayPal Product Logo",PayPal製品ロゴ,module,Magento_Paypal
+"Displays on catalog pages and homepage.",カタログページとホームページに表示,module,Magento_Paypal
+"PayPal Merchant Pages Style",PayPalマーチャントページスタイル,module,Magento_Paypal
+"Page Style",ページスタイル,module,Magento_Paypal
+"Header Image URL",ヘッダー画像URL,module,Magento_Paypal
+"Header Background Color",ヘッダーバックグラウンドカラー,module,Magento_Paypal
+"Header Border Color",ヘッダーボーダーカラー,module,Magento_Paypal
+"2-pixel perimeter around the header space.",ヘッダースペースの周囲2ピクセル,module,Magento_Paypal
+"Page Background Color",ページバックグラウンドカラー,module,Magento_Paypal
 "Accept payments with a PCI-compliant checkout that keeps customers on your site.",PCI標準のチェックアウトを受け入れることは、顧客の信頼を向上させる効果があります。,module,Magento_Paypal
+"Payments Advanced and Express Checkout",ペイメンツアドバンスドおよびエクスプレスチェックアウト,module,Magento_Paypal
 Partner,パートナー,module,Magento_Paypal
 Vendor,ベンダー,module,Magento_Paypal
 User,ユーザー,module,Magento_Paypal
+"PayPal recommends that you set up an additional User on your account at manager.paypal.com",PayPalは、お客様のアカウントにmanager.paypal.comで追加のユーザーを設定することをお勧めします,module,Magento_Paypal
+"PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.",PayPalはここに管理者のユーザ名とパスワードを入力するのではなく、manager.paypal.comでアカウントに追加のユーザを設定することをお勧めします。これにより、後でパスワードを変更するとセキュリティが強化され、サービスの中断を防ぐことができます。追加のユーザーを設定したくない場合は、ここにマーチャントログインを再入力することができます,module,Magento_Paypal
 "Test Mode",テストモード,module,Magento_Paypal
-"Use Proxy",プロキシを使用する,module,Magento_Paypal
-"It is recommended to set this value to ""Debit or Credit Card"" per store views.",ストアビュー毎にこの値を「デビットカードまたはクレジットカード」に設定する事を推奨します。,module,Magento_Paypal
-"Require CVV Entry",セキュアコード入力が必要です,module,Magento_Paypal
-"Website Payments Pro Hosted Solution",ウェブサイトペイメントプロホステッドソリューション,module,Magento_Paypal
+"Use Proxy",プロキシー使用,module,Magento_Paypal
+"Basic Settings - PayPal Payments Advanced","基本設定 - PayPalペイメンツアドバンスト",module,Magento_Paypal
+"It is recommended to set this value to ""Debit or Credit Card"" per store views.","この値をストアビュー毎""デビットかクレジットカード""にセットすることをおすすめします。",module,Magento_Paypal
+"CVV Entry is Editable","CVV エントリーは編集可能です",module,Magento_Paypal
+"Require CVV Entry",CVVエントリー必須,module,Magento_Paypal
+"Send Email Confirmation",Eメール確認を送る,module,Magento_Paypal
+"URL method for Cancel URL and Return URL","キャンセル URLとリターン URLのURL手法",module,Magento_Paypal
+"Payflow Link and Express Checkout",Payflowリンクとエクスプレスチェックアウト,module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)",PayPalマーチャントアカウントに紐付けられたEメール(オプション),module,Magento_Paypal
+"If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.",もし複数ユーザーがアカウントにて設定されてなければ、ベンダー/マーチャントログインを再入力してください。,module,Magento_Paypal
+"Enable Payflow Link",Payflowリンクを有効化,module,Magento_Paypal
+"Enable Express Checkout",エクスプレスチェックアウトを有効化,module,Magento_Paypal
+"Basic Settings - PayPal Payflow Link","基本設定 - PayPal Payflow リンク",module,Magento_Paypal
+"Website Payments Pro Hosted Solution","Websites Hosted Solution",module,Magento_Paypal
 "Accept payments with a PCI compliant checkout that keeps customers on your site.",PCI標準のチェックアウトを受け入れることは、顧客の信頼を向上させる効果があります。,module,Magento_Paypal
-"It is recommended to set this value to ""PayPal"" per store views.",ストアビュー毎にこの値を「PayPal」に設定する事を推奨します。,module,Magento_Paypal
-"Credit Card Settings",クレジットカードの設定,module,Magento_Paypal
+"Payments Pro Hosted Solution",ペイメンツプロのホスティングソリューション,module,Magento_Paypal
+"Basic Settings - PayPal Payments Pro Hosted Solution","基本設定 -  PayPal Payments Proのホスティングソリューション",module,Magento_Paypal
+"It is recommended to set this value to ""PayPal"" per store views.","ストアのビューごとにこの値を ""PayPal"" に設定することをお勧めします。",module,Magento_Paypal
+"Display Express Checkout in the Payment Information step",支払情報ステップでエクスプレスチェックアウトを照会する,module,Magento_Paypal
+"Website Payments Pro Hosted Solution and Express Checkout","Website Payments Pro Hosted Solutionとチェックアウト",module,Magento_Paypal
+"Basic Settings - PayPal Website Payments Pro Hosted Solution","基本設定 - PayPal Website Payments Pro Hosted Solution",module,Magento_Paypal
+"Payflow Pro",Payflowプロ,module,Magento_Paypal
+"Basic Settings - PayPal Payflow Pro","基本設定 - PayPal Payflow Pro",module,Magento_Paypal
+"Credit Card Settings",クレジットカード設定,module,Magento_Paypal
 "Allowed Credit Card Types",使用可能なクレジットカードタイプ,module,Magento_Paypal
+"Payflow Pro and Express Checkout","Payflow Pro とチェックアウトエクスプレス",module,Magento_Paypal
 "Persistent Shopping Cart",ショッピングカートの永続化,module,Magento_Persistent
 "General Options",全体のオプション,module,Magento_Persistent
 "Enable Persistence",セッションの永続化を有効にする,module,Magento_Persistent
