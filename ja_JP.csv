@@ -5862,6 +5862,7 @@ Cancel,キャンセル,module,Magento_Checkout
 Login,ログイン,module,Magento_Checkout
 item,商品,module,Magento_Checkout
 items,商品,module,Magento_Checkout
+"Go to Checkout",レジへ進む,module,Magento_Checkout
 "See Details",詳細をご覧ください,module,Magento_Checkout
 "Options Details",オプションの概要,module,Magento_Checkout
 Remove,削除,module,Magento_Checkout
