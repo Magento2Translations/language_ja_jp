@@ -5886,6 +5886,7 @@ edit,編集,module,Magento_Checkout
 Next,次,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time",申し訳ございません、お届け先が指定されていないため送料のお見積りをお出しすることができません。,module,Magento_Checkout
 "Order Summary",ご注文内容,module,Magento_Checkout
+"Item in Cart",カートの中の商品,module,Magento_Checkout
 "View Details",詳細を表示,module,Magento_Checkout
 "Contact Form",コンタクトフォーム,module,Magento_Contact
 "Name: %name","名前: %name",module,Magento_Contact
