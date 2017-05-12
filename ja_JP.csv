@@ -6219,6 +6219,7 @@ Debug,デバッグ,module,Magento_Authorizenet
 "Maximum Order Total",注文合計最大値,module,Magento_Authorizenet
 "Sort Order",並び順,module,Magento_Authorizenet
 Design,デザイン,module,Magento_Backend
+"All Stores",すべてのストア,module,Magento_Backend
 Services,サービス,module,Magento_Backend
 Advanced,高度な設定,module,Magento_Backend
 "Disable Modules Output",無効なモジュール出力,module,Magento_Backend
