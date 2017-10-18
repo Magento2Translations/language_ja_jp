@@ -3644,6 +3644,7 @@ Role,権限,module,Magento_ProductVideo
 "YouTube and Vimeo supported.",YouTubeとビデオはサポートされます,module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeoがサポートされています。<br />YouTube ビデオを追加するには, まず <a href=""%1"">YouTube API キー入力</a> してください。",module,Magento_ProductVideo
 "Protocol isn't allowed",プロトコルは許可されていません,module,Magento_ProductVideo
+"Disallowed file type.",許可しないファイルタイプ,module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.","プレビュー画像情報を得られませんでした。 接続を確認して再度お試し下さい。",module,Magento_ProductVideo
 "Add Video",ビデオ追加,module,Magento_ProductVideo
 "Browse to find or drag image here",ブラウズして探すか画像をここにドラッグしてください,module,Magento_ProductVideo
@@ -6039,10 +6040,12 @@ Password:,パスワード:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.",もしお心当たりがない場合は、このメールを無視していただければパスワードは変更されません。,module,Magento_Customer
 "Your %store_name password has been changed","%store_name のパスワードが変更されました",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","お客様のアカウントに関連付けられている以下の情報を %store_name: passwordに変更するリクエストを受け取りました。",module,Magento_Customer
+"Checkout out as a new customer",会員登録して購入する,module,Magento_Customer
 "Creating an account has many benefits:",アカウントを作成いただくと、多くのメリットがあります:,module,Magento_Customer
 "See order and shipping status",ご注文と配送の状況を見る,module,Magento_Customer
 "Track order history",ご注文履歴の確認,module,Magento_Customer
 "Check out faster",より早くご購入,module,Magento_Customer
+"Checkout out using your account",ご登録済みのアカウントでご購入,module,Magento_Customer
 "Email Address",メールアドレス,module,Magento_Customer
 "Currency Update Warnings",通貨更新警報,module,Magento_Directory
 Footer,フッター,module,Magento_Email
@@ -7077,6 +7080,7 @@ Currency,通貨,module,Magento_CurrencySymbol
 "Leave empty for default (15 minutes).",空白の場合は、初期値(15分)になります。,module,Magento_Customer
 "Customer Notification",顧客通知,module,Magento_Customer
 "Assign a Customer Group",顧客グループに割り当てる,module,Magento_Customer
+"Are you sure to assign selected customers to new group?",本当に選択した顧客を新しいグループにアサインしますか？,module,Magento_Customer
 "Customer Grid",顧客グリッド,module,Magento_Customer
 "Rebuild Customer grid index",顧客グリッドインデックスの再構築,module,Magento_Customer
 Group,グループ,module,Magento_Customer
