@@ -51,6 +51,7 @@ Close,閉じる,module,Magento_AdminNotification
 "amount %1","額 %1",module,Magento_Authorizenet
 failed.,失敗。,module,Magento_Authorizenet
 successful.,成功。,module,Magento_Authorizenet
+"Authorize.Net Transaction ID %1.","Authorize.Net Transaction ID %1",module,Magento_Authorizenet
 authorize,承認,module,Magento_Authorizenet
 "authorize and capture",",承認と取込",module,Magento_Authorizenet
 capture,取込,module,Magento_Authorizenet
@@ -345,6 +346,7 @@ Thumbnail,サムネイル,module,Magento_Backend
 selected,選択済み,module,Magento_Backend
 "per page",件表示,module,Magento_Backend
 "Previous page",前のページ,module,Magento_Backend
+"of %1",%1の,module,Magento_Backend
 "Next page",次のページ,module,Magento_Backend
 "Export to:",エクスポート先:,module,Magento_Backend
 Actions,アクション,module,Magento_Backend
@@ -361,6 +363,7 @@ Loading...,読み込み中,module,Magento_Backend
 "Database Backup",データベースバックアップ,module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Windowsシステムでは<a href=""""%1"""">%2</a>でアーカイブを解凍できます。",module,Magento_Backup
 "You need more permissions to activate maintenance mode right now.",メンテナンスモードにするには更に権限が必要です。,module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","バックアップを作るために、 ""Put store into maintenance mode"" の選択を外すか権限をアップデートしてください。",module,Magento_Backup
 "Something went wrong while putting your store into maintenance mode.",ストアをメンテナンスモードに変更中に問題が発生しました。,module,Magento_Backup
 "You need more free space to create a backup.",バックアップを作成するにはもっと容量が必要です。,module,Magento_Backup
 "You need more permissions to create a backup.",バックアップを作成するにはもっと権限が必要です。,module,Magento_Backup
@@ -375,6 +378,7 @@ successful,成功,module,Magento_Backup
 "You deleted the selected backup(s).",選択したバックアップを削除しました。,module,Magento_Backup
 "Can't load snapshot archive",スナップショットのアーカイブの読み込みができませんでした。,module,Magento_Backup
 "Please correct the password.",パスワードを修正してください。,module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","ロールバックを完了するには、 ""Put store into maintenance mode"" の選択を外すか権限をアップデートしてください。",module,Magento_Backup
 "We can't find the backup file.",バックアップファイルが見つかりませんでした。,module,Magento_Backup
 "We can't connect to the FTP right now.",現在FTPに接続できません。,module,Magento_Backup
 "Failed to validate FTP.",FTPの認証に失敗しました。,module,Magento_Backup
@@ -722,6 +726,7 @@ Relevance,関係性,module,Magento_CatalogSearch
 "Minimum Search query length is %1","最低限の検索クエリの長さは %1",module,Magento_CatalogSearch
 "Please specify at least one search term.",1つ以上のキーワードを指定してください。,module,Magento_CatalogSearch
 "%1 and greater","%1 とそれ以上",module,Magento_CatalogSearch
+"up to %1","最大で %1",module,Magento_CatalogSearch
 Category,カテゴリ,module,Magento_CatalogSearch
 "%1 and above","%1 と以上",module,Magento_CatalogSearch
 "Bucket do not exists",バケットは存在しません,module,Magento_CatalogSearch
@@ -2381,6 +2386,7 @@ label,ラベル,module,Magento_Eav
 "Wrong attribute set ID",不正な属性セットID,module,Magento_Eav
 "Wrong attribute group ID",不正な属性グループID,module,Magento_Eav
 "AttributeSet does not exist.",属性は存在しません,module,Magento_Eav
+hello,こんにちは,module,Magento_Eav
 "Some internal exception message.",内部エクセプションメッセージ,module,Magento_Eav
 "The value of attribute not valid",属性の値は有効ではありません,module,Magento_Eav
 "Add New Template",新しいテンプレートの追加,module,Magento_Email
@@ -3030,6 +3036,8 @@ Subscribe,購読,module,Magento_Newsletter
 "Send Check to:",小切手の宛先を指定:,module,Magento_OfflinePayments
 "Purchase Order Number",配送番号,module,Magento_OfflinePayments
 "Make Check payable to: %1","小切手の振出先を指定: %1",module,Magento_OfflinePayments
+"Purchase Order Number: %1","配送番号: %1",module,Magento_OfflinePayments
+"Make Check payable to",小切手支払を可能にする,module,Magento_OfflinePayments
 "Send Check to",小切手の宛先,module,Magento_OfflinePayments
 Country,国,module,Magento_OfflineShipping
 Region/State,地域,module,Magento_OfflineShipping
@@ -3489,6 +3497,8 @@ Continue,続ける,module,Magento_Paypal
 "Your shopping cart has been updated with new prices.",ショッピングカートを新しい価格に更新しました。,module,Magento_Persistent
 "Welcome, %1!",ようこそ、%1様!,module,Magento_Persistent
 "We cannot load the configuration from file %1.","%1 から設定を読み込むことができません。",module,Magento_Persistent
+"Method ""%1"" is not defined in ""%2""","%1 メソッドは %2 で定義されていません。",module,Magento_Persistent
+"To check out, please sign in using your email address.",チェックアウトするのは、Eメールアドレスでサインインしてください。,module,Magento_Persistent
 "Remember Me",ログイン状態を維持する,module,Magento_Persistent
 "What's this?",これは何ですか？,module,Magento_Persistent
 "You saved the alert subscription.",アラート購読を保存しました,module,Magento_ProductAlert
@@ -4737,8 +4747,10 @@ Print,印刷,module,Magento_Shipping
 "Print Shipping Label",配送ラベルを印刷,module,Magento_Shipping
 "Show Packages",梱包を表示,module,Magento_Shipping
 "About Your Shipment",あなたのお荷物配送状況について,module,Magento_Shipping
+"Order # %1","注文 # %1",module,Magento_Shipping
 "Back to My Orders",ご注文画面に戻る,module,Magento_Shipping
 "View Another Order",他の注文を表示,module,Magento_Shipping
+"Please enter a comment.",コメントを入力して下さい。,module,Magento_Shipping
 "Cannot add new comment.",コメントを追加できません。,module,Magento_Shipping
 "Please specify a carrier.",配送業者を指定してください,module,Magento_Shipping
 "Please enter a tracking number.",トラッキング番号を入力してください,module,Magento_Shipping
@@ -4768,6 +4780,7 @@ Shipments,配送,module,Magento_Shipping
 "The shipping module is not available.",配送モジュールは利用できません,module,Magento_Shipping
 "This shipping method is not available. Please specify the zip code.",この発送方法は有効ではありません。郵便番号を指定してください,module,Magento_Shipping
 "No packages for request",依頼のパッケージはありません,module,Magento_Shipping
+"Security validation of XML document has been failed.",XMLドキュメントのセキュリティ検証に失敗しました。,module,Magento_Shipping
 "All Allowed Countries",全ての許可された国,module,Magento_Shipping
 "Specific Countries",選択された国のみ,module,Magento_Shipping
 Development,開発,module,Magento_Shipping
@@ -4827,6 +4840,7 @@ Cancel,キャンセル,module,Magento_Shipping
 Save,保存,module,Magento_Shipping
 "Add Package",パッケージの追加,module,Magento_Shipping
 "Add Selected Product(s) to Package",選択した商品を梱包に追加する,module,Magento_Shipping
+"Add Products to Package",商品を梱包に追加,module,Magento_Shipping
 "USPS domestic shipments don't use package types.","USPS 国内発送はパッケージタイプを使いません",module,Magento_Shipping
 in,インチ,module,Magento_Shipping
 lb,ポンド,module,Magento_Shipping
@@ -4892,6 +4906,7 @@ Catalog,カタログ,module,Magento_Sitemap
 "We can't find a sitemap to delete.",削除するサイトマップが見つかりません,module,Magento_Sitemap
 "This sitemap no longer exists.",サイトマップは存在していません。,module,Magento_Sitemap
 "Site Map",サイトマップ,module,Magento_Sitemap
+"New Site Map",新しいサイトマップ,module,Magento_Sitemap
 "The sitemap ""%1"" has been generated.","サイトマップ ""%1"" が生成されました",module,Magento_Sitemap
 "We can't generate the sitemap right now.",現在サイトマップを作成できません,module,Magento_Sitemap
 "We can't find a sitemap to generate.",作成するサイトマップが見つかりません,module,Magento_Sitemap
@@ -4970,6 +4985,8 @@ Rate,レート,module,Magento_TaxImportExport
 "Import and Export Tax Rates",税率のインポートとエクスポート,module,Magento_TaxImportExport
 "The tax rate has been imported.",税率を取り込みました。,module,Magento_TaxImportExport
 "Invalid file upload attempt",不正なファイルがアップロードされました,module,Magento_TaxImportExport
+"Invalid file format.",無効なフォーマット,module,Magento_TaxImportExport
+"One of the countries has invalid code.",国コードのうちのひとつが不正です。,module,Magento_TaxImportExport
 "Import Tax Rates",税率のインポート,module,Magento_TaxImportExport
 "Export Tax Rates",税率のエクスポート,module,Magento_TaxImportExport
 "Tax Rate Information",税率情報,module,Magento_Tax
@@ -5023,11 +5040,13 @@ Tax,税,module,Magento_Tax
 "We can't save this rate right now.",このレートを現在保存できます,module,Magento_Tax
 "You deleted the tax rate.",税レートを削除しました,module,Magento_Tax
 "We can't delete this rate because of an incorrect rate ID.",誤ったレートIDのためこのレートを削除できませんでした,module,Magento_Tax
+"Something went wrong deleting this rate.",このレートを削除中に問題が発生しました。,module,Magento_Tax
 "Edit Tax Rate",税率の編集,module,Magento_Tax
 "You saved the tax rate.",税レートを保存しました,module,Magento_Tax
 "Tax Rules",課税方法,module,Magento_Tax
 "The tax rule has been deleted.",課税ルールを削除しました。,module,Magento_Tax
 "This rule no longer exists.",このルールは存在していません。,module,Magento_Tax
+"Something went wrong deleting this tax rule.",この税ルールを削除中に問題が発生しました。,module,Magento_Tax
 "New Tax Rule",新しい税ルール,module,Magento_Tax
 "Edit Rule",ルールの編集,module,Magento_Tax
 "New Rule",新しいルール,module,Magento_Tax
@@ -5043,6 +5062,7 @@ Tax,税,module,Magento_Tax
 "Range To should be equal or greater than Range From.",範囲の終了値は開始値より大きい値でなければいけません。,module,Magento_Tax
 "The tax rate cannot be removed. It exists in a tax rule.",税レートが削除できません。税ルール内に存在します,module,Magento_Tax
 "This class no longer exists.",このクラスはすでに存在しません,module,Magento_Tax
+"You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.",この税区分は税ルールで使用されているため削除できません。まず使用されているルールを削除してください。,module,Magento_Tax
 "You cannot delete this tax class because it is used in existing %1(s).",%1にてすでに使われているので、この税クラスを削除できません,module,Magento_Tax
 "Custom price if available",利用できればカスタム価格,module,Magento_Tax
 "Original price only",オリジナル価格のみ,module,Magento_Tax
@@ -5141,6 +5161,7 @@ Theme,テーマ,module,Magento_Theme
 "Are you sure you want to delete this file?",本当にこのファイルを削除しますか?,module,Magento_Theme
 "Storage Root",ストレージルート,module,Magento_Theme
 "You deleted the theme.",テーマを削除しました,module,Magento_Theme
+"We cannot delete the theme.",テーマを削除できません,module,Magento_Theme
 "File not found: ""%1"".","ファイルが見つかりません: ""%1"".",module,Magento_Theme
 "We can't find file.",ファイルが見つかりません,module,Magento_Theme
 "We cannot find theme ""%1"".","テーマが見つかりません ""%1"".",module,Magento_Theme
@@ -5168,7 +5189,10 @@ Copy,コピー,module,Magento_Theme
 "We cannot find a directory with this name.",この名前のディレクトリをみつけられません,module,Magento_Theme
 "We can't delete root directory %1 right now.","現在ルートディレクトリ %1 を削除できません。",module,Magento_Theme
 "Theme isn't deletable.",テーマは削除可能ではありません,module,Magento_Theme
+"localized exception",ローカライズ例外,module,Magento_Theme
 Message,メッセージ,module,Magento_Theme
+"Test Label",テストラベル,module,Magento_Theme
+Phrase,フレーズ,module,Magento_Theme
 exception,例外,module,Magento_Theme
 "We found no files.",ファイルがみつかりません,module,Magento_Theme
 "Browse Files",ファイルをブラウズする,module,Magento_Theme
@@ -5201,7 +5225,9 @@ Minute,分,module,Magento_Theme
 "The configuration parameter ""formElement"" is a required for ""%1"" field.","設定パラメータ ""formElement"" は ""%1"" フィールドに必須です。",module,Magento_Ui
 "Remove %1","%1 を削除",module,Magento_Ui
 "Add New %1","%1 の新規追加",module,Magento_Ui
+"New %1","新しい %1",module,Magento_Ui
 "Please select item(s).",アイテムを選択して下さい。,module,Magento_Ui
+"Unsupported bookmark action.",サポートされていないブックマークアクション,module,Magento_Ui
 "Initialization error component, check the spelling of the name or the correctness of the call.","初期化エラーコンポーネント, 名称のスペルや呼び出しの適切さを確認します。",module,Magento_Ui
 "Bookmark with id ""%1"" does not exist.","id ""%1""のブックマークは存在しません",module,Magento_Ui
 "Initialization error component, check the spelling of the name or the correctness of the call.","初期化エラーコンポーネント, 名称のスペルや呼び出しの適切さを確認します。",module,Magento_Ui
@@ -5266,6 +5292,7 @@ Kilograms,キログラム,module,Magento_Ups
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","問題が発生しました。 再度お試しになるか我々に連絡をいただければ解決のお手伝いをします。",module,Magento_Ups
 "Cannot retrieve shipping rates",配送レートを取得できませんでした。,module,Magento_Ups
 status,ステータス,module,Magento_Ups
+error_message,エラーメッセージ,module,Magento_Ups
 "Empty response",空の返信,module,Magento_Ups
 "Delivery Confirmation",配送確認,module,Magento_Ups
 "Signature Required",署名が必要です,module,Magento_Ups
@@ -5586,11 +5613,18 @@ Widget,ウィジェット,module,Magento_Widget
 "Widget Type",ウィジェットタイプ,module,Magento_Widget
 "-- Please Select --","-- 選択してください --",module,Magento_Widget
 "Manage Widget Instances",ウィジェットインスタンス管理,module,Magento_Widget
+"Add Widget",ウィジェットを追加,module,Magento_Widget
 "Save and Continue Edit",保存して編集を続ける,module,Magento_Widget
+"Widget ""%1""","ウィジェット ""%1""",module,Magento_Widget
 "New Widget Instance",新しいウィジェットインスタンス,module,Magento_Widget
+"Custom Layouts",カスタムレイアウト,module,Magento_Widget
+"Page Layouts",ページレイアウト,module,Magento_Widget
+"Please Select Container First",まずコンテナを選択してください,module,Magento_Widget
 "Design Package/Theme",デザインパッケージ/テーマ,module,Magento_Widget
+"Widget Title",ウィジェットタイトル,module,Magento_Widget
 "Assign to Store Views",ストアビューにアサインする,module,Magento_Widget
 "Sort Order",表示順,module,Magento_Widget
+"Sort Order of widget instances in the same container",同じコンテナにあるウィジェットの並び順,module,Magento_Widget
 "Layout Updates",レイアウト更新,module,Magento_Widget
 Categories,カテゴリ,module,Magento_Widget
 "Anchor Categories",カテゴリのアンカー,module,Magento_Widget
@@ -5604,13 +5638,19 @@ Categories,カテゴリ,module,Magento_Widget
 "Widget Options",ウィジェットオプション,module,Magento_Widget
 Settings,設定,module,Magento_Widget
 "Design Theme",デザインテーマ,module,Magento_Widget
+"Please specify a Widget Type.",ウィジェットタイプを指定してください。,module,Magento_Widget
+"Please specify a correct widget.",正しいウィジェットを指定してください。,module,Magento_Widget
 "The widget instance has been deleted.",ウィジェットを削除しました。,module,Magento_Widget
+"New Widget",新規ウィジェット,module,Magento_Widget
 Widgets,ウィジェット,module,Magento_Widget
 "The widget instance has been saved.",ウィジェットを保存しました。,module,Magento_Widget
+description,概要,module,Magento_Widget
+"We cannot create the widget instance because it is missing required information.",必要な情報がないため、ウィジェットのインスタンスを作成することができません。,module,Magento_Widget
 None,なし,module,Magento_Widget
 Container,梱包,module,Magento_Widget
 Template,テンプレート,module,Magento_Widget
 All,全て,module,Magento_Widget
+"Specific %1","特定の %1",module,Magento_Widget
 "Open Chooser",選択を開く,module,Magento_Widget
 Page,ページ,module,Magento_Widget
 "Wish List",ほしい物リスト,module,Magento_Wishlist
@@ -5764,7 +5804,11 @@ Password:,パスワード:,module,Magento_Customer
 "Your Shipment #%shipment_id for Order #%order_id","注文#%order_idのあなたの配送番号 #%shipment_id""",module,Magento_Sales
 "%sender_name wants to share this product with you:","%sender_name はこの商品をあなたとシェアしたがっています:",module,Magento_SendFriend
 "Message from %sender_name:",%sender_nameからのメッセージ:,module,Magento_SendFriend
+"Sitemap Generation Warnings",サイトマップ生成警告,module,Magento_Sitemap
+"Thank you,",ありがとうございます、,module,Magento_User
 "There was recently a request to change the password for your account.",あなたのアカウントに対するパスワード再設定のリクエストが送信されました。,module,Magento_User
+"If you requested this change, reset your password here:",パスワードは下記のボタンをクリックするとリセットできます:,module,Magento_User
+"If you did not make this request, you can ignore this email and your password will remain the same.",もしお心当たりがない場合は、このメールを無視していただければパスワードは変更されません。,module,Magento_User
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name は %store_name からのお気に入りリストをあなたとシェアしたがっています:",module,Magento_Wishlist
 "Message from %customer_name:",%customer_nameからのメッセージ:,module,Magento_Wishlist
 "View all Wish List items",すべてのお気に入り商品を見る,module,Magento_Wishlist
@@ -5860,6 +5904,7 @@ Delete,削除,module,Magento_ProductVideo
 "Add Products",商品を追加,module,Magento_Sales
 "You have item changes",商品変更があります,module,Magento_Sales
 "We could not detect a size.",サイズが不明でした。,module,Magento_Theme
+"Go to Details Page",詳細ページに移動,module,Magento_Ui
 "Please enter more or equal than {0} symbols.",{0}シンボルより多くか同じ数を入力してください,module,Magento_Ui
 "Please enter less or equal than {0} symbols.",{0}シンボルより少ないか同じ数を入力してください,module,Magento_Ui
 "Please enter {0} words or less.",{0}字かそれ以下で入力してください,module,Magento_Ui
@@ -5917,6 +5962,7 @@ Delete,削除,module,Magento_ProductVideo
 "This is a required field.",必須項目です,module,Magento_Ui
 "Please enter positive number in this field.",このフィールドには使用可能な数字を入力してください。,module,Magento_Ui
 "Please enter a valid value, ex: 10,20,30","正しい値を入力してください。 例: 10,20,30",module,Magento_Ui
+Attention,注意,module,Magento_Ui
 "Use HTTPS to Get Feed",HTTPSを使ってフィードを得る,module,Magento_AdminNotification
 "Update Frequency",更新間隔,module,Magento_AdminNotification
 "Last Update",最終更新,module,Magento_AdminNotification
@@ -5934,6 +5980,7 @@ Title,タイトル,module,Magento_Authorizenet
 "New Order Status",新規注文ステータス,module,Magento_Authorizenet
 "Test Mode",テストモード,module,Magento_Authorizenet
 "Gateway URL",ゲートウェイURL,module,Magento_Authorizenet
+"Transaction Details URL",トランザクション詳細のURL,module,Magento_Authorizenet
 "Accepted Currency",支払可能通貨,module,Magento_Authorizenet
 Debug,デバッグ,module,Magento_Authorizenet
 "Email Customer",顧客メールアドレス,module,Magento_Authorizenet
@@ -5998,6 +6045,7 @@ CSS Settings""",module,Magento_Backend
 "Allow Countries",許可する国,module,Magento_Backend
 "Default Country",標準の国,module,Magento_Backend
 "European Union Countries",EU加盟国,module,Magento_Backend
+"Top destinations",トップ先,module,Magento_Backend
 "Locale Options",ロケールオプション,module,Magento_Backend
 Timezone,タイムゾーン,module,Magento_Backend
 Locale,ロケール,module,Magento_Backend
@@ -6035,6 +6083,7 @@ Admin,管理者,module,Magento_Backend
 "Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","BaseURLは”/”で終了させてください。 例：http://yourdomain/magento/",module,Magento_Backend
 "Use Custom Admin Path",カスタム管理者パスを使用する,module,Magento_Backend
 "Custom Admin Path",カスタム管理者パス,module,Magento_Backend
+"You will have to sign in after you save your custom admin path.",カスタム管理者パスを設定すると再度サインインが必要になります。,module,Magento_Backend
 Security,セキュリティ,module,Magento_Backend
 "Add Secret Key to URLs",URLにシークレットキーを付与,module,Magento_Backend
 "Login is Case Sensitive",ログインIDの大文字小文字を区別する,module,Magento_Backend
@@ -6061,6 +6110,7 @@ Web,ウェブ,module,Magento_Backend
 "Secure Base URL for Static View Files",スタティックビューファイルのためのセキュア・ベースURL,module,Magento_Backend
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.",空白か{{secure_base_url}か{{unsecure_base_url}}プレイスホルダーで始まっているか,module,Magento_Backend
 "Secure Base URL for User Media Files",ユーザーメディアファイルのためのセキュア・ベースURL,module,Magento_Backend
+"Use Secure URLs on Storefront",ストアフロントでセキュアなURLを使用する,module,Magento_Backend
 "Use Secure URLs in Admin",セキュアURLを管理者ページで使用する,module,Magento_Backend
 "Offloader header",オフローダーヘッダー,module,Magento_Backend
 "Default Pages",標準のページ,module,Magento_Backend
@@ -6071,6 +6121,7 @@ Web,ウェブ,module,Magento_Backend
 "Validate HTTP_VIA","HTTP_VIA を検証する",module,Magento_Backend
 "Validate HTTP_X_FORWARDED_FOR","HTTP_X_FORWARDED_FOR を検証する",module,Magento_Backend
 "Validate HTTP_USER_AGENT",HTTP_USER_AGENTを検証する,module,Magento_Backend
+"Use SID on Storefront",ストアフロントでSIDを使用する,module,Magento_Backend
 "Allows customers to stay logged in when switching between different stores.",異なる店舗に移動してもログイン状態を継続することを許可する,module,Magento_Backend
 "Cache Type",キャッシュタイプ,module,Magento_Backend
 Description,概要,module,Magento_Backend
@@ -6138,6 +6189,7 @@ Forms,対象フォーム,module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","多くても8文字を指定してください。 範囲指定が可能です（例：3-5）",module,Magento_Captcha
 "Symbols Used in CAPTCHA",CAPTCHAで使用する文字,module,Magento_Captcha
 "Case Sensitive",大文字小文字を区別する,module,Magento_Captcha
+"Enable CAPTCHA on Storefront",ストアフロントでCAPTCHAを有効にする,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","""ユーザー作成"" と ""パスワードを忘れた"" のCAPCHAのフォームは選ばれれば常に有効にできます。",module,Magento_Captcha
 Inventory,在庫,module,Magento_CatalogInventory
 "Stock Options",ストックオプション,module,Magento_CatalogInventory
@@ -6178,11 +6230,13 @@ End,終了,module,Magento_CatalogRule
 "Product URL Suffix",商品URL拡張子,module,Magento_CatalogUrlRewrite
 "Use Categories Path for Product URLs",商品URLにカテゴリパスを使用する,module,Magento_CatalogUrlRewrite
 "Create Permanent Redirect for URLs if URL Key Changed",URLが変更されたら恒久的なリダイレクト設定を作成する,module,Magento_CatalogUrlRewrite
+"List of Products",商品一覧,module,Magento_CatalogWidget
 Title,タイトル,module,Magento_CatalogWidget
 "Display Page Control",ページコントロールを表示,module,Magento_CatalogWidget
 "Number of Products per Page",1ページあたりの商品表示件数,module,Magento_CatalogWidget
 "Number of Products to Display",商品表示点数,module,Magento_CatalogWidget
 Template,テンプレート,module,Magento_CatalogWidget
+"Products Grid Template",商品グリッドテンプレート,module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","キャッシュ有効期間 (秒)",module,Magento_CatalogWidget
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.",設定されて居ない場合86400がディフォルトです。今すぐ更新するには、ブロックHTMLアウトプットキャッシュをクリアしてください。,module,Magento_CatalogWidget
 Conditions,条件,module,Magento_CatalogWidget
@@ -6895,6 +6949,7 @@ User,ユーザー,module,Magento_Paypal
 "Persistence Lifetime (seconds)","保持時間 (秒)",module,Magento_Persistent
 "Enable ""Remember Me""","""ログイン状態を維持する""を有効にする",module,Magento_Persistent
 """Remember Me"" Default Value","""ログイン状態を維持する"" の初期値",module,Magento_Persistent
+"Clear Persistence on Sign Out",サインアウト時にカートを消去する,module,Magento_Persistent
 "Persist Shopping Cart",ショッピングカートを永続化する,module,Magento_Persistent
 "Product Alerts",商品通知,module,Magento_ProductAlert
 "Allow Alert When Product Price Changes",商品価格変更時の通知を許可する,module,Magento_ProductAlert
@@ -7107,6 +7162,9 @@ Region/State,地域,module,Magento_Shipping
 City,市区町村,module,Magento_Shipping
 "Street Address",番地,module,Magento_Shipping
 "Street Address Line 2",番地2,module,Magento_Shipping
+"Shipping Policy Parameters",配送ポリシーパラメーター,module,Magento_Shipping
+"Apply custom Shipping Policy",カスタムの配送ポリシーを適用します。,module,Magento_Shipping
+"Shipping Policy",配送ポリシー,module,Magento_Shipping
 "Shipping Methods",配送方法,module,Magento_Shipping
 "Categories Options",カテゴリオプション,module,Magento_Sitemap
 Frequency,頻度,module,Magento_Sitemap
@@ -7306,6 +7364,7 @@ Name,名前,module,Magento_Variable
 "Magento Web API",MagentoウェブAPI,module,Magento_Webapi
 "SOAP Settings",SOAP設定,module,Magento_Webapi
 "Default Response Charset",標準レスポンス文字コード,module,Magento_Webapi
+"If empty, UTF-8 will be used.","空の場合は、UTF-8 が使用されます。",module,Magento_Webapi
 "Web Services Configuration",Webサービス設定,module,Magento_Webapi
 "Fixed Product Taxes",商品固定税,module,Magento_Weee
 "Enable FPT",FPTを有効にする,module,Magento_Weee
@@ -7320,6 +7379,7 @@ Name,名前,module,Magento_Variable
 "Anchor Custom Title",アンカーカスタムタイトル,module,Magento_Widget
 "CMS Page Link Block Template",CMSページリンクブロックテンプレート,module,Magento_Widget
 "CMS Page Link Inline Template",CMSページインラインリンクテンプレート,module,Magento_Widget
+"Defines whether a link to My Account",マイアカウントへのリンクであるかどうかを定義する,module,Magento_Widget
 "Link Text",リンクテキスト,module,Magento_Widget
 "The text of the link to the My Account &gt; Order by SKU page",マイアカウントへのリンクのテキスト&gt;SKUページの順,module,Magento_Widget
 "Load a list of SKUs",SKUのリストを読み込む,module,Magento_Widget
