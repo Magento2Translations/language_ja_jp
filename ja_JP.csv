@@ -288,6 +288,7 @@ Thumbnail,サムネイル,module,Magento_Backend
 "Additional Settings",追加設定,module,Magento_Backend
 "per page",件表示,module,Magento_Backend
 "Previous page",前のページ,module,Magento_Backend
+"of %1",%1の,module,Magento_Backend
 "Next page",次のページ,module,Magento_Backend
 "Export to:",エクスポート先:,module,Magento_Backend
 Actions,アクション,module,Magento_Backend
@@ -533,6 +534,7 @@ Relevance,関係性,module,Magento_CatalogSearch
 "Minimum Search query length is %1","最低限の検索クエリの長さは %1",module,Magento_CatalogSearch
 "Please specify at least one search term.",1つ以上のキーワードを指定してください。,module,Magento_CatalogSearch
 "%1 and greater","%1 とそれ以上",module,Magento_CatalogSearch
+"up to %1","最大で %1",module,Magento_CatalogSearch
 "Search Settings",検索条件,module,Magento_CatalogSearch
 Search,検索,module,Magento_CatalogSearch
 "Advanced Search",詳細検索,module,Magento_CatalogSearch
@@ -2004,6 +2006,8 @@ Subscribe,購読,module,Magento_Newsletter
 "Send Check to:",小切手の宛先を指定:,module,Magento_OfflinePayments
 "Purchase Order Number",配送番号,module,Magento_OfflinePayments
 "Make Check payable to: %1","小切手の振出先を指定: %1",module,Magento_OfflinePayments
+"Purchase Order Number: %1","配送番号: %1",module,Magento_OfflinePayments
+"Make Check payable to",小切手支払を可能にする,module,Magento_OfflinePayments
 "Send Check to",小切手の宛先,module,Magento_OfflinePayments
 Country,国,module,Magento_OfflineShipping
 Region/State,地域,module,Magento_OfflineShipping
@@ -3339,6 +3343,7 @@ Print,印刷,module,Magento_Shipping
 "Print Shipping Label",配送ラベルを印刷,module,Magento_Shipping
 "Show Packages",梱包を表示,module,Magento_Shipping
 "About Your Shipment",あなたのお荷物配送状況について,module,Magento_Shipping
+"Order # %1","注文 # %1",module,Magento_Shipping
 "Back to My Orders",ご注文画面に戻る,module,Magento_Shipping
 "View Another Order",他の注文を表示,module,Magento_Shipping
 "Cannot add new comment.",コメントを追加できません。,module,Magento_Shipping
@@ -3468,6 +3473,7 @@ Generate,生成,module,Magento_Sitemap
 Catalog,カタログ,module,Magento_Sitemap
 "This sitemap no longer exists.",サイトマップは存在していません。,module,Magento_Sitemap
 "Site Map",サイトマップ,module,Magento_Sitemap
+"New Site Map",新しいサイトマップ,module,Magento_Sitemap
 "The sitemap ""%1"" has been generated.","サイトマップ ""%1"" が生成されました",module,Magento_Sitemap
 "The priority must be between 0 and 1.",優先順位は0から1の間で指定してください。,module,Magento_Sitemap
 Always,常に,module,Magento_Sitemap
@@ -3542,16 +3548,19 @@ Tax,税,module,Magento_Tax
 "Manage Tax Rates",税率管理,module,Magento_Tax
 "New Tax Rate",新規税率,module,Magento_Tax
 "Tax Zones and Rates",税範囲とレート,module,Magento_Tax
+"Something went wrong deleting this rate.",このレートを削除中に問題が発生しました。,module,Magento_Tax
 "Edit Tax Rate",税率の編集,module,Magento_Tax
 "Tax Rules",課税方法,module,Magento_Tax
 "The tax rule has been deleted.",課税ルールを削除しました。,module,Magento_Tax
 "This rule no longer exists.",このルールは存在していません。,module,Magento_Tax
+"Something went wrong deleting this tax rule.",この税ルールを削除中に問題が発生しました。,module,Magento_Tax
 "New Tax Rule",新しい税ルール,module,Magento_Tax
 "Edit Rule",ルールの編集,module,Magento_Tax
 "New Rule",新しいルール,module,Magento_Tax
 "Maximum zip code length is 9.",郵便番号の最大桁数は9桁です。,module,Magento_Tax
 "Range To should be equal or greater than Range From.",範囲の終了値は開始値より大きい値でなければいけません。,module,Magento_Tax
 "This class no longer exists.",このクラスはすでに存在しません,module,Magento_Tax
+"You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.",この税区分は税ルールで使用されているため削除できません。まず使用されているルールを削除してください。,module,Magento_Tax
 "You cannot delete this tax class because it is used in existing %1(s).",%1にてすでに使われているので、この税クラスを削除できません,module,Magento_Tax
 "Custom price if available",利用できればカスタム価格,module,Magento_Tax
 "Original price only",オリジナル価格のみ,module,Magento_Tax
@@ -3635,6 +3644,7 @@ Theme,テーマ,module,Magento_Theme
 "Are you sure you want to delete this file?",本当にこのファイルを削除しますか?,module,Magento_Theme
 "Storage Root",ストレージルート,module,Magento_Theme
 "You deleted the theme.",テーマを削除しました,module,Magento_Theme
+"We cannot delete the theme.",テーマを削除できません,module,Magento_Theme
 "File not found: ""%1"".","ファイルが見つかりません: ""%1"".",module,Magento_Theme
 "We cannot find theme ""%1"".","テーマが見つかりません ""%1"".",module,Magento_Theme
 "We cannot find the theme.",テーマが見つかりません,module,Magento_Theme
@@ -3729,6 +3739,7 @@ Pounds,ポンド,module,Magento_Ups
 Kilograms,キログラム,module,Magento_Ups
 "Cannot retrieve shipping rates",配送レートを取得できませんでした。,module,Magento_Ups
 status,ステータス,module,Magento_Ups
+error_message,エラーメッセージ,module,Magento_Ups
 "Empty response",空の返信,module,Magento_Ups
 "Delivery Confirmation",配送確認,module,Magento_Ups
 "Signature Required",署名が必要です,module,Magento_Ups
@@ -3998,10 +4009,15 @@ Widget,ウィジェット,module,Magento_Widget
 "-- Please Select --","-- 選択してください --",module,Magento_Widget
 "Manage Widget Instances",ウィジェットインスタンス管理,module,Magento_Widget
 "Save and Continue Edit",保存して編集を続ける,module,Magento_Widget
+"Widget ""%1""","ウィジェット ""%1""",module,Magento_Widget
 "New Widget Instance",新しいウィジェットインスタンス,module,Magento_Widget
+"Custom Layouts",カスタムレイアウト,module,Magento_Widget
+"Page Layouts",ページレイアウト,module,Magento_Widget
+"Please Select Container First",まずコンテナを選択してください,module,Magento_Widget
 "Design Package/Theme",デザインパッケージ/テーマ,module,Magento_Widget
 "Assign to Store Views",ストアビューにアサインする,module,Magento_Widget
 "Sort Order",表示順,module,Magento_Widget
+"Sort Order of widget instances in the same container",同じコンテナにあるウィジェットの並び順,module,Magento_Widget
 "Layout Updates",レイアウト更新,module,Magento_Widget
 Categories,カテゴリ,module,Magento_Widget
 "Anchor Categories",カテゴリのアンカー,module,Magento_Widget
@@ -4015,12 +4031,18 @@ Categories,カテゴリ,module,Magento_Widget
 "Widget Options",ウィジェットオプション,module,Magento_Widget
 Settings,設定,module,Magento_Widget
 "Design Theme",デザインテーマ,module,Magento_Widget
+"Please specify a Widget Type.",ウィジェットタイプを指定してください。,module,Magento_Widget
+"Please specify a correct widget.",正しいウィジェットを指定してください。,module,Magento_Widget
 "The widget instance has been deleted.",ウィジェットを削除しました。,module,Magento_Widget
+"New Widget",新規ウィジェット,module,Magento_Widget
 Widgets,ウィジェット,module,Magento_Widget
 "The widget instance has been saved.",ウィジェットを保存しました。,module,Magento_Widget
+description,概要,module,Magento_Widget
+"We cannot create the widget instance because it is missing required information.",必要な情報がないため、ウィジェットのインスタンスを作成することができません。,module,Magento_Widget
 Container,梱包,module,Magento_Widget
 Template,テンプレート,module,Magento_Widget
 All,全て,module,Magento_Widget
+"Specific %1","特定の %1",module,Magento_Widget
 "Open Chooser",選択を開く,module,Magento_Widget
 Page,ページ,module,Magento_Widget
 "Wish List",ほしい物リスト,module,Magento_Wishlist
@@ -4176,6 +4198,7 @@ CSS Settings""",module,Magento_Backend
 "Allow Countries",許可する国,module,Magento_Backend
 "Default Country",標準の国,module,Magento_Backend
 "European Union Countries",EU加盟国,module,Magento_Backend
+"Top destinations",トップ先,module,Magento_Backend
 "Locale Options",ロケールオプション,module,Magento_Backend
 Timezone,タイムゾーン,module,Magento_Backend
 Locale,ロケール,module,Magento_Backend
@@ -4239,6 +4262,7 @@ Web,ウェブ,module,Magento_Backend
 "Secure Base URL for Static View Files",スタティックビューファイルのためのセキュア・ベースURL,module,Magento_Backend
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.",空白か{{secure_base_url}か{{unsecure_base_url}}プレイスホルダーで始まっているか,module,Magento_Backend
 "Secure Base URL for User Media Files",ユーザーメディアファイルのためのセキュア・ベースURL,module,Magento_Backend
+"Use Secure URLs on Storefront",ストアフロントでセキュアなURLを使用する,module,Magento_Backend
 "Use Secure URLs in Admin",セキュアURLを管理者ページで使用する,module,Magento_Backend
 "Offloader header",オフローダーヘッダー,module,Magento_Backend
 "Default Pages",標準のページ,module,Magento_Backend
@@ -4249,6 +4273,7 @@ Web,ウェブ,module,Magento_Backend
 "Validate HTTP_VIA","HTTP_VIA を検証する",module,Magento_Backend
 "Validate HTTP_X_FORWARDED_FOR","HTTP_X_FORWARDED_FOR を検証する",module,Magento_Backend
 "Validate HTTP_USER_AGENT",HTTP_USER_AGENTを検証する,module,Magento_Backend
+"Use SID on Storefront",ストアフロントでSIDを使用する,module,Magento_Backend
 "Allows customers to stay logged in when switching between different stores.",異なる店舗に移動してもログイン状態を継続することを許可する,module,Magento_Backend
 "Cache Type",キャッシュタイプ,module,Magento_Backend
 Description,概要,module,Magento_Backend
@@ -4303,6 +4328,7 @@ Forms,対象フォーム,module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","多くても8文字を指定してください。 範囲指定が可能です（例：3-5）",module,Magento_Captcha
 "Symbols Used in CAPTCHA",CAPTCHAで使用する文字,module,Magento_Captcha
 "Case Sensitive",大文字小文字を区別する,module,Magento_Captcha
+"Enable CAPTCHA on Storefront",ストアフロントでCAPTCHAを有効にする,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","""ユーザー作成"" と ""パスワードを忘れた"" のCAPCHAのフォームは選ばれれば常に有効にできます。",module,Magento_Captcha
 Inventory,在庫,module,Magento_CatalogInventory
 "Stock Options",ストックオプション,module,Magento_CatalogInventory
@@ -5091,6 +5117,8 @@ Region/State,地域,module,Magento_Shipping
 City,市区町村,module,Magento_Shipping
 "Street Address",番地,module,Magento_Shipping
 "Street Address Line 2",番地2,module,Magento_Shipping
+"Shipping Policy Parameters",配送ポリシーパラメーター,module,Magento_Shipping
+"Apply custom Shipping Policy",カスタムの配送ポリシーを適用します。,module,Magento_Shipping
 "Shipping Methods",配送方法,module,Magento_Shipping
 "Categories Options",カテゴリオプション,module,Magento_Sitemap
 Frequency,頻度,module,Magento_Sitemap
@@ -5265,6 +5293,7 @@ Debug,デバッグ,module,Magento_Usps
 "Magento Web API",MagentoウェブAPI,module,Magento_Webapi
 "SOAP Settings",SOAP設定,module,Magento_Webapi
 "Default Response Charset",標準レスポンス文字コード,module,Magento_Webapi
+"If empty, UTF-8 will be used.","空の場合は、UTF-8 が使用されます。",module,Magento_Webapi
 "Web Services Configuration",Webサービス設定,module,Magento_Webapi
 "Fixed Product Taxes",商品固定税,module,Magento_Weee
 "Enable FPT",FPTを有効にする,module,Magento_Weee
