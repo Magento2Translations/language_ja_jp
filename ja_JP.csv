@@ -1534,6 +1534,7 @@ Dropdown,ドロップダウン,module,Magento_Eav
 "Invalid default decimal value",不正な標準値です,module,Magento_Eav
 "Invalid default date",不正な標準日付,module,Magento_Eav
 "Invalid entity supplied",不正なエンティティが提供されました,module,Magento_Eav
+"Invalid backend model specified: %1","不正なバックエンド モデルが指定されました: %1",module,Magento_Eav
 "Source model ""%1"" not found for attribute ""%2""","属性""%2""のためのソースモデル ""%1""は見つかりませんでした",module,Magento_Eav
 "The value of attribute ""%1"" must be set","属性 ""%1"" の値はセットされなければなりません。",module,Magento_Eav
 "The value of attribute ""%1"" must be unique","属性の値""%1""は特殊でなければなりません",module,Magento_Eav
@@ -3370,6 +3371,7 @@ Shipments,配送,module,Magento_Shipping
 "All Allowed Countries",全ての許可された国,module,Magento_Shipping
 "Specific Countries",選択された国のみ,module,Magento_Shipping
 Development,開発,module,Magento_Shipping
+Live,本番,module,Magento_Shipping
 "Divide to equal weight (one request)","同じ重さで分割 (1リクエスト)",module,Magento_Shipping
 "Use origin weight (few requests)","元の重量を使用 (2,3のリクエスト)",module,Magento_Shipping
 Packages,パッケージ,module,Magento_Shipping
