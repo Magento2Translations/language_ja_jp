@@ -2254,6 +2254,7 @@ attachment,添付ファイル,module,Magento_Downloadable
 inline,インライン,module,Magento_Downloadable
 Pending,処理待ち,module,Magento_Downloadable
 Invoiced,請求済,module,Magento_Downloadable
+"To enable the option set the weight to no",このオプションを有効にするには、商品の重量をNoにしてください。,module,Magento_Downloadable
 "Is this downloadable Product?",これはダウンロード商品ですか？,module,Magento_Downloadable
 Links,リンク,module,Magento_Downloadable
 Title,タイトル,module,Magento_Downloadable
@@ -2394,6 +2395,7 @@ Dropdown,ドロップダウン,module,Magento_Eav
 "Invalid default decimal value",不正な標準値です,module,Magento_Eav
 "Invalid default date",不正な標準日付,module,Magento_Eav
 "Invalid entity supplied",不正なエンティティが提供されました,module,Magento_Eav
+"Invalid backend model specified: %1","不正なバックエンド モデルが指定されました: %1",module,Magento_Eav
 "Source model ""%1"" not found for attribute ""%2""","属性""%2""のためのソースモデル ""%1""は見つかりませんでした",module,Magento_Eav
 "The value of attribute ""%1"" must be set","属性 ""%1"" の値はセットされなければなりません。",module,Magento_Eav
 "The value of attribute ""%1"" must be unique","属性の値""%1""は特殊でなければなりません",module,Magento_Eav
@@ -3606,6 +3608,7 @@ Continue,続ける,module,Magento_Paypal
 "To check out, please sign in using your email address.",チェックアウトするのは、Eメールアドレスでサインインしてください。,module,Magento_Persistent
 "Remember Me",ログイン状態を維持する,module,Magento_Persistent
 "What's this?",これは何ですか？,module,Magento_Persistent
+"Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","&quot; カート情報を維持 &quot; をクリックして、ログインしていない状態でもショッピングカートにアクセスできるようにしましょう。",module,Magento_Persistent
 "You saved the alert subscription.",アラート購読を保存しました,module,Magento_ProductAlert
 "There are not enough parameters.",充分なパラメーターありません,module,Magento_ProductAlert
 "We can't update the alert subscription right now.",ただ今、通知概要を更新できません。,module,Magento_ProductAlert
@@ -4943,6 +4946,7 @@ Shipments,配送,module,Magento_Shipping
 "We can't delete tracking number.",伝票番号を削除できません。,module,Magento_Shipping
 "We can't load track with retrieving identifier right now.",今現在指定された識別子のトラックは読み込むことができません。,module,Magento_Shipping
 "We can't save the shipment right now.",今現在配送データを保存できません。,module,Magento_Shipping
+"""Shipment Document Validation Error(s):\n"" .","""出荷文書検証エラー: \n""。",module,Magento_Shipping
 "The shipment has been created.",配送伝票を作成しました。,module,Magento_Shipping
 "Cannot save shipment.",配送伝票を保存できません。,module,Magento_Shipping
 "The order no longer exists.",この注文データは存在しません。,module,Magento_Shipping
@@ -4959,6 +4963,7 @@ Shipments,配送,module,Magento_Shipping
 "All Allowed Countries",全ての許可された国,module,Magento_Shipping
 "Specific Countries",選択された国のみ,module,Magento_Shipping
 Development,開発,module,Magento_Shipping
+Live,本番,module,Magento_Shipping
 "Divide to equal weight (one request)","同じ重さで分割 (1リクエスト)",module,Magento_Shipping
 "Use origin weight (few requests)","元の重量を使用 (2,3のリクエスト)",module,Magento_Shipping
 Packages,パッケージ,module,Magento_Shipping
@@ -5047,6 +5052,7 @@ Error:,エラー:,module,Magento_Shipping
 "contact us",お問い合わせ,module,Magento_Shipping
 Info:,情報:,module,Magento_Shipping
 Track:,追跡:,module,Magento_Shipping
+". ':'",.':',module,Magento_Shipping
 "Delivered on:",配達経由:,module,Magento_Shipping
 N/A,該当無し,module,Magento_Shipping
 "There is no tracking available for this shipment.",この配送では追跡できません,module,Magento_Shipping
@@ -6088,6 +6094,7 @@ Delete,削除,module,Magento_GiftMessage
 "Sign a billing agreement to streamline further purchases with PayPal.",PayPalでさらに購入を合理化するための請求契約書に署名してください。,module,Magento_Paypal
 "Continue to PayPal",PayPalに進む,module,Magento_Paypal
 "Save credit card information for future use.",将来の使用のためにクレジットカード情報を保存してください。,module,Magento_Paypal
+"Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","'カート情報を維持' をクリックして、ログインしていない状態でもショッピングカートにアクセスできるようにしましょう。",module,Magento_Persistent
 "Product alerts Cron error",製品はCronのエラーを警告しています,module,Magento_ProductAlert
 "Product alerts cron warnings",製品アラートcron警報,module,Magento_ProductAlert
 "Products price changed alert",製品価格変更アラート,module,Magento_ProductAlert
@@ -7100,6 +7107,7 @@ Password,パスワード,module,Magento_Dhl
 """Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""Per Order"" 全体の注文での単一手数料を許可します。 ""Per Package"" は各パッケージに対して個別の手数料を許可します",module,Magento_Dhl
 "Handling Fee",手数料,module,Magento_Dhl
 "Divide Order Weight",注文の重量を分割,module,Magento_Dhl
+"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","注文商品の合計重量が70 kg を超えた場合、注文を分割して配送料を最適化することを DHL を許可するときに選択します。",module,Magento_Dhl
 "Weight Unit",単位(重量),module,Magento_Dhl
 Size,サイズ,module,Magento_Dhl
 "Allowed Methods",許可する配送方法,module,Magento_Dhl
