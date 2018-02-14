@@ -298,9 +298,6 @@ YTD,1年間,module,Magento_Backend
 "Admin session lifetime must be less than or equal to 31536000 seconds (one year)",管理者セッションライフタイムは、31536000秒以下（1年）でなくてはなりません,module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds",管理者セッションライフタイムは、60秒以上でなくてはなりません,module,Magento_Backend
 Order,注文,module,Magento_Backend
-"Access denied",アクセス拒否,module,Magento_Backend
-"Please try to sign out and sign in again.",サインアウトして再度サインインしてください。,module,Magento_Backend
-"If you continue to receive this message, please contact the store owner.",このメッセージを受け取り続ける場合、ストアオーナーに連絡をしてください。,module,Magento_Backend
 "You need more permissions to access this.",これにアクセスするには更に権限が必要です。,module,Magento_Backend
 "Welcome, please sign in",ようこそ、サインインしてください。,module,Magento_Backend
 Username,ユーザー名,module,Magento_Backend
@@ -702,6 +699,7 @@ Relevance,関係性,module,Magento_CatalogSearch
 "Please specify at least one search term.",1つ以上のキーワードを指定してください。,module,Magento_CatalogSearch
 "%1 and greater","%1 とそれ以上",module,Magento_CatalogSearch
 "up to %1","最大で %1",module,Magento_CatalogSearch
+". "" which is inconsistent with state of scope resolver""",". "" スコープリゾルバのいずれかの状態に不整合があります""",module,Magento_CatalogSearch
 Category,カテゴリ,module,Magento_CatalogSearch
 "%1 and above","%1 と以上",module,Magento_CatalogSearch
 "Sorry, something went wrong. You can find out more in the error log.",申し訳ありません、問題が発生しました。エラーログにて詳細が見つかります。,module,Magento_CatalogSearch
@@ -1387,7 +1385,6 @@ Checkout,レジに進む,module,Magento_Checkout
 Error!,エラー!,module,Magento_Checkout
 "DB exception",DB例外,module,Magento_Checkout
 Message,メッセージ,module,Magento_Checkout
-"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">領収書を印刷</a>",module,Magento_Checkout
 "Apply Discount Code",ディスカウントコード適用,module,Magento_Checkout
 "Enter discount code",ディスカウントコード入力,module,Magento_Checkout
 "Apply Discount",ディスカウント適用,module,Magento_Checkout
@@ -2129,6 +2126,7 @@ Gender,性別,module,Magento_Customer
 Name,名前,module,Magento_Customer
 "Tax/VAT number",納税者番号,module,Magento_Customer
 "Phone Number",電話番号,module,Magento_Customer
+"Import failed: %1","インポートに失敗しました: %1",module,Magento_Deploy
 "Cannot switch into given mode ""%1""","与えられたモード ""%1"" にスイッチできません",module,Magento_Deploy
 "Wrong logger interface specified.",不正なログインターフェースが指定されました。,module,Magento_Deploy
 "Hash has not been saved.",ハッシュが保存されていません,module,Magento_Deploy
@@ -2264,6 +2262,7 @@ attachment,添付ファイル,module,Magento_Downloadable
 inline,インライン,module,Magento_Downloadable
 Pending,処理待ち,module,Magento_Downloadable
 Invoiced,請求済,module,Magento_Downloadable
+"To enable the option set the weight to no",このオプションを有効にするには、商品の重量をNoにしてください。,module,Magento_Downloadable
 "Is this downloadable Product?",これはダウンロード商品ですか？,module,Magento_Downloadable
 Links,リンク,module,Magento_Downloadable
 Title,タイトル,module,Magento_Downloadable
@@ -2399,11 +2398,13 @@ Dropdown,ドロップダウン,module,Magento_Eav
 "Invalid entity_type specified: %1","不正なエンティティタイプが指定されました: %1",module,Magento_Eav
 "Entity is not initialized",エンティティのインスタンスが未作成です,module,Magento_Eav
 "Unknown parameter",不明なパラメータ,module,Magento_Eav
+"Unique constraint violation found",一意制約違反が検出されました,module,Magento_Eav
 "The attribute code '%1' is reserved by system. Please try another attribute code","属性コード'%1'はシステム用に保管されています。 別の属性コードを試して下さい",module,Magento_Eav
 "An attribute code must not be more than %1 characters.",属性コードは%1文字以上ではなりません。,module,Magento_Eav
 "Invalid default decimal value",不正な標準値です,module,Magento_Eav
 "Invalid default date",不正な標準日付,module,Magento_Eav
 "Invalid entity supplied",不正なエンティティが提供されました,module,Magento_Eav
+"Invalid backend model specified: %1","不正なバックエンド モデルが指定されました: %1",module,Magento_Eav
 "Source model ""%1"" not found for attribute ""%2""","属性""%2""のためのソースモデル ""%1""は見つかりませんでした",module,Magento_Eav
 "The value of attribute ""%1"" must be set","属性 ""%1"" の値はセットされなければなりません。",module,Magento_Eav
 "The value of attribute ""%1"" must be unique","属性の値""%1""は特殊でなければなりません",module,Magento_Eav
@@ -2443,6 +2444,7 @@ label,ラベル,module,Magento_Eav
 "Attribute with the same code",同じコードの属性,module,Magento_Eav
 "The storefront label is not defined.",ストアフロントラベルが未定義です,module,Magento_Eav
 "Default option value is not defined",標準のオプション値が未定義です,module,Magento_Eav
+"Attribute group with same code already exist. Please rename ""%1"" group",同じコードの属性グループは既に存在します。「%1」グループの名前を変更してください,module,Magento_Eav
 "Form Element with the same attribute",フォームの要素に同じ属性があります,module,Magento_Eav
 "Form Fieldset with the same code",フォームのフィールドセットに同じコードがあります,module,Magento_Eav
 "Form Type with the same code",フォームタイプと同じコードです,module,Magento_Eav
@@ -2450,6 +2452,7 @@ label,ラベル,module,Magento_Eav
 "Wrong entity ID",不正なエンティティID,module,Magento_Eav
 "Wrong attribute set ID",不正な属性セットID,module,Magento_Eav
 "Wrong attribute group ID",不正な属性グループID,module,Magento_Eav
+"Attribute with ID: ""%1"" does not exist","ID ""%1""の属性は存在しません",module,Magento_Eav
 "AttributeSet does not exist.",属性は存在しません,module,Magento_Eav
 hello,こんにちは,module,Magento_Eav
 "Some internal exception message.",内部エクセプションメッセージ,module,Magento_Eav
@@ -2522,6 +2525,7 @@ City,市区町村,module,Magento_Email
 "Design params must be set before calling this method",このメソッドを呼ぶ前にデザインパラメーターは設定されてなければならない,module,Magento_Email
 "CSS inlining error:","CSS インラインエラー:",module,Magento_Email
 "Error filtering template: %s","テンプレ−トのフィルタリングエラー: %s",module,Magento_Email
+"We're sorry, an error has occurred while generating this content.",申し訳ありません、このコンテンツを生成中に問題が発生しました。,module,Magento_Email
 "Invalid sender data",不正な送信者データ,module,Magento_Email
 Title,タイトル,module,Magento_Email
 "Load default template",標準のテンプレートを読み込む,module,Magento_Email
@@ -2673,6 +2677,7 @@ Download,ダウンロード,module,Magento_ImportExport
 Import,インポート,module,Magento_ImportExport
 "Import Settings",インポート設定,module,Magento_ImportExport
 "Import Behavior",インポートの動作,module,Magento_ImportExport
+"Stop on Error",エラーで停止,module,Magento_ImportExport
 "Skip error entries",エラーエントリーをスキップ,module,Magento_ImportExport
 "Allowed Errors Count",許可されたエラー数,module,Magento_ImportExport
 "Please specify number of errors to halt import process",インポートのプロセスを停止させるエラー数を指定してください,module,Magento_ImportExport
@@ -2974,6 +2979,7 @@ Total,合計,module,Magento_Multishipping
 "Please specify a payment method.",支払方法を指定してください,module,Magento_Multishipping
 "Please check shipping addresses information.",お届先住所を確認してください。,module,Magento_Multishipping
 "Please specify shipping methods for all addresses.",すべての配送先に配送方法を指定してください。,module,Magento_Multishipping
+"Some addresses cannot be used due to country-specific configurations.",国固有の設定のため、幾つかの地域の住所はご利用いただけません。,module,Magento_Multishipping
 "Select Addresses",住所選択,module,Magento_Multishipping
 "Shipping Information",配送情報,module,Magento_Multishipping
 "Billing Information",請求先情報,module,Magento_Multishipping
@@ -3396,6 +3402,8 @@ Dispute,意義申し立て,module,Magento_Paypal
 "N/A. Retry","N/A. 再試行",module,Magento_Paypal
 "N/A. Service not Supported","N/A. サービスはサポートされていません",module,Magento_Paypal
 "N/A. Unavailable","N/A. 無効",module,Magento_Paypal
+"Matched whole nine-digit ZIP (no Address)",９桁郵便番号合致（住所無し）,module,Magento_Paypal
+"Yes. Matched Address and five-digit ZIP",はい、５桁の郵便番号と住所が合致,module,Magento_Paypal
 "All the address information matched",全ての住所情報が合致しました,module,Magento_Paypal
 "None of the address information matched",合致する住所はありませんでした,module,Magento_Paypal
 "Part of the address information matched",一部の住所は合致しました,module,Magento_Paypal
@@ -3617,6 +3625,7 @@ Continue,続ける,module,Magento_Paypal
 "To check out, please sign in using your email address.",チェックアウトするのは、Eメールアドレスでサインインしてください。,module,Magento_Persistent
 "Remember Me",ログイン状態を維持する,module,Magento_Persistent
 "What's this?",これは何ですか？,module,Magento_Persistent
+"Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","&quot; カート情報を維持 &quot; をクリックして、ログインしていない状態でもショッピングカートにアクセスできるようにしましょう。",module,Magento_Persistent
 "You saved the alert subscription.",アラート購読を保存しました,module,Magento_ProductAlert
 "There are not enough parameters.",充分なパラメーターありません,module,Magento_ProductAlert
 "We can't update the alert subscription right now.",ただ今、通知概要を更新できません。,module,Magento_ProductAlert
@@ -3666,6 +3675,7 @@ Duration:,長さ:,module,Magento_ProductVideo
 "Shipping address is not set",商品送付先住所が設定されていません,module,Magento_Quote
 "The requested Payment Method is not available.",指定された決済方法は利用できません。,module,Magento_Quote
 "We found an invalid request for adding product to quote.",クオートに商品を追加する不正なリクエストを発見しました,module,Magento_Quote
+"Product that you are trying to add is not available.",追加しようとしている商品は使用できません。,module,Magento_Quote
 "This is the wrong quote item id to update configuration.",これは設定をアップデートするには誤ったクオート商品idです,module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.",この発送方法は無効です。この発送方法を使うには我々に連絡をください。,module,Magento_Quote
 "The address model is not defined.",この住所モデルは定義されていません,module,Magento_Quote
@@ -3700,9 +3710,11 @@ Subtotal,小計,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.",与えられたカートに顧客をアサインできません。カートは匿名ではありません。,module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.",与えられたカートに顧客をアサインできません。顧客は既にアクティブなカートを持っています,module,Magento_Quote
 "An error occurred on the server. Please try to place the order again.",サーバーでエラーが発生しました。もう一度注文してください。,module,Magento_Quote
+"Invalid state change requested",無効なステート変更がリクエストされました,module,Magento_Quote
 "Only 1 shipping assignment can be set",出荷割り当ては1つしか設定できません,module,Magento_Quote
 "This item price or quantity is not valid for checkout.",商品の価格か数量がチェックアウトには有効ではありません,module,Magento_Quote
 "Please check the shipping address information. %1","発送住所情報を確認してください %1",module,Magento_Quote
+"Some addresses cannot be used due to country-specific configurations.",国固有の設定のため、幾つかの地域の住所はご利用いただけません。,module,Magento_Quote
 "Please specify a shipping method.",配送方法を指定してください。,module,Magento_Quote
 "Please check the billing address information. %1","支払住所情報を確認してください %1",module,Magento_Quote
 "Please select a valid payment method.",正しい支払方法を選択してください。,module,Magento_Quote
@@ -3714,6 +3726,7 @@ Tax,税,module,Magento_Quote
 "Cannot set shipping method. %1","発送の方法を設定できません %1",module,Magento_Quote
 "Shipping method is not applicable for empty cart",空のカートに送付方法は適用できません,module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping method is not applicable.",カートには仮想商品しかありません。発送方法は適用できません。,module,Magento_Quote
+"Minimum Order Amount Exceeded.",最低注文量を超えました。,module,Magento_Quote
 error345,エラー345,module,Magento_Quote
 "New Accounts",新しいアカウント,module,Magento_Reports
 "Customers by number of orders",顧客ごとの注文件数,module,Magento_Reports
@@ -4943,6 +4956,7 @@ Shipments,配送,module,Magento_Shipping
 "We can't delete tracking number.",伝票番号を削除できません。,module,Magento_Shipping
 "We can't load track with retrieving identifier right now.",今現在指定された識別子のトラックは読み込むことができません。,module,Magento_Shipping
 "We can't save the shipment right now.",今現在配送データを保存できません。,module,Magento_Shipping
+"""Shipment Document Validation Error(s):\n"" .","""出荷文書検証エラー: \n""。",module,Magento_Shipping
 "The shipment has been created.",配送伝票を作成しました。,module,Magento_Shipping
 "Cannot save shipment.",配送伝票を保存できません。,module,Magento_Shipping
 "The order no longer exists.",この注文データは存在しません。,module,Magento_Shipping
@@ -4959,6 +4973,7 @@ Shipments,配送,module,Magento_Shipping
 "All Allowed Countries",全ての許可された国,module,Magento_Shipping
 "Specific Countries",選択された国のみ,module,Magento_Shipping
 Development,開発,module,Magento_Shipping
+Live,本番,module,Magento_Shipping
 "Divide to equal weight (one request)","同じ重さで分割 (1リクエスト)",module,Magento_Shipping
 "Use origin weight (few requests)","元の重量を使用 (2,3のリクエスト)",module,Magento_Shipping
 Packages,パッケージ,module,Magento_Shipping
@@ -5047,6 +5062,7 @@ Error:,エラー:,module,Magento_Shipping
 "contact us",お問い合わせ,module,Magento_Shipping
 Info:,情報:,module,Magento_Shipping
 Track:,追跡:,module,Magento_Shipping
+". ':'",.':',module,Magento_Shipping
 "Delivered on:",配達経由:,module,Magento_Shipping
 N/A,該当無し,module,Magento_Shipping
 "There is no tracking available for this shipment.",この配送では追跡できません,module,Magento_Shipping
@@ -5101,6 +5117,12 @@ All,全て,module,Magento_Sitemap
 "Requested store is inactive",要求されたストアは無効です,module,Magento_Store
 "Requested store is not found",要求されたストアは見つかりませんでした,module,Magento_Store
 "Environment emulation nesting is not allowed.",環境エミュレーションネスティングは許可されていません。,module,Magento_Store
+"Website was not found","Web サイトが見つかりませんでした。",module,Magento_Store
+"Group was not found",グループが見つかりませんでした。,module,Magento_Store
+"Store was not found",ストアが見つかりませんでした。,module,Magento_Store
+"Class for type ""%1"" was not declared","クラスの型 ""%1"" が宣言されていません",module,Magento_Store
+"%1 should implement %2","%1 は、%2 を実装する必要があります",module,Magento_Store
+"The following stores are not associated with a root category: ' . . '. For the store to be displayed in the storefront, it must be associated with a root category.","以下のストアはルートカテゴリに関連付けられていません: '..' 。公開するストアはルートカテゴリと関連付けられている必要があります。",module,Magento_Store
 "Invalid scope object",無効なスコープオブジェクト,module,Magento_Store
 "Group with the same code",同じコードのグループがあります,module,Magento_Store
 "Store with the same code",同じコードの店舗です,module,Magento_Store
@@ -6069,6 +6091,7 @@ Delete,削除,module,Magento_GiftMessage
 "Sign a billing agreement to streamline further purchases with PayPal.",PayPalでさらに購入を合理化するための請求契約書に署名してください。,module,Magento_Paypal
 "Continue to PayPal",PayPalに進む,module,Magento_Paypal
 "Save credit card information for future use.",将来の使用のためにクレジットカード情報を保存してください。,module,Magento_Paypal
+"Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","'カート情報を維持' をクリックして、ログインしていない状態でもショッピングカートにアクセスできるようにしましょう。",module,Magento_Persistent
 "Product alerts Cron error",製品はCronのエラーを警告しています,module,Magento_ProductAlert
 "Product alerts cron warnings",製品アラートcron警報,module,Magento_ProductAlert
 "Products price changed alert",製品価格変更アラート,module,Magento_ProductAlert
@@ -7127,6 +7150,7 @@ Password,パスワード,module,Magento_Dhl
 """Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""Per Order"" 全体の注文での単一手数料を許可します。 ""Per Package"" は各パッケージに対して個別の手数料を許可します",module,Magento_Dhl
 "Handling Fee",手数料,module,Magento_Dhl
 "Divide Order Weight",注文の重量を分割,module,Magento_Dhl
+"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","注文商品の合計重量が70 kg を超えた場合、注文を分割して配送料を最適化することを DHL を許可するときに選択します。",module,Magento_Dhl
 "Weight Unit",単位(重量),module,Magento_Dhl
 Size,サイズ,module,Magento_Dhl
 "Allowed Methods",許可する配送方法,module,Magento_Dhl
@@ -7267,6 +7291,7 @@ Extensions,エクステンション,module,Magento_Integration
 "OAuth consumer credentials HTTP Post maxredirects","OAuth顧客証明HTTP Post最大リダイレクト",module,Magento_Integration
 "OAuth consumer credentials HTTP Post timeout","OAuth顧客証明HTTP Postタイムアウト",module,Magento_Integration
 "Authentication Locks",認証ロック,module,Magento_Integration
+"Maximum Login Failures to Lock Out Account",アカウントロックをするログイン失敗回数,module,Magento_Integration
 "Lockout Time (seconds)","ロックアウト時間 (秒)",module,Magento_Integration
 "Integrations Configuration",外部連携設定,module,Magento_Integration
 "Integration configuration file",統合構成ファイル,module,Magento_Integration
@@ -7564,6 +7589,7 @@ User,ユーザー,module,Magento_Paypal
 "Reject Transaction if:",もしトランザクションが拒否されたら:,module,Magento_Paypal
 "AVS Street Does Not Match",AVS番地がマッチしません,module,Magento_Paypal
 "AVS Zip Does Not Match",AVS郵便番号がマッチしません,module,Magento_Paypal
+"Card Issuer Is Outside The United States",カード発行会社が米国外,module,Magento_Paypal
 "Card Security Code Does Not Match",カードセキュリティコードはマッチしません,module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro とチェックアウトエクスプレス",module,Magento_Paypal
 "Persistent Shopping Cart",ショッピングカートの永続化,module,Magento_Persistent
