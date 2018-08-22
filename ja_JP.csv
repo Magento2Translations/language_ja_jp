@@ -1087,7 +1087,7 @@ px.,ピクセル,module,Magento_Catalog
 "This product doesn't have tier price",この商品はtier価格がありません,module,Magento_Catalog
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","商品は他のデータ: customerGroupId = '%1', website = %2, qty = %3　とグループ化しませんでした。",module,Magento_Catalog
 "Invalid data provided for tier_price",tier_priceのデータが無効です,module,Magento_Catalog
-"Could not save group price",グループ価格を保存でいません,module,Magento_Catalog
+"Could not save group price",グループ価格を保存できません,module,Magento_Catalog
 "Please provide valid data",有効なデータを提供してください,module,Magento_Catalog
 "Values of following attributes are invalid: %1","以下の属性の値は無効です: %1",module,Magento_Catalog
 "We can't create writeable directory ""%1"".","書き込み可能なディレクトリを作成できません ""%1"".",module,Magento_Catalog
@@ -1576,12 +1576,14 @@ Store,店舗,module,Magento_Config
 "Store View",ストアビュー,module,Magento_Config
 "HTTP (unsecure)","HTTP (非セキュア)",module,Magento_Config
 Specified,特定の,module,Magento_Config
+"Visible section not found.",表示セクションが見つかりません。,module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields",フィールドセットからの複製モデルはフィールドの複製ができることが必要です。,module,Magento_Config
 "Invalid XML in file %1:\n%2","ファイル %1の無効なXML:\n%2",module,Magento_Config
 "'There is no defined type ' .","'定義された型はありません' .",module,Magento_Config
 "'Object is not instance of ' .","'オブジェクトはインスタンスではありません ' .",module,Magento_Config
 "Some error",なんらかのエラー,module,Magento_Config
 "Some message",何かのメッセージ,module,Magento_Config
+"You cannot run this command because the Magento application is not installed.",Magentoアプリケーションがインストールされていないため、このコマンドを実行することができません。,module,Magento_Config
 "This command is unavailable right now.",このコマンドはまだ利用できません,module,Magento_Config
 "The ""test/test/test"" path does not exists","""test/test/test"" のパスが存在しません",module,Magento_Config
 "some prefix",いくつかの接頭辞,module,Magento_Config
@@ -1762,15 +1764,15 @@ System,システム,module,Magento_CurrencySymbol
 "We found an invalid value in a website column.",ウェブサイトカラム内で不正な値を見つけました。,module,Magento_CustomerImportExport
 "Please enter a valid email.",正しいメールアドレスを入力してください。,module,Magento_CustomerImportExport
 "Please make sure attribute ""%s"" is not empty.","属性 ""%s""は空でないことを確認してください",module,Magento_CustomerImportExport
-"We can't find a customer who matches this email and website code.",このメールとウェブサイトのコードに一致する顧客を見つけません。,module,Magento_CustomerImportExport
+"We can't find a customer who matches this email and website code.",このメールとウェブサイトのコードに一致する顧客が見つかりません。,module,Magento_CustomerImportExport
 "Customer address id column is not specified",顧客住所のid列が指定されていません。,module,Magento_CustomerImportExport
-"We can't find that customer address.",その顧客のアドレスを見つけません。,module,Magento_CustomerImportExport
+"We can't find that customer address.",その顧客のアドレスが見つかりません。,module,Magento_CustomerImportExport
 "Please enter a valid region.",正しい地域名を入力してください。,module,Magento_CustomerImportExport
 "We found another row with this email, website and address ID combination.",このメールアドレス、ウェブサイト、アドレスIDの組み合わせの別の列を見つけました。,module,Magento_CustomerImportExport
 "This email is found more than once in the import file.",このEメールは1度以上インポートファイル内で見つかりました。,module,Magento_CustomerImportExport
 "Orphan rows that will be skipped due default row errors",孤立した行はデフォルトの行エラーのためスキップされます。,module,Magento_CustomerImportExport
 "Invalid value in Store column (store does not exists?)",ストア列に不正な値（ストアが存在しない？）,module,Magento_CustomerImportExport
-"We can't find that email and website combination.","そのメール アドレスとウェブサイトの組み合わせを見つけません。",module,Magento_CustomerImportExport
+"We can't find that email and website combination.",そのメールアドレスとウェブサイトの組み合わせが見つかりません。,module,Magento_CustomerImportExport
 "Please enter a password with a valid length.",パスワードを正しい長さで入力してください。,module,Magento_CustomerImportExport
 "Sign Out",サインアウト,module,Magento_Customer
 "Sign In",サインイン,module,Magento_Customer
@@ -2134,11 +2136,13 @@ Name,名前,module,Magento_Customer
 "Cannot switch into given mode ""%1""","与えられたモード ""%1"" にスイッチできません",module,Magento_Deploy
 "Wrong logger interface specified.",不正なログインターフェースが指定されました。,module,Magento_Deploy
 "Hash has not been saved.",ハッシュが保存されていません,module,Magento_Deploy
+"Parameter ""importer_class"" must be present.","パラメーター""importer_class""が存在しなければなりません",module,Magento_Deploy
 "The configuration file has changed. Run app:config:import or setup:upgrade command to synchronize configuration.","設定ファイルが変更されました。設定と同期するために、app:config:import または setup:upgrade コマンドを実行してください。",module,Magento_Deploy
 "Wrong type specified: '%1'","不正なタイプが指定されました: '%1'",module,Magento_Deploy
 "Wrong queue type specified.",不正なキュータイプが指定されました,module,Magento_Deploy
 "Wrong deploy strategy type: %1","間違ったデプロイ方法の種類: %1",module,Magento_Deploy
 "Some error",なんらかのエラー,module,Magento_Deploy
+Exception,例外,module,Magento_Deploy
 "Format for IDE '%1' is not supported",IDE'%1'のためのフォーマットはサポートされていません,module,Magento_Developer
 "Client side less compilation",クライアントサイドlessコンパイル,module,Magento_Developer
 "Server side less compilation",サーバーサイドlessコンパイル,module,Magento_Developer
@@ -2195,6 +2199,8 @@ Documents,ドキュメント,module,Magento_Dhl
 "Unable to retrieve shipping label",出荷ラベルの取り出しができません,module,Magento_Dhl
 "Non documents",非ドキュメント,module,Magento_Dhl
 None,なし,module,Magento_Dhl
+"Security validation of XML document has been failed.",XMLドキュメントのセキュリティ検証に失敗しました。,module,Magento_Dhl
+"The response is in the wrong format",回答のフォーマットが間違っています,module,Magento_Dhl
 State/Province,都道府県,module,Magento_Directory
 "--Please Select--",--選択してください--,module,Magento_Directory
 lbs,ポンド,module,Magento_Directory
@@ -2246,12 +2252,12 @@ Unlimited,無制限,module,Magento_Downloadable
 "Order id cannot be null",注文IDにnullは使用できません,module,Magento_Downloadable
 "Order item id cannot be null",商品IDにnullは使用できません,module,Magento_Downloadable
 "Provided product must be type 'downloadable'.",提供される製品は、ダウンロード可能な型でなければなりません。,module,Magento_Downloadable
-"Provided link information is invalid.",リンク情報が正しくありません。,module,Magento_Downloadable
+"Provided link information is invalid.",提供されたリンク情報が正しくありません。,module,Magento_Downloadable
 "Invalid link type.",無効なリンクタイプ,module,Magento_Downloadable
 "Link title cannot be empty.",リンクタイトルは空にできません,module,Magento_Downloadable
 "There is no downloadable link with provided ID.",提供されたIDでダウンロード可能なリンクはありません,module,Magento_Downloadable
 "Provided downloadable link is not related to given product.",ダウンロードのリンクは、特定の製品と関係がありません。,module,Magento_Downloadable
-"Cannot delete link with id %1","id %1 のリンクは削除できません",module,Magento_Downloadable
+"Cannot delete link with id %1","id %1 のリンクを削除できません",module,Magento_Downloadable
 "Please specify product link(s).",商品リンクを指定してください。,module,Magento_Downloadable
 "Sample file not provided","サンプル ファイルは提供されません。",module,Magento_Downloadable
 "Provided sample information is invalid.",用意されているサンプル情報は無効です。,module,Magento_Downloadable
@@ -2259,7 +2265,7 @@ Unlimited,無制限,module,Magento_Downloadable
 "Sample title cannot be empty.",サンプルタイトルは空にできません,module,Magento_Downloadable
 "There is no downloadable sample with provided ID.",提供されたIDでダウンロード可能なサンプルはありません,module,Magento_Downloadable
 "Provided downloadable sample is not related to given product.",ダウンロード可能サンプルは、特定の製品と関係がありません。,module,Magento_Downloadable
-"Cannot delete sample with id %1","id %1 のサンプルは削除できません",module,Magento_Downloadable
+"Cannot delete sample with id %1","id %1 のサンプルを削除できません",module,Magento_Downloadable
 "Use config",設定を使用する,module,Magento_Downloadable
 "Upload File",ファイルをアップロード,module,Magento_Downloadable
 attachment,添付ファイル,module,Magento_Downloadable
@@ -2456,6 +2462,7 @@ label,ラベル,module,Magento_Eav
 "Wrong entity ID",不正なエンティティID,module,Magento_Eav
 "Wrong attribute set ID",不正な属性セットID,module,Magento_Eav
 "Wrong attribute group ID",不正な属性グループID,module,Magento_Eav
+"An attribute code must not be less than %1 and more than %2 characters.",属性コードは、%1以上%2文字以上であってはなりません。,module,Magento_Eav
 "Attribute with ID: ""%1"" does not exist","ID ""%1""の属性は存在しません",module,Magento_Eav
 "AttributeSet does not exist.",属性は存在しません,module,Magento_Eav
 hello,こんにちは,module,Magento_Eav
@@ -2618,7 +2625,7 @@ Cancel,キャンセル,module,Magento_GiftMessage
 "Do you have any gift items in your order?",ギフトにする商品がありますか？,module,Magento_GiftMessage
 "Add Gift Options",ギフトオプションの追加,module,Magento_GiftMessage
 "Gift Options for the Entire Order",全体の注文に対するギフトオプション,module,Magento_GiftMessage
-"Leave this box blank if you don't want to leave a gift message for the entire order.","注文全体にギフト メッセージを残したくない場合にこのボックスを空白のままに。",module,Magento_GiftMessage
+"Leave this box blank if you don't want to leave a gift message for the entire order.",もし全体の注文にギフトメッセージを残したくない場合はこのボックスを空にしてください。,module,Magento_GiftMessage
 "Gift Options for Individual Items",個別商品に対するギフトオプション,module,Magento_GiftMessage
 "<span>Item %1</span> of %2","<span>個別商品 %1</span> の %2",module,Magento_GiftMessage
 "Leave a box blank if you don't want to add a gift message for that item.",この商品にギフトメッセージを希望されない場合は空欄にしておいてください。,module,Magento_GiftMessage
@@ -3632,7 +3639,7 @@ Continue,続ける,module,Magento_Paypal
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","&quot; カート情報を維持 &quot; をクリックして、ログインしていない状態でもショッピングカートにアクセスできるようにしましょう。",module,Magento_Persistent
 "You saved the alert subscription.",アラート購読を保存しました,module,Magento_ProductAlert
 "There are not enough parameters.",充分なパラメーターありません,module,Magento_ProductAlert
-"We can't update the alert subscription right now.",ただ今、通知概要を更新できません。,module,Magento_ProductAlert
+"We can't update the alert subscription right now.",現在通知概要を更新できません。,module,Magento_ProductAlert
 "Alert subscription has been saved.",更新通知を購読しました。,module,Magento_ProductAlert
 "You deleted the alert subscription.",アラート購読を削除しました,module,Magento_ProductAlert
 "We can't find the product.",商品が見つかりません。,module,Magento_ProductAlert
@@ -3710,7 +3717,7 @@ Subtotal,小計,module,Magento_Quote
 "Invalid customer id %1","無効な顧客id %1",module,Magento_Quote
 "Invalid address id %1","無効な住所id %1",module,Magento_Quote
 "Invalid customer address id %1","カスタマーアドレスIDが無効です %1",module,Magento_Quote
-"Cannot create quote",クオートを作製できません,module,Magento_Quote
+"Cannot create quote",クオートを作成できません,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart belongs to different store.",与えられたカートに顧客をアサインできません。このカートは別のストアに属しています,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.",与えられたカートに顧客をアサインできません。カートは匿名ではありません。,module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.",与えられたカートに顧客をアサインできません。顧客は既にアクティブなカートを持っています,module,Magento_Quote
@@ -3985,7 +3992,7 @@ Ratings,レーティング,module,Magento_Review
 "My Product Reviews",商品レビュー,module,Magento_Review
 "Cannot initialize product",製品を初期化できません,module,Magento_Review
 "You submitted your review for moderation.",リビューを投稿しました。,module,Magento_Review
-"We can't post your review right now.",ただ今お客様のレビューを投稿できません。,module,Magento_Review
+"We can't post your review right now.",現在お客様のレビューを投稿できません。,module,Magento_Review
 "Storage key was not set",保管キーはセットされていません,module,Magento_Review
 Approved,受付済,module,Magento_Review
 Pending,処理待ち,module,Magento_Review
@@ -4495,9 +4502,13 @@ Pending,処理待ち,module,Magento_Sales
 Refunded,返金済,module,Magento_Sales
 Canceled,キャンセル済,module,Magento_Sales
 "Unknown State",不明な国,module,Magento_Sales
+"Could not delete the comment.",コメントを削除できませんでした。,module,Magento_Sales
+"Could not save the comment.",コメントを保存できませんでした。,module,Magento_Sales
 "We found an invalid quantity to refund item ""%1"".","商品""%1""を返金するには無効な数量を発見しました",module,Magento_Sales
 "The creditmemo contains product item that is not part of the original order.",Tクレジットメモには元の注文の一部ではない商品アイテムが含まれています。,module,Magento_Sales
 "The quantity to refund must not be greater than the unrefunded quantity.",払い戻す数量は、払い戻しされない数量を超えてはいけません。,module,Magento_Sales
+"Could not delete the credit memo item.",クレジットメモのアイテムを削除できませんでした。,module,Magento_Sales
+"Could not save the credit memo item.",クレジットメモのアイテムを保存できませんでした。,module,Magento_Sales
 "Maximum shipping amount allowed to refund is: %1","返金が許された最大の発送額は: %1",module,Magento_Sales
 "Order Id is required for creditmemo document",クレジットメモ文書には注文IDが必要です,module,Magento_Sales
 "The creditmemo contains product SKU ""%1"" that is not part of the original order.","クレジットメモには元の注文の一部ではない商品SKU ""%1"" が含まれています。",module,Magento_Sales
@@ -4509,6 +4520,10 @@ Canceled,キャンセル済,module,Magento_Sales
 "This order already has associated customer account",この注文は既に顧客アカウントと紐付いています,module,Magento_Sales
 Paid,支払済,module,Magento_Sales
 "We cannot register an existing invoice",既に存在する領収書は登録できません,module,Magento_Sales
+"Could not delete the invoice comment.",請求書コメントを削除できませんでした。,module,Magento_Sales
+"Could not save the invoice comment.",請求書コメントを保存できませんでした。,module,Magento_Sales
+"Could not delete the invoice item.",請求アイテムを削除できませんでした。,module,Magento_Sales
+"Could not save the invoice item.",請求商品を保存できませんでした。,module,Magento_Sales
 "We can't create creditmemo for the invoice.",請求書のクレジットメモを作成することはできません。,module,Magento_Sales
 "Order Id is required for invoice document",請求書文書には受注IDが必要です,module,Magento_Sales
 "The quantity to invoice must not be greater than the uninvoiced quantity for product SKU ""%1"".","請求書の数量は、製品SKU ""%1"" の無認可数量を超えてはいけません。",module,Magento_Sales
@@ -4578,8 +4593,15 @@ Tax,税,module,Magento_Sales
 "Incl. Tax",税込,module,Magento_Sales
 title,タイトル,module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","PDF トータルモデル %1 でなければならないか \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal の展開でなければならない",module,Magento_Sales
+"Received check doesn't match interface",受信した小切手がインタフェースと一致しません。,module,Magento_Sales
 "We cannot register an existing shipment",既存の送付は登録できません,module,Magento_Sales
+"Could not delete the shipment comment.",配送コメントを削除できませんでした。,module,Magento_Sales
+"Could not save the shipment comment.",配送コメントを保存できませんでした。,module,Magento_Sales
+"Could not delete the shipment item.",配送アイテムを削除できませんでした。,module,Magento_Sales
+"Could not save the shipment item.",配送アイテムを保存できませんでした。,module,Magento_Sales
 "Parent shipment cannot be loaded for track object.",親シップメントはトラックオブジェクトにロードできません。,module,Magento_Sales
+"Could not delete the shipment tracking.",配送追跡を削除できませんでした。,module,Magento_Sales
+"Could not save the shipment tracking.",配送追跡を保存できませんでした。,module,Magento_Sales
 "Order Id is required for shipment document",出荷伝票に注文IDが必要です,module,Magento_Sales
 "You can't create a shipment without products.",商品を持たない出荷データは作成できません。,module,Magento_Sales
 "The shipment contains product SKU ""%1"" that is not part of the original order.","出荷には元の注文の一部ではない製品SKU ""％1""が含まれています。",module,Magento_Sales
@@ -4589,6 +4611,8 @@ title,タイトル,module,Magento_Sales
 "Could not save shipment",配送を保存できませんでした。,module,Magento_Sales
 "The last status can't be unassigned from its current state.",現在のステータスから最後のステータスにアサインを外すことはできません,module,Magento_Sales
 "Status can't be unassigned, because it is used by existing order(s).",既存の注文に使われているのでステータスのアサインを外すことはできません,module,Magento_Sales
+"Could not delete the order status history.",注文ステータスの履歴を削除できませんでした。,module,Magento_Sales
+"Could not save the order status history.",注文ステータスの履歴を保存できませんでした。,module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","トータルモデルは \Magento\Sales\Model\Order\Total\AbstractTotal から展開すべきです",module,Magento_Sales
 "An invoice cannot be created when an order has a status of %1","オーダーのステータスが %1 の場合、請求書を作成することはできません",module,Magento_Sales
 "A creditmemo can not be created when an order has a status of %1",オーダーのステータスが%1の場合、クレジットメモを作成することはできません,module,Magento_Sales
@@ -4753,6 +4777,7 @@ Comment,コメント,module,Magento_Sales
 "Link to the Previous Order",前の注文へのリンク,module,Magento_Sales
 "Placed from IP",IPアドレス,module,Magento_Sales
 "%1 / %2 rate:","%1 / %2 レート:",module,Magento_Sales
+"Edit Customer",顧客の編集,module,Magento_Sales
 "Customer Name",顧客名,module,Magento_Sales
 "Customer Group",顧客グループ,module,Magento_Sales
 "Notes for this Order",コメント履歴,module,Magento_Sales
@@ -5187,6 +5212,7 @@ Rate,レート,module,Magento_TaxImportExport
 "Import and Export Tax Rates",税率のインポートとエクスポート,module,Magento_TaxImportExport
 "The tax rate has been imported.",税率を取り込みました。,module,Magento_TaxImportExport
 "Invalid file upload attempt",不正なファイルがアップロードされました,module,Magento_TaxImportExport
+"Invalid file upload attempt.",不正なファイルがアップロードされました.,module,Magento_TaxImportExport
 "Invalid file format.",無効なフォーマット,module,Magento_TaxImportExport
 "One of the countries has invalid code.",国コードのうちのひとつが不正です。,module,Magento_TaxImportExport
 "Import Tax Rates",税率のインポート,module,Magento_TaxImportExport
@@ -5265,6 +5291,7 @@ Tax,税,module,Magento_Tax
 "Range To should be equal or greater than Range From.",範囲の終了値は開始値より大きい値でなければいけません。,module,Magento_Tax
 "The tax rate cannot be removed. It exists in a tax rule.",税レートが削除できません。税ルール内に存在します,module,Magento_Tax
 "%fieldName is a required field.",%fieldNameは必須フィールドです。,module,Magento_Tax
+"Invalid value of ""%value"" provided for the %fieldName field.","%fieldNameフィールドに指定された ""%value"" の値が無効です。",module,Magento_Tax
 "This class no longer exists.",このクラスはすでに存在しません,module,Magento_Tax
 "You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.",この税区分は税ルールで使用されているため削除できません。まず使用されているルールを削除してください。,module,Magento_Tax
 "You cannot delete this tax class because it is used in existing %1(s).",%1にてすでに使われているので、この税クラスを削除できません,module,Magento_Tax
@@ -5280,6 +5307,7 @@ Tax,税,module,Magento_Tax
 Code,コード,module,Magento_Tax
 "Invalid type supplied",無効なタイプが提供されました,module,Magento_Tax
 "Class name and class type",クラス名とクラスタイプ,module,Magento_Tax
+"No such entity with %fieldName = %fieldValue","%fieldName = %fieldValueのエンティティはありません",module,Magento_Tax
 "Grand Total (Excl. Tax)","合計 (税抜)",module,Magento_Tax
 "Grand Total (Incl. Tax)","合計 (税込)",module,Magento_Tax
 "Shipping (Excl. Tax)","配送料 (税抜)",module,Magento_Tax
@@ -5296,6 +5324,7 @@ Total,合計,module,Magento_Tax
 "Including Tax",税込,module,Magento_Tax
 None,なし,module,Magento_Tax
 "Including and Excluding Tax",税込と税抜,module,Magento_Tax
+"Click on the link to <a href=""%1"">ignore this notification</a>","<a href=""%1"">この通知を無視する</a>のリンクをクリックして下さい",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","<a href=""%1"">税設定</a>ここを押して設定を変更してください",module,Magento_Tax
 "Invalid type of tax class ""%1""","無効なタイプの税クラス ""%1""",module,Magento_Tax
 "Updating classType is not allowed.",クラスタイプのアップデートは許可されていません,module,Magento_Tax
@@ -5389,10 +5418,13 @@ Global,グローバル,module,Magento_Theme
 "%1 does not contain field '%2'",%1はフィールド'%2'を含みません,module,Magento_Theme
 "Invalid regular expression: ""%1"".","不正なレギュラー表現: ""%1"".",module,Magento_Theme
 "%1 does not contain field 'file'",%1はフィールド'file'を含みません,module,Magento_Theme
+"Backend model is not specified for %1","%1 にバックエンドモデルが指定されていません。",module,Magento_Theme
+"The %templateName contains an incorrect configuration. The template has a reference to itself. Either remove or change the reference.","%templateName には不正な設定が含まれています。 テンプレートには、そのテンプレートへの参照があります。 参照を削除するかまたは変更して下さい。",module,Magento_Theme
 "Can not save empty config",空の設定を保存することはできません,module,Magento_Theme
 label,ラベル,module,Magento_Theme
 "-- Please Select --","-- 選択してください --",module,Magento_Theme
 "The start date can't follow the end date.",開始日は終了日よりあとの日付を指定できません。,module,Magento_Theme
+"The date range for this design change overlaps another design change for the specified store.",このデザイン変更の日付の範囲は、指定したストアの別のデザイン変更と重複します。,module,Magento_Theme
 Copy,コピー,module,Magento_Theme
 "Theme id should be set",テーマidをセットしてください,module,Magento_Theme
 "Circular-reference in theme inheritance detected for ""%1""","""%1""のテーマ継承にサーキュラーリファレンスを検知しました",module,Magento_Theme
@@ -5408,7 +5440,8 @@ Copy,コピー,module,Magento_Theme
 "localized exception",ローカライズ例外,module,Magento_Theme
 Message,メッセージ,module,Magento_Theme
 "Test Label",テストラベル,module,Magento_Theme
-Phrase,フレーズ,module,Magento_Theme
+Phrase,フェーズ,module,Magento_Theme
+testMessage,テストメッセージ,module,Magento_Theme
 Edit,編集,module,Magento_Theme
 "We found no files.",ファイルがみつかりません,module,Magento_Theme
 "Browse Files",ファイルをブラウズする,module,Magento_Theme
@@ -5452,7 +5485,9 @@ Minute,分,module,Magento_Theme
 "Unsupported bookmark action.",サポートされていないブックマークアクション,module,Magento_Ui
 "Parameter ""class"" must be present.","パラメーター""class""が存在しなければなりません",module,Magento_Ui
 "Parameter ""sortOrder"" must be present.","パラメーター""sortOrder""が存在しなければなりません",module,Magento_Ui
+"Invalid UI Component element name: '%1'",無効なUIコンポーネントの要素名：'%1',module,Magento_Ui
 "Bookmark with id ""%1"" does not exist.","id ""%1""のブックマークは存在しません",module,Magento_Ui
+"Invalid UI Component element name: ''",無効なUIコンポーネントの要素名：'',module,Magento_Ui
 Cancel,キャンセル,module,Magento_Ui
 Back,戻る,module,Magento_Ui
 Next,次,module,Magento_Ui
@@ -5506,7 +5541,12 @@ Ground,陸送,module,Magento_Ups
 "Customer Supplied Package",カスタマーサプライドパッケージ,module,Magento_Ups
 "UPS Tube","UPS チューブ",module,Magento_Ups
 "UPS Express Box","UPS エクスプレスボックス",module,Magento_Ups
+"UPS Worldwide 25 kilo","UPS ワールドワイド 25キロ",module,Magento_Ups
+"UPS Worldwide 10 kilo","UPSワールドワイド 10キロ",module,Magento_Ups
 Pallet,パレット,module,Magento_Ups
+"Small Express Box",小型エクスプレスボックス,module,Magento_Ups
+"Medium Express Box",中型エクスプレスボックス,module,Magento_Ups
+"Large Express Box",大型エクスプレスボックス,module,Magento_Ups
 Residential,宅配,module,Magento_Ups
 Commercial,商用,module,Magento_Ups
 Pounds,ポンド,module,Magento_Ups
@@ -5573,12 +5613,18 @@ Custom,カスタム,module,Magento_UrlRewrite
 "Anchor symbol (#) is not supported in request path.","アンカーシンボル (#)はリクエストパス内でサポートされていません。",module,Magento_UrlRewrite
 "Do not use two or more consecutive slashes in the url rewrite suffix.",URLリライトサフィックス内で２つ以上連続でスラッシュを使用しないでください,module,Magento_UrlRewrite
 "Anchor symbol (#) is not supported in url rewrite suffix.","アンカーシンボル (#)はURLリライトサフィックス内でサポートされていません。",module,Magento_UrlRewrite
+"URL key for specified store already exists",指定されたストアのURLキーは既に存在します。,module,Magento_UrlRewrite
+"Exception instance doesn't match %1 type",例外インスタンスは%1タイプに一致しません,module,Magento_UrlRewrite
 "Temporary (302)",一時的(302),module,Magento_UrlRewrite
 "Permanent (301)",永久(301),module,Magento_UrlRewrite
 "Request Path for Specified Store",特定の店舗へのリクエストパス,module,Magento_UrlRewrite
 "URL key for specified store already exists.",指定されたストアのURLキーは既に存在します。,module,Magento_UrlRewrite
+"message %1","メッセージ %1",module,Magento_UrlRewrite
+message,メッセージ,module,Magento_UrlRewrite
 "Custom storage message",カスタムストーレッジメッセージ,module,Magento_UrlRewrite
 "Select Category",カテゴリを選択,module,Magento_UrlRewrite
+"The value specified in the URL Key field would generate a URL that already exists.",URLキーフィールドで指定された値は、すでに存在するURLを生成します。,module,Magento_UrlRewrite
+"To resolve this conflict, you can either change the value of the URL Key field (located in the Search Engine Optimization section) to a unique value, or change the Request Path fields in all locations listed below:",この競合を解決するには、一意な値にするために（検索エンジン最適化セクションにある）URLキーフィールドの値を変更するか、下記の全ての場所にある「リダイレクトパス」フィールドを変更して下さい:,module,Magento_UrlRewrite
 Back,戻る,module,Magento_User
 Reset,リセット,module,Magento_User
 "Delete Role",権限の削除,module,Magento_User
@@ -5655,6 +5701,7 @@ Permissions,権限,module,Magento_User
 "A user with the same user name or email already exists.",同じユーザーネームかEメールアドレスをお持ちのユーザーが既に存在します。,module,Magento_User
 Recommended,推奨,module,Magento_User
 Forced,強制,module,Magento_User
+"Sorry, but this password has already been used. Please create another.",申し訳ありませんが、このパスワードは既に使用されています。他のパスワードを作成して下さい。,module,Magento_User
 email,Eメール,module,Magento_User
 password,パスワード,module,Magento_User
 username,ユーザー名,module,Magento_User
@@ -5690,6 +5737,7 @@ Resources,リソース,module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","警告!\r\n以下のユーザーが割り当てられているアクションを削除しようとしています。\r\nよろしいですか？",module,Magento_User
 "First-Class Mail Large Envelope","ファーストクラス郵便 封筒大",module,Magento_Usps
 "First-Class Mail Letter","ファーストクラス郵便 はがき",module,Magento_Usps
+"First-Class Package Service - Retail","ファーストクラスパッケージサービス - 小売",module,Magento_Usps
 "First-Class Mail Postcards","ファーストクラス郵便 ポストカード",module,Magento_Usps
 "Priority Mail",優先メール,module,Magento_Usps
 "Priority Mail Express Hold For Pickup",ピックアップ用にホールドの優先メールエクスプレス,module,Magento_Usps
@@ -5766,7 +5814,15 @@ Letter,手紙,module,Magento_Usps
 Flat,定額,module,Magento_Usps
 Parcel,小包,module,Magento_Usps
 Variable,変数,module,Magento_Usps
+"Small Flat-Rate Box",小型定額ボックス,module,Magento_Usps
+"Medium Flat-Rate Box",中型定額ボックス,module,Magento_Usps
+"Large Flat-Rate Box",大型定額ボックス,module,Magento_Usps
 "Flat-Rate Envelope",定額封筒,module,Magento_Usps
+"Small Flat-Rate Envelope",小型定額封筒,module,Magento_Usps
+"Window Flat-Rate Envelope",窓付定額封筒,module,Magento_Usps
+"Gift Card Flat-Rate Envelope",ギフトカード定額封筒,module,Magento_Usps
+"Legal Flat-Rate Envelope",法定定額封筒,module,Magento_Usps
+"Padded Flat-Rate Envelope",パッド付き定額封筒,module,Magento_Usps
 Rectangular,長方形,module,Magento_Usps
 Non-rectangular,非長方形の,module,Magento_Usps
 Regular,普通配達,module,Magento_Usps
@@ -5887,7 +5943,7 @@ Settings,設定,module,Magento_Widget
 Widgets,ウィジェット,module,Magento_Widget
 "The widget instance has been saved.",ウィジェットを保存しました。,module,Magento_Widget
 description,概要,module,Magento_Widget
-"We cannot create the widget instance because it is missing required information.",必要な情報がないため、ウィジェットのインスタンスを作成することができません。,module,Magento_Widget
+"We cannot create the widget instance because it is missing required information.",必須情報がないため、ウィジェットのインスタンスを作成することができません。,module,Magento_Widget
 None,なし,module,Magento_Widget
 Container,梱包,module,Magento_Widget
 Template,テンプレート,module,Magento_Widget
@@ -6035,6 +6091,8 @@ edit,編集,module,Magento_Checkout
 "Order Summary",ご注文内容,module,Magento_Checkout
 "View Details",詳細を表示,module,Magento_Checkout
 "Contact Form",コンタクトフォーム,module,Magento_Contact
+Phone,電話,module,Magento_Contact
+Message,メッセージ,module,Magento_Contact
 "Welcome to %store_name","%store_name へようこそ",module,Magento_Customer
 "Welcome to %store_name.","ようこそ %store_name へ",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","サイトにサインインするには、これらの身分証明をチェックアウト時か <a href=""%customer_url"">マイアカウント</a> ページにて使用してください:",module,Magento_Customer
@@ -6149,10 +6207,12 @@ Password:,パスワード:,module,Magento_Theme
 "View past orders",過去の注文を表示,module,Magento_Theme
 "Store alternative addresses (for shipping to multiple family members and friends)","店舗の別住所 (複数の家族メンバーと友達のために)",module,Magento_Theme
 "Changes have been made to this section that have not been saved.",保存されていないこのセクションに変更がおこなわれました。,module,Magento_Ui
+"This tab contains invalid data. Please resolve this before saving.",このタブは無効なデータが含まれています。保存前に解決してください。,module,Magento_Ui
 Assign,割り当て,module,Magento_Ui
 Options,オプション,module,Magento_Ui
 "records found",件が見つかりました。,module,Magento_Ui
 selected,選択済み,module,Magento_Ui
+of,の,module,Magento_Ui
 "Password Reset Confirmation for %name",%nameのパスワードリセット確認,module,Magento_User
 "There was recently a request to change the password for your account.",あなたのアカウントに対するパスワード再設定のリクエストが送信されました。,module,Magento_User
 "If you requested this change, reset your password here:",パスワードは下記のボタンをクリックするとリセットできます:,module,Magento_User
@@ -6215,6 +6275,8 @@ Footer,フッター,theme,frontend/Magento/luma
 "Sorry, but something went wrong. Please contact the seller.",申し訳ありませんが、何か問題が発生しました。販売業者にご連絡してください。,module,Magento_Authorizenet
 "We could not detect a size.",サイズが不明でした。,module,Magento_Backend
 "We don't recognize or support this file extension type.",このファイル拡張子を認識できないかサポートしていません。,module,Magento_Backend
+"Warning message",警告メッセージ,module,Magento_Backend
+"This operation can take a long time",このオペレーションは時間がかかります,module,Magento_Backend
 "This payment is not available",この支払いは利用できません,module,Magento_Braintree
 MM,月,module,Magento_Braintree
 "Please try again with another form of payment.",別のお支払い方法でもう一度お試しください。,module,Magento_Braintree
@@ -6317,6 +6379,7 @@ Selected,選択済み,module,Magento_Ui
 "New View",新しいビュー,module,Magento_Ui
 "Default View",デフォルトビュー,module,Magento_Ui
 "You have successfully saved your edits.",あなたの編集は保存されました,module,Magento_Ui
+"There are {placeholder} messages requires your attention.","注意が必要な {placeholder} メッセージがあります。",module,Magento_Ui
 from,より,module,Magento_Ui
 to,終了,module,Magento_Ui
 "You haven't selected any items!",アイテムを選択できませんでした．,module,Magento_Ui
@@ -6355,7 +6418,9 @@ Keyword,キーワード,module,Magento_Ui
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","正しい電話番号の形式で入力してください。（例：(123) 456-7890 or 123-456-7890）",module,Magento_Ui
 "Please enter a valid fax number (Ex: 123-456-7890).","有効なFAX番号を入力してください (Ex: 123-456-7890).",module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","有効なメールアドレスを入力してください (Ex: johndoe@domain.com).",module,Magento_Ui
+"Please enter 6 or more characters. Leading and trailing spaces will be ignored.",6文字以上入力してください。先頭と末尾のスペースは無視されます。,module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.",数字とアルファベットの両方を使い7文字以上で入力してください,module,Magento_Ui
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","このフィールドには %1 文字以上の文字を入力してください。先頭と最後の空白文字は無視されます。",module,Magento_Ui
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","パスワードには最低でも %1種類の文字を含めてください。文字の種類は次のとおりです: 小文字, 大文字, 数字, 記号",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","有効なURLを入力してください。 プロトコルは必須です (http://, https:// or ftp://)。",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","有効なURLを入力してください。 例えば　http://www.example.com あるいは www.example.com",module,Magento_Ui
@@ -6385,6 +6450,9 @@ Keyword,キーワード,module,Magento_Ui
 "Please enter positive number in this field.",このフィールドには使用可能な数字を入力してください。,module,Magento_Ui
 "Please enter a valid value, ex: 10,20,30","正しい値を入力してください。 例: 10,20,30",module,Magento_Ui
 "We don't recognize or support this file extension type.",このファイルの拡張子が不明かサポートされていません,module,Magento_Ui
+"File you are trying to upload exceeds maximum file size limit.",アップロードしようとしているファイルが最大ファイルサイズの上限を超えています。,module,Magento_Ui
+"Please use tag SCRIPT with SRC attribute or with proper content to include JavaScript to the document.",ドキュメントにJavaScriptを含めるためには、SRC属性もしくは適切な内容のタグSCRIPTを使用して下さい。,module,Magento_Ui
+"The date is not within the specified range.",データが指定された範囲にありません。,module,Magento_Ui
 Attention,注意,module,Magento_Ui
 Cancel,キャンセル,module,Magento_Vault
 "Show Toolbar",ツールバーを表示,module,Magento_AdminNotification
@@ -6428,6 +6496,7 @@ Content,コンテンツ,module,Magento_Backend
 Elements,構成,module,Magento_Backend
 Design,デザイン,module,Magento_Backend
 Schedule,スケジュール,module,Magento_Backend
+"Content translation",コンテンツ翻訳,module,Magento_Backend
 Settings,設定,module,Magento_Backend
 Attributes,属性,module,Magento_Backend
 "Other Settings",その他の設定,module,Magento_Backend
@@ -6566,7 +6635,7 @@ Tags,タグ,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 エラー</h1><p>ページが見つかりません。</p>",module,Magento_Backend
 "Community Edition",コミュニティエディション,module,Magento_Backend
 "Default Theme",既定のテーマ,module,Magento_Backend
-"If no value is specified, the system default is used. The system default may be modified by third party extensions.",値を指定しない場合は、システムのデフォルト値を使用します。システムのデフォルト値は、サードパーティの拡張機能によって修正されるかもしれません。,module,Magento_Backend
+"If no value is specified, the system default is used. The system default may be modified by third party extensions.",値を指定しない場合は、システムのデフォルト値を使用します。システムのデフォルト値は、外部の拡張機能によって修正されるかもしれません。,module,Magento_Backend
 "Applied Theme",適用されたテーマ,module,Magento_Backend
 "Design Rule",デザインルール,module,Magento_Backend
 "User Agent Rules",ユーザーエージェントルール,module,Magento_Backend
@@ -6654,6 +6723,7 @@ Select...,選択...,module,Magento_Bundle
 Status,ステータス,module,Magento_Bundle
 Thumbnail,サムネイル,module,Magento_Bundle
 Type,タイプ,module,Magento_Bundle
+"Special Price",特別価格,module,Magento_Bundle
 "Enable CAPTCHA in Admin",管理画面でCAPTCHAを有効にする,module,Magento_Captcha
 Font,フォント,module,Magento_Captcha
 Forms,対象フォーム,module,Magento_Captcha
@@ -6712,6 +6782,7 @@ Priority,優先度,module,Magento_CatalogRule
 Actions,アクション,module,Magento_CatalogRule
 "Discount Amount",割引価格,module,Magento_CatalogRule
 "Discard subsequent rules",後来ルール廃棄,module,Magento_CatalogRule
+"Catalog Section",カタログセクション,module,Magento_CatalogSearch
 "Catalog Search",カタログ検索,module,Magento_CatalogSearch
 "Popular Search Terms",人気の検索語句,module,Magento_CatalogSearch
 "Minimal Query Length",最少クエリ文字数,module,Magento_CatalogSearch
@@ -7105,6 +7176,8 @@ Currency,通貨,module,Magento_CurrencySymbol
 "Online Customers Options",オンライン顧客オプション,module,Magento_Customer
 "Online Minutes Interval",オンライン分間隔,module,Magento_Customer
 "Leave empty for default (15 minutes).",空白の場合は、初期値(15分)になります。,module,Magento_Customer
+"Customer Data Lifetime",顧客データの有効期限,module,Magento_Customer
+"Please specify value in minutes.",値を分単位で指定してください。,module,Magento_Customer
 "Customer Notification",顧客通知,module,Magento_Customer
 "Assign a Customer Group",顧客グループに割り当てる,module,Magento_Customer
 "Are you sure to assign selected customers to new group?",本当に選択した顧客を新しいグループにアサインしますか？,module,Magento_Customer
@@ -7840,6 +7913,7 @@ Action,アクション,module,Magento_Search
 Edit,編集,module,Magento_Search
 "You can adjust the scope of this synonym group by selecting an option from the list.",リストからオプションを選択することによって、この同義語グループの有効範囲を調整できます。,module,Magento_Search
 Scope,スコープ,module,Magento_Search
+"Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","コンマ区切りの同義語リスト。 入力された（コンマで区切られた）用語は、 ストア全体を検索するために ""OR""検索クエリとして使用されます。 例えば、「靴、履物」を入力し、ユーザーが「靴」を検索する場合、検索結果には、用語「靴」または「履物」を含むすべての商品またはコンテンツが含まれます。",module,Magento_Search
 Synonyms,同義語,module,Magento_Search
 "Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms.",同じスコープを共有するグループ内の同義語を自動的にマージします。このチェックボックスをオンにして、同じ用語の1つ以上を同じスコープ内の異なる同義語グループに追加すると、すべての用語が自動的に1つのグループにマージされます。これが欲しいものでない場合は、チェックボックスをオフにして、同じ用語を追加しようとするとエラーが表示されます。,module,Magento_Search
 "Store View",ストアビュー,module,Magento_Search
@@ -7914,6 +7988,7 @@ Layouts,レイアウト,module,Magento_Store
 "API interfaces reflection data",APIインターフェースリフレクションデータ,module,Magento_Store
 "Database DDL operations",データベースDDLキャッシュ,module,Magento_Store
 "Results of DDL queries, such as describing tables or indexes",DDL問合せの結果（表または索引の記述など）,module,Magento_Store
+Swatches,スワッチ,module,Magento_Swatches
 "Swatches per Product",製品ごとの見本,module,Magento_Swatches
 "Show Swatches in Product List",商品一覧に見本を表示する,module,Magento_Swatches
 "Swatch Image",商品見本画像,module,Magento_Swatches
@@ -7940,6 +8015,7 @@ Taxes,税金,module,Magento_Tax
 "This sets whether shipping amounts entered from Magento Admin or obtained from gateways include tax.",これは送料がMagento管理画面から入力されたあるいはゲートウェイから入手されたかで税を含みます,module,Magento_Tax
 "Apply Customer Tax",小計に対する課税方法,module,Magento_Tax
 "Apply Discount On Prices",価格に値引きを適用する,module,Magento_Tax
+"Warning: To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”.",警告：税を含む価格に割引を適用し、割引後に税金を適用するには、カタログ価格を「税込」に設定します。,module,Magento_Tax
 "Apply Tax On",税を適用する価格,module,Magento_Tax
 "Enable Cross Border Trade",越境取引課税計算を有効にする,module,Magento_Tax
 "When catalog price includes tax, enable this setting to fix the price no matter what the customer's tax rate.",カタログ価格が税を含む時には顧客の税率設定がなんであれ、この設定を有効にして価格を確定してください。,module,Magento_Tax
@@ -7954,6 +8030,7 @@ Taxes,税金,module,Magento_Tax
 "Display Prices",価格表示,module,Magento_Tax
 "Display Subtotal",小計を表示する,module,Magento_Tax
 "Display Shipping Amount",配送料を表示,module,Magento_Tax
+"Include Tax In Order Total",税込合計,module,Magento_Tax
 "Display Full Tax Summary",課税額合計を表示する,module,Magento_Tax
 "Display Zero Tax Subtotal",税の小計にゼロを表示,module,Magento_Tax
 "Orders, Invoices, Credit Memos Display Settings","注文, 請求, クレジットメモ表示設定",module,Magento_Tax
@@ -7962,6 +8039,8 @@ Rate,レート,module,Magento_Tax
 "Subtotal Only",小計のみ,module,Magento_Tax
 "(Excl. Tax)",(税別),module,Magento_Tax
 "(Incl. Tax)",(税込),module,Magento_Tax
+"Order Total Excl. Tax",税抜合計,module,Magento_Tax
+"Order Total Incl. Tax",税込合計,module,Magento_Tax
 "Order Total",注文合計,module,Magento_Tax
 "Your credit card will be charged for",クレジットカードでお支払いいただく金額,module,Magento_Tax
 Empty,空,module,Magento_Theme
@@ -7993,6 +8072,7 @@ Header,ヘッダー,module,Magento_Theme
 "Welcome Text",ウェルカムメッセージ,module,Magento_Theme
 "Logo Image Alt",ロゴイメージAlt,module,Magento_Theme
 Footer,フッター,module,Magento_Theme
+"This will be displayed just before the body closing tag.",bodyタグの終了直前に出力されます。,module,Magento_Theme
 "Miscellaneous HTML","色々な HTML",module,Magento_Theme
 Copyright,コピーライト,module,Magento_Theme
 "Default Robots",標準のrobots.txt,module,Magento_Theme
@@ -8012,18 +8092,12 @@ Settings,設定,module,Magento_Theme
 "Translation Strategy",翻訳ストラテジ,module,Magento_Translation
 Translations,翻訳,module,Magento_Translation
 "Translation files",翻訳ファイル,module,Magento_Translation
+"Label Button 2","ラベルボタン 2",module,Magento_Ui
+"Label Actions One","ラベルアクション 1",module,Magento_Ui
+"Label Actions Two","ラベルアクション 2",module,Magento_Ui
+"Some Dynamic Actions",いくつかの動的なアクション,module,Magento_Ui
 "Log JS Errors to Session Storage",JSエラーをセッションストレージに記録する,module,Magento_Ui
 "Log JS Errors to Session Storage Key",JSエラーをセッションストレージキーに記録する,module,Magento_Ui
-settings/label,設定/ラベル,module,Magento_Ui
-settings/confirm/title,設定/確認/タイトル,module,Magento_Ui
-settings/title,設定/タイトル,module,Magento_Ui
-settings/description,設定/説明,module,Magento_Ui
-settings/placeholder,設定/プレースホルダー,module,Magento_Ui
-settings/caption,設定/キャプション,module,Magento_Ui
-settings/subTitle,設定/サブタイトル,module,Magento_Ui
-settings/visible,設定/表示,module,Magento_Ui
-settings/size,設定/サイズ,module,Magento_Ui
-settings/notice,設定/お知らせ,module,Magento_Ui
 Action,アクション,module,Magento_Ui
 CSV,CSVファイル,module,Magento_Ui
 "Excel XML",Excel形式XML,module,Magento_Ui
@@ -8122,6 +8196,7 @@ Name,名前,module,Magento_Variable
 "Default Response Charset",標準レスポンス文字コード,module,Magento_Webapi
 "If empty, UTF-8 will be used.","空の場合は、UTF-8 が使用されます。",module,Magento_Webapi
 "Web Services Configuration",Webサービス設定,module,Magento_Webapi
+"REST and SOAP configurations, generated WSDL file",RESTおよびSOAPの設定、生成されたWSDLファイル,module,Magento_Webapi
 "Fixed Product Taxes",商品固定税,module,Magento_Weee
 "Enable FPT",FPTを有効にする,module,Magento_Weee
 "Display Prices In Product Lists",商品一覧にFPT額を表示する,module,Magento_Weee
@@ -8165,6 +8240,7 @@ Action,アクション,module,Magento_Wishlist
 Configure,構成,module,Magento_Wishlist
 Delete,削除,module,Magento_Wishlist
 "Product Details and Comment",商品の詳細とコメント,module,Magento_Wishlist
+"Add To Wishlist",欲しいものリストに追加,module,Magento_Wishlist
 "Account Dashboard",アカウントダッシュボード,theme,frontend/Magento/luma
 "Address Book",アドレス帳,theme,frontend/Magento/luma
 "Account Information",アカウント情報,theme,frontend/Magento/luma
