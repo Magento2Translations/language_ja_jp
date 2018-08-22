@@ -1084,7 +1084,7 @@ Disabled,無効,module,Magento_Catalog
 "We can't find the image file.",画像ファイルがみつかりません。,module,Magento_Catalog
 "The option type to get group instance is incorrect.",グループインスタンスを入手するオプションタイプが間違っています。,module,Magento_Catalog
 "Select type options required values rows.",価格の列を要求されたタイプオプションを選択,module,Magento_Catalog
-"Could not save product option",製品のオプションを保存できませんでした。,module,Magento_Catalog
+"Could not save product option",製品のオプションを保存できませんでした,module,Magento_Catalog
 "Could not remove custom option",カスタムオプションを削除できませんでした,module,Magento_Catalog
 "Please specify date required option(s).",日付の必須オプションを指定してください。,module,Magento_Catalog
 "Please specify time required option(s).",時間の必須項目を指定してください。,module,Magento_Catalog
@@ -1115,7 +1115,7 @@ px.,ピクセル,module,Magento_Catalog
 "Invalid data provided for tier_price",tier_priceのデータが無効です,module,Magento_Catalog
 "Please provide valid data",有効なデータを提供してください,module,Magento_Catalog
 "Values of following attributes are invalid: %1","以下の属性の値は無効です: %1",module,Magento_Catalog
-"Could not save group price",グループ価格を保存でいません,module,Magento_Catalog
+"Could not save group price",グループ価格を保存できません,module,Magento_Catalog
 "The file upload failed.",ファイルアップロードが失敗しました。,module,Magento_Catalog
 "The product has required options.",商品は必須のオプションがあります,module,Magento_Catalog
 "Something went wrong while processing the request.",リクエストをプロセス中に問題が発生しました。,module,Magento_Catalog
@@ -1728,15 +1728,15 @@ System,システム,module,Magento_CurrencySymbol
 "We found an invalid value in a website column.",ウェブサイトカラム内で不正な値を見つけました。,module,Magento_CustomerImportExport
 "Please enter a valid email.",正しいメールアドレスを入力してください。,module,Magento_CustomerImportExport
 "Please make sure attribute ""%s"" is not empty.","属性 ""%s""は空でないことを確認してください",module,Magento_CustomerImportExport
-"We can't find a customer who matches this email and website code.",このメールとウェブサイトのコードに一致する顧客を見つけません。,module,Magento_CustomerImportExport
+"We can't find a customer who matches this email and website code.",このメールとウェブサイトのコードに一致する顧客が見つかりません。,module,Magento_CustomerImportExport
 "Customer address id column is not specified",顧客住所のid列が指定されていません。,module,Magento_CustomerImportExport
-"We can't find that customer address.",その顧客のアドレスを見つけません。,module,Magento_CustomerImportExport
+"We can't find that customer address.",その顧客のアドレスが見つかりません。,module,Magento_CustomerImportExport
 "Please enter a valid region.",正しい地域名を入力してください。,module,Magento_CustomerImportExport
 "We found another row with this email, website and address ID combination.",このメールアドレス、ウェブサイト、アドレスIDの組み合わせの別の列を見つけました。,module,Magento_CustomerImportExport
 "This email is found more than once in the import file.",このEメールは1度以上インポートファイル内で見つかりました。,module,Magento_CustomerImportExport
 "Orphan rows that will be skipped due default row errors",孤立した行はデフォルトの行エラーのためスキップされます。,module,Magento_CustomerImportExport
 "Invalid value in Store column (store does not exists?)",ストア列に不正な値（ストアが存在しない？）,module,Magento_CustomerImportExport
-"We can't find that email and website combination.","そのメール アドレスとウェブサイトの組み合わせを見つけません。",module,Magento_CustomerImportExport
+"We can't find that email and website combination.",そのメールアドレスとウェブサイトの組み合わせが見つかりません。,module,Magento_CustomerImportExport
 "Please enter a password with a valid length.",パスワードを正しい長さで入力してください。,module,Magento_CustomerImportExport
 "Sign Out",サインアウト,module,Magento_Customer
 "Sign In",サインイン,module,Magento_Customer
@@ -2186,7 +2186,7 @@ Unlimited,無制限,module,Magento_Downloadable
 "Order id cannot be null",注文IDにnullは使用できません,module,Magento_Downloadable
 "Order item id cannot be null",商品IDにnullは使用できません,module,Magento_Downloadable
 "Product type of the product must be 'downloadable'.",製品のプロダクトタイプは'downloadable'でなければなりません,module,Magento_Downloadable
-"Provided link information is invalid.",リンク情報が正しくありません。,module,Magento_Downloadable
+"Provided link information is invalid.",提供されたリンク情報が正しくありません。,module,Magento_Downloadable
 "Invalid link type.",無効なリンクタイプ,module,Magento_Downloadable
 "Link title cannot be empty.",リンクタイトルは空にできません,module,Magento_Downloadable
 "There is no downloadable link with provided ID.",提供されたIDでダウンロード可能なリンクはありません,module,Magento_Downloadable
@@ -2541,7 +2541,7 @@ Cancel,キャンセル,module,Magento_GiftMessage
 "Do you have any gift items in your order?",ギフトにする商品がありますか？,module,Magento_GiftMessage
 "Add gift options",ギフトオプションの追加,module,Magento_GiftMessage
 "Gift Options for the Entire Order",全体の注文に対するギフトオプション,module,Magento_GiftMessage
-"Leave this box blank if you don't want to leave a gift message for the entire order.","注文全体にギフト メッセージを残したくない場合にこのボックスを空白のままに。",module,Magento_GiftMessage
+"Leave this box blank if you don't want to leave a gift message for the entire order.",もし全体の注文にギフトメッセージを残したくない場合はこのボックスを空にしてください。,module,Magento_GiftMessage
 "Gift Options for Individual Items",個別商品に対するギフトオプション,module,Magento_GiftMessage
 "<span>Item %1</span> of %2","<span>個別商品 %1</span> の %2",module,Magento_GiftMessage
 "Leave a box blank if you don't want to add a gift message for that item.",この商品にギフトメッセージを希望されない場合は空欄にしておいてください。,module,Magento_GiftMessage
@@ -3505,7 +3505,7 @@ Continue,続ける,module,Magento_Paypal
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","&quot; カート情報を維持 &quot; をクリックして、ログインしていない状態でもショッピングカートにアクセスできるようにしましょう。",module,Magento_Persistent
 "You saved the alert subscription.",アラート購読を保存しました,module,Magento_ProductAlert
 "There are not enough parameters.",充分なパラメーターありません,module,Magento_ProductAlert
-"We can't update the alert subscription right now.",ただ今、通知概要を更新できません。,module,Magento_ProductAlert
+"We can't update the alert subscription right now.",現在通知概要を更新できません。,module,Magento_ProductAlert
 "Alert subscription has been saved.",更新通知を購読しました。,module,Magento_ProductAlert
 "You deleted the alert subscription.",アラート購読を削除しました,module,Magento_ProductAlert
 "We can't find the product.",商品が見つかりません。,module,Magento_ProductAlert
@@ -3578,7 +3578,7 @@ Subtotal,小計,module,Magento_Quote
 "The qty value is required to update quote item.",数量はアップデートクオート商品に必須です,module,Magento_Quote
 "Invalid customer id %1","無効な顧客id %1",module,Magento_Quote
 "Invalid address id %1","無効な住所id %1",module,Magento_Quote
-"Cannot create quote",クオートを作製できません,module,Magento_Quote
+"Cannot create quote",クオートを作成できません,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart belongs to different store.",与えられたカートに顧客をアサインできません。このカートは別のストアに属しています,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.",与えられたカートに顧客をアサインできません。カートは匿名ではありません。,module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.",与えられたカートに顧客をアサインできません。顧客は既にアクティブなカートを持っています,module,Magento_Quote
@@ -3848,7 +3848,7 @@ Ratings,レーティング,module,Magento_Review
 "You saved the rating.",レーティングは保存されました,module,Magento_Review
 "My Product Reviews",商品レビュー,module,Magento_Review
 "You submitted your review for moderation.",リビューを投稿しました。,module,Magento_Review
-"We can't post your review right now.",ただ今お客様のレビューを投稿できません。,module,Magento_Review
+"We can't post your review right now.",現在お客様のレビューを投稿できません。,module,Magento_Review
 "Storage key was not set",保管キーはセットされていません,module,Magento_Review
 Approved,受付済,module,Magento_Review
 Pending,処理待ち,module,Magento_Review
@@ -4988,6 +4988,7 @@ Rate,レート,module,Magento_TaxImportExport
 "Import and Export Tax Rates",税率のインポートとエクスポート,module,Magento_TaxImportExport
 "The tax rate has been imported.",税率を取り込みました。,module,Magento_TaxImportExport
 "Invalid file upload attempt",不正なファイルがアップロードされました,module,Magento_TaxImportExport
+"Invalid file upload attempt.",不正なファイルがアップロードされました.,module,Magento_TaxImportExport
 "Invalid file format.",無効なフォーマット,module,Magento_TaxImportExport
 "One of the countries has invalid code.",国コードのうちのひとつが不正です。,module,Magento_TaxImportExport
 "Import Tax Rates",税率のインポート,module,Magento_TaxImportExport
@@ -5095,6 +5096,7 @@ Total,合計,module,Magento_Tax
 "Including Tax",税込,module,Magento_Tax
 None,なし,module,Magento_Tax
 "Including and Excluding Tax",税込と税抜,module,Magento_Tax
+"Click on the link to <a href=""%1"">ignore this notification</a>","<a href=""%1"">この通知を無視する</a>のリンクをクリックして下さい",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","<a href=""%1"">税設定</a>ここを押して設定を変更してください",module,Magento_Tax
 "Invalid type of tax class ""%1""","無効なタイプの税クラス ""%1""",module,Magento_Tax
 "Updating classType is not allowed.",クラスタイプのアップデートは許可されていません,module,Magento_Tax
@@ -5181,6 +5183,7 @@ Theme,テーマ,module,Magento_Theme
 label,ラベル,module,Magento_Theme
 "-- Please Select --","-- 選択してください --",module,Magento_Theme
 "The start date can't follow the end date.",開始日は終了日よりあとの日付を指定できません。,module,Magento_Theme
+"The date range for this design change overlaps another design change for the specified store.",このデザイン変更の日付の範囲は、指定したストアの別のデザイン変更と重複します。,module,Magento_Theme
 Copy,コピー,module,Magento_Theme
 "Theme id should be set",テーマidをセットしてください,module,Magento_Theme
 "Circular-reference in theme inheritance detected for ""%1""","""%1""のテーマ継承にサーキュラーリファレンスを検知しました",module,Magento_Theme
@@ -5195,7 +5198,8 @@ Copy,コピー,module,Magento_Theme
 "localized exception",ローカライズ例外,module,Magento_Theme
 Message,メッセージ,module,Magento_Theme
 "Test Label",テストラベル,module,Magento_Theme
-Phrase,フレーズ,module,Magento_Theme
+Phrase,フェーズ,module,Magento_Theme
+testMessage,テストメッセージ,module,Magento_Theme
 exception,例外,module,Magento_Theme
 "We found no files.",ファイルがみつかりません,module,Magento_Theme
 "Browse Files",ファイルをブラウズする,module,Magento_Theme
@@ -5287,7 +5291,12 @@ Ground,陸送,module,Magento_Ups
 "Customer Supplied Package",カスタマーサプライドパッケージ,module,Magento_Ups
 "UPS Tube","UPS チューブ",module,Magento_Ups
 "UPS Express Box","UPS エクスプレスボックス",module,Magento_Ups
+"UPS Worldwide 25 kilo","UPS ワールドワイド 25キロ",module,Magento_Ups
+"UPS Worldwide 10 kilo","UPSワールドワイド 10キロ",module,Magento_Ups
 Pallet,パレット,module,Magento_Ups
+"Small Express Box",小型エクスプレスボックス,module,Magento_Ups
+"Medium Express Box",中型エクスプレスボックス,module,Magento_Ups
+"Large Express Box",大型エクスプレスボックス,module,Magento_Ups
 Residential,宅配,module,Magento_Ups
 Commercial,商用,module,Magento_Ups
 Pounds,ポンド,module,Magento_Ups
@@ -5436,6 +5445,7 @@ Permissions,権限,module,Magento_User
 "A user with the same user name or email already exists.",同じユーザーネームかEメールアドレスをお持ちのユーザーが既に存在します。,module,Magento_User
 Recommended,推奨,module,Magento_User
 Forced,強制,module,Magento_User
+"Sorry, but this password has already been used. Please create another.",申し訳ありませんが、このパスワードは既に使用されています。他のパスワードを作成して下さい。,module,Magento_User
 "You did not sign in correctly or your account is temporarily disabled.",正しくサインインしなかったかあなたのアカウントは一時的に無効です,module,Magento_User
 "You need more permissions to access this.",これにアクセスするには更に権限が必要です。,module,Magento_User
 "User Name is a required field.",ユーザーネームは必須項目です。,module,Magento_User
@@ -5648,7 +5658,7 @@ Settings,設定,module,Magento_Widget
 Widgets,ウィジェット,module,Magento_Widget
 "The widget instance has been saved.",ウィジェットを保存しました。,module,Magento_Widget
 description,概要,module,Magento_Widget
-"We cannot create the widget instance because it is missing required information.",必要な情報がないため、ウィジェットのインスタンスを作成することができません。,module,Magento_Widget
+"We cannot create the widget instance because it is missing required information.",必須情報がないため、ウィジェットのインスタンスを作成することができません。,module,Magento_Widget
 None,なし,module,Magento_Widget
 Container,梱包,module,Magento_Widget
 Template,テンプレート,module,Magento_Widget
@@ -7233,6 +7243,7 @@ Layouts,レイアウト,module,Magento_Store
 "Display Prices",価格表示,module,Magento_Tax
 "Display Subtotal",小計を表示する,module,Magento_Tax
 "Display Shipping Amount",配送料を表示,module,Magento_Tax
+"Include Tax In Order Total",税込合計,module,Magento_Tax
 "Display Full Tax Summary",課税額合計を表示する,module,Magento_Tax
 "Display Zero Tax Subtotal",税の小計にゼロを表示,module,Magento_Tax
 "Orders, Invoices, Credit Memos Display Settings","注文, 請求, クレジットメモ表示設定",module,Magento_Tax
@@ -7241,6 +7252,8 @@ Rate,レート,module,Magento_Tax
 "Subtotal Only",小計のみ,module,Magento_Tax
 "(Excl. Tax)",(税別),module,Magento_Tax
 "(Incl. Tax)",(税込),module,Magento_Tax
+"Order Total Excl. Tax",税抜合計,module,Magento_Tax
+"Order Total Incl. Tax",税込合計,module,Magento_Tax
 "Order Total",注文合計,module,Magento_Tax
 "Your credit card will be charged for",クレジットカードでお支払いいただく金額,module,Magento_Tax
 Empty,空,module,Magento_Theme
