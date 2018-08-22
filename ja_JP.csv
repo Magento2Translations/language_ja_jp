@@ -3589,6 +3589,7 @@ Total,合計,module,Magento_Tax
 "Including Tax",税込,module,Magento_Tax
 None,なし,module,Magento_Tax
 "Including and Excluding Tax",税込と税抜,module,Magento_Tax
+"Click on the link to <a href=""%1"">ignore this notification</a>","<a href=""%1"">この通知を無視する</a>のリンクをクリックして下さい",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","<a href=""%1"">税設定</a>ここを押して設定を変更してください",module,Magento_Tax
 "customer group",顧客グループ,module,Magento_Tax
 product,製品,module,Magento_Tax
@@ -3734,7 +3735,12 @@ Ground,陸送,module,Magento_Ups
 "Customer Supplied Package",カスタマーサプライドパッケージ,module,Magento_Ups
 "UPS Tube","UPS チューブ",module,Magento_Ups
 "UPS Express Box","UPS エクスプレスボックス",module,Magento_Ups
+"UPS Worldwide 25 kilo","UPS ワールドワイド 25キロ",module,Magento_Ups
+"UPS Worldwide 10 kilo","UPSワールドワイド 10キロ",module,Magento_Ups
 Pallet,パレット,module,Magento_Ups
+"Small Express Box",小型エクスプレスボックス,module,Magento_Ups
+"Medium Express Box",中型エクスプレスボックス,module,Magento_Ups
+"Large Express Box",大型エクスプレスボックス,module,Magento_Ups
 Residential,宅配,module,Magento_Ups
 Commercial,商用,module,Magento_Ups
 Pounds,ポンド,module,Magento_Ups
@@ -3859,6 +3865,7 @@ Permissions,権限,module,Magento_User
 "A user with the same user name or email already exists.",同じユーザーネームかEメールアドレスをお持ちのユーザーが既に存在します。,module,Magento_User
 Recommended,推奨,module,Magento_User
 Forced,強制,module,Magento_User
+"Sorry, but this password has already been used. Please create another.",申し訳ありませんが、このパスワードは既に使用されています。他のパスワードを作成して下さい。,module,Magento_User
 "You did not sign in correctly or your account is temporarily disabled.",正しくサインインしなかったかあなたのアカウントは一時的に無効です,module,Magento_User
 "User Name is a required field.",ユーザーネームは必須項目です。,module,Magento_User
 "First Name is a required field.",名前は必須項目です。,module,Magento_User
@@ -4040,7 +4047,7 @@ Settings,設定,module,Magento_Widget
 Widgets,ウィジェット,module,Magento_Widget
 "The widget instance has been saved.",ウィジェットを保存しました。,module,Magento_Widget
 description,概要,module,Magento_Widget
-"We cannot create the widget instance because it is missing required information.",必要な情報がないため、ウィジェットのインスタンスを作成することができません。,module,Magento_Widget
+"We cannot create the widget instance because it is missing required information.",必須情報がないため、ウィジェットのインスタンスを作成することができません。,module,Magento_Widget
 Container,梱包,module,Magento_Widget
 Template,テンプレート,module,Magento_Widget
 All,全て,module,Magento_Widget
